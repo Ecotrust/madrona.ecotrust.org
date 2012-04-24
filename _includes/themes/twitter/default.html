@@ -14,6 +14,7 @@
     <!-- Le styles -->
     <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="{{ ASSET_PATH }}/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
+    <link rel="stylesheet" href="{{ ASSET_PATH }}/css/font-awesome.css" rel="stylesheet" type="text/css" media="all">
 
     <!-- Le fav and touch icons -->
   <!-- Update these with your own images
@@ -25,35 +26,68 @@
   </head>
 
   <body>
-
-    <div class="navbar">
-      <div class="navbar-inner">
-        <div class="container">
-          <a class="brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
-          <ul class="nav">
-            {% assign pages_list = site.pages %}
-            {% assign group = 'navigation' %}
-            {% include JB/pages_list %}
-          </ul>
-        </div>
-      </div>
-    </div>
-
     <div class="container">
 
       <div class="content">
         {{ content }}
       </div>
-
       <footer>
-        <p>&copy; {{ site.author.name }} 2012 
-          with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
-          and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
-        </p>
+        <div class="row">
+          <div class="span3">
+            <a href="http://www.ecotrust.org"><img class="ecotrust-logo" src="/assets/img/ecotrust_logo08.png"/></a>
+              <ul class="unstyled">
+                <li>Madrona is a project of <a href="http://www.ecotrust.org">Ecotrust</a></li>
+                <li>Contact us at 503.467.0XXX or <a href="mailto:madrona-inquiry@ecotrust.org">madrona-inquiry@ecotrust.org</a></li>
+          </div>
+          <div class="span3">
+            <iframe src="http://markdotto.github.com/github-buttons/github-btn.html?user=ecotrust&repo=madrona&type=watch"
+              allowtransparency="true" frameborder="0" scrolling="0" width="62px" height="20px"></iframe>
+           <br/>
+           <a href="https://twitter.com/ecotrust" class="twitter-follow-button" data-show-count="false" data-size="large" data-show-screen-name="false">Follow @ecotrust</a>
+          <g:plusone annotation="inline"></g:plusone>
+          </div>
+          <div class="span3">
+            <h3>What is Madrona?</h3>
+            <ul class="unstyled">
+              <li><a href="#">overview</a></li>
+              <li><a href="#">install</a></li>              
+              <li><a href="#">case studies</a></li>
+              <li><a href="#">consulting services</a></li>
+              <li><a href="#">knowledge base</a></li>
+            </ul>
+          </div>
+          <div class="span3">
+            <h3>Developer Community</h3>
+            <div class="row">
+              <div class="span2">
+                <ul class="unstyled">
+                  <li><a href="#">github</a></li>
+                  <li><a href="#">download</a></li>
+                  <li><a href="#">documentation</a></li>
+                  <li><a href="#">issue tracker</a></li>
+                </ul>
+              </div>
+              <div class="span1">
+                <ul class="unstyled">
+                  <li><a href="#">wiki</a></li>
+                  <li><a href="#">road map</a></li>
+                  <li><a href="#">mailing list</a></li>
+                </ul>
+             </div>
+          </div>
+        </div> 
       </footer>
-
     </div> <!-- /container -->
-
     {% include JB/analytics %}
   </body>
 </html>
+<!-- Place this render call where appropriate -->
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
