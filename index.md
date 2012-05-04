@@ -24,14 +24,14 @@ tagline: create. analyze. decide.
      <!-- Carousel items -->
       <div class="carousel-inner">
         <div class="active item">
-          <img alt="" src="/assets/img/fsp.png">
+          <img alt="" src="assets/img/fsp.png">
           <div class="carousel-caption">
             <h4>Forest Scenario Planner</h4>
             <p>Land owner tool built on madrona with two dimensional mapping support using openlayers.</p>
           </div>
         </div>
         <div class="item">
-          <img alt="" src="/assets/img/fsp.png">
+          <img alt="" src="assets/img/fsp.png">
           <div class="carousel-caption">
             <h4>Forest Scenario Planner 2</h4>
             <p>Land owner tool built on madrona with two dimensional mapping support using openlayers.</p>
@@ -46,7 +46,7 @@ tagline: create. analyze. decide.
   </div>
 </div>
 <script src="assets/bootstrap/js/jquery.js"></script>
-<script src="/assets/bootstrap/js/bootstrap-carousel.js"></script>
+<script src="assets/bootstrap/js/bootstrap-carousel.js"></script>
 <script>
   $('.carousel').carousel({
                   interval: 2000
