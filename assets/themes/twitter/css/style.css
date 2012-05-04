@@ -18,7 +18,7 @@ html, body {
   padding-top: 5px;
   padding-left: 20px;
   padding-right: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 100px;
   margin: 0 -20px; /* negative indent the amount of the padding to maintain the grid system */
   -webkit-border-radius: 0 0 6px 6px;
      -moz-border-radius: 0 0 6px 6px;
@@ -45,8 +45,7 @@ html, body {
 
 .madrona-quote {
 	padding-bottom: 5px;
-	text-align: center;
-	font-size: 26px;
+	font-size: 28px;
 	line-height: 1;
 }
 
@@ -65,18 +64,29 @@ html, body {
 }
 
 .logo-bar {
-	padding-bottom: 15px;
+	padding-bottom: 0px;
 }
 
 .navbar .ecotrust-logo {
 	position: absolute;
 	top: 25px;
-	right: 30px;
+	right: 40px;
+}
+
+.primary-content {
+	margin-left: 75px;
+	margin-right: 75px;
+	font-size: 16px;
 }
 
 .primary-nav {
-	margin-right: 80px;
+	margin-right: 70px;
 	margin-top: 50px;
+}
+
+.carousel .item > img {
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .navbar .primary-nav button {
@@ -86,6 +96,39 @@ html, body {
 	padding-left: 15px;
 	padding-right: 15px;
 	font-size: 24px;
+}
+
+footer {
+	padding-top: 20px;
+	margin-left: 75px;
+	margin-right: 75px;
+}
+
+.bugs {
+	margin-top: 40px;
+	margin-bottom: 70px;
+}
+
+.bug {
+	text-align: center;
+	border: 2px solid black;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	width: 100%;
+	max-width: 280px;
+	border-radius: 25px;
+	margin-bottom: 30px;
+	margin-left:100px;
+
+}
+
+.bug:hover {
+	background-color: whiteSmoke;
+}
+
+.bug img {
+	margin-top: 3px;
+	margin-left: 20px;
 }
 
 /* tag_box ======================================================== */
