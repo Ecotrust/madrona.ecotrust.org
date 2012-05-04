@@ -45,8 +45,14 @@ html, body {
 
 .madrona-quote {
 	padding-bottom: 5px;
-	font-size: 28px;
+	text-align: center;
+	font-size: 26px;
 	line-height: 1;
+}
+
+.madrona-logo {
+	margin-top: 20px;
+	margin-left: 20px;
 }
 
 .ecotrust-logo {
@@ -58,10 +64,30 @@ html, body {
 	padding-left: 8px;
 }
 
-.madrona-logo {
-	padding-top: -10px;
-	padding-left: -10px;
+.logo-bar {
+	padding-bottom: 15px;
 }
+
+.navbar .ecotrust-logo {
+	position: absolute;
+	top: 25px;
+	right: 30px;
+}
+
+.primary-nav {
+	margin-right: 80px;
+	margin-top: 50px;
+}
+
+.navbar .primary-nav button {
+	margin-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: 24px;
+}
+
 /* tag_box ======================================================== */
 
 .tag_box {
