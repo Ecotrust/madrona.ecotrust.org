@@ -62,7 +62,7 @@ tagline: create. analyze. decide.
     </div>
   </div>
     <div class="row-fluid">
-      Madrona allows you to create planning tools to meet specific environmental challenges. Based on Ecotrust’s award-winning spatial planning portfolio, Madrona offers a highly flexible foundation of building blocks and design patterns for software development. With Madrona, users can quickly visualize, analyze, and decide 
+     Madrona offers a flexible set of building blocks and design patterns for software development. Our portfolio of services, training, and support can help you develop, analyze, and implement effective place-based decision making – in any social or environmental context.
     </div>
   </div>
   <div class="span4">
@@ -73,14 +73,14 @@ tagline: create. analyze. decide.
         <img src="assets/img/fsp.png">
         <div class="carousel-caption">
           <h4>Forest Scenario Planner</h4>
-          <p>The Murdock Charitable Trust saw the need for a tool to help landowners manage their forest land and visualize alternative management scenarios.</p>
+          <p>The Murdock Charitable Trust wanted to help private forest landowners visualize alternative management scenarios.</p>
         </div>
       </div>
       <div class="item">
         <img src="assets/img/fsp.png">
         <div class="carousel-caption">
           <h4>Second Thumbnail label</h4>
-          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+          <p>The Murdock Charitable Trust wanted to help private forest landowners visualize alternative management scenarios.</p>
         </div>
       </div>
       <div class="item"><img src="assets/img/fsp.png"></div>
