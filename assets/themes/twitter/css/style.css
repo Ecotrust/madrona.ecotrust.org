@@ -60,6 +60,10 @@ html, body {
 	margin-left: -10px;
 }
 
+.ecotrust-logo p{
+	padding-left: 65px;
+}
+
 .left-side-text p {
 	padding-left: 8px;
 }
@@ -145,6 +149,10 @@ footer {
 
 .carousel .carousel-caption {
 	font-family: 'Droid Sans', sans-serif;
+
+}
+button .btn, a .btn {
+	font-family: 'Droid Sans', sans-serif !important;
 
 }
 /* tag_box ======================================================== */
