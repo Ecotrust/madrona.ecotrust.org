@@ -5,7 +5,7 @@ tagline: create. analyze. decide.
 ---
 {% include JB/setup %}
 <div class="row-fluid">
-  <div class="span8">
+  <div class="span7">
     <div class="row-fluid">
       <p class="madrona-quote">
         A framework for building spatial planning tools at any scale.
@@ -43,7 +43,7 @@ tagline: create. analyze. decide.
             <div class="span3"><img src="assets/img/collaboration.png"></div>
             <div class="span9">
               <h3>Collaboration</h3>
-              <p>consensus drive process</p>
+              <p>consensus driven process</p>
             </div>
           </div>
         </div>
@@ -62,10 +62,10 @@ tagline: create. analyze. decide.
     </div>
   </div>
     <div class="row-fluid">
-     Madrona offers a flexible set of building blocks and design patterns for software development. Our portfolio of services, training, and support can help you develop, analyze, and implement effective place-based decision making – in any social or environmental context.
+     Madrona offers a flexible set of building blocks and design patterns for software development. Our portfolio of services, training, and support can help you develop, analyze, and implement effective place-based decision making–in any social or environmental context.
     </div>
   </div>
-  <div class="span4">
+  <div class="span5">
     <div id="myCarousel" class="carousel">
     <!-- Carousel items -->
       <div class="carousel-inner">
@@ -80,7 +80,7 @@ tagline: create. analyze. decide.
         <img src="assets/img/fsp.png">
         <div class="carousel-caption">
           <h4>Second Thumbnail label</h4>
-          <p>The Murdock Charitable Trust wanted to help private forest landowners visualize alternative management scenarios.</p>
+          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
         </div>
       </div>
       <div class="item"><img src="assets/img/fsp.png"></div>

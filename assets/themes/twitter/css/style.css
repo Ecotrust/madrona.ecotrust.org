@@ -45,8 +45,9 @@ html, body {
 
 .madrona-quote {
 	padding-bottom: 5px;
-	font-size: 28px;
+	font-size: 32px;
 	line-height: 1;
+	font-family: 'Droid Sans', sans-serif;
 }
 
 .madrona-logo {
@@ -76,7 +77,9 @@ html, body {
 .primary-content {
 	margin-left: 75px;
 	margin-right: 75px;
-	font-size: 16px;
+	font-size: 20px;
+	line-height: 1.5;
+	font-family: 'Droid Sans', sans-serif;
 }
 
 .primary-nav {
@@ -102,6 +105,8 @@ footer {
 	padding-top: 20px;
 	margin-left: 75px;
 	margin-right: 75px;
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 16px;
 }
 
 .bugs {
@@ -122,6 +127,13 @@ footer {
 
 }
 
+.bug h3 {
+	font-size: 24px;
+}
+
+.bug p {
+	font-size: 16px;
+}
 .bug:hover {
 	background-color: whiteSmoke;
 }
@@ -131,6 +143,10 @@ footer {
 	margin-left: 20px;
 }
 
+.carousel .carousel-caption {
+	font-family: 'Droid Sans', sans-serif;
+
+}
 /* tag_box ======================================================== */
 
 .tag_box {
