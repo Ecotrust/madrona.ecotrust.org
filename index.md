@@ -11,53 +11,51 @@ tagline: create. analyze. decide.
         A framework for building spatial planning tools at any scale.
       </p>
     </div>
-    <div class="bugs">
-    <div class="row-fluid">
-      <div class="span5">
-        <div class="bug">
-          <div class="row-fluid">
-            <div class="span3"><img src="assets/img/features.png"></div>
-            <div class="span9">
-              <h3>Spatial Features</h3>
-              <p>define, sketch, share</p>
-            </div>
+    <div class="bugs row-fluid">
+    <div>
+      <div class="bug">
+        <div>
+          <img src="assets/img/features.png">
+          <div class="text">
+            <h3>Spatial Features</h3>
+            <p>define, sketch, share</p>
           </div>
         </div>
       </div>
-      <div class="span5">
+      <div>
+      <div class="bug">
+        <div>
+          <img src="assets/img/layers.png">
+          <div class="text">
+            <h3>Collaboration</h3>
+            <p>consensus driven process</p>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+    <div>
+      <div>
         <div class="bug">
-          <div class="row-fluid">
-            <div class="span3"><img src="assets/img/layers.png"></div>
-            <div class="span9">
+          <div>
+            <img src="assets/img/layers.png">
+            <div class="text">
               <h3>Data Layers</h3>
               <p>public and private</p>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="row-fluid">
-      <div class="span5">
-        <div class="bug">
-          <div class="row-fluid">
-            <div class="span3"><img src="assets/img/collaboration.png"></div>
-            <div class="span9">
-              <h3>Collaboration</h3>
-              <p>consensus driven process</p>
-            </div>
+      <div>
+      <div class="bug">
+        <div>
+          <img src="assets/img/layers.png">
+          <div class="text">
+            <h3>Flexible Analysis</h3>
+            <p>visualize and report</p>
           </div>
         </div>
       </div>
-      <div class="span5">
-        <div class="bug">
-          <div class="row-fluid">
-            <div class="span3"><img src="assets/img/analysis.png"></div>
-            <div class="span9">
-              <h3>Flexible Analysis</h3>
-              <p>visualize and report</p>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   </div>
@@ -66,7 +64,7 @@ tagline: create. analyze. decide.
     </div>
   </div>
   <div class="span5">
-    <div id="myCarousel" class="carousel">
+    <div id="showcase" class="carousel">
     <!-- Carousel items -->
       <div class="carousel-inner">
       <div class="active item">
@@ -86,8 +84,8 @@ tagline: create. analyze. decide.
       <div class="item"><img src="assets/img/fsp.png"></div>
     </div>
     <!-- Carousel nav -->
-    <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-    <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+    <a class="carousel-control left" href="#showcase" data-slide="prev">&lsaquo;</a>
+    <a class="carousel-control right" href="#showcase" data-slide="next">&rsaquo;</a>
     </div>
    </div>
 </div>
