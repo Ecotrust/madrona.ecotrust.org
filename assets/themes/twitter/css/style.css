@@ -59,8 +59,18 @@ html, body {
 	width: 360px;
 }
 
+.ecotrust-logo {
+	position: absolute;
+	top: 10px;
+	right: 40px;
+}
+
+.ecotrust-logo img {
+	margin-top: -20px;
+}
 .ecotrust-logo p {
 	padding-left: 65px;
+	color: #bbbbbb;
 }
 
 .left-side-text p {
@@ -71,11 +81,6 @@ html, body {
 	padding-bottom: 0px;
 }
 
-.ecotrust-logo {
-	position: absolute;
-	top: 25px;
-	right: 40px;
-}
 
 .primary-content {
 	margin-left: 30px;
@@ -86,8 +91,8 @@ html, body {
 }
 
 .primary-nav {
-	margin-right: 70px;
-	padding-top: 90px;
+	margin-right: 29px;
+	margin-top: 70px;
 }
 
 
@@ -97,7 +102,6 @@ html, body {
 	background-color: #bbbbbb;
 	font-family: 'Droid Sans', sans-serif;
 	color: black;
-	padding: 12px;
 
 }
 
@@ -106,9 +110,18 @@ html, body {
 	color: white;
 }
 
+.primary-nav .nav .active img {
+	visibility: visible;
+}
 .primary-nav .nav a:hover {
 	background-color: #777777;
-	color: white;
+}
+.primary-nav .nav img {
+	visibility: hidden;
+}
+
+.primary-nav .nav a:hover img {
+	visibility: visible;
 }
 
 .primary-nav .nav li a {
