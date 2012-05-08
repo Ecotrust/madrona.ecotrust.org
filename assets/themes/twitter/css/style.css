@@ -71,7 +71,7 @@ html, body {
 	padding-bottom: 0px;
 }
 
-.navbar .ecotrust-logo {
+.ecotrust-logo {
 	position: absolute;
 	top: 25px;
 	right: 40px;
@@ -87,21 +87,32 @@ html, body {
 
 .primary-nav {
 	margin-right: 70px;
-	padding-top: 70px;
+	padding-top: 90px;
 }
 
-.carousel .item > img {
-	margin-left: auto;
-	margin-right: auto;
-}
 
-.navbar .primary-nav button {
-	margin-left: 20px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	padding-left: 15px;
-	padding-right: 15px;
+.primary-nav .nav a {
+	margin-left: 15px;
 	font-size: 24px;
+	background-color: #bbbbbb;
+	font-family: 'Droid Sans', sans-serif;
+	color: black;
+	padding: 12px;
+
+}
+
+.primary-nav .nav .active a {
+	background-color: #777777;
+	color: white;
+}
+
+.primary-nav .nav a:hover {
+	background-color: #777777;
+	color: white;
+}
+
+.primary-nav .nav li a {
+	padding 10px;
 }
 
 footer {
@@ -180,6 +191,10 @@ footer {
 	min-width: 400px;
 }
 
+.carousel .item > img {
+	margin-left: auto;
+	margin-right: auto;
+}
 .carousel .carousel-caption {
 	font-family: 'Droid Sans', sans-serif;
 
