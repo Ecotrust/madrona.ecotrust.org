@@ -59,7 +59,7 @@ html, body {
 	width: 360px;
 }
 
-.ecotrust-logo p{
+.ecotrust-logo p {
 	padding-left: 65px;
 }
 
@@ -87,7 +87,7 @@ html, body {
 
 .primary-nav {
 	margin-right: 70px;
-	margin-top: 50px;
+	padding-top: 70px;
 }
 
 .carousel .item > img {
