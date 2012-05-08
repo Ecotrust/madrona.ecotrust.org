@@ -17,32 +17,32 @@ tagline: create. analyze. decide.
           <div>
             <img src="assets/img/features.png">
             <div class="text" id="features-text">
-              <h3>Spatial Features</h3>
+              <h3>Spatial&nbsp;Features</h3>
               <p>define, sketch, share</p>
             </div>
           </div>
         </div>
-        <div class="bug">
+        <div class="bug" id="data-layers-bug">
           <div>
             <img src="assets/img/layers.png">
-            <div class="text" id="collab-text">
-              <h3>Collaboration</h3>
-              <p>consensus driven process</p>
-            </div>
-          </div>
-        </div>
-        <div class="bug">
-          <div>
-            <img src="assets/img/layers.png">
-            <div class="text" id="data-layers-text">
-              <h3>Data Layers</h3>
+            <div class="text">
+              <h3>Data&nbsp;Layers</h3>
               <p>public and private</p>
             </div>
           </div>
         </div>
         <div class="bug">
           <div>
-            <img src="assets/img/layers.png">
+            <img src="assets/img/collaboration.png">
+            <div class="text" id="collab-text">
+              <h3>Collaboration</h3>
+              <p>consensus driven process</p>
+            </div>
+          </div>
+        </div>
+        <div class="bug" id="analysis-bug">
+          <div>
+            <img src="assets/img/analysis.png">
             <div class="text" id="analyis-text">
               <h3>Flexible&nbsp;Analysis</h3>
               <p>visualize and report</p>
