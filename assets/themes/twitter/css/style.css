@@ -110,6 +110,7 @@ footer {
 	margin-right: 75px;
 	font-family: 'Droid Sans', sans-serif;
 	font-size: 16px;
+	background-image: url('../img/lightmesh.png');
 }
 
 .bug-row {
