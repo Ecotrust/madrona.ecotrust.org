@@ -80,8 +80,8 @@ html, body {
 }
 
 .primary-content {
-	margin-left: 75px;
-	margin-right: 75px;
+	margin-left: 30px;
+	margin-right: 30px;
 	font-size: 20px;
 	line-height: 1.5;
 	font-family: 'Droid Sans', sans-serif;
@@ -114,9 +114,19 @@ footer {
 	font-size: 16px;
 }
 
+.bug-row {
+	margin-top: 20px;
+}
+
+.bug-row > div {
+	margin: 0px auto;
+}
+
 .bugs {
-	margin-top: 40px;
+	margin-top: 25px;
 	margin-bottom: 70px;
+	padding-left: 30px;
+	max-width: 700px;
 }
 
 .bugs > div {
@@ -126,7 +136,7 @@ footer {
 	text-align: center;
 	border: 2px solid black;
 	padding-top: 15px;
-	padding-bottom: 10px;
+	padding-bottom: 5px;
 	width: 300px;
 	height: 60px;
 	border-radius: 20px;
@@ -153,7 +163,6 @@ footer {
 }
 
 .bug img {
-	margin-top: 3px;
 	margin-left: 20px;
 	float: left;
 }
@@ -166,8 +175,20 @@ footer {
 	float: left;
 }
 
+#data-layers-text {
+	padding-left: 20px;
+}
+
+#features-text {
+	padding-left: 8px;
+}
+
+#collab-text {
+	padding-left: 8px;
+}
+
 #showcase {
-	width: 500px;
+	min-width: 400px;
 }
 
 .carousel .carousel-caption {

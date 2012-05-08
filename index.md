@@ -11,56 +11,45 @@ tagline: create. analyze. decide.
         A framework for building spatial planning tools at any scale.
       </p>
     </div>
-    <div class="bugs row-fluid">
-    <div>
-      <div class="bug">
-        <div>
-          <img src="assets/img/features.png">
-          <div class="text">
-            <h3>Spatial Features</h3>
-            <p>define, sketch, share</p>
+    <div class="row-fluid bug-row">
+      <div class="bugs">
+        <div class="bug">
+          <div>
+            <img src="assets/img/features.png">
+            <div class="text" id="features-text">
+              <h3>Spatial Features</h3>
+              <p>define, sketch, share</p>
+            </div>
           </div>
         </div>
-      </div>
-      <div>
-      <div class="bug">
-        <div>
-          <img src="assets/img/layers.png">
-          <div class="text">
-            <h3>Collaboration</h3>
-            <p>consensus driven process</p>
-          </div>
-        </div>
-      </div>
-      </div>
-    </div>
-    <div>
-      <div>
         <div class="bug">
           <div>
             <img src="assets/img/layers.png">
-            <div class="text">
+            <div class="text" id="collab-text">
+              <h3>Collaboration</h3>
+              <p>consensus driven process</p>
+            </div>
+          </div>
+        </div>
+        <div class="bug">
+          <div>
+            <img src="assets/img/layers.png">
+            <div class="text" id="data-layers-text">
               <h3>Data Layers</h3>
               <p>public and private</p>
             </div>
           </div>
         </div>
-      </div>
-      <div>
-      <div class="bug">
-        <div>
-          <img src="assets/img/layers.png">
-          <div class="text">
-            <h3>Flexible Analysis</h3>
-            <p>visualize and report</p>
+        <div class="bug">
+          <div>
+            <img src="assets/img/layers.png">
+            <div class="text">
+              <h3>Flexible Analysis</h3>
+              <p>visualize and report</p>
+            </div>
           </div>
         </div>
       </div>
-      </div>
-    </div>
-  </div>
-    <div class="row-fluid">
-     Madrona offers a flexible set of building blocks and design patterns for software development. Our portfolio of services, training, and support can help you develop, analyze, and implement effective place-based decision making–in any social or environmental context.
     </div>
   </div>
   <div class="span5">
@@ -89,7 +78,9 @@ tagline: create. analyze. decide.
     </div>
    </div>
 </div>
-
+<div class="row-fluid">
+ Madrona offers a flexible set of building blocks and design patterns for software development. Our portfolio of services, training, and support can help you develop, analyze, and implement effective place-based decision making–in any social or environmental context.
+</div>
 
 <script>
   $(window).load(function() {
