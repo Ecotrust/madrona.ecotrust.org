@@ -43,7 +43,7 @@ tagline: create. analyze. decide.
         <div class="bug">
           <div>
             <img src="assets/img/layers.png">
-            <div class="text">
+            <div class="text" id="analyis-text">
               <h3>Flexible Analysis</h3>
               <p>visualize and report</p>
             </div>

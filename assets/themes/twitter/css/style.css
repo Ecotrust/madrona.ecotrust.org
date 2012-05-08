@@ -114,6 +114,9 @@ footer {
 
 .bug-row {
 	margin-top: 20px;
+
+	margin-top: 60px;
+	margin-bottom: 60px;
 }
 
 .bug-row > div {
@@ -121,10 +124,8 @@ footer {
 }
 
 .bugs {
-	margin-top: 25px;
-	margin-bottom: 70px;
 	padding-left: 30px;
-	max-width: 700px;
+	max-width: 750px;
 }
 
 .bugs > div {
@@ -135,7 +136,7 @@ footer {
 	border: 2px solid black;
 	padding-top: 15px;
 	padding-bottom: 5px;
-	width: 300px;
+	width: 320px;
 	height: 60px;
 	border-radius: 20px;
 	margin-right: 30px;
@@ -171,18 +172,11 @@ footer {
 
 .bug .text {
 	float: left;
+	padding-left: 15px;
 }
 
 #data-layers-text {
-	padding-left: 20px;
-}
-
-#features-text {
-	padding-left: 8px;
-}
-
-#collab-text {
-	padding-left: 8px;
+	padding-left: 30px;
 }
 
 #showcase {
