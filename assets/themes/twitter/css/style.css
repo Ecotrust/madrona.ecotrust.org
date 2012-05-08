@@ -48,17 +48,15 @@ html, body {
 	font-size: 32px;
 	line-height: 1;
 	font-family: 'Droid Sans', sans-serif;
+	width: 95%;
+	margin: 0px auto;
+	float: left;
 }
 
 .madrona-logo {
 	margin-top: 20px;
 	margin-left: 20px;
 	width: 360px;
-}
-
-.ecotrust-logo {
-	margin-top: -10px;
-	margin-left: -10px;
 }
 
 .ecotrust-logo p{

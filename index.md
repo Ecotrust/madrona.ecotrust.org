@@ -7,9 +7,9 @@ tagline: create. analyze. decide.
 <div class="row-fluid">
   <div class="span7">
     <div class="row-fluid">
-      <p class="madrona-quote">
+      <div class="madrona-quote">
         A framework for building spatial planning tools at any scale.
-      </p>
+      </div>
     </div>
     <div class="row-fluid bug-row">
       <div class="bugs">
@@ -51,6 +51,9 @@ tagline: create. analyze. decide.
         </div>
       </div>
     </div>
+    <div class="row-fluid">
+        Madrona offers a flexible set of building blocks and design patterns for software development. Our portfolio of services, training, and support can help you develop, analyze, and implement effective place-based decision making–in any social or environmental context.
+    </div>
   </div>
   <div class="span5">
     <div id="showcase" class="carousel">
@@ -78,9 +81,7 @@ tagline: create. analyze. decide.
     </div>
    </div>
 </div>
-<div class="row-fluid">
- Madrona offers a flexible set of building blocks and design patterns for software development. Our portfolio of services, training, and support can help you develop, analyze, and implement effective place-based decision making–in any social or environmental context.
-</div>
+
 
 <script>
   $(window).load(function() {
