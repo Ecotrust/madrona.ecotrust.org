@@ -1,7 +1,7 @@
 ---
 layout: page
 title: madrona spatial planning framework
-tagline: create. analyze. decide.
+tagline: A framework for building spatial planning tools at any scale.
 ---
 {% include JB/setup %}
 <div class="row-fluid">
@@ -11,9 +11,9 @@ tagline: create. analyze. decide.
         <div class="bug">
           <div class="row-fluid">
             <div class="span2">
-              <img src="assets/img/features.png">
+              <div class="pull-right"><img class="tall" src="assets/img/features.png"></div>
             </div>
-            <div class="span5">
+            <div class="span10">
               <h4>Spatial&nbsp;Features</h4>
               <p>define, sketch, share</p>
             </div>
@@ -24,7 +24,7 @@ tagline: create. analyze. decide.
         <div class="bug">
           <div class="row-fluid">
             <div class="span2">
-              <img src="assets/img/layers.png">
+              <div class="pull-right"><img src="assets/img/layers.png"></div>
             </div>
             <div class="span10">
               <h4>Data&nbsp;Layers</h4>
@@ -39,7 +39,7 @@ tagline: create. analyze. decide.
         <div class="bug">
           <div class="row-fluid">
             <div class="span2">
-              <img src="assets/img/collaboration.png">
+              <div class="pull-right"><img class="tall" src="assets/img/collaboration.png"></div>
             </div>
             <div class="span10">
               <h4>Collaboration</h4>
@@ -52,7 +52,7 @@ tagline: create. analyze. decide.
         <div class="bug">
           <div class="row-fluid">
             <div class="span2">
-              <img src="assets/img/analysis.png">
+              <div class="pull-right"><img src="assets/img/analysis.png"></div>
             </div>
             <div class="span10">
               <h4>Flexible&nbsp;Analysis</h4>

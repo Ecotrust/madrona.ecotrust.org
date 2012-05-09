@@ -35,6 +35,11 @@ html, body {
 	margin-left: 5%;
 }
 
+.ecotrust-logo {
+	margin-left: 244px;
+	margin-top: 25px;
+}
+
 .ecotrust-logo img {
 	margin-top: -20px;
 }
@@ -42,7 +47,6 @@ html, body {
 	padding-left: 65px;
 	color: #bbbbbb;
 }
-
 
 .logo-bar {
 	padding-bottom: 0px;
@@ -53,7 +57,7 @@ html, body {
 	margin-left: 30px;
 	margin-right: 30px;
 	line-height: 1.5;
-	font-family: 'Droid Sans', sans-serif;
+	
 }
 
 .primary-nav .nav {
@@ -62,7 +66,7 @@ html, body {
 }
 
 .primary-nav .nav a {
-	font-family: 'Droid Sans', sans-serif;
+	
 	color: #444444;
 
 }
@@ -108,18 +112,14 @@ html, body {
 	padding-bottom: 10%;
 }
 
-.bug > div {
-	margin-left: 10%;
-}
 
-
-.bug p, .bug h4 {
-	margin-left: -3px;
+.bug img.tall {
+	margin-top: -10px;
 }
 
 footer {
 	padding-top: 20px;
-	font-family: 'Droid Sans', sans-serif;
+	
 	font-size: 16px;
 	background-image: url('../img/rough_diagonal.png');
 	margin: 0 -20px;
@@ -130,7 +130,7 @@ footer {
 	width: 100%;	
 }
 .carousel .carousel-caption {
-	font-family: 'Droid Sans', sans-serif;
+	
 
 }
 button .btn, a .btn {
