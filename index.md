@@ -13,8 +13,8 @@ tagline: create. analyze. decide.
             <div class="span2">
               <img src="assets/img/features.png">
             </div>
-            <div class="span10">
-              <h3>Spatial&nbsp;Features</h3>
+            <div class="span5">
+              <h4>Spatial&nbsp;Features</h4>
               <p>define, sketch, share</p>
             </div>
           </div>
@@ -27,7 +27,7 @@ tagline: create. analyze. decide.
               <img src="assets/img/layers.png">
             </div>
             <div class="span10">
-              <h3>Data&nbsp;Layers</h3>
+              <h4>Data&nbsp;Layers</h4>
               <p>public and private</p>
             </div>
           </div>
@@ -42,7 +42,7 @@ tagline: create. analyze. decide.
               <img src="assets/img/collaboration.png">
             </div>
             <div class="span10">
-              <h3>Collaboration</h3>
+              <h4>Collaboration</h4>
               <p>consensus driven process</p>
             </div>
           </div>
@@ -55,7 +55,7 @@ tagline: create. analyze. decide.
               <img src="assets/img/analysis.png">
             </div>
             <div class="span10">
-              <h3>Flexible&nbsp;Analysis</h3>
+              <h4>Flexible&nbsp;Analysis</h4>
               <p>visualize and report</p>
             </div>
           </div>
