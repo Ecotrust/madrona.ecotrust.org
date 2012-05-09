@@ -112,10 +112,11 @@ html, body {
 	margin-left: 10%;
 }
 
-/*.bug p, .bug h4 {
-	text-align: center;
+
+.bug p, .bug h4 {
+	margin-left: -3px;
 }
-*/
+
 footer {
 	padding-top: 20px;
 	font-family: 'Droid Sans', sans-serif;
