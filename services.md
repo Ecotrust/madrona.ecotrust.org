@@ -1,10 +1,11 @@
 ---
 layout: page
 title: madrona spatial planning framework
-tagline: <h2>Overview</h2>
+tagline: 
 ---
 <div class="row-fluid">
 	<div class="span6">
+		<h2>Overview</h2>
 		<p>Ecotrust offers professional services, training and support for Madrona.  Whether you want to build your own capacity or leverage ours, we can meet your needs.</p>
 		<div class="row-fluid">
 			<div class="span2">
