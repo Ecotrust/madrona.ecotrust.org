@@ -8,7 +8,7 @@ tagline: create. analyze. decide.
   <div class="span7">
     <div class="row-fluid">
       <div class="madrona-quote">
-        A framework for building spatial planning tools at any scale.
+        <h2>A framework for building spatial planning tools at any scale.</h2>
       </div>
     </div>
     <div class="row-fluid bug-row">
