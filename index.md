@@ -7,43 +7,57 @@ tagline: create. analyze. decide.
 <div class="row-fluid">
   <div class="span7">
     <div class="row-fluid">
-      <div class="madrona-quote">
         <h2>A framework for building spatial planning tools at any scale.</h2>
-      </div>
     </div>
-    <div class="row-fluid bug-row">
-      <div class="bugs">
+    <div class="row-fluid">
+      <div class="span6">
         <div class="bug">
-          <div>
-            <img src="assets/img/features.png">
-            <div class="text" id="features-text">
+          <div class="row-fluid">
+            <div class="span2">
+              <img src="assets/img/features.png">
+            </div>
+            <div class="span10">
               <h3>Spatial&nbsp;Features</h3>
               <p>define, sketch, share</p>
             </div>
           </div>
         </div>
-        <div class="bug" id="data-layers-bug">
-          <div>
-            <img src="assets/img/layers.png">
-            <div class="text">
+      </div>
+      <div class="span6">
+        <div class="bug">
+          <div class="row-fluid">
+            <div class="span2">
+              <img src="assets/img/layers.png">
+            </div>
+            <div class="span10">
               <h3>Data&nbsp;Layers</h3>
               <p>public and private</p>
             </div>
           </div>
         </div>
+      </div>
+    </div>
+    <div class="row-fluid">
+      <div class="span6">
         <div class="bug">
-          <div>
-            <img src="assets/img/collaboration.png">
-            <div class="text" id="collab-text">
+          <div class="row-fluid">
+            <div class="span2">
+              <img src="assets/img/collaboration.png">
+            </div>
+            <div class="span10">
               <h3>Collaboration</h3>
               <p>consensus driven process</p>
             </div>
           </div>
         </div>
-        <div class="bug" id="analysis-bug">
-          <div>
-            <img src="assets/img/analysis.png">
-            <div class="text" id="analyis-text">
+      </div>
+      <div class="span6">
+        <div class="bug">
+          <div class="row-fluid">
+            <div class="span2">
+              <img src="assets/img/analysis.png">
+            </div>
+            <div class="span10">
               <h3>Flexible&nbsp;Analysis</h3>
               <p>visualize and report</p>
             </div>

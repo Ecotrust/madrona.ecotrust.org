@@ -44,14 +44,7 @@ html, body {
   border: 0;
 }
 
-.madrona-quote h2 {
-	padding-bottom: 5px;
-	line-height: 1;
-	font-family: 'Droid Sans', sans-serif;
-	width: 95%;
-	margin: 0px auto;
-	float: left;
-}
+
 /*
 .madrona-logo {
 	margin-top: 20px;
@@ -85,11 +78,6 @@ html, body {
 	line-height: 1.5;
 	font-family: 'Droid Sans', sans-serif;
 }
-
-.primary-nav {
-	margin-right: 60px;
-}
-
 
 .primary-nav .nav a {
 	font-family: 'Droid Sans', sans-serif;
@@ -136,72 +124,6 @@ footer {
 	background-image: url('../img/rough_diagonal.png');
 	margin: 0 -20px;
 	padding: 15px 50px;
-}
-
-.bug-row {
-	margin-top: 40px;
-	margin-bottom: 40px;
-}
-
-.bug-row > div {
-	margin: 0px auto;
-}
-
-.bugs {
-	padding-left: 30px;
-	max-width: 700px;
-}
-
-.bugs > div {
-	float: left;
-}
-.bug {
-	text-align: center;
-	border: 2px solid black;
-	border-radius: 20px;
-	width: 50%;
-}
-
-.bug .icon {
-	width:20%;
-}
-@media (max-width: 767px;) {
-	.bug {
-	
-		padding-top: 15px;
-		padding-bottom: 5px;
-		width: 43%;
-		height: 60px;
-		margin-right: 20px;
-		margin-bottom: 25px;
-
-	}
-
-	.bug .icon {
-		width:15%;
-	}
-}
-
-.bug p {
-	font-size: .9rem;
-}
-/*.bug:hover {
-	background-image: url('../img/rough_diagonal.png');
-}
-*/
-
-.bug .text {
-	float: left;
-	padding-left: 10px;
-}
-
-
-#data-layers-bug .text {
-	padding-left: 25px;
-}
-
-#analysis-bug img {
-	padding-top: 6px;
 }
 
 #showcase {
