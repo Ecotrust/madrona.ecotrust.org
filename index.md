@@ -7,9 +7,6 @@ tagline: create. analyze. decide.
 <div class="row-fluid">
   <div class="span7">
     <div class="row-fluid">
-        <h2>A framework for building spatial planning tools at any scale.</h2>
-    </div>
-    <div class="row-fluid">
       <div class="span6">
         <div class="bug">
           <div class="row-fluid">

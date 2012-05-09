@@ -45,19 +45,10 @@ html, body {
 }
 
 
-/*
-.madrona-logo {
-	margin-top: 20px;
-	margin-left: 20px;
-	width: 360px;
-}*/
-
-/*.ecotrust-logo {
-	position: absolute;
-	top: 10px;
-	right: 40px;
+.madrona-quote {
+	padding-left: 50px;
 }
-*/
+
 .ecotrust-logo img {
 	margin-top: -20px;
 }
@@ -79,10 +70,19 @@ html, body {
 	font-family: 'Droid Sans', sans-serif;
 }
 
+.primary-nav .nav {
+	margin-bottom: 10px;
+	margin-left: -5px;
+}
+
 .primary-nav .nav a {
 	font-family: 'Droid Sans', sans-serif;
 	color: #444444;
 
+}
+
+.primary-nav .nav-pills > li > a {
+	padding: 1px 5px;
 }
 
 .primary-nav .nav .active a {
@@ -131,8 +131,7 @@ footer {
 }
 
 .carousel .item > img {
-	margin-left: auto;
-	margin-right: auto;
+	width: 100%;	
 }
 .carousel .carousel-caption {
 	font-family: 'Droid Sans', sans-serif;
