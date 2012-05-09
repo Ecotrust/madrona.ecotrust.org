@@ -5,7 +5,7 @@ tagline: create. analyze. decide.
 ---
 {% include JB/setup %}
 <div class="row-fluid">
-  <div class="span7">
+  <div class="span6">
     <div class="row-fluid">
       <div class="span6">
         <div class="bug">
@@ -66,7 +66,7 @@ tagline: create. analyze. decide.
         Madrona offers a flexible set of building blocks and design patterns for software development. Our portfolio of services, training, and support can help you develop, analyze, and implement effective place-based decision making–in any social or environmental context.
     </div>
   </div>
-  <div class="span5">
+  <div class="span6">
     <div id="showcase" class="carousel">
     <!-- Carousel items -->
       <div class="carousel-inner">
