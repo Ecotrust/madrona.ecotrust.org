@@ -8,7 +8,7 @@ title: madrona spatial planning framework
 		<p>Ecotrust offers professional services, training and support for Madrona.  Whether you want to build your own capacity or leverage ours, we can meet your needs.</p>
 		<div class="row">
 			<div class="span1 offset1">
-				<img class="tall" src="assets/img/collaboration.png">
+				<img class="tall" src="{{ BASE_PATH }}/assets/img/collaboration.png">
 			</div>
 			<div class="span4"><strong>Learn more about the development team and our network of colleagues and partners.</strong></div>
 		</div>
