@@ -48,7 +48,7 @@ title: madrona spatial planning framework
 	</div>
 	<div class="span4">
 		<div class="row">
-			<ul class="thumbnails">
+			<ul class="thumbnails pull-right">
 				<li class="span4"><a class="thumbnail"><img alt="" src="http://placehold.it/360x268"></a></li>
 			</ul>
 		</div>

@@ -110,13 +110,15 @@ html, body {
 
 .bugs {
 	margin-top: 20px;
+	margin-bottom: 10px;
 }
 
 .bug .row {
 	margin: 0px auto;
 }
 .bug {
-	padding: 20px 10px 10px 10px;
+	max-width: 248px;
+	padding: 15px 10px 5px 10px;
 	margin-bottom: 15px;
 	background-color: #f5f5f5;
 	border: 1px solid #eee;
@@ -130,13 +132,17 @@ html, body {
 }
 
 
-.bug img {
+.bug {
 	padding-left: 15px;
 	padding-right: 10px;
 }
+.bug .icon {
+	width: 15%;
+	padding-right: 4%;
+}
 
 .bug img.tall {
-	margin-top: -10px;
+	margin-top: -2px;
 }
 
 

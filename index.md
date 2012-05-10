@@ -10,7 +10,7 @@ tagline: A framework for building spatial planning tools at any scale.
       <div class="span3">
         <div class="bug">
           <div class="row">
-            <div class="pull-left">
+            <div class="pull-left icon">
               <img class="tall" src="assets/img/features.png">
             </div>
             <div class="pull-left">
@@ -23,7 +23,7 @@ tagline: A framework for building spatial planning tools at any scale.
       <div class="span3">
         <div class="bug">
           <div class="row">
-            <div class="pull-left">
+            <div class="pull-left icon">
               <img src="assets/img/layers.png">
             </div>
             <div class="pull-left">
@@ -38,7 +38,7 @@ tagline: A framework for building spatial planning tools at any scale.
       <div class="span3">
         <div class="bug">
           <div class="row">
-            <div class="pull-left">
+            <div class="pull-left icon">
               <img class="tall" src="assets/img/collaboration.png">
             </div>
             <div class="pull-left">
@@ -51,7 +51,7 @@ tagline: A framework for building spatial planning tools at any scale.
       <div class="span3">
         <div class="bug">
           <div class="row">
-            <div class="pull-left">
+            <div class="pull-left icon">
               <img src="assets/img/analysis.png">
             </div>
             <div class="pull-left">
