@@ -4,29 +4,29 @@ title: madrona spatial planning framework
 tagline: A framework for building spatial planning tools at any scale.
 ---
 {% include JB/setup %}
-<div class="row-fluid">
+<div class="row">
   <div class="span6">
-    <div class="row-fluid">
-      <div class="span6">
+    <div class="row bugs">
+      <div class="span3">
         <div class="bug">
-          <div class="row-fluid">
-            <div class="span2">
+          <div class="row">
+            <div class="pull-left">
               <img class="tall" src="assets/img/features.png">
             </div>
-            <div class="span10">
+            <div class="pull-left">
               <h4>Spatial&nbsp;Features</h4>
               <p>define, sketch, share</p>
             </div>
           </div>
         </div>
       </div>
-      <div class="span6">
+      <div class="span3">
         <div class="bug">
-          <div class="row-fluid">
-            <div class="span2">
+          <div class="row">
+            <div class="pull-left">
               <img src="assets/img/layers.png">
             </div>
-            <div class="span10">
+            <div class="pull-left">
               <h4>Data&nbsp;Layers</h4>
               <p>public and private</p>
             </div>
@@ -34,27 +34,27 @@ tagline: A framework for building spatial planning tools at any scale.
         </div>
       </div>
     </div>
-    <div class="row-fluid">
-      <div class="span6">
+    <div class="row">
+      <div class="span3">
         <div class="bug">
-          <div class="row-fluid">
-            <div class="span2">
+          <div class="row">
+            <div class="pull-left">
               <img class="tall" src="assets/img/collaboration.png">
             </div>
-            <div class="span10">
+            <div class="pull-left">
               <h4>Collaboration</h4>
               <p>consensus driven process</p>
             </div>
           </div>
         </div>
       </div>
-      <div class="span6">
+      <div class="span3">
         <div class="bug">
-          <div class="row-fluid">
-            <div class="span2">
+          <div class="row">
+            <div class="pull-left">
               <img src="assets/img/analysis.png">
             </div>
-            <div class="span10">
+            <div class="pull-left">
               <h4>Flexible&nbsp;Analysis</h4>
               <p>visualize and report</p>
             </div>
@@ -62,8 +62,10 @@ tagline: A framework for building spatial planning tools at any scale.
         </div>
       </div>
     </div>
-    <div class="row-fluid">
+    <div class="row">
+      <div class="span6">
         Madrona offers a flexible set of building blocks and design patterns for software development. Our portfolio of services, training, and support can help you develop, analyze, and implement effective place-based decision making–in any social or environmental context.
+      </div>
     </div>
   </div>
   <div class="span6">
