@@ -43,7 +43,7 @@ tagline: A framework for building spatial planning tools at any scale.
             </div>
             <div class="pull-left">
               <h4>Collaboration</h4>
-              <p>consensus driven process</p>
+              <p>consensus driven</p>
             </div>
           </div>
         </div>

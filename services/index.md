@@ -12,7 +12,7 @@ title: madrona spatial planning framework
 			</div>
 			<div class="span4"><strong>Learn more about the development team and our network of colleagues and partners.</strong></div>
 		</div>
-		<h2>Professional Services</h2>
+		<h2>Professional Services {{ page_url }}</h2>
 		<p>
 			Ecotrust has a deep understanding of how to design and apply tools for decision support and spatial planning and we offer a full set of professional services around the Madrona platform.  With all of our services we have the ability to mentor you so that you leave with an understanding of how to do things yourself. Please <a href="mailto:madrona@ecotrust.org">inquire</a> for more information.
 		</p>
