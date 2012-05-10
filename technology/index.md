@@ -3,89 +3,8 @@ layout: page
 title: madrona spatial planning framework
 tagline: 
 ---
-<div class="row-fluid">
-	<div class="span3">
-		<ul class="nav nav-list">
-			<li>Philosophy</li>
-			<li>The Zen of Madrona</li>
-		<li>Significant Features</li>
-
-		<li>		Spatial Features</li>
-
-		<li>		Data layers</li>
-
-		<li>		Content Management</li>
-
-		<li>		Collaboration</li>
-
-		<li>		Flexible Analysis</li>
-
-		<li>		Study Regions</li>
-
-		<li>		Manipulators</li>
-
-		<li>		Import/Export</li>
-
-		<li>		Asynchronous Tasking</li>
-
-		<li>		Custom Projections</li>
-
-		<li>		Raster Statistics</li>
-
-		<li>		Architecture</li>
-
-		<li>		Core Libraries</li>
-
-		<li>		Django</li>
-
-		<li>		PostGIS</li>
-
-		<li>		GDAL/OGR</li>
-
-		<li>		REST API</li>
-
-		<li>		KML</li>
-
-		<li>		GeoJSON</li>
-
-		<li>		Caching</li>
-
-		<li>		Reporting</li>
-
-		<li>		Workspace Document</li>
-
-		<li>		Helpers</li>
-
-		<li>		Client Widgets</li>
-
-		<li>		KmlTree</li>
-
-		<li>		KmlEditor</li>
-
-		<li>		Potential Software Stacks</li>
-
-		<li>		Third-party Integration</li>
-
-		<li>		Modeling/Analysis</li>
-
-		<li>		Mapservers</li>
-
-		<li>		Client-side Mapping</li>
-
-		<li>		Visualization</li>
-
-		<li>		Platforms</li>
-
-		<li>		Deployment</li>
-
-		<li>		Linux</li>
-
-		<li>		Windows</li>
-
-		<li>		Cloud-based Hosting</li>
-	</ul>
-	</div>
-	<div class="span9">
+<div class="row">
+	<div class="span8">
 		Philosophy
 		Madrona was created to make lots of choices out of the box for you while providing lots of options, so you can get to the fun part of building tools right away.  You, the web programmer, are still required to make many choices about your application and Madrona gives you the building blocks you need to piece together your mental model of the problem quickly without getting distracted by the nuts and bolts.  Still, there is no way for any framework to think through the problem for you.  Madrona is the path not the destination.
 		The Zen of Madrona
@@ -251,5 +170,9 @@ tagline:
 		https://docs.djangoproject.com/en/dev/ref/contrib/gis/install/#windows
 		Cloud-based Hosting
 
+	</div>
+	<div class="span4">
+		<ul class="nav nav-list">
+		</ul>
 	</div>
 </div>
