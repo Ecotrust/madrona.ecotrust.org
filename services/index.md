@@ -16,7 +16,7 @@ title: madrona spatial planning framework
 
 	<h2>Services {{ page_url }}</h2>			
 
-	<p>We also offer a full range of services and can help you design and implement effective spatial planning processes with Madrona.  Regardless of your technology capacities, we can create a service package to meet your needs.  Services include:
+	<p>We also offer a full range of services and can help you design and implement effective spatial planning processes with Madrona.  Regardless of your technology capacities, we can create a service package to meet your needs.  Services include:</p>
 
 		<ul>
 		    <li>Tool Development
