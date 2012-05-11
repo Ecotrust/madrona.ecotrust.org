@@ -13,7 +13,7 @@ tagline: A framework for building spatial planning tools at any scale.
             <div class="bug">
               <div class="row">
                 <div class="pull-left icon">
-                  <img class="tall" src="assets/img/features.png">
+                  <img class="tall" src="{{ BASE_PATH }}/assets/img/features.png">
                 </div>
                 <div class="pull-left">
                   <h4>Spatial&nbsp;Features</h4>
@@ -28,7 +28,7 @@ tagline: A framework for building spatial planning tools at any scale.
             <div class="bug">
               <div class="row">
                 <div class="pull-left icon">
-                  <img src="assets/img/layers.png">
+                  <img src="{{ BASE_PATH }}/assets/img/layers.png">
                 </div>
                 <div class="pull-left">
                   <h4>Data&nbsp;Layers</h4>
@@ -45,7 +45,7 @@ tagline: A framework for building spatial planning tools at any scale.
             <div class="bug">
               <div class="row">
                 <div class="pull-left icon">
-                  <img class="tall" src="assets/img/collaboration.png">
+                  <img class="tall" src="{{ BASE_PATH }}/assets/img/collaboration.png">
                 </div>
                 <div class="pull-left">
                   <h4>Collaboration</h4>
@@ -60,7 +60,7 @@ tagline: A framework for building spatial planning tools at any scale.
             <div class="bug">
               <div class="row">
                 <div class="pull-left icon">
-                  <img src="assets/img/analysis.png">
+                  <img src="{{ BASE_PATH }}/assets/img/analysis.png">
                 </div>
                 <div class="pull-left">
                   <h4>Flexible&nbsp;Analysis</h4>
@@ -83,7 +83,7 @@ tagline: A framework for building spatial planning tools at any scale.
     <!-- Carousel items -->
       <div class="carousel-inner">
       <div class="active item">
-        <img src="assets/img/fsp.png">
+        <img src="{{ BASE_PATH }}/assets/img/fsp.png">
         <div class="carousel-caption">
           <h4>Forest Scenario Planner</h4>
           <p>The Murdock Charitable Trust wanted to help private forest landowners visualize alternative management scenarios.</p>
@@ -104,7 +104,7 @@ tagline: A framework for building spatial planning tools at any scale.
         </div>
       </div>
       <div class="item">
-        <img src="assets/img/fsp.png">
+        <img src="{{ BASE_PATH }}/assets/img/fsp.png">
         <div class="carousel-caption">
           <h4>Bioregional Discovery</h4>
           <p>Ecotrust wanted to allow people all over the planet to visualize their bioregions and gain an appreciation of social and environmental assets and vulnerabilities.</p>

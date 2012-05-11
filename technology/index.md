@@ -309,7 +309,7 @@ window.onload = function () {
 			var scrollTop = $(window).scrollTop(),
 				offset = $accordion.offset().top;
 			
-			if (scrollTop > offset + 50) {
+			if (scrollTop > offset + 100) {
 				$accordion.offset({ top: scrollTop + 100 });
 			}  else {
 			  	$accordion.offset({ top: scrollTop > initial? scrollTop + 100: initial })
