@@ -74,7 +74,7 @@ tagline: A framework for building spatial planning tools at any scale.
     </div>
     <div class="row">
       <div class="span6">
-        <p>Madrona offers a flexible set of building blocks and design patterns for software development. Our portfolio of services, training, and support can help you develop, analyze, and implement effective place-based decision making–in any social or environmental context.</p>
+        <p>Madrona offers a flexible set of building blocks and design patterns for software development. Our support services can help you develop and implement cutting-edge tools for effective place-based decision making.</p>
       </div>
     </div>
   </div>
