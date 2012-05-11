@@ -6,8 +6,8 @@ title: madrona spatial planning framework
 	<div class="span8">
 
 	<p>For over a decade, Ecotrust has been developing toolkits for decision support and spatial planning that leverage the power of GIS (geographic information systems).  We used that expertise to develop Madrona and we are commited to the stewardship of a community of open source developers on the project.</p>
-
-	<p>We also offer a full range of services and can help you design and implement effective spatial planning processes with Madrona.  Regardless of your technology capacities, we can create a service package to meet your needs</p>
+	<p>We also offer a full range of services and can help you design and implement effective spatial planning tools and processes with Madrona.  Regardless of your technology capacities, we can create a service package to meet your needs</p>
+	
 	<h2>Technology Services</h2>			
 
 		<ul>
@@ -36,6 +36,9 @@ title: madrona spatial planning framework
 	    <li>Socioeconomic analysis</li>
 	</ul>
 
+	<h2>Training</h2>
+	<p>We offer training to software developers in the use of Madrona to develop tools.  We can spend one up to as many as you need helping you building your capacity quickly.  Please inquire for more information</p>  	
+
 	<div class="row">
 		<div class="span1 offset1">
 			<img class="tall" src="{{ BASE_PATH }}/assets/img/collaboration.png">
@@ -43,9 +46,6 @@ title: madrona spatial planning framework
 		<div class="span4"><strong>Learn more about the development team and our network of colleagues and partners.</strong></div>
 	</div>	
 
-	<h2>Training</h2>
-	<p>We offer training to software developers in the use of Madrona to develop tools.  We can spend one up to as many as you need helping you building your capacity quickly.  Please inquire for more information</p>  	
-	
 	</div>
 
 	
