@@ -301,3 +301,21 @@ title: madrona spatial planning framework
 		</div>
 	</div>
 </div>
+<script>
+$(document).ready(function () {
+	var $accordion = $('#accordion2');
+		initial = $accordion.offset().top,
+		scrollHandler = function () {  
+			var scrollTop = $(window).scrollTop(),
+				offset = $accordion.offset().top;
+			
+			if (scrollTop > initial - 50) {
+				$accordion.offset({ top: scrollTop +50 });
+			} else {
+				$accordion.offset({ top: initial });			
+			}
+		}
+	scrollHandler();
+	$(window).scroll(scrollHandler);
+});
+</script>

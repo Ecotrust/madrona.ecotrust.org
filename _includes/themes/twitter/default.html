@@ -1,82 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-    {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
-    <meta name="author" content="{{ site.author.name }}">
-
-    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
-    <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
-    <!-- Le styles -->
-    <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap.css" rel="stylesheet">
-    <!-- <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap-responsive.css" rel="stylesheet">  -->
-    <link href="{{ ASSET_PATH }}/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
-    <script src="{{BASE_PATH}}/assets/bootstrap/js/jquery.js"></script>
-    <script src="{{BASE_PATH}}assets/bootstrap/js/bootstrap-transition.js"></script>
-    <script src="{{BASE_PATH}}/assets/bootstrap/js/bootstrap-carousel.js"></script>
-    <link rel="shortcut icon" href="{{ ASSET_PATH }}/img/favicon.ico">
-
-    <script src="{{BASE_PATH}}/assets/bootstrap/js/bootstrap-collapse.js"></script>
-
-    <!-- Le fav and touch icons -->
-  <!-- Update these with your own images
-    <link rel="shortcut icon" href="images/favicon.ico">
+    
+    <head>
+        <meta charset="utf-8">
+        <title>
+            {{ page.title }}
+        </title>
+        {% if page.description %}
+        <meta name="description" content="{{ page.description }}">
+        {% endif %}
+        <meta name="author" content="{{ site.author.name }}">
+        <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+        <!--[if lt IE 9]>
+            <script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
+            </script>
+        <![endif]-->
+        <!-- Le styles -->
+        <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap.css" rel="stylesheet">
+        <!-- <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap-responsive.css"
+        rel="stylesheet">  -->
+        <link href="{{ ASSET_PATH }}/css/style.css?body=1" rel="stylesheet" type="text/css"
+        media="all">
+        <script src="{{BASE_PATH}}/assets/bootstrap/js/jquery.js">
+        </script>
+        <script src="{{BASE_PATH}}assets/bootstrap/js/bootstrap-transition.js">
+        </script>
+        <script src="{{BASE_PATH}}/assets/bootstrap/js/bootstrap-carousel.js">
+        </script>
+        <link rel="shortcut icon" href="{{ ASSET_PATH }}/img/favicon.ico">
+        <script src="{{BASE_PATH}}/assets/bootstrap/js/bootstrap-collapse.js">
+        </script>
+        <!-- Le fav and touch icons -->
+        <!-- Update these with your own images <link rel="shortcut icon" href="images/favicon.ico">
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
     <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
     <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
   -->
-  </head>
+    </head>
+    
+    <body>
+        <div class="container">
+            <div class="content">
+                {{ content }}
+            </div>
+            <footer>
+                <div class="row">
+                    <div class="span3">
+                        <address>
+                            <strong>
+                                Ecotrust
+                            </strong>
+                            <br/>
+                            Tim Welch
+                            <br/>
+                            <abbr title="Phone">
+                                tel:
+                            </abbr>
+                            +1.503.467.0786
+                            <br/>
+                            email:
+                            <a href="mailto:madrona@ecotrust.org">madrona@ecotrust.org</a>
+                        </address>
+                    </div>
+                    <div class="span3">
+                        <iframe src="http://markdotto.github.com/github-buttons/github-
+btn.html?user=ecotrust&repo=madrona&type=watch" allowtransparency="true"
+                        frameborder="0" scrolling="0" width="62px" height="20px">
+                        </iframe>
+                        <br/>
+                        <a href="https://twitter.com/ecotrust" class="twitter-follow-button" data-show-
+                        count="false" data-size="medium" data-show-screen-name="false">Follow
+@ecotrust</a>
+                        <g:plusone annotation="inline">
+                        </g:plusone>
+                    </div>
+                    <div class="span3">
+                        <h3>
+                            Get Started
+                        </h3>
+                        <ul class="unstyled">
+                            <li>
+                                <a href="#">tutorials</a>
+                            </li>
+                            <li>
+                                <a href="#">installation</a>
+                            </li>
+                            <li>
+                                <a href="#">deployment</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="span3">
+                        <h3>
+                            Community Resources
+                        </h3>
+                        <ul class="unstyled">
+                            <li>
+                                <a href="http://www.github.com/ecotrust/madrona">github repository</a>
+                            </li>
+                            <li>
+                                <a href="http://www.github.com/ecotrust/madrona/issues">issue tracker</a>
+                            </li>
+                  
+                            <li>
+                                <a href="#">documentation</a>
+                            </li>
+                            <li>
+                                <a href="#">issue
+tracker</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <!-- /container -->
+        {% include JB/analytics %}
+    </body>
 
-  <body>
-    <div class="container">
-      <div class="content">
-        {{ content }}
-      </div>
-      <footer>
-        <div class="row">
-          <div class="span3">
-            <address>
-              <strong>Ecotrust</strong><br/>
-              Tim Welch<br/>
-              <abbr title="Phone">tel:</abbr> +1.503.467.0786<br/>
-              email: <a href="mailto:madrona@ecotrust.org">madrona@ecotrust.org</a>
-            </address>
-           </div>           
-          <div class="span3">
-<iframe src="http://markdotto.github.com/github-buttons/github-
-btn.html?user=ecotrust&repo=madrona&type=watch"
-allowtransparency="true" frameborder="0" scrolling="0" width="62px"
-height="20px"></iframe>            <br/>            <a
-href="https://twitter.com/ecotrust" class="twitter-follow-button" data-show-
-count="false" data-size="medium" data-show-screen-name="false">Follow
-@ecotrust</a>           <g:plusone annotation="inline"></g:plusone>
-</div>           
-  <div class="span3">
-    <h3>What is Madrona?</h3>
-<ul class="unstyled">               <li><a href="#">overview</a></li>
-<li><a href="#">install</a></li>                             <li><a
-href="#">case studies</a></li>               <li><a href="#">consulting
-services</a></li>               <li><a href="#">knowledge base</a></li>
-</ul>           </div>           <div class="span3">             <h3>Developer
-Resources</h3>               <ul class="unstyled">                 <li><a
-href="#">github</a></li>                 <li><a href="#">download</a></li>
-<li><a href="#">documentation</a></li>                 <li><a href="#">issue
-tracker</a></li>               </ul>           </div>         </div>
-</footer>     </div> <!-- /container -->     {% include JB/analytics %}
-</body> </html>
-
-
+</html>
 <!-- Place this render call where appropriate -->
 <script type="text/javascript">
   (function() {
-    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-    po.src = 'https://apis.google.com/js/plusone.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+      var po = document.createElement('script');
+      po.type = 'text/javascript';
+      po.async = true;
+      po.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(po, s);
   })();
 </script>
-
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+<script>
+!
+function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (!d.getElementById(id)) {
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "//platform.twitter.com/widgets.js";
+        fjs.parentNode.insertBefore(js, fjs);
+    }
+}(document, "script", "twitter-wjs");
+</script>
