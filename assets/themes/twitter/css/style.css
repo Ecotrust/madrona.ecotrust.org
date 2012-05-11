@@ -142,6 +142,7 @@ html, body {
 
 
 .carousel .item > img {
+	min-height: 400px;
 	width: 100%;	
 }
 .carousel .carousel-caption {

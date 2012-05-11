@@ -90,13 +90,26 @@ tagline: A framework for building spatial planning tools at any scale.
         </div>
       </div>
       <div class="item">
-        <img src="assets/img/fsp.png">
+        <img src="{{BASE_PATH}}/assets/img/experience/windmill-ocean.jpg">
         <div class="carousel-caption">
-          <h4>Second Thumbnail label</h4>
-          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+          <h4>Marine Decision Support</h4>
+          <p>The Mid-Atlantic Regional Council on the Ocean sought to engage community involvement in zoning nearshore waters for multiple uses.</p>
         </div>
       </div>
-      <div class="item"><img src="assets/img/fsp.png"></div>
+      <div class="item">
+        <img src="{{BASE_PATH}}/assets/img/experience/wwri.png">
+        <div class="carousel-caption">
+          <h4>Aquatic Priority Setting</h4>
+          <p>U.S. Fish and Wildlife Service needed a platform for conservation and restoration planning on sub-watershed scales across the Columbia River Basin.</p>
+        </div>
+      </div>
+      <div class="item">
+        <img src="assets/img/fsp.png">
+        <div class="carousel-caption">
+          <h4>Bioregional Discovery</h4>
+          <p>Ecotrust wanted to allow people all over the planet to visualize their bioregions and gain an appreciation of social and environmental assets and vulnerabilities.</p>
+        </div>
+      </div>
     </div>
     <!-- Carousel nav -->
     <a class="carousel-control left" href="#showcase" data-slide="prev">&lsaquo;</a>
