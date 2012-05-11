@@ -4,30 +4,14 @@ title: madrona spatial planning framework
 ---
 <div class="row">
 	<div class="span8">
-		<h2>Overview</h2>
-		<p>Ecotrust offers professional services, training and support for Madrona.  Whether you want to build your own capacity or leverage ours, we can meet your needs.</p>
-		<div class="row">
-			<div class="span1 offset1">
-				<img class="tall" src="{{ BASE_PATH }}/assets/img/collaboration.png">
-			</div>
-			<div class="span4"><strong>Learn more about the development team and our network of colleagues and partners.</strong></div>
-		</div>
-		<h2>Professional Services {{ page_url }}</h2>
-		<p>
-			Ecotrust has a deep understanding of how to design and apply tools for decision support and spatial planning and we offer a full set of professional services around the Madrona platform.  With all of our services we have the ability to mentor you so that you leave with an understanding of how to do things yourself. Please <a href="mailto:madrona@ecotrust.org">inquire</a> for more information.
-		</p>
-		<h3>Supplementary services</h3>
-	    <ul>
-	    	<li>Planning and decision-making process design</li>
-		    <li>Stakeholder engagement</li>
-		    <li>User experience</li>
-		    <li>GIS</li>
-		    <li>Survey design and data collection</li>
-		    <li>Socioeconomic analysis</li>
-		</ul>
-		<h3>Madrona services</h3>
+
+	<p>For over a decade, Ecotrust has been developing toolkits for decision support and spatial planning that leverage the power of GIS (geographic information systems).  We used that expertise to develop Madrona and we are commited to the stewardship of a community of open source developers on the project.</p>
+	<p>We also offer a full range of services and can help you design and implement effective spatial planning tools and processes with Madrona.  Regardless of your technology capacities, we can create a service package to meet your needs</p>
+	
+	<h2>Technology Services</h2>			
+
 		<ul>
-		    <li>Custom tool development using Madrona
+		    <li>Tool Development
     	    	<ul>
     	        	<li>Needs Assessment</li>
     		        <li>Design</li>
@@ -39,13 +23,32 @@ title: madrona spatial planning framework
     		        <li>Maintenance</li>
     		    </ul>	
     		</li>
-		    <li>Custom module development</li>
-		    <li>Core feature development</li>
+		    <li>Madrona feature/module development</li>
 		</ul>
 
-		<h2>Training</h2>
-		<p>We want to transfer our technical expertise to you by offering training specific to your needs.  Please <a href="mailto:madrona@ecotrust.org">inquire</a> for more information.</p>
+	<h2>Supplementary services</h2>
+    	<ul>
+    	    <li>Planning and decision-making process design</li>
+	    <li>Stakeholder engagement</li>
+	    <li>User experience</li>
+	    <li>GIS</li>
+	    <li>Survey design and data collection</li>
+	    <li>Socioeconomic analysis</li>
+	</ul>
+
+	<h2>Training</h2>
+	<p>We offer training to software developers in the use of Madrona to develop tools.  We can spend one up to as many as you need helping you building your capacity quickly.  Please inquire for more information</p>  	
+
+	<div class="row">
+		<div class="span1 offset1">
+			<img class="tall" src="{{ BASE_PATH }}/assets/img/collaboration.png">
+		</div>
+		<div class="span4"><strong>Learn more about the development team and our network of colleagues and partners.</strong></div>
+	</div>	
+
 	</div>
+
+	
 	<div class="span4">
 		<div class="row">
 			<ul class="thumbnails pull-right">
