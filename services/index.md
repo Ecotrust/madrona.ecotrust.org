@@ -4,28 +4,16 @@ title: madrona spatial planning framework
 ---
 <div class="row">
 	<div class="span8">
-		<h2>Overview</h2>
-		<p>Ecotrust offers professional services, training and support for Madrona.  Whether you want to build your own capacity or leverage ours, we can meet your needs.</p>
-		<div class="row">
-			<div class="span1 offset1">
-				<img class="tall" src="{{ BASE_PATH }}/assets/img/collaboration.png">
-			</div>
-			<div class="span4"><strong>Learn more about the development team and our network of colleagues and partners.</strong></div>
+
+	<div class="row">
+		<div class="span1 offset1">
+			<img class="tall" src="{{ BASE_PATH }}/assets/img/collaboration.png">
 		</div>
-		<h2>Professional Services {{ page_url }}</h2>
-		<p>
-			Ecotrust has a deep understanding of how to design and apply tools for decision support and spatial planning and we offer a full set of professional services around the Madrona platform.  With all of our services we have the ability to mentor you so that you leave with an understanding of how to do things yourself. Please <a href="mailto:madrona@ecotrust.org">inquire</a> for more information.
-		</p>
-		<h3>Supplementary services</h3>
-	    <ul>
-	    	<li>Planning and decision-making process design</li>
-		    <li>Stakeholder engagement</li>
-		    <li>User experience</li>
-		    <li>GIS</li>
-		    <li>Survey design and data collection</li>
-		    <li>Socioeconomic analysis</li>
-		</ul>
-		<h3>Madrona services</h3>
+		<div class="span4"><strong>Learn more about the development team and our network of colleagues and partners.</strong></div>
+	</div>
+	<p>For over a decade, Ecotrust has been developing toolkits for decision support and spatial planning that leverage the power of GIS (geographic information systems).  We've used that expertise to develop Madrona, a unique framework for spatial planning at any scale, in any social or environmental context.  We are the stewards of a community of open source developers for the Madrona project and we will continue to develop it and release new features over time.</p>
+	<h2>Services {{ page_url }}</h2>			
+
 		<ul>
 		    <li>Custom tool development using Madrona
     	    	<ul>
@@ -42,6 +30,17 @@ title: madrona spatial planning framework
 		    <li>Custom module development</li>
 		    <li>Core feature development</li>
 		</ul>
+
+		<h3>Supplementary services</h3>
+	    <ul>
+	    	<li>Planning and decision-making process design</li>
+		    <li>Stakeholder engagement</li>
+		    <li>User experience</li>
+		    <li>GIS</li>
+		    <li>Survey design and data collection</li>
+		    <li>Socioeconomic analysis</li>
+		</ul>
+
 
 		<h2>Training</h2>
 		<p>We want to transfer our technical expertise to you by offering training specific to your needs.  Please <a href="mailto:madrona@ecotrust.org">inquire</a> for more information.</p>
