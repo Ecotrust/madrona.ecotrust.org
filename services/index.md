@@ -39,13 +39,16 @@ title: madrona spatial planning framework
 
 	<h2>Training</h2>
 	<p>We offer training to software developers in the use of Madrona to develop tools.  We can spend one up to as many as you need helping you building your capacity quickly.  Please inquire for more information</p>  
-	</div>
+
 	<div class="row">
 		<div class="span1 offset1">
 			<img class="tall" src="{{ BASE_PATH }}/assets/img/collaboration.png">
 		</div>
 		<div class="span4"><strong>Learn more about the development team and our network of colleagues and partners.</strong></div>
 	</div>		
+	
+	</div>
+
 	
 	<div class="span4">
 		<div class="row">
