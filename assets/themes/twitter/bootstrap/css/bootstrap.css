@@ -6,8 +6,6 @@
  * http://www.apache.org/licenses/LICENSE-2.0
  *
  * Designed and built with all the love in the world @twitter by @mdo and @fat.
-
-included?
  */
 
 article,
@@ -156,8 +154,8 @@ textarea {
 body {
   margin: 0;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 13px;
+  line-height: 18px;
   color: #333333;
   background-color: #ffffff;
 }
@@ -421,8 +419,8 @@ a:hover {
 p {
   margin: 0 0 9px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 13px;
+  line-height: 18px;
 }
 
 p small {
@@ -470,8 +468,8 @@ h1 small {
 }
 
 h2 {
-  font-size: 28px;
-  line-height: 40px;
+  font-size: 24px;
+  line-height: 36px;
 }
 
 h2 small {
