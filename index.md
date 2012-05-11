@@ -9,58 +9,66 @@ tagline: A framework for building spatial planning tools at any scale.
     <div class="bugs">
       <div class="row">
         <div class="span3">
-          <div class="bug">
-            <div class="row">
-              <div class="pull-left icon">
-                <img class="tall" src="assets/img/features.png">
-              </div>
-              <div class="pull-left">
-                <h4>Spatial&nbsp;Features</h4>
-                <p>define, sketch, share</p>
+          <a href="{{ BASE_PATH }}/technology/#spatial_features">
+            <div class="bug">
+              <div class="row">
+                <div class="pull-left icon">
+                  <img class="tall" src="assets/img/features.png">
+                </div>
+                <div class="pull-left">
+                  <h4>Spatial&nbsp;Features</h4>
+                  <p>define, sketch, share</p>
+                </div>
               </div>
             </div>
-          </div>
+          </a>
         </div>
         <div class="span3">
-          <div class="bug">
-            <div class="row">
-              <div class="pull-left icon">
-                <img src="assets/img/layers.png">
-              </div>
-              <div class="pull-left">
-                <h4>Data&nbsp;Layers</h4>
-                <p>public and private</p>
+          <a href="{{ BASE_PATH }}/technology/#data_layers">
+            <div class="bug">
+              <div class="row">
+                <div class="pull-left icon">
+                  <img src="assets/img/layers.png">
+                </div>
+                <div class="pull-left">
+                  <h4>Data&nbsp;Layers</h4>
+                  <p>public and private</p>
+                </div>
               </div>
             </div>
-          </div>
+          </a>
         </div>
       </div>
       <div class="row">
         <div class="span3">
-          <div class="bug">
-            <div class="row">
-              <div class="pull-left icon">
-                <img class="tall" src="assets/img/collaboration.png">
-              </div>
-              <div class="pull-left">
-                <h4>Collaboration</h4>
-                <p>consensus driven</p>
+          <a href="{{ BASE_PATH }}/technology/#collaboration">
+            <div class="bug">
+              <div class="row">
+                <div class="pull-left icon">
+                  <img class="tall" src="assets/img/collaboration.png">
+                </div>
+                <div class="pull-left">
+                  <h4>Collaboration</h4>
+                  <p>consensus driven</p>
+                </div>
               </div>
             </div>
-          </div>
+          </a>
         </div>
         <div class="span3">
-          <div class="bug">
-            <div class="row">
-              <div class="pull-left icon">
-                <img src="assets/img/analysis.png">
-              </div>
-              <div class="pull-left">
-                <h4>Flexible&nbsp;Analysis</h4>
-                <p>visualize and report</p>
+          <a href="{{ BASE_PATH }}/technology/#flexible_analysis">
+            <div class="bug">
+              <div class="row">
+                <div class="pull-left icon">
+                  <img src="assets/img/analysis.png">
+                </div>
+                <div class="pull-left">
+                  <h4>Flexible&nbsp;Analysis</h4>
+                  <p>visualize and report</p>
+                </div>
               </div>
             </div>
-          </div>
+          </a>
         </div>
       </div>
     </div>

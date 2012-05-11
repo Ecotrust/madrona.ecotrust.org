@@ -56,41 +56,41 @@ title: madrona spatial planning framework
 			</ul>
 		</div>
 		<div class="row">
-			<form class="form-vertical">
+			<form class="form-vertical" action="mailto:madrona@ecotrust.org" enctype="text/plain" method="post">
 				<fieldset>
 					<legend>Contact Us</legend>
 					<div class="control-group">
 						<label class="control-label" for="input01">Email Address</label>
 						<div class="controls">
-							<input type="email" class="span4"/>
+							<input type="email" name="email" class="span4"/>
 							<p class="help-block"></p>
 						</div>
 					</div>
 					<div class="control-group">
 						<label class="control-label" for="input01">Name</label>
 						<div class="controls">
-							<input type="email" class="span4"/>
+							<input type="text" name="name" class="span4"/>
 							<p class="help-block"></p>
 						</div>
 					</div>
 					<div class="control-group">
 						<label class="control-label">Organization</label>
 						<div class="controls">
-							<input type="email" id="input01" class="span4"/>
+							<input type="text" name="organization" class="span4"/>
 							<p class="help-block"></p>
 						</div>
 					</div>
 					<div class="control-group">
 						<label class="control-label" for="input01">Phone Number</label>
 						<div class="controls">
-							<input type="email" class="span4"/>
+							<input type="tel" name="telephone" class="span4"/>
 							<p class="help-block"></p>
 						</div>
 					</div>
 					<div class="control-group">
 						<label class="control-label" for="input01">Message</label>
 						<div class="controls">
-			              <textarea class="span4" id="textarea" rows="4">
+			              <textarea class="span4" name="message" rows="4">
 			              </textarea>
 			            </div>
 					</div>
