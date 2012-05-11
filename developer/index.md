@@ -48,9 +48,9 @@ title: madrona spatial planning framework
     <h3>Commits</h3>
      <table id="commits-table" class="table table-striped table-condensed table-bordered">
       <tbody data-bind="foreach: $data">
-        <tr>
+        <tr class="commits-row" data-bind="attr: { 'data-content': commit.message }">
           <td><span data-bind="text: author.login"></span></td>
-          <td><a data-bind="attr: { href: url }"><span data-bind="text: commit.message"></span></a></td>
+          <td><a data-bind="attr: { href: getCommitUrl(url()) }"><span data-bind="text: commit.message"></span></a></td>
           <td><span data-bind="text: formatDate(commit.author.date())"></span></td>
         </tr>
       </tbody>
@@ -58,7 +58,7 @@ title: madrona spatial planning framework
     <h3>Issues</h3>
      <table id="issues-table" class="table table-striped table-condensed table-bordered">
       <tbody data-bind="foreach: $data">
-        <tr>
+        <tr class="issue-row" data-bind="attr: { 'data-content': body, 'data-original-title': 'Issue Text' }">
           <td><span data-bind="text: user.login"></span></td>
           <td><a data-bind="attr: { href: html_url } "><span data-bind="text: title"></span></a></td>
           <td><span data-bind="text: formatDate(updated_at())"></span></td>
@@ -72,6 +72,12 @@ title: madrona spatial planning framework
 <script>
 var viewModel = {};
 
+window.getCommitUrl = function(url) {
+  var base = 'https://github.com/Ecotrust/madrona/commit/',
+      urlParts = url.split('/');
+      return base + urlParts[urlParts.length-1];
+}
+
 window.formatDate = function(dateString) {
   var date = new Date(Date.parse(dateString));
   return [ date.getMonth() + 1, date.getDate(), date.getFullYear()].join('/');
@@ -79,7 +85,10 @@ window.formatDate = function(dateString) {
 
 
 $(document).ready(function () {
-
+  var popoverOptions = {
+    placement: 'bottom',
+    html: true
+  }
   
   $.ajax({
     url: 'https://api.github.com/repos/ecotrust/madrona/commits?per_page=5',
@@ -88,6 +97,7 @@ $(document).ready(function () {
     success: function (res) {
       viewModel.commits = ko.mapping.fromJS(res.data);
       ko.applyBindings(viewModel.commits, document.getElementById('commits-table'));
+      // $(".commits-row").popover(popoverOptions);
     }});
   $.ajax({
     url: 'https://api.github.com/repos/ecotrust/madrona/issues?per_page=5',
@@ -96,6 +106,8 @@ $(document).ready(function () {
     success: function (res) {
       viewModel.issues = ko.mapping.fromJS(res.data);
       ko.applyBindings(viewModel.issues, document.getElementById('issues-table'));
+      $(".issue-row").popover(popoverOptions);
+
     }});
 
 
