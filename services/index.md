@@ -6,31 +6,26 @@ title: madrona spatial planning framework
 	<div class="span8">
 
 	<p>For over a decade, Ecotrust has been developing toolkits for decision support and spatial planning that leverage the power of GIS (geographic information systems).  We used that expertise to develop Madrona and we are commited to the stewardship of a community of open source developers on the project.</p>
-	<p>We also offer a full range of services and can help you design and implement effective spatial planning tools and processes with Madrona.  Regardless of your technology capacities, we can create a service package to meet your needs</p>
+	<p>We also offer a full range of services and can help you design and implement effective spatial planning tools and processes with Madrona.  Regardless of your technology capacities, we can create a service package to meet your needs.</p>
 	
 	<h2>Technology Services</h2>			
-
+		<p>Do you need a single feature developed or an entire tool?  We have a team of developers and designers ready to help you out.</p>
 		<ul>
-		    <li>Tool Development
-    	    	<ul>
-    	        	<li>Needs Assessment</li>
-    		        <li>Design</li>
-    		        <li>Development</li>
-    		        <li>Integration with other software</li>
-    		        <li>Usability testing</li>
-    		        <li>Hosting and deployment</li>
-    		        <li>User Training</li>
-    		        <li>Maintenance</li>
-    		    </ul>	
-    		</li>
-		    <li>Madrona feature/module development</li>
-		</ul>
+			<li>Needs Assessment</li>
+			<li>User experience design</li>
+			<li>Graphic Design</li>
+			<li>Code Development</li>
+			<li>Third-party software integration</li>
+			<li>Usability testing</li>
+			<li>Hosting and deployment</li>
+			<li>User Training</li>
+			<li>Maintenance</li>
+		</ul>	
 
 	<h2>Supplementary services</h2>
     	<ul>
     	    <li>Planning and decision-making process design</li>
 	    <li>Stakeholder engagement</li>
-	    <li>User experience</li>
 	    <li>GIS</li>
 	    <li>Survey design and data collection</li>
 	    <li>Socioeconomic analysis</li>
