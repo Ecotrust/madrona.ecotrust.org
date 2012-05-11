@@ -302,20 +302,23 @@ title: madrona spatial planning framework
 	</div>
 </div>
 <script>
-$(document).ready(function () {
+window.onload = function () {
 	var $accordion = $('#accordion2');
 		initial = $accordion.offset().top,
 		scrollHandler = function () {  
 			var scrollTop = $(window).scrollTop(),
 				offset = $accordion.offset().top;
-			
-			if (scrollTop > initial - 50) {
-				$accordion.offset({ top: scrollTop +50 });
-			} else {
-				$accordion.offset({ top: initial });			
+			console.log('scrolltop ', scrollTop);
+			console.log('offset ', offset);
+			console.log('initial ', initial)
+			console.log(scrollTop >= offset);
+			if (scrollTop > offset + 50) {
+				$accordion.offset({ top: scrollTop + 100 });
+			}  else {
+			  	$accordion.offset({ top: scrollTop > initial? scrollTop + 100: initial })
 			}
 		}
 	scrollHandler();
 	$(window).scroll(scrollHandler);
-});
+};
 </script>
