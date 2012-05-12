@@ -12,27 +12,29 @@ tagline: A framework for building spatial planning tools at any scale.
           <a href="{{ BASE_PATH }}/technology/#spatial_features">
             <div class="bug">
               <div class="row">
-                <div class="pull-left icon">
-                  <img class="tall" src="{{ BASE_PATH }}/assets/img/features.png">
+                <div class="header">
+                  <h3><img src="{{ BASE_PATH }}/assets/img/features.png">
+                    <span>Spatial&nbsp;Features</span>
+                  </h3>
                 </div>
-                <div class="pull-left">
-                  <h4>Spatial&nbsp;Features</h4>
-                  <p>define, sketch, share</p>
+                <div class="text">
+                  <p><strong>define, sketch, share</strong></p>
                 </div>
               </div>
             </div>
           </a>
         </div>
         <div class="span3">
-          <a href="{{ BASE_PATH }}/technology/#data_layers">
+            <a href="{{ BASE_PATH }}/technology/#data_layers">
             <div class="bug">
               <div class="row">
-                <div class="pull-left icon">
-                  <img src="{{ BASE_PATH }}/assets/img/layers.png">
+                <div class="header">
+                  <h3><img src="{{ BASE_PATH }}/assets/img/layers.png">
+                    <span>Data Layers</span>
+                  </h3>
                 </div>
-                <div class="pull-left">
-                  <h4>Data&nbsp;Layers</h4>
-                  <p>public and private</p>
+                <div class="text">
+                  <p><strong>public and private</strong></p>
                 </div>
               </div>
             </div>
@@ -44,12 +46,11 @@ tagline: A framework for building spatial planning tools at any scale.
           <a href="{{ BASE_PATH }}/technology/#collaboration">
             <div class="bug">
               <div class="row">
-                <div class="pull-left icon">
-                  <img class="tall" src="{{ BASE_PATH }}/assets/img/collaboration.png">
+                <div class="header">
+                  <h3><img src="{{ BASE_PATH }}/assets/img/collaboration.png"><span class="wide">Collaboration</span></h3>
                 </div>
-                <div class="pull-left">
-                  <h4>Collaboration</h4>
-                  <p>consensus driven</p>
+                <div class="text">
+                  <p><strong>consensus driven</strong></p>
                 </div>
               </div>
             </div>
@@ -59,12 +60,11 @@ tagline: A framework for building spatial planning tools at any scale.
           <a href="{{ BASE_PATH }}/technology/#flexible_analysis">
             <div class="bug">
               <div class="row">
-                <div class="pull-left icon">
-                  <img src="{{ BASE_PATH }}/assets/img/analysis.png">
+                <div class="header">
+                  <h3><img src="{{ BASE_PATH }}/assets/img/analysis.png"><span class="wide">Flexible Analysis</span></h3>
                 </div>
-                <div class="pull-left">
-                  <h4>Flexible&nbsp;Analysis</h4>
-                  <p>visualize and report</p>
+                <div class="text">
+                  <p><strong>visualize and report</strong></p>
                 </div>
               </div>
             </div>

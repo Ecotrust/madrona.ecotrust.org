@@ -298,19 +298,25 @@ active: technology
 </div>
 <script>
 window.onload = function () {
-	var $accordion = $('#accordion2');
+	var timer, $accordion = $('#accordion2');
 		initial = $accordion.offset().top,
 		scrollHandler = function () {  
 			var scrollTop = $(window).scrollTop(),
 				offset = $accordion.offset().top;
 			
 			if (scrollTop > offset + 100) {
-				$accordion.offset({ top: scrollTop + 100 });
+				$accordion.animate({ top: scrollTop + 100 }, 500);
 			}  else {
-			  	$accordion.offset({ top: scrollTop > initial? scrollTop + 100: initial })
+			  	$accordion.animate({ top: scrollTop > initial? scrollTop + 100: initial },
+			  		500);
 			}
 		}
 	scrollHandler();
-	$(window).scroll(scrollHandler);
+	$(window).scroll(function () {
+		if (timer) {
+			clearTimeout(timer);
+		}
+		timer = setTimeout(scrollHandler, 50);
+	});
 };
 </script>
