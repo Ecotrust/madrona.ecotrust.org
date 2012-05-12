@@ -1,6 +1,6 @@
 ---
 layout: page
 title: madrona spatial planning framework
-active: experience
+tagline: create. analyze. decide.
 ---
 this

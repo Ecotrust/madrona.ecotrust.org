@@ -19,21 +19,28 @@
 		<div class="primary-nav">
 			<div class="pull-right">
 				<ul class="nav nav-pills">
-				    <li class="active">
+				    <li id="services">
 				    	<a href="{{ BASE_PATH }}/services"><h4>
-				    	<img src="{{ BASE_PATH }}/assets/img/tree-icon-white.png"> services</h4></a>
+				    	<img src="{{ BASE_PATH }}/assets/img/tree-icon.png"> services</h4></a>
 				    </li>
-					<li><a href="{{ BASE_PATH }}/experience">
+					<li id="experience"><a href="{{ BASE_PATH }}/experience">
 						<h4><img src="{{ BASE_PATH }}/assets/img/tree-icon.png">  experience</h4></a></li>
-					<li><a href="{{ BASE_PATH }}/technology">
+					<li id="technology"><a href="{{ BASE_PATH }}/technology">
 						<h4><img src="{{ BASE_PATH }}/assets/img/tree-icon.png"> technology</h4></a></li>
-					<li><a href="{{ BASE_PATH }}/developer">
+					<li id="developer"><a href="{{ BASE_PATH }}/developer">
 						<h4><img src="{{ BASE_PATH }}/assets/img/tree-icon.png"> developer</h4></a></li>
 				</ul>
 			</div>
 		</div>
 	</div>
 </div>
+
+<script>
+var id = '{{ page.active }}';
+if (id) {
+document.getElementById(id).className = "active";
+}
+</script>
 <div class="row">
 	<div class="primary-content">
 	  <div class="span12">

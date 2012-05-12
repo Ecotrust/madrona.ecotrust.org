@@ -1,6 +1,7 @@
 ---
 layout: page
 title: madrona spatial planning framework
+active: developer
 ---
 {% include JB/setup %}
 <div class="row">

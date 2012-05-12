@@ -1,6 +1,7 @@
 ---
 layout: page
-title: madrona spatial planning framework   
+title: madrona spatial planning framework
+active: technology  
 ---
 <div class="row">
 	<div class="span8">
