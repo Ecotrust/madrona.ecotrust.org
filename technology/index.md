@@ -41,10 +41,10 @@ active: technology
 		<h3>Collaboration</h3>
 		<a name="flexible_analysis"> </a>
 		<h3>Flexible Analysis</h3>
-		The analysistools module provides a toolkit to standardize interaction with external modeling/analysis software.  http://ecotrust.github.com/madrona/docs/analysistools.html
+		<p>The analysistools module provides a toolkit to standardize interaction with external modeling/analysis software.  http://ecotrust.github.com/madrona/docs/analysistools.html</p>
 		<a name="study_regions"> </a>
 		<h3>Study Regions</h3>
-		We designed the study region concept as a central component of marinemap/madrona implementations. It is used by default manipulators and to zoom the initial map view. If you want to implement custom zooming mechanisms or custom manipulators, those will occur as customizations at the project code level.  http://ecotrust.github.com/madrona/docs/studyregion.html
+		<p>We designed the study region concept as a central component of marinemap/madrona implementations. It is used by default manipulators and to zoom the initial map view. If you want to implement custom zooming mechanisms or custom manipulators, those will occur as customizations at the project code level.  http://ecotrust.github.com/madrona/docs/studyregion.html</p>
 		<a name="manipulators"> </a>
 		<h3>Manipulators</h3>
 		<p>There are many cases in which a user-defined geometry needs to be modified or cleaned by an automated process. This process can be initiated the user as a tool or context action, or as part of the initial creation of a new feature. Typically, the user is provided an opportunity to review any changes made to their geometry.  Individual manipulators can be applied in series producing the desired output.  Use cases might include:</p>
@@ -209,7 +209,6 @@ active: technology
 	</div>
 	<div class="span4">
 		<div class="row">
-			<h3>Content</h3>
 			<div id="accordion2" class="accordion">
 	            <div class="accordion-group">
 	              <div class="accordion-heading">
