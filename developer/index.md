@@ -8,34 +8,74 @@ title: madrona spatial planning framework
     <div class="bugs">
       <div class="row">
         <div class="span3">
-          <a href="{{ BASE_PATH }}/technology/#spatial_features">
             <div class="bug">
               <div class="row">
                 <div class="pull-left icon">
-                  <img  src="{{ BASE_PATH }}/assets/img/github.png">
+                  <a href="http://www.github.com/ecotrust/madrona">
+                    <img  src="{{ BASE_PATH }}/assets/img/github.png">
+                  </a>
                 </div>
                 <div class="pull-left">
-                  <h4>Madrona on Github</h4>
-                  <p>define, sketch, share</p>
+                  <h4><a href="http://www.github.com/ecotrust/madrona">Madrona on Github</a></h4>
+                  <ul class="unstyled">
+                    <li><a href="http://www.github.com/ecotrust/madrona">Source Code</a></li>
+                    <li><a href="http://www.github.com/ecotrust/madrona/issues">Issues</a></li>
+                  </ul>
                 </div>
               </div>
             </div>
-          </a>
         </div>
         <div class="span3">
-          <a href="http://ecotrust.github.com/madrona/docs/">
             <div class="bug">
               <div class="row">
                 <div class="pull-left icon">
-                  <img src="{{ BASE_PATH }}/assets/img/documentation.png">
+                  <a href="http://ecotrust.github.com/madrona/docs/"><img src="{{ BASE_PATH }}/assets/img/documentation.png"></a>
                 </div>
                 <div class="pull-left">
-                  <h4>Documentation</h4>
-                  <p>public and private</p>
+                  <h4><a href="http://ecotrust.github.com/madrona/docs/">Documentation</a></h4>
+                  <ul class="unstyled">
+                    <li><a href="http://ecotrust.github.com/madrona/docs/tutorial.html">Tutorials</a></li>
+                    <li><a href="http://ecotrust.github.com/madrona/docs/tutorial.html">Installation</a></li>
+                  </ul>
                 </div>
               </div>
             </div>
-          </a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="span3">
+            <div class="bug">
+              <div class="row">
+                <div class="pull-left icon">
+                  <a href="http://www.github.com/ecotrust/madrona">
+                    <img  src="{{ BASE_PATH }}/assets/img/download.png">
+                  </a>
+                </div>
+                <div class="pull-left">
+                  <h4><a href="http://www.github.com/ecotrust/madrona">Download</a></h4>
+                  <ul class="unstyled">
+                    <li><a href="https://github.com/Ecotrust/madrona/wiki/Madrona-Virtual-Machine">VirtualBox Image</a></li>
+                    <li><a href="https://github.com/Ecotrust/madrona/downloads">Archive</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="span3">
+            <div class="bug">
+              <div class="row">
+                <div class="pull-left icon">
+                  <a href="http://ecotrust.github.com/madrona/docs/"><img src="{{ BASE_PATH }}/assets/img/hourglass.png"></a>
+                </div>
+                <div class="pull-left">
+                  <h4><a href="http://ecotrust.github.com/madrona/docs/">Project Status</a></h4>
+                  <ul class="unstyled">
+                    <li><a href="{{ BASE_PATH }}/experience/history.html">History</a></li>
+                    <li><a href="{{ BASE_PATH }}/developer/roadmap.html">Roadmap</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
         </div>
       </div>
     </div>

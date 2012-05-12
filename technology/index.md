@@ -208,11 +208,6 @@ title: madrona spatial planning framework
 	</div>
 	<div class="span4">
 		<div class="row">
-			<ul class="thumbnails pull-right">
-				<li class="span4"><a class="thumbnail"><img alt="" src="http://placehold.it/360x268"></a></li>
-			</ul>
-		</div>
-		<div class="row">
 			<h3>Content</h3>
 			<div id="accordion2" class="accordion">
 	            <div class="accordion-group">
