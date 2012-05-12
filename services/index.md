@@ -6,10 +6,10 @@ active: services
 <div class="row">
     <div class="span8">
 
-    <p>For over a decade, Ecotrust has been developing toolkits for decision support and spatial planning that leverage the power of GIS (geographic information systems).  We used that expertise to develop Madrona and we are commited to the stewardship of a community of open source developers on the project.</p>
-    <p>We also offer a full range of services and can help you design and implement effective spatial planning tools and processes with Madrona.  Regardless of your technology capacities, we can create a service package to meet your needs.</p>
+    <p>For over a decade, Ecotrust has been developing toolkits for decision support and spatial planning that leverage the power of GIS (geographic information systems).  We used that expertise to develop Madrona and we are commited to stewarding a community of open source developers around it.</p>
+    <p>We offer a full range of services and can help you design and implement effective spatial planning tools and processes with Madrona.  Regardless of your technology capacities, we can create a service package to meet your needs.</p>
     
-    <h2>Technology Services</h2>            
+    <h2><img src='http://placehold.it/40x40'/>Technology Services</h2>            
         <p>Do you need a single feature developed or an entire tool?  We have a team of developers and designers ready to help you out.  Service areas include:</p>
         <ul>
             <li>Needs Assessment</li>
@@ -22,7 +22,7 @@ active: services
             <li>Maintenance</li>
         </ul>   
 
-    <h2>Technology Training</h2>
+    <h2><img src='http://placehold.it/40x40'/>Technology Training</h2>
 
         <p>Interested in developing tools with Madrona but need assistance?  We can tailor a training package to meet your needs whether it's one day or a week, in person or virtually.  Training areas include:</p>
 
@@ -33,7 +33,18 @@ active: services
             <li>Hosting and deployment</li>
         </ul>
 
-    <h2>Supplementary services</h2>
+    <h2><img src='http://placehold.it/40x40'/>Technology Support</h2>
+
+        <p>Interested in developing tools with Madrona but need assistance?  We can tailor a training package to meet your needs whether it's one day or a week, in person or virtually.  Training areas include:</p>
+
+        <ul>
+            <li>Installation and configuration</li>
+            <li>Designing and developing a tool</li>
+            <li>Best practices</li>
+            <li>Hosting and deployment</li>
+        </ul>
+
+    <h2><img src='http://placehold.it/40x40'/>Supplementary services</h2>
         <p>Do you need expertise beyond tool development?  Ecotrust offers a wide range of supplementary services for decision support and spatial planning including:</p>        
         <ul>
         <li>Planning and decision-making process design</li>
