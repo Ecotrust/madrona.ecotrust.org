@@ -6,7 +6,7 @@ active: services
 <div class="row">
     <div class="span7">
 
-    <p>For over a decade, Ecotrust has been developing toolkits for decision support and spatial planning that leverage the power of GIS (geographic information systems).  We used that expertise to develop Madrona and we are commited to stewarding a community of open source developers around it.</p>
+    <p>For over a decade, Ecotrust has been developing toolkits for decision support and spatial planning that leverage the power of GIS (geographic information systems).  We have used that expertise to develop Madrona.</p>
     <p>We offer a full range of services and can help you design and implement effective spatial planning tools and processes with Madrona.  Regardless of your technology capacities, we can create a service package to meet your needs.</p>
     
     <h2>Technology Services</h2>            
@@ -35,7 +35,7 @@ active: services
 
     <h2>Technology Support</h2>
 
-        <p>If you have technical questions, join the <a href='https://groups.google.com/group/madrona-users'>Madrona user group</a> and ask away!  If you need dedicated help from our team, contact us.</p>
+        <p>If you have technical questions, join the <a href='https://groups.google.com/group/madrona-users'>Madrona user group</a> and ask away!  We are commited to stewarding a community of open source developers and practitioners.  If you need dedicated help from our team, contact us.</p>
 
     <h2>Supplementary services</h2>
         <p>Do you need expertise beyond tool development?  Ecotrust offers a wide range of supplementary services for decision support and spatial planning including:</p>        
@@ -59,7 +59,7 @@ active: services
             <div class="span1 offset1">
                 <img class="tall" src="{{ BASE_PATH }}/assets/img/collaboration.png">
             </div>
-            <div class="span4"><strong>Learn more about the development team and our network of colleagues and partners.</strong></div>
+            <div class="span4"><strong><a href="{{ BASE_PATH }}/experience/whois.html">Learn more about the development team and our network of colleagues and partners.</a></strong></div>
         </div>  
         <div class="row">
             <form class="form-vertical" action="mailto:madrona@ecotrust.org" enctype="text/plain" method="post">
