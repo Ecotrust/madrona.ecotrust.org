@@ -4,12 +4,12 @@ title: madrona spatial planning framework
 active: services
 ---
 <div class="row">
-    <div class="span8">
+    <div class="span7">
 
     <p>For over a decade, Ecotrust has been developing toolkits for decision support and spatial planning that leverage the power of GIS (geographic information systems).  We used that expertise to develop Madrona and we are commited to stewarding a community of open source developers around it.</p>
     <p>We offer a full range of services and can help you design and implement effective spatial planning tools and processes with Madrona.  Regardless of your technology capacities, we can create a service package to meet your needs.</p>
     
-    <h2><img src='http://placehold.it/40x40'/>Technology Services</h2>            
+    <h2>Technology Services</h2>            
         <p>Do you need a single feature developed or an entire tool?  We have a team of developers and designers ready to help you out.  Service areas include:</p>
         <ul>
             <li>Needs Assessment</li>
@@ -22,7 +22,7 @@ active: services
             <li>Maintenance</li>
         </ul>   
 
-    <h2><img src='http://placehold.it/40x40'/>Technology Training</h2>
+    <h2>Technology Training</h2>
 
         <p>Interested in developing tools with Madrona but need assistance?  We can tailor a training package to meet your needs whether it's one day or a week, in person or virtually.  Training areas include:</p>
 
@@ -33,11 +33,11 @@ active: services
             <li>Hosting and deployment</li>
         </ul>
 
-    <h2><img src='http://placehold.it/40x40'/>Technology Support</h2>
+    <h2>Technology Support</h2>
 
         <p>If you have technical questions, join the <a href='https://groups.google.com/group/madrona-users'>Madrona user group</a> and ask away!  If you need dedicated help from our team, contact us.</p>
 
-    <h2><img src='http://placehold.it/40x40'/>Supplementary services</h2>
+    <h2>Supplementary services</h2>
         <p>Do you need expertise beyond tool development?  Ecotrust offers a wide range of supplementary services for decision support and spatial planning including:</p>        
         <ul>
         <li>Planning and decision-making process design</li>
@@ -54,7 +54,7 @@ active: services
     </div>
 
     
-    <div class="span4">
+    <div class="span5">
         <div class="row">
             <div class="span1 offset1">
                 <img class="tall" src="{{ BASE_PATH }}/assets/img/collaboration.png">
@@ -68,41 +68,41 @@ active: services
                     <div class="control-group">
                         <label class="control-label" for="input01">Email Address</label>
                         <div class="controls">
-                            <input type="email" name="email" class="span4"/>
+                            <input type="email" name="email" class="span5"/>
                             <p class="help-block"></p>
                         </div>
                     </div>
                     <div class="control-group">
                         <label class="control-label" for="input01">Name</label>
                         <div class="controls">
-                            <input type="text" name="name" class="span4"/>
+                            <input type="text" name="name" class="span5"/>
                             <p class="help-block"></p>
                         </div>
                     </div>
                     <div class="control-group">
                         <label class="control-label">Organization</label>
                         <div class="controls">
-                            <input type="text" name="organization" class="span4"/>
+                            <input type="text" name="organization" class="span5"/>
                             <p class="help-block"></p>
                         </div>
                     </div>
                     <div class="control-group">
                         <label class="control-label" for="input01">Phone Number</label>
                         <div class="controls">
-                            <input type="tel" name="telephone" class="span4"/>
+                            <input type="tel" name="telephone" class="span5"/>
                             <p class="help-block"></p>
                         </div>
                     </div>
                     <div class="control-group">
                         <label class="control-label" for="input01">Message</label>
                         <div class="controls">
-                          <textarea class="span4" name="message" rows="4">
+                          <textarea class="span5" name="message" rows="4">
                           </textarea>
                         </div>
                     </div>
                 </fieldset>
                 <div class="row">
-                    <div class="span4">
+                    <div class="span5">
                         <div class="pull-right">    
                             <button class="btn btn-success" type="submit">Send Message</button>
                         </div>

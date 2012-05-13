@@ -1,7 +1,8 @@
+---
+---
 /* Override some defaults */
 html, body {
   background-color: #eee;
-	background-image: url('../img/rough_diagonal.png');
 
 }
 
@@ -135,9 +136,9 @@ html, body {
 		-moz-border-radius: 10px;
 		border-radius: 10px;
 
-	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
-	   -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
-	        box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+	-webkit-box-shadow: 0 4px 4px -2px gray;
+	   -moz-box-shadow: 0 4px 4px -2px gray;
+	        box-shadow: 0 4px 4px -2px gray;
 }
 
 .bug p {
@@ -162,6 +163,7 @@ html, body {
 }
 .bug .header {
 	padding-left: 5px;
+	padding-bottom: 3px;
 	background-color: #81A632;
 	font-size: 28px;
 	letter-spacing: 1.5px;
@@ -173,9 +175,6 @@ html, body {
 	-webkit-border-top-right-radius: 10px;
 	-moz-border-top-right-radius: 10px;
 	border-top-right-radius: 10px;
-	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
-	   -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
-	        box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
 	font-weight: 600!important; 
 }
 
@@ -210,6 +209,28 @@ html, body {
 .carousel .carousel-caption {
 	
 
+}
+
+h2 {
+
+	width: 90%;
+	padding-left: 35px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	background-image: url({{BASE_PATH}}/assets/img/tree-icon.png);
+	background-repeat: no-repeat;
+	background-position: 5px 2px;
+	background-color: #81A632;
+	color: #f2f2f2;
+	-webkit-border-top-left-radius: 10px;
+		-moz-border-top-left-radius: 10px;
+		border-top-left-radius: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-moz-border-bottom-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+		-webkit-box-shadow: 0 4px 4px -2px gray;
+	   -moz-box-shadow: 0 4px 4px -2px gray;
+	        box-shadow: 0 4px 4px -2px gray;
 }
 
 /* tag_box ======================================================== */

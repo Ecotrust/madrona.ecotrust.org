@@ -305,10 +305,9 @@ window.onload = function () {
 				offset = $accordion.offset().top;
 			
 			if (scrollTop > offset + 100) {
-				$accordion.animate({ top: scrollTop + 100 }, 500);
+				$accordion.offset({ top: scrollTop + 100 });
 			}  else {
-			  	$accordion.animate({ top: scrollTop > initial? scrollTop + 100: initial },
-			  		500);
+			  	$accordion.offset({ top: scrollTop > initial? scrollTop + 100: initial });
 			}
 		}
 	scrollHandler();
@@ -316,7 +315,7 @@ window.onload = function () {
 		if (timer) {
 			clearTimeout(timer);
 		}
-		timer = setTimeout(scrollHandler, 50);
+		timer = setTimeout(scrollHandler, 20);
 	});
 };
 </script>
