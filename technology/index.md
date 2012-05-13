@@ -5,6 +5,17 @@ active: technology
 ---
 <div class="row">
 	<div class="span8">
+		<ul>
+	        <li><a href="https://www.djangoproject.com/">Django</a></li>
+	        <li><a href="http://geodjango.org/">GeoDjango</a></li>
+	        <li><a href="http://postgis.refractions.net/">PostGIS</a></li>
+	        <li><a href="http://mapnik.org/">Mapnik</a></li>
+	        <li><a href="http://jquery.com/">JQuery</a></li>
+	        <li><a href="https://developers.google.com/earth/">Google Earth Plugin</a></li>
+	        <li><a href="http://code.google.com/p/earth-api-utility-library/">Google Earth API Util</a></li>
+	        <li><a href="http://code.google.com/p/kmltree/">KmlTree</a></li>	        
+	    </ul>
+
 		<h2>Philosophy</h2>
 		<p>Madrona was created to make lots of choices out of the box for you while providing lots of options, so you can get to the fun part of building tools right away.</p>
 		<p>You, the web programmer, are still required to make many choices about your application and Madrona gives you the building blocks you need to piece together your mental model of the problem quickly without getting distracted by the nuts and bolts.</p>
