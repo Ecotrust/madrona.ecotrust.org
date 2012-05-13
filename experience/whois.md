@@ -23,9 +23,9 @@ active: experience
 
 	<p><img style='float:left' src='http://placehold.it/50x50'/><em>Andrew Fuller, Graphic Design</em>.  Andrew is the Art Directory at Ecotrust and works on design for Madrona from the logo to the look and feel.  Andrew is a published author and brings over a decade of experience in illustration, graphic design and web development. <a href="https://twitter.com/andrewsfuller" class="twitter-follow-button" data-show-count="false" data-size="medium" data-show-screen-name="false">Follow @andrewsfuller</a></p>
 
-	<h2>Collaborators</h2>            
+	<h2>Colleagues</h2>            
 
-	<p>Ecotrust works in a number of areas that are complementary to Madrona and has a large network of colleagues and partners around the world.  We can bring significant expertise and resources to bear on projects.</p>
+	<p>Ecotrust works in a number of areas that are complementary to Madrona and has a large network of partnerships around the world.  We can bring significant expertise and resources to bear on projects.</p>
 
 	<p><img style='float:left' src='http://placehold.it/50x50'/><em>Kristen Sheeran, Environmental and Development Economics</em>. Kristen is the Acting Director of the <a href="http://www.ecotrust.org/knowledgesystems/">Knowledge Systems</a> team at Ecotrust. Kristen is an economist who works and publishes on a wide range of natural resource topics, including climate change, energy, economic development, forestry, and fisheries. She also leads Ecotrust’s national network of applied environmental economists, the <a href="http://e3network.org/">E3 Network</a>. <a href="https://twitter.com/kristensheeran" class="twitter-follow-button" data-show-count="false" data-size="medium" data-show-screen-name="false">Follow @kristensheeran</a></p>
 
@@ -37,11 +37,7 @@ active: experience
 
 	<p><img style='float:left' src='http://placehold.it/50x50'/><em>Cathy Kellon, Water and Watersheds</em>. Cathy is the Program Director for the <a href="www.ecotrust.org/wwri">Whole Watershed Restoration Initiative</a>, a collaborative effort to restore high priority river basins in the Pacific Northwest. She has extensive experience with building working partnerships; project development and management; meeting design and facilitation; and communicating impact. From Alaska to California, she has worked on water resources, salmon, and habitat restoration issues for over 15 years.</p>
 
-	<p><img style='float:left' src='http://placehold.it/50x50'/><em>Shauna McCovey, Tribal Affairs Policy</em>. Shauna works in Policy and Indigenous Affairs at Ecotrust and is a member of the Yurok tribe.  She  in environmental law and social work and sees part of her purpose in life to be a liaison between tribal and non-tribal people.</p>
+	<p><img style='float:left' src='http://placehold.it/50x50'/><em>Shauna McCovey, Tribal Affairs Policy</em>. Shauna works in Policy and Indigenous Affairs at Ecotrust and is a member of the Yurok tribe.  She holds degrees in environmental law and social work and sees part of her purpose in life to be a liaison between tribal and non-tribal people.</p>
 
 	</div>
-    
-    <div class="span4">
-        Subnav here  
-    </div>
 </div>

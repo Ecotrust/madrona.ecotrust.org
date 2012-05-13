@@ -9,7 +9,7 @@ active: developer
     <div class="bugs developer">
       <div class="row">
         <div class="span6">
-          <p>Take the latest Madrona release for a test drive with our VirtualBox appliance or get up and running from scratch.  Let our step-by-step tutorials guide you.</p>
+          <p>Take the latest Madrona release for a test drive with our VirtualBox appliance or get up and running from scratch on Windows, Linux or Mac.  Let our step-by-step tutorials guide you.</p>
         </div>
       </div>
       <div class="row">        
@@ -23,7 +23,7 @@ active: developer
                 </div>
                 <div class="text">
                   <ul class="unstyled">
-                    <li><a href="https://github.com/Ecotrust/madrona/wiki/Madrona-Virtual-Machine">Madrona Appliance</a></li>
+                    <li><a href="https://github.com/Ecotrust/madrona/wiki/Madrona-Virtual-Machine">Madrona appliance</a></li>
                     <li><a href="https://github.com/Ecotrust/madrona/downloads">4.0 Release</a></li>
                   </ul>
                 </div>
@@ -34,12 +34,12 @@ active: developer
             <div class="bug">
               <div class="row">
                 <div class="header">
-                  <h3><img src="{{ BASE_PATH }}/assets/img/documentation.png"><span> Documentation</span></h3>
+                  <h3><img src="{{ BASE_PATH }}/assets/img/documentation.png"><span> Tutorials</span></h3>
                 </div>
                 <div class="text">
                   <ul class="unstyled">
-                    <li><a href="http://ecotrust.github.com/madrona/docs/tutorial_appgen.html">Tutorial - appliance</a></li>
-                    <li><a href="http://ecotrust.github.com/madrona/docs/tutorial_scratch.html">Tutorial - from scratch</a></li>
+                    <li><a href="http://ecotrust.github.com/madrona/docs/tutorial_appgen.html">Madrona appliance</a></li>
+                    <li><a href="http://ecotrust.github.com/madrona/docs/tutorial_scratch.html">Madrona from scratch</a></li>
                   </ul>
                 </div>
               </div>
@@ -75,7 +75,6 @@ active: developer
                 </div>
                 <div class="text">
                   <ul class="unstyled">
-                    <li><a href="{{ BASE_PATH }}/experience/history.html">History</a></li>
                     <li><a href="{{ BASE_PATH }}/developer/roadmap.html">Roadmap</a></li>
                     <li><a href="{{ BASE_PATH }}/developer/roadmap.html">Open Source License</a></li>                                       
                   </ul>
@@ -84,6 +83,41 @@ active: developer
             </div>
         </div>
       </div>
+      <div class="row">        
+        <div class="span6">
+          <p>Many aspects of Madrona have been meticulously documented and tested.  It's worth the time to dig in.  If you're looking for a way to contribute this is a great place.</p>
+        </div>        
+        <div class="span3">
+            <div class="bug">
+              <div class="row">
+                <div class="header">
+                  <h3><img src='http://placehold.it/50x50'/><span> Documentation</span></h3>
+                </div>
+                <div class="text">
+                  <ul class="unstyled">
+                    <li><a href="http://ecotrust.github.com/madrona/docs/deployment.html">Deployment</a></li>
+                    <li><a href="http://ecotrust.github.com/madrona/docs/#api">API</a></li>                                       
+                  </ul>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="span3">
+            <div class="bug">
+              <div class="row">
+                <div class="header">
+                  <h3><img src='http://placehold.it/50x50'/><span> Testing</span></h3>
+                </div>
+                <div class="text">
+                  <ul class="unstyled">
+                    <li><a href="http://ecotrust.github.com/madrona/docs/coverage/index.html">Unit tests</a></li>
+                    <li>&nbsp;</li>                                       
+                  </ul>
+                </div>  
+              </div>
+            </div>
+        </div>                
+      </div>      
     </div>
     <div class="row">
       <div class="span6">
