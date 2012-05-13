@@ -38,14 +38,22 @@ html, body {
 }
 
 .madrona-logo h1 {
-	padding: 20px;
 	font-size: 60px;
+	padding-top: 10px;
+	padding-bottom: 30px;
 }
-
+.madrona-logo a{
+	color: black;
+}
+.madrona-logo a:hover {
+	text-decoration: none;
+	color: #777777;
+}
 .madrona-logo img {
 	height: 60px;
 }
 .ecotrust-logo {
+	padding-top: 10px;
 	color: #bbbbbb;
 }
 
@@ -174,7 +182,7 @@ html, body {
 .bug .header {
 	color: #f2f2f2;	
 }
-.bug:hover .header {
+.bug:hover .header, .bug:hover p {
 	color: black;
 }
 .bug .text a {
@@ -193,10 +201,7 @@ html, body {
 	font-size: 16px;
 	color: black;
 }
-/*.bug img.tall {
-	margin-top: -2px;
-}
-*/
+
 
 .carousel .item > img {
 	min-height: 400px;
