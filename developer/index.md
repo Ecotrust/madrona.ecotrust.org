@@ -6,7 +6,7 @@ active: developer
 {% include JB/setup %}
 <div class="row">
   <div class="span6">
-    <div class="bugs">
+    <div class="bugs developer">
       <div class="row">
         <div class="span6">
           <p>Take the latest Madrona release for a test drive with our VirtualBox appliance or get up and running from scratch.  Let our step-by-step tutorials guide you.</p>
@@ -16,13 +16,12 @@ active: developer
         <div class="span3">
             <div class="bug">
               <div class="row">
-                <div class="pull-left icon">
-                  <a href="http://www.github.com/ecotrust/madrona">
-                    <img  src="{{ BASE_PATH }}/assets/img/download.png">
-                  </a>
+                <div class="header">
+                  <h3>
+                    <img  src="{{ BASE_PATH }}/assets/img/download.png"><span> Download</span>
+                  </h3>
                 </div>
-                <div class="pull-left">
-                  <h4><a href="https://github.com/Ecotrust/madrona/downloads">Download</a></h4>
+                <div class="text">
                   <ul class="unstyled">
                     <li><a href="https://github.com/Ecotrust/madrona/wiki/Madrona-Virtual-Machine">Madrona Appliance</a></li>
                     <li><a href="https://github.com/Ecotrust/madrona/downloads">4.0 Release</a></li>
@@ -34,11 +33,10 @@ active: developer
         <div class="span3">
             <div class="bug">
               <div class="row">
-                <div class="pull-left icon">
-                  <a href="http://ecotrust.github.com/madrona/docs/"><img src="{{ BASE_PATH }}/assets/img/documentation.png"></a>
+                <div class="header">
+                  <h3><img src="{{ BASE_PATH }}/assets/img/documentation.png"><span> Documentation</span></h3>
                 </div>
-                <div class="pull-left">
-                  <h4><a href="http://ecotrust.github.com/madrona/docs/">Documentation</a></h4>
+                <div class="text">
                   <ul class="unstyled">
                     <li><a href="http://ecotrust.github.com/madrona/docs/tutorial_appgen.html">Tutorial - appliance</a></li>
                     <li><a href="http://ecotrust.github.com/madrona/docs/tutorial_scratch.html">Tutorial - from scratch</a></li>
@@ -55,13 +53,12 @@ active: developer
         <div class="span3">            
             <div class="bug">
               <div class="row">
-                <div class="pull-left icon">
-                  <a href="http://www.github.com/ecotrust/madrona">
-                    <img  src="{{ BASE_PATH }}/assets/img/github.png">
-                  </a>
+                <div class="header">
+                  <h3>
+                    <img  src="{{ BASE_PATH }}/assets/img/github.png"><span> Madrona on Github</span>
+                  </h3>
                 </div>
-                <div class="pull-left">
-                  <h4><a href="http://www.github.com/ecotrust/madrona">Madrona on Github</a></h4>
+                <div class="text">
                   <ul class="unstyled">
                     <li><a href="http://www.github.com/ecotrust/madrona">Source Code</a></li>
                     <li><a href="http://www.github.com/ecotrust/madrona/issues">Issues</a></li>
@@ -73,15 +70,14 @@ active: developer
         <div class="span3">
             <div class="bug">
               <div class="row">
-                <div class="pull-left icon">
-                  <a href="http://ecotrust.github.com/madrona/docs/"><img src="{{ BASE_PATH }}/assets/img/hourglass.png"></a>
+                <div class="header">
+                  <h3><img src="{{ BASE_PATH }}/assets/img/hourglass.png"><span> Project Status</span></h3>
                 </div>
-                <div class="pull-left">
-                  <h4><a href="http://ecotrust.github.com/madrona/docs/">Project Status</a></h4>
+                <div class="text">
                   <ul class="unstyled">
                     <li><a href="{{ BASE_PATH }}/experience/history.html">History</a></li>
                     <li><a href="{{ BASE_PATH }}/developer/roadmap.html">Roadmap</a></li>
-                    <li><a href="{{ BASE_PATH }}/developer/roadmap.html">Open Source License</a></li>                                        
+                    <li><a href="{{ BASE_PATH }}/developer/roadmap.html">Open Source License</a></li>                                       
                   </ul>
                 </div>
               </div>
