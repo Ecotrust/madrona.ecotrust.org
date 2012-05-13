@@ -33,6 +33,9 @@ active: technology
 
 		<h2>Significant Features</h2>
 		<p>These are the key building blocks of Madrona.  Most are some combination of Use only what you need.</p>
+		<div class="pull-right">
+			<img src="{{BASE_PATH}}/assets/img/technology/madrona_outline.png"/>
+		</div>
 		<a name="spatial_features"> </a>
 		<h3>Spatial Features</h3>
 		<ul>
