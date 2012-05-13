@@ -1,20 +1,20 @@
 <div class="row logo-bar">
-	<div class="span6">
-		<a href="{{ BASE_PATH }}/"><img class="madrona-logo" src="{{ BASE_PATH }}/assets/img/madrona-logo.png"/></a>
+	<div class="span6 madrona-logo">
+		<h1>madrona</h1>
 	</div>
 	<div class="span6">
-		<div class="ecotrust-logo hidden-phone pull-right">
-			<p>a project of ecotrust</p>
-			<img  src="{{ BASE_PATH }}/assets/img/ecotrust_logo08.png"/>
+		<div class="pull-right ecotrust-logo">
+			<span>a project of ecotrust</span>
+			<img src="{{ BASE_PATH }}/assets/img/ecotrust_logo08.png"/>
 		</div>
 	</div>
 </div>
-<div class="row">
+<div class="row nav-bar">
 	{% if page.tagline %}
-	<div class="span5"><h3 class="madrona-quote">{{ page.tagline }}</h3></div>
-	<div class="span7">
+	<div class="span6"><h3 class="madrona-quote">{{ page.tagline }}</h3></div>
+	<div class="span6">
 	{% else %}
-	<div class="span7 offset5">
+	<div class="span6 offset6">
 	{% endif %}
 		<div class="primary-nav">
 			<div class="pull-right">

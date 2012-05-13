@@ -33,24 +33,27 @@ html, body {
 }
 
 .madrona-quote {
-	margin-left: 5%;
+	margin-left:0px;
+	font-size: 20px;
 }
 
+.madrona-logo h1 {
+	padding: 20px;
+	font-size: 60px;
+}
+
+.madrona-logo img {
+	height: 60px;
+}
 .ecotrust-logo {
-	margin-left: 244px;
-	margin-top: 25px;
-}
-
-.ecotrust-logo img {
-	margin-top: -20px;
-}
-.ecotrust-logo p {
-	padding-left: 65px;
 	color: #bbbbbb;
 }
 
 .logo-bar {
-	padding-bottom: 0px;
+
+}
+
+.nav-bar {
 }
 
 .primary-content {
@@ -131,7 +134,7 @@ html, body {
 
 .bug p {
 	font-size: 14px;
-	color: black;
+	color: gray;
 }
 .bug span {
 	position: relative;
@@ -166,18 +169,24 @@ html, body {
 	   -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
 	        box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
 	font-weight: 600!important; 
-	color: #f2f2f2;
 }
 
-.bug .header:hover {
-	background-color: #ABBF7E;
+.bug .header {
+	color: #f2f2f2;	
+}
+.bug:hover .header {
+	color: black;
+}
+.bug .text a {
+	color: black;
+}
+
+.bugs a:hover {
 	text-decoration: none;
 }
 
-.bug .header:hover a {
-	text-decoration: overline;
-	color: #777777;
-}
+
+
 .bug .text {
 	padding-top: 10px;
 	padding-left: 50px;
