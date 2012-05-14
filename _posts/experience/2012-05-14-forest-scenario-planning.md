@@ -1,16 +1,16 @@
 ---
 layout: case-study
-title: Prioritizing Aquatic Conservation
+title: Forest Scenario Planning
 category: [experience]
-application: http://aquatic-priorities.apps.ecotrust.org/
-repo: https://github.com/Ecotrust/aquatic-priorities
-blurb: U.S. Fish and Wildlife Service wanted to see the big picture of conservation and restoration work at the sub-basin scale across the Pacific Northwest.
-image: /assets/img/experience/aqua-priorities.png
-technology: ["Madrona framework", "Google Earth", "Marxan conservation planning software"]
+application:
+repo: https://github.com/Ecotrust/land_owner_tools
+blurb: Ecotrust wanted to give forest landowners a way to visualize alternative management scenarios.
+image: /assets/img/fsp.png
+technology: ["Madrona framework", "2D Mapping"]
 name: Mike Mertens
 phone: 503-467-0775
 email: mikem@ecotrust.org
-complete: true
+complete: false
 ---
 <div class="row">
 	<div class="span4">

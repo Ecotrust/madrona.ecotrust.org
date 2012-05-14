@@ -1,0 +1,38 @@
+---
+layout: page
+---
+<div class="row">
+	<div class="span8">
+		<h1>{{ page.title }}</h1>
+
+		<p>{{page.blurb}}</p>
+		{{content}}
+		<div class="row">
+			<div class="span4">
+				<h3>Technology</h3>
+				<ul>
+					{% for tech in page.technology %}
+					<li>{{tech}}</li>
+					{% endfor %}
+				</ul>
+			</div>
+			<div class="span4">
+				<dl>
+					{% if page.application %}
+						<dt>Application</dt>
+							<dd><a href="{{ page.application }}">{{ page.application }}</a></dd>
+					{% endif %}
+					{% if page.repo %}
+						<dt>Source code</dt>
+							<dd><a href="{{ page.repo }}">{{ page.repo }}</a></dd>
+					{% endif %}
+				</dl>
+			</div>
+		</div>
+		<h3>Contact</h3>
+		<p>For more information, email {{ page.name }} at <a href="{{ page.email }}">{{ page.email }}</a> or call {{ page.phone }}.</p>
+	</div>
+	<div class="span4">
+		{% include experience/accordion.html %}
+	</div>
+</div>
