@@ -13,7 +13,7 @@ active: technology
 		<h3>The Zen of Madrona</h3>
 
 		<ul>
-		    <li>The right decision-making process will vary by geography and culture.</li>
+		    <li>The best decision-making process will vary by geography and culture.</li>
 		    <li>Work directly with the intended users to capture the mental model of your decision-making process.</li>
 		    <li>Let the mental model define which Features and Links are needed.</li>
 		    <li>The Features and Links will then define the REST API.</li>
