@@ -20,6 +20,7 @@ active: experience
 # Version 5.0 
 
 * Complete **2D interface** 
+                          * 
     * Autoconfigures based on workspace
     * Full CRUD capabilities and REST API integration 
     * GeoJSON driven
