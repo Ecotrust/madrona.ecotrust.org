@@ -60,7 +60,7 @@ active: services
                 <img src="{{ BASE_PATH }}/assets/img/collab-large.png">
             </div>
             <div>
-                <p><a href="{{ BASE_PATH }}/experience/whois.html">Learn more about the development team and our network of colleagues and partners.</a>
+                <p><a href="{{ BASE_PATH }}/experience/whois.html">Learn more</a> about the development team and our network of colleagues and partners.
                 </p>
             </div>
         </div>  
