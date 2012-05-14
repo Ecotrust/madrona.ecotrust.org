@@ -5,15 +5,15 @@ active: developer
 ---
 {% include JB/setup %}
 <div class="row">
-  <div class="span6">
+  <div class="span8">
     <div class="bugs developer">
       <div class="row">
-        <div class="span6">
+        <div class="span8">
           <p>Take the latest Madrona release for a test drive with our VirtualBox appliance or get up and running from scratch on Windows, Linux or Mac.  Let our step-by-step tutorials guide you.</p>
         </div>
       </div>
       <div class="row">        
-        <div class="span3">
+        <div class="span4">
             <div class="bug">
               <div class="row">
                 <div class="header">
@@ -30,7 +30,7 @@ active: developer
               </div>
             </div>
         </div>
-        <div class="span3">
+        <div class="span4">
             <div class="bug">
               <div class="row">
                 <div class="header">
@@ -47,10 +47,10 @@ active: developer
         </div>
       </div>
       <div class="row">
-        <div class="span6">
+        <div class="span8">
           <p>Madrona is an open book and there's always room for more authors.  Follow along and collaborate with us using powerful community tools.</p>
         </div>        
-        <div class="span3">            
+        <div class="span4">            
             <div class="bug">
               <div class="row">
                 <div class="header">
@@ -67,7 +67,7 @@ active: developer
               </div>
             </div>
         </div>      
-        <div class="span3">
+        <div class="span4">
             <div class="bug">
               <div class="row">
                 <div class="header">
@@ -84,10 +84,10 @@ active: developer
         </div>
       </div>
       <div class="row">        
-        <div class="span6">
+        <div class="span8">
           <p>Many aspects of Madrona have been meticulously documented and tested.  It's worth the time to dig in.  If you're looking for a way to contribute this is a great place.</p>
         </div>        
-        <div class="span3">
+        <div class="span4">
             <div class="bug">
               <div class="row">
                 <div class="header">
@@ -102,7 +102,7 @@ active: developer
               </div>
             </div>
         </div>
-        <div class="span3">
+        <div class="span4">
             <div class="bug">
               <div class="row">
                 <div class="header">
@@ -120,11 +120,11 @@ active: developer
       </div>      
     </div>
     <div class="row">
-      <div class="span6">
+      <div class="span4">
       </div>
     </div>
   </div>
-  <div class="span6">
+  <div class="span4">
     <h3>Recent Commits</h3>
      <table id="commits-table" class="table table-striped table-condensed table-bordered">
       <tbody data-bind="foreach: $data">

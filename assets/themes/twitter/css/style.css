@@ -182,6 +182,10 @@ html, body {
 	font-weight: 600!important; 
 	color: #f2f2f2;	
 
+	-webkit-box-shadow: 0 2px 2px -2px gray;
+	   -moz-box-shadow: 0 2px 2px -2px gray;
+	        box-shadow: 0 2px 2px -2px gray;
+
 }
 
 .bug .header h3{
