@@ -227,7 +227,6 @@ h2 {
 	width: 90%;
 	padding-left: 32px;
 	margin-bottom: 15px;
-	margin-top: 10px;
 	background-image: url({{BASE_PATH}}/assets/img/tree-icon.png);
 	background-repeat: no-repeat;
 	background-position: 5px 2px;
@@ -244,7 +243,7 @@ h2 {
 	        box-shadow: 0 4px 4px -2px gray;*/
 }
 
-.experience .project {
+/*.experience .project {
 	-webkit-border-radius: 5px;
 		-moz-border-radius: 5px;
 		border-radius: 5px;
@@ -260,7 +259,7 @@ h2 {
 }
 .experience .project img {
 	padding: 10px;
-}
+}*/
 /* tag_box ======================================================== */
 
 .tag_box {
