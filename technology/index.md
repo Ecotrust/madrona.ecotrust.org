@@ -5,6 +5,82 @@ active: technology
 ---
 <div class="row">
 	<div class="span8">
+
+		<h2>Philosophy</h2>
+		<p>Madrona makes many choices for you while still providing lots of options, so you can get to the fun part of building tools right away.  You, the web developer, are still required to make many choices about your application and Madrona gives you building blocks to piece together the mental model of your solution quickly without getting distracted by the nuts and bolts.</p>
+		
+		<a name="zen"> </a>
+		<h3>The Zen of Madrona</h3>
+
+		<ul>
+		    <li>The right decision-making process will vary by geography and culture.</li>
+		    <li>Work directly with the intended users to capture the mental model of your decision-making process.</li>
+		    <li>Let the mental model define which Features and Links are needed.</li>
+		    <li>The Features and Links will then define the REST API.</li>
+		    <li>The REST API and its workspace document will drive the client interface.</li>
+		    <li>Let these conventions be your guide but they should get out of the way when no longer useful.</li>
+		</ul>
+
+		<h2>Significant Features</h2>
+		<p>Madrona features can be mixed and matched to meet your unique needs.  Be sure to look at some of the many Madrona-based tools to see what’s possible.</p>
+
+		<div class="pull-right">
+			<img src="{{BASE_PATH}}/assets/img/technology/madrona_outline.png"/>
+		</div>
+		<a name="spatial_features"> </a>
+		<h3>Spatial Features</h3>
+		<p>Provides a spatial content management system complete with an API and full CRUD operations.  Define new types of features (point, line, polygon) that are unique to your needs (e.g. wind energy sites, bike paths, event locations).  Then let users sketch, copy and share them.  <a href="http://ecotrust.github.com/madrona/docs/features.html">Learn More</a></p>
+
+		<a name="feature_manipulators"> </a>
+		<h3>Feature Manipulators</h3>
+		<p>Features sketched by users often need to be modified or cleaned and manipulators provide a workflow for doing that.  Example manipulators include clipping a feature to your study region or clipping out exclusion areas. <a href="http://ecotrust.github.com/madrona/docs/manipulators.html">Learn More</a></p> 
+
+		<a name="import_export"> </a>
+		<h3>Import/Export</h3>
+		<p>You don’t want your tool to be a black box and you want it to integrate with external workflows.  Allow your users to import and export their Features in common spatial formats including KML, GeoJSON and Shapefiles. <a href="http://ecotrust.github.com/madrona/docs/loadshp.html">Learn More</a></p> 
+
+		<a name="map_bookmarks"> </a>
+		<h3>Map Bookmarks</h3>
+		<p>Allow the user to take a snapshot of their map view including the data layers and features they had turned on.  Manage bookmarks as any other Feature and share them as links with other people. (Google Earth only currently) <a href="http://ecotrust.github.com/madrona/docs/bookmarks.html ">Learn More</a></p>
+
+		<a name="study_regions"> </a>
+		<h3>Study Regions</h3>
+		<p>Focus the user’s attention on a specific geographic region and then create or limit user actions specific to that region. <a href="http://ecotrust.github.com/madrona/docs/bookmarks.html">Learn More</a></p>
+
+		<a name="data_layers"> </a>
+		<h3>Data Layers</h3>
+		<p>Manage a hierarchy of data layers important to your decision-making process and provide fine-grained access for viewing.  Also let users upload their own data layers. (KML support only currently).<a href="http://ecotrust.github.com/madrona/docs/layers.html">Learn More</a></p>
+
+		<a name="content_management"> </a>
+		<h3>Content Management</h3><p>Allow site administrators to manage and edit blocks of content within pages.<a href="http://ecotrust.github.com/madrona/docs/flatblocks.html">Learn More</a></p>
+
+		<a name="reports"> </a>
+		<h3>Reports</h3>
+		<p>???? Is this a feature?<a href="#">Learn More</a></p>
+
+		<a name="flexible_analysis"> </a>
+		<h3>Flexible Analysis</h3>
+		<p>Interact with external modeling and analysis software in a standardized way.  Allows you to define inputs and capture outputs as Features.<a href="http://ecotrust.github.com/madrona/docs/analysistools.html">Learn More</a></p>
+
+		<a name="asynchronous_tasking"> </a>
+		<h3>Asynchronous Tasking</h3>
+		<p>Analysis can take a lot of time and system resources.  Users should be able to do other things while they are waiting.  Run processes in the background and get notified when they finish. <a href="http://ecotrust.github.com/madrona/docs/async.html">Learn More</a></p>
+
+		<a name="static_maps"> </a>
+		<h3>Static Maps</h3>
+		<p>Create static map images that include user defined shapes and other features.
+		<a href="http://ecotrust.github.com/madrona/docs/staticmap.html">Learn More</a></p>
+
+		<a name="custom_projections"> </a>
+		<h3>Custom Projections</h3>
+		<p>Use one of the thousands of projections available with Proj.4 or define your own.
+		<a href="http://ecotrust.github.com/madrona/docs/custom_projection.html">Learn More</a></p>
+
+		<a name="raster_stats"> </a>
+		<h3>Raster Statistics</h3>
+		<p>Quickly calculate statistics for a polygon Feature such as the average elevation or maximum temperature using raster data layers.  Provides an optional caching mechanism.<a href="http://ecotrust.github.com/madrona/docs/raster_stats.html">Learn More</a></p>
+
+		<h2>Architecture</h2>
 		<ul>
 	        <li><a href="https://www.djangoproject.com/">Django</a></li>
 	        <li><a href="http://geodjango.org/">GeoDjango</a></li>
@@ -14,79 +90,7 @@ active: technology
 	        <li><a href="https://developers.google.com/earth/">Google Earth Plugin</a></li>
 	        <li><a href="http://code.google.com/p/earth-api-utility-library/">Google Earth API Util</a></li>
 	        <li><a href="http://code.google.com/p/kmltree/">KmlTree</a></li>	        
-	    </ul>
-
-		<h2>Philosophy</h2>
-		<p>Madrona was created to make lots of choices out of the box for you while providing lots of options, so you can get to the fun part of building tools right away.</p>
-		<p>You, the web programmer, are still required to make many choices about your application and Madrona gives you the building blocks you need to piece together your mental model of the problem quickly without getting distracted by the nuts and bolts.</p>
-		<p>Still, there is no way for any framework to think through the problem for you.  Madrona is the path not the destination.</p>
-		<a name="zen"> </a>
-		<h3>The Zen of Madrona</h3>
-		<ul>
-		    <li>Capture the mental model of your decision-making process.</li>
-		    <li>Let the mental model define which Features and Links are needed.</li>
-		    <li>The Features and Links will then define the REST API.</li>
-		    <li>The REST API and its workspace document will drive the client interface.</li>
-		    <li>Let these conventions be your guide but they should get out of the way when no longer useful.</li>
-		    <li>Don’t worry about creating new functionality as a one-off but if you reuse it, then consider generalizing it to a core feature.</li>
-		</ul>
-
-		<h2>Significant Features</h2>
-		<p>These are the key building blocks of Madrona.  Most are some combination of Use only what you need.</p>
-		<div class="pull-right">
-			<img src="{{BASE_PATH}}/assets/img/technology/madrona_outline.png"/>
-		</div>
-		<a name="spatial_features"> </a>
-		<h3>Spatial Features</h3>
-		<ul>
-		    <li>Links - Generic views/urls to perform create, read, update, delete, conversion, copying, sharing, etc.(creating, reading, editing, updating, downloading, copying, sharing, etc)</li>
-		    <li>Shareable</li>
-		    <li>User-created</li>
-		    <li>typically discrete geometries but always represented as KML or GeoJSON</li>
-		    <li>Collection - contain other features or collections. have their own behaviors, etc</li>
-		</ul>
-		<a name="data_layers"> </a>
-		<h3>Data layers</h3>
-		KML data layers - http://ecotrust.github.com/madrona/docs/layers.html
-		<a name="content_management"> </a>
-		<h3>Content Management</h3>
-		Flatblocks
-		<a name="collaboration"> </a>
-		<h3>Collaboration</h3>
-		<a name="flexible_analysis"> </a>
-		<h3>Flexible Analysis</h3>
-		<p>The analysistools module provides a toolkit to standardize interaction with external modeling/analysis software.  http://ecotrust.github.com/madrona/docs/analysistools.html</p>
-		<a name="study_regions"> </a>
-		<h3>Study Regions</h3>
-		<p>We designed the study region concept as a central component of marinemap/madrona implementations. It is used by default manipulators and to zoom the initial map view. If you want to implement custom zooming mechanisms or custom manipulators, those will occur as customizations at the project code level.  http://ecotrust.github.com/madrona/docs/studyregion.html</p>
-		<a name="manipulators"> </a>
-		<h3>Manipulators</h3>
-		<p>There are many cases in which a user-defined geometry needs to be modified or cleaned by an automated process. This process can be initiated the user as a tool or context action, or as part of the initial creation of a new feature. Typically, the user is provided an opportunity to review any changes made to their geometry.  Individual manipulators can be applied in series producing the desired output.  Use cases might include:</p>
-		<ul>
-		    <li>Clipping a shape to your study region</li>
-		    <li>Clipping a shape to the shoreline</li>
-		    <li>Clipping out exclusion areas</li>
-		</ul>
-
-		<p>http://ecotrust.github.com/madrona/docs/manipulators.html</p>
-		<a name="import_export"> </a>
-		<h3>Import/Export</h3>
-		<p>Import and export common spatial formats.  You don’t want your tool to be a black box.  Integrates the workflows you have in other GIS and modeling environments.</p>
-
-		http://ecotrust.github.com/madrona/docs/loadshp.html
-		http://ecotrust.github.com/madrona/docs/export.html
-		<a name="asynchronous_tasking"> </a>
-		<h3>Asynchronous Tasking</h3>
-		<a name="custom_projections"> </a>
-		<h3>Custom Projections</h3>
-		<a name="2d_3d_support"> </a>
-		<h3>2D and 3D Support</h3>
-		<a name="raster_statistics"> </a>
-		<h3>Raster Statistics</h3>
-		<p>The raster_stats app allows you to analyze raster datasets based on a polygon geometry. For example, for a given polygon, you may want to know the average elevation or the maximum temperature, etc. Essentially this performs a vector-on-raster intersection.  The app uses an optional caching mechanism so that any geometry/raster combination only needs to be run once.</p>
-
-		http://ecotrust.github.com/madrona/docs/raster_stats.html
-		<h2>Architecture</h2>
+	    </ul>		
 		<a name="core_libraries"> </a>
 		<h3>Core Libraries</h3>
 		<h4>Django</h4>
