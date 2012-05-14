@@ -10,7 +10,7 @@ active: experience
 		<p>The Madrona framework has been used to build planning tools for a variety of environments.</p>
 		<div class="experience">
 			<div class="row">
-				<div class="span7">
+				<div class="span8">
 					<div class="project">
 						<div class="row">
 							<div class="span4">
@@ -23,7 +23,7 @@ active: experience
 						</div>
 					</div>
 				</div>
-				<div class="span5">
+				<div class="span4">
 					<div class="accordion" id="accordion2">
 						            <div class="accordion-group">
 						              <div class="accordion-heading">

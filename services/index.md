@@ -4,7 +4,7 @@ title: madrona spatial planning framework
 active: services
 ---
 <div class="row">
-    <div class="span7">
+    <div class="span8">
 
     <p>For over a decade, Ecotrust has been developing toolkits for decision support and spatial planning that leverage the power of GIS (geographic information systems).  We have used that expertise to develop Madrona.</p>
     <p>We offer a full range of services and can help you design and implement effective spatial planning tools and processes with Madrona.  Regardless of your technology capacities, we can create a service package to meet your needs.</p>
@@ -54,55 +54,58 @@ active: services
     </div>
 
     
-    <div class="span5">
+    <div class="span4">
         <div class="row">
-            <div class="span1 offset1">
-                <img class="tall" src="{{ BASE_PATH }}/assets/img/collaboration.png">
+            <div class="pull-right">
+                <img src="{{ BASE_PATH }}/assets/img/collab-large.png">
             </div>
-            <div class="span4"><strong><a href="{{ BASE_PATH }}/experience/whois.html">Learn more about the development team and our network of colleagues and partners.</a></strong></div>
+            <div>
+                <p><a href="{{ BASE_PATH }}/experience/whois.html">Learn more about the development team and our network of colleagues and partners.</a>
+                </p>
+            </div>
         </div>  
         <div class="row">
-            <form class="form-vertical" action="mailto:madrona@ecotrust.org" enctype="text/plain" method="post">
+            <form class="form-vertical pull-right" action="mailto:madrona@ecotrust.org" enctype="text/plain" method="post">
                 <fieldset>
                     <legend>Contact Us</legend>
                     <div class="control-group">
                         <label class="control-label" for="input01">Email Address</label>
                         <div class="controls">
-                            <input type="email" name="email" class="span5"/>
+                            <input type="email" name="email" class="span4"/>
                             <p class="help-block"></p>
                         </div>
                     </div>
                     <div class="control-group">
                         <label class="control-label" for="input01">Name</label>
                         <div class="controls">
-                            <input type="text" name="name" class="span5"/>
+                            <input type="text" name="name" class="span4"/>
                             <p class="help-block"></p>
                         </div>
                     </div>
                     <div class="control-group">
                         <label class="control-label">Organization</label>
                         <div class="controls">
-                            <input type="text" name="organization" class="span5"/>
+                            <input type="text" name="organization" class="span4"/>
                             <p class="help-block"></p>
                         </div>
                     </div>
                     <div class="control-group">
                         <label class="control-label" for="input01">Phone Number</label>
                         <div class="controls">
-                            <input type="tel" name="telephone" class="span5"/>
+                            <input type="tel" name="telephone" class="span4"/>
                             <p class="help-block"></p>
                         </div>
                     </div>
                     <div class="control-group">
                         <label class="control-label" for="input01">Message</label>
                         <div class="controls">
-                          <textarea class="span5" name="message" rows="4">
+                          <textarea class="span4" name="message" rows="4">
                           </textarea>
                         </div>
                     </div>
                 </fieldset>
                 <div class="row">
-                    <div class="span5">
+                    <div class="span4">
                         <div class="pull-right">    
                             <button class="btn btn-success" type="submit">Send Message</button>
                         </div>
