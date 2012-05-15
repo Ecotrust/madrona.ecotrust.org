@@ -109,7 +109,7 @@ title: madrona spatial planning framework
         </div>
       </div>
       <div class="item">
-        <img src="{{ BASE_PATH }}/assets/img/fsp.png">
+        <img src="{{ BASE_PATH }}/assets/img/experience/worldbioregions_map.png">
         <div class="carousel-caption">
           <h4>Bioregional Discovery</h4>
           <p>Ecotrust wanted to allow people all over the planet to visualize their bioregions and gain an appreciation of social and environmental assets and vulnerabilities.</p>

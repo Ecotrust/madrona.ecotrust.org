@@ -34,7 +34,7 @@ active: developer
             <div class="bug">
               <div class="row">
                 <div class="header">
-                  <h3><a href="http://ecotrust.github.com/madrona/docs/tutorial.html"><img src="{{ BASE_PATH }}/assets/img/documentation.png"><span> Tutorials</span></a></h3>
+                  <h3><a href="http://ecotrust.github.com/madrona/docs/tutorial.html"><img src="{{ BASE_PATH }}/assets/img/tutorials.png"><span> Tutorials</span></a></h3>
                 </div>
                 <div class="text">
                   <ul class="unstyled">
@@ -91,7 +91,7 @@ active: developer
             <div class="bug">
               <div class="row">
                 <div class="header">
-                  <h3><img src='http://placehold.it/50x50'/><span> Documentation</span></h3>
+                  <h3><a href="http://ecotrust.github.com/madrona/docs/index.html"><img src='{{ BASE_PATH }}/assets/img/documentation.png'/><span> Documentation</span></a></h3>
                 </div>
                 <div class="text">
                   <ul class="unstyled">
@@ -106,7 +106,7 @@ active: developer
             <div class="bug">
               <div class="row">
                 <div class="header">
-                  <h3><img src='http://placehold.it/50x50'/><span> Testing</span></h3>
+                  <h3><img src="{{BASE_PATH}}/assets/img/testing.png"/><span> Testing</span></h3>
                 </div>
                 <div class="text">
                   <ul class="unstyled">
