@@ -5,7 +5,7 @@ active: technology
 ---
 {% include JB/setup %}
 <div class="row">
-	<div class="span8">
+	<div class="span9">
 		<h2>Philosophy</h2>
 		<p>Madrona makes many choices for you while still providing lots of options, so you can get to the fun part of building tools right away.  You, the web developer, are still required to make many choices about your application and Madrona gives you building blocks to piece together the mental model of your solution quickly without getting distracted by all of the nuts and bolts.</p>
 		<a name="zen"> </a>
@@ -22,84 +22,106 @@ active: technology
 		<h2>Building Blocks</h2>
 		<p>Madrona is built on libraries such as Django, PostGIS, JQuery, OpenLayers and Google Earth which provide all of the essential building blocks for developing modern spatial web applications.</p>
 
-		<a name="django"> </a>
-		<h3>Django</h3>
-		<p>
-			<ul>
-				<li>Model-Template-View architecture</li>
-				<li>Automatic admin interface</li>
-				<li>Elegant URL design</li>
-				<li>Template system</li>
-				<li>Caching</li>
-				<li>Internationalization</li>
-				<li>User accounts and groups</li>
-				<li>Content management</li>
-				<li>Extensive <a href="http://djangopackages.com/">third-party packages</a></li>
-			</ul>
-			<a href="http://www.djangoproject.com">http://www.djangoproject.com</a>
-		</p>
-
-		<a name="geodjango"> </a>
-		<h3>GeoDjango</h3>
-		<p>
-			<ul>
-				<li>PostGIS support</li>
-				<li>Geographic models</li>
-				<li>Object-oriented spatial queries</li>
-				<li>GEOS Python API</li>
-				<li>GDAL Python API</li>
-			</ul>
-			<a href="http://geodjango.org/">http://geodjango.org/</a>
-		</p>
-
-		<a name="postgis"> </a>
-		<h3>PostGIS</h3>
-		<p>
-			<ul>
-				<li>Vector and raster support</li>
-				<li>First-class geographic data types</li>
-				<li>Full spatial query support</li>
-				<li>GiST indexing</li>
-			</ul>
-			<a href="http://postgis.refractions.net/ ">http://postgis.refractions.net/ </a>
-		</p>
-
-		<a name="jquery"> </a>
-		<h3>JQuery</h3>
-		<p>
-			<ul>
-				<li>Lightweight</li>
-				<li>Cross-browser DOM manipulation and event handling</li>
-				<li>Extendable through plugin architecture</li>
-				<li>Extensive third-party plugins</li>
-			</ul>
-			<a href="http://jquery.com">http://jquery.com</a>
-		</p>
-
-		<a name="openlayers"> </a>
-		<h3>OpenLayers</h3>
-		<p>
-			<ul>
-				<li>2D tile-based maps</li>
-				<li>Vector support with drawing tools</li>				
-				<li>Extensive support for mapping services including <a href="http://mapbox.com/mbtiles-spec/utfgrid/">UTF-Grid</a></li>
-				<li>Google maps integration</li>
-			</ul>
-			<a href="http://openlayers.org">http://openlayers.org</a>
-		</p>
-
-		<a name="google_earth"> </a>
-		<h3>Google Earth Web Plugin</h3>
-		<p>
-			<ul>
-				<li>Immersive 3D environment</li>
-				<li>KML support including superoverlays</li>
-				<li>Global base imagery</li>
-				<li>Simplified use through <a href="http://code.google.com/p/earth-api-utility-library/">extensions</a></li>
-			</ul>
-			<a href="Z">Learn More</a>
-		</p>								
-
+		<div class="row blocks">
+			<div class="span3">
+				<div class="well">
+					<a name="django"> </a>
+					<h3>Django</h3>
+					<a href="http://www.djangoproject.com">http://www.djangoproject.com</a>
+					<p>
+						<ul>
+							<li>Model-Template-View architecture</li>
+							<li>Automatic admin interface</li>
+							<li>Elegant URL design</li>
+							<li>Template system</li>
+							<li>Caching</li>
+							<li>Internationalization</li>
+							<li>User accounts and groups</li>
+							<li>Content management</li>
+							<li>Extensive <a href="http://djangopackages.com/">third-party packages</a></li>
+						</ul>
+					</p>
+				</div>
+			</div>
+			<div class="span3">
+				<div class="well">
+					<a name="geodjango"> </a>
+					<h3>GeoDjango</h3>
+					<a href="http://geodjango.org/">http://geodjango.org/</a>
+					<p>
+						<ul>
+							<li>PostGIS support</li>
+							<li>Geographic models</li>
+							<li>Object-oriented spatial queries</li>
+							<li>GEOS Python API</li>
+							<li>GDAL Python API</li>
+						</ul>
+					</p>
+				</div>
+			</div>
+			<div class="span3">
+				<div class="well">
+					<a name="postgis"> </a>
+					<h3>PostGIS</h3>
+						<a href="http://postgis.refractions.net/ ">http://postgis.refractions.net/ </a>
+					<p>
+						<ul>
+							<li>Vector and raster support</li>
+							<li>First-class geographic data types</li>
+							<li>Full spatial query support</li>
+							<li>GiST indexing</li>
+						</ul>
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="row blocks">
+			<div class="span3">
+				<div class="well">
+					<a name="jquery"> </a>
+					<h3>JQuery</h3>
+					<a href="http://jquery.com">http://jquery.com</a>
+					<p>
+						<ul>
+							<li>Lightweight</li>
+							<li>Cross-browser DOM manipulation and event handling</li>
+							<li>Extendable through plugin architecture</li>
+							<li>Extensive third-party plugins</li>
+						</ul>
+					</p>
+				</div>
+			</div>
+			<div class="span3">
+				<div class="well">
+					<a name="openlayers"> </a>
+					<h3>OpenLayers</h3>
+					<a href="http://openlayers.org">http://openlayers.org</a>
+					<p>
+						<ul>
+							<li>2D tile-based maps</li>
+							<li>Vector support with drawing tools</li>				
+							<li>Extensive support for mapping services including <a href="http://mapbox.com/mbtiles-spec/utfgrid/">UTF-Grid</a></li>
+							<li>Google maps integration</li>
+						</ul>
+					</p>
+				</div>
+			</div>
+			<div class="span3">
+				<div class="well">
+					<a name="google_earth"> </a>
+					<h3>Google Earth Web Plugin</h3>
+					<a href="Z">Learn More</a>
+					<p>
+						<ul>
+							<li>Immersive 3D environment</li>
+							<li>KML support including superoverlays</li>
+							<li>Global base imagery</li>
+							<li>Simplified use through <a href="http://code.google.com/p/earth-api-utility-library/">extensions</a></li>
+						</ul>
+					</p>								
+				</div>
+			</div>
+		</div>
 		<p>Madrona combines these building blocks to create new ones tailored specifically for decision support and spatial planning.  You can mix and match them to meet your specific needs.</p>
 
 		<a name="2d_and_3d_support"> </a>
@@ -205,9 +227,9 @@ active: technology
 		<h3>3D Web Client</h3>
 
 	</div>
-	<div class="span4">
+	<div class="span3">
 		<div class="row">
-			<div class="span3 offset1">
+			<div class="span3">
 				<div id="accordion2" class="accordion">
 		            <div class="accordion-group">
 		              <div class="accordion-heading">
