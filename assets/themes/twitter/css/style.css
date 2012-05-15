@@ -42,26 +42,12 @@ a:visited {
           box-shadow: 0 1px 2px rgba(0,0,0,.15);
 }
 
-.content .well {
-	padding-bottom: 0px;
-}
 
 
-.madrona-logo h1 {
-	font-size: 60px;
-	padding-top: 10px;
-	padding-bottom: 30px;
-}
-.madrona-logo a{
-	color: #333;
-}
-.madrona-logo a:hover {
-	text-decoration: none;
-	color: #777777;
-}
 .madrona-logo img {
-	height: 60px;
+	padding-top: 10px;
 }
+
 .ecotrust-logo {
 	padding-top: 10px;
 	color: #bbbbbb;
