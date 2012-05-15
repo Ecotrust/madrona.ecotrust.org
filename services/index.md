@@ -3,7 +3,7 @@ layout: page
 title: madrona spatial planning framework
 active: services
 ---
-<div class="row">
+<div class="row services">
     <div class="span8">
 
     <p>For over a decade, Ecotrust has been developing toolkits for decision support and spatial planning that leverage the power of GIS (geographic information systems).  We have used that expertise to develop Madrona.</p>

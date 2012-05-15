@@ -183,7 +183,14 @@ a:visited {
 	        box-shadow: 0 2px 2px -2px gray;
 }
 
-
+.services ul {
+	list-style: none inside;
+	list-style-image:url('/assets/img/checkbox2.png');
+}
+.services li {
+	line-height: 28px;
+	font-size: 16px;
+}
 /* tag_box ======================================================== */
 
 .tag_box {
