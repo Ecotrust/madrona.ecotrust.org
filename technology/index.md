@@ -7,219 +7,203 @@ active: technology
 <div class="row">
 	<div class="span8">
 		<h2>Philosophy</h2>
-		<p>Madrona makes many choices for you while still providing lots of options, so you can get to the fun part of building tools right away.  You, the web developer, are still required to make many choices about your application and Madrona gives you building blocks to piece together the mental model of your solution quickly without getting distracted by the nuts and bolts.</p>
+		<p>Madrona makes many choices for you while still providing lots of options, so you can get to the fun part of building tools right away.  You, the web developer, are still required to make many choices about your application and Madrona gives you building blocks to piece together the mental model of your solution quickly without getting distracted by all of the nuts and bolts.</p>
 		<a name="zen"> </a>
 		<h3>The Zen of Madrona</h3>
 		<ul>
-		    <li>The best decision-making process will vary by geography and culture.</li>
-		    <li>Work directly with the intended users to capture the mental model of your decision-making process.</li>
-		    <li>Let the mental model define which Features and Links are needed.</li>
-		    <li>The Features and Links will then define the REST API.</li>
-		    <li>The REST API and its workspace document will drive the client interface.</li>
-		    <li>Let these conventions be your guide but they should get out of the way when no longer useful.</li>
+		    <li>The best process for making decisions will vary depending on scale, geography and culture.</li>
+		    <li>Work directly with the intended users to capture the mental model of your decision-making process</li>
+		    <li>Let the mental model define which spatial features and user actions are needed</li>
+		    <li>The spatial features and user actions will define the API</li>
+		    <li>The API and its workspace document will drive the client interface</li>
+		    <li>Let these conventions be your guide but they should get out of the way when no longer useful</li>
 		</ul>
 
-		<h2>Significant Features</h2>
-		<p>Madrona features can be mixed and matched to meet your unique needs.  Be sure to look at some of the many Madrona-based tools to see what’s possible.</p>
+		<h2>Building Blocks</h2>
+		<p>Madrona is built on libraries such as Django, PostGIS, JQuery, OpenLayers and Google Earth which provide all of the essential building blocks for developing modern spatial web applications.</p>
 
-		<div class="pull-right">
-			<img src="{{BASE_PATH}}/assets/img/technology/madrona_outline.png"/>
-		</div>
+		<a name="django"> </a>
+		<h3>Django</h3>
+		<p>
+			<ul>
+				<li>Model-Template-View architecture</li>
+				<li>Automatic admin interface</li>
+				<li>Elegant URL design</li>
+				<li>Template system</li>
+				<li>Caching</li>
+				<li>Internationalization</li>
+				<li>User accounts and groups</li>
+				<li>Content management</li>
+				<li>Extensive <a href="http://djangopackages.com/">third-party packages</a></li>
+			</ul>
+			<a href="http://www.djangoproject.com">http://www.djangoproject.com</a>
+		</p>
+
+		<a name="geodjango"> </a>
+		<h3>GeoDjango</h3>
+		<p>
+			<ul>
+				<li>PostGIS support</li>
+				<li>Geographic models</li>
+				<li>Object-oriented spatial queries</li>
+				<li>GEOS Python API</li>
+				<li>GDAL Python API</li>
+			</ul>
+			<a href="http://geodjango.org/">http://geodjango.org/</a>
+		</p>
+
+		<a name="postgis"> </a>
+		<h3>PostGIS</h3>
+		<p>
+			<ul>
+				<li>Vector and raster support</li>
+				<li>First-class geographic data types</li>
+				<li>Full spatial query support</li>
+				<li>GiST indexing</li>
+			</ul>
+			<a href="http://postgis.refractions.net/ ">http://postgis.refractions.net/ </a>
+		</p>
+
+		<a name="jquery"> </a>
+		<h3>JQuery</h3>
+		<p>
+			<ul>
+				<li>Lightweight</li>
+				<li>Cross-browser DOM manipulation and event handling</li>
+				<li>Extendable through plugin architecture</li>
+				<li>Extensive third-party plugins</li>
+			</ul>
+			<a href="http://jquery.com">http://jquery.com</a>
+		</p>
+
+		<a name="openlayers"> </a>
+		<h3>OpenLayers</h3>
+		<p>
+			<ul>
+				<li>2D tile-based maps</li>
+				<li>Vector support with drawing tools</li>				
+				<li>Extensive support for mapping services including <a href="http://mapbox.com/mbtiles-spec/utfgrid/">UTF-Grid</a></li>
+				<li>Google maps integration</li>
+			</ul>
+			<a href="http://openlayers.org">http://openlayers.org</a>
+		</p>
+
+		<a name="google_earth"> </a>
+		<h3>Google Earth Web Plugin</h3>
+		<p>
+			<ul>
+				<li>Immersive 3D environment</li>
+				<li>KML support including superoverlays</li>
+				<li>Global base imagery</li>
+				<li>Simplified use through <a href="http://code.google.com/p/earth-api-utility-library/">extensions</a></li>
+			</ul>
+			<a href="Z">Learn More</a>
+		</p>								
+
+		<p>Madrona combines these building blocks to create new ones tailored specifically for decision support and spatial planning.  You can mix and match them to meet your specific needs.</p>
+
+		<a name="2d_and_3d_support"> </a>
+		<h3>2D and 3D Support</h3>
+		<p>2D and 3D mapping clients have their strengths and weaknesses, choose the one that works best for your project.  Madrona supports both 2D and 3D mapping using the KML and GeoJSON data standards.</p>
+		<a href="http://ecotrust.github.com/madrona/docs/geojson.html">GeoJSON support</a>
+		<a href="http://ecotrust.github.com/madrona/docs/kmlapp.html">KML support</a>
+
 		<a name="spatial_features"> </a>
 		<h3>Spatial Features</h3>
-		<p>Provides a spatial content management system complete with an API and full CRUD operations.  Define new types of features (point, line, polygon) that are unique to your needs (e.g. wind energy sites, bike paths, event locations).  Then let users sketch, copy and share them.  <a href="http://ecotrust.github.com/madrona/docs/features.html">Learn More</a></p>
+		<p>Provides a powerful spatial content management system complete with API.  Define new features (point, line, polygon) that are unique to your needs (wind energy sites, bike paths, event locations), then let users sketch, copy and share them.</p>
+		<a href="http://ecotrust.github.com/madrona/docs/features.html">Learn More</a>
+
+		<a name="collaboration"> </a>
+		<h3>Collaboration</h3>
+		<p>The best ideas often evolve through many iterations and through connecting with other people.  Madrona is developed with quick iteration and sharing in mind. Our robust permissions model is secure but allows you to share your work when you want to.</p>
+		<a href="http://ecotrust.github.com/madrona/docs/managing_users.html">Learn More</a>
 
 		<a name="feature_manipulators"> </a>
 		<h3>Feature Manipulators</h3>
-		<p>Features sketched by users often need to be modified or cleaned and manipulators provide a workflow for doing that.  Example manipulators include clipping a feature to your study region or clipping out exclusion areas. <a href="http://ecotrust.github.com/madrona/docs/manipulators.html">Learn More</a></p> 
+		<p>Features sketched by users often need to be modified or cleaned, Madrona provides a workflow for doing that.  Examples include clipping a polygon to a study region or excluding specific areas.</p>
+		<a href="http://ecotrust.github.com/madrona/docs/manipulators.html">Learn More</a>
 
 		<a name="import_export"> </a>
 		<h3>Import/Export</h3>
-		<p>You don’t want your tool to be a black box and you want it to integrate with external workflows.  Allow your users to import and export their Features in common spatial formats including KML, GeoJSON and Shapefiles. <a href="http://ecotrust.github.com/madrona/docs/loadshp.html">Learn More</a></p> 
+		<p>Planning tools shouldn’t be black boxes.  Import and export features are provided so that users can get out what they put in and integrate their external planning and GIS workflows.</p>
+		<a href="http://ecotrust.github.com/madrona/docs/loadshp.html">Import</a>
+		<a href="http://ecotrust.github.com/madrona/docs/export.html">Export</a>
 
 		<a name="map_bookmarks"> </a>
 		<h3>Map Bookmarks</h3>
-		<p>Allow the user to take a snapshot of their map view including the data layers and features they had turned on.  Manage bookmarks as any other Feature and share them as links with other people. (Google Earth only currently) <a href="http://ecotrust.github.com/madrona/docs/bookmarks.html ">Learn More</a></p>
+		<p>Let’s users take a snapshot of their map view including the data layers and features they had turned on then share and manage the views as bookmarks (Google Earth support only currently)</p>
+		<a href="http://ecotrust.github.com/madrona/docs/bookmarks.html">Learn More</a>
 
 		<a name="study_regions"> </a>
 		<h3>Study Regions</h3>
-		<p>Focus the user’s attention on a specific geographic region and then create or limit user actions specific to that region. <a href="http://ecotrust.github.com/madrona/docs/bookmarks.html">Learn More</a></p>
+		<p>Focus the user’s attention on a specific geographic region and then create or limit user actions specific to that region.</p>
+		<a href="http://ecotrust.github.com/madrona/docs/studyregion.html">Learn More</a>
 
 		<a name="data_layers"> </a>
 		<h3>Data Layers</h3>
-		<p>Manage a hierarchy of data layers important to your decision-making process and provide fine-grained access for viewing.  Also let users upload their own data layers. (KML support only currently).<a href="http://ecotrust.github.com/madrona/docs/layers.html">Learn More</a></p>
-
-		<a name="content_management"> </a>
-		<h3>Content Management</h3><p>Allow site administrators to manage and edit blocks of content within pages.<a href="http://ecotrust.github.com/madrona/docs/flatblocks.html">Learn More</a></p>
+		<p>Manage a hierarchy of data layers important to your decision-making process and provide fine-grained access for viewing.  Also let users upload their own data layers. (KML support only currently).</p>
+		<a href="http://ecotrust.github.com/madrona/docs/layers.html">Learn More</a>
 
 		<a name="reports"> </a>
 		<h3>Reports</h3>
-		<p>???? Is this a feature?<a href="#">Learn More</a></p>
+		<p>Provide feedback to users by performing real-time spatial analyses on their features.  Quickly organize information as tabular data and interactive charts using Django’s template system and your favorite visualization library.</p>
+		<a href="http://ecotrust.github.com/madrona/docs/sidebar.html">Learn More</a>
 
 		<a name="flexible_analysis"> </a>
 		<h3>Flexible Analysis</h3>
-		<p>Interact with external modeling and analysis software in a standardized way.  Allows you to define inputs and capture outputs as Features.<a href="http://ecotrust.github.com/madrona/docs/analysistools.html">Learn More</a></p>
+		<p>Interact with external modeling and analysis software such as Grass, Marxan or ArcServer in a standardized way.  Define your model inputs and capture the output as Features that the user can interact with and share.</p>
+		<a href="http://ecotrust.github.com/madrona/docs/analysistools.html">Learn More</a>
 
 		<a name="asynchronous_tasking"> </a>
 		<h3>Asynchronous Tasking</h3>
-		<p>Analysis can take a lot of time and system resources.  Users should be able to do other things while they are waiting.  Run processes in the background and get notified when they finish. <a href="http://ecotrust.github.com/madrona/docs/async.html">Learn More</a></p>
+		<p>Analysis can take a lot of time and system resources.  Users should be able to do other things while they are waiting.  Run processes in the background and get notified when they finish.</p>
+		<a href="http://ecotrust.github.com/madrona/docs/async.html">Learn More</a>
 
 		<a name="static_maps"> </a>
 		<h3>Static Maps</h3>
-		<p>Create static map images that include user defined shapes and other features.
-		<a href="http://ecotrust.github.com/madrona/docs/staticmap.html">Learn More</a></p>
+		<p>Create static map images that include user defined shapes and other features.</p>
+		<a href="http://ecotrust.github.com/madrona/docs/staticmap.html">Learn More</a>		
 
 		<a name="custom_projections"> </a>
 		<h3>Custom Projections</h3>
-		<p>Use one of the thousands of projections available with Proj.4 or define your own.
-		<a href="http://ecotrust.github.com/madrona/docs/custom_projection.html">Learn More</a></p>
+		<p>Use one of the thousands of projections available with Proj.4 or define your own.</p>
+		<a href="http://ecotrust.github.com/madrona/docs/custom_projection.html">Learn More</a>
 
-		<a name="raster_stats"> </a>
+		<a name="raster_statistics"> </a>
 		<h3>Raster Statistics</h3>
-		<p>Quickly calculate statistics for a polygon Feature such as the average elevation or maximum temperature using raster data layers.  Provides an optional caching mechanism.<a href="http://ecotrust.github.com/madrona/docs/raster_stats.html">Learn More</a></p>
+		<p>Quickly calculate statistics for a polygon Feature such as the average elevation or maximum temperature using raster data layers.  Provides an optional caching mechanism.</p>
+		<a href="http://ecotrust.github.com/madrona/docs/raster_stats.html">Learn More</a>	
 
+		<p>One-size-fits-all rarely works.  The assumption is you will want to integrate different technology with Madrona whether it’s a mapping library like Leaflet, data management and data serving tools like Geoserver or ArcServer or a more robust client-side framework like GeoExt.</p>
+
+		<a name="architecture"> </a>
 		<h2>Architecture</h2>
-		<ul>
-	        <li><a href="https://www.djangoproject.com/">Django</a></li>
-	        <li><a href="http://geodjango.org/">GeoDjango</a></li>
-	        <li><a href="http://postgis.refractions.net/">PostGIS</a></li>
-	        <li><a href="http://mapnik.org/">Mapnik</a></li>
-	        <li><a href="http://jquery.com/">JQuery</a></li>
-	        <li><a href="https://developers.google.com/earth/">Google Earth Plugin</a></li>
-	        <li><a href="http://code.google.com/p/earth-api-utility-library/">Google Earth API Util</a></li>
-	        <li><a href="http://code.google.com/p/kmltree/">KmlTree</a></li>	        
-	    </ul>		
-		<a name="core_libraries"> </a>
-		<h3>Core Libraries</h3>
-		<h4>Django</h4>
-		<h4>PostGIS</h4>
-		<h4>GDAL/OGR</h4>
-		<p>Work with any of the wide range of data formats and databases supported by GDAL and OGR including shapefiles, KML, GeoJSON, CouchDB, Spatialite, Google Fusion Tables, GeoTiff, ESRI Grid, ESRI Geodatabase, Excel, CSV, etc.</p>
+
+		<p>[High-level software stack diagram. database, django, madrona, your tool, other services, data layers]</p>
+
+		<p>Madrona sits near the top of the software stack as one of the frameworks for building web applications</p>
+
+		<p>[Madrona internal architecture diagram.  client/server, rest api]</p>
+
 		<a name="rest_api"> </a>
 		<h3>REST API</h3>
-		<p>Defined bahavior, methods and relationships with other data</p>
-		<h4>KML</h4>
-		<h4>GeoJSON</h4>
-		<a name="caching"> </a>
-		<h3>Caching</h3>
-		<a name="reporting"> </a>
-		<h3>Reporting</h3>
+
+		<p>The madrona application programming interface (API) follows the representational state transfer or <a href="http://en.wikipedia.org/wiki/Representational_state_transfer">REST architecture</a> architecture.  This REST API is the communication channel allowing the client to interact with the server.  Using it you can:</p>
+		<ul>
+			<li>Create, read, update and delete Features</li>
+			<li>Copy and share Features between user groups</li>
+			<li>Manage Features within collections</li>
+			<li>Convert to export formats</li>
+			<li>Access reports and related documents</li>
+		</ul>
+
 		<a name="workspace_document"> </a>
 		<h3>Workspace Document</h3>
 		<p>Actions [Links] (creating, reading, editing, updating, downloading, copying, sharing, etc)</p>
-		<a name="helpers"> </a>
-		<h3>Helpers</h3>
-		<ul>
-		    <li>Raster Stats</li>
-		    <li>Manipulators</li>
-		    <li>Async</li>
-		    <li>Study Region</li>
-		    <li>Public and private data layers</li>
-		</ul>
-		<a name="client_widgets"> </a>
-		<h3>Client Widgets</h3>
-		<h4>KmlTree</h4>
-		<h4>KmlEditor</h4>
-		<a name="stacks"> </a>
-		<h3>Potential Software Stacks</h3>
-		<p>All options require the client working with the workspace document.</p>
-		<h4>Madrona/Google Earth Web Plugin/JQuery</h4>
-        <ul>
-	        <li>3D Mapping</li>
-	        <li>KML-driven</li>
-	        <li>KmlTree</li>
-	        <li>KmlEditor</li>
-	    </ul>
-		
-		<h4>Madrona/2DMap/MapBox</h4>
-	    <p>Map Publishing</p>
-	            <ul>
-	            	<li>Create using TileMill</li>
-	            	<li>Publish online using TileStream or hosted service</li>
-	            	<li>Reference in datalayers app</li>
-	           	</ul>
-	    <p>2D Mapping Client</p>
-            <ul>
-            	<li>OpenLayers if you need complex drawing capabilities</li>
-                <li>Leaflet</li>
-                <li>Google Maps</li>
-           	</ul>
-        <p>GeoJSON-driven</p>
-        <p>Use the Madrona GeoJSON support in feature API</p>
-        <h4>UTF-Grid</h4>
-            <p>Leaflet and OpenLayers both supported</p>
-	    <h4>Madrona/OpenLayers/GeoExt/GeoServer</h4>
-	        <p>Could use OpenGeo Studio</p>
-	    <h4>Madrona/SenchaTouch/OpenLayers (mobile app)</h4>
-	        <p>http://openlayers.org/dev/examples/mobile-sencha.html</p>
-	    <a name="third-party"> </a>
-		<h3>Third-party Integration</h3>
-		<a name="modeling_analysis"> </a>
-		<h3>Modeling/Analysis</h3>
-		<ul>
-		    <li>FVS</li>
-		    <li>Marxan</li>
-		    <li>Grass</li>
-		    <li>ArcServer REST API</li>
-		    <li>ArcPy</li>
-		</ul>
-		<a name="mapservers"> </a>
-		<h3>Mapservers</h3>
-		    <h4>GeoServer</h4>
-		        <ul>
-		        	<li>WMS</li>
-    		        <li>WFS</li>
-    		        <li>WPS/Geoprocessing</li>
-    		   	</ul>
-		    <h4>Mapnik</h4>
-		        <ul>
-		        	<li>staticmap</li>
-		        <li>WMS</li></ul>
-		<a name="client_side_mapping"> </a>
-		<h3>Client-side Mapping</h3>
-	    <h4>Google Earth Web Plugin</h4>
-	        <p>Extensive support</p>
-	    <h4>OpenLayers</h4>
-	        <p>Feature layer</p>
-	    <h4>Leaflet</h4>
-	        <p>Feature layer</p>
-	    <h4>GeoExt</h4>
-	        <p>GeoJson feature layer</p>
-	    <a name="visualization"> </a>
-		<h3>Visualization</h3>
-		    <h4>D3</h4>
-		        <p>Choropleth - http://mbostock.github.com/d3/ex/choropleth.html</p>
-		    <h4>JQPlot</h4>
-		<a name="platforms"> </a>
-		<h3>Platforms</h3>
-		    <h4>ESRI</h4>
-		        <ul>
-		        	<li>ArcServer Rest API</li>
-		        	<li>WMS</li>
-		        	<li>KML</li>
-		        </ul>
-		    <h4>MapBox</h4>
-		        <ul>
-		        	<li>Use TileMill for creating your data layers.</li>
-		        	<li>Link to them using datalayers app</li>
-		        	<li>Make them available on your map (Leaflet/OpenLayers)</li>
-		        </ul>
-		    <h4>OpenGeo Studio</h4>
-		        See Geoserver
-		        See GeoExt
-		    <h4>CartoDB</h4>
-		        Can complement each other... integration is not totally clear
-		        Could be installed together on the same system. https://github.com/Vizzuality/cartodb 
-		<h2>Deployment</h2>
-		<p>Anywhere Python and WSGI is supported</p>
-		<a name="linux"> </a>
-		<h3>Linux</h3>
-		<p>Point at instructions</p>
-		<a name="windows"> </a>
-		<h3>Windows</h3>
-		<p>https://docs.djangoproject.com/en/dev/ref/contrib/gis/install/#windows</p>
-		<a name="cloud"> </a>
-		<h3>Cloud-based Hosting</h3>
+
+		<a name="3d_web_client"> </a>
+		<h3>3D Web Client</h3>
+
 	</div>
 	<div class="span4">
 		<div class="row">
