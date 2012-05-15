@@ -19,13 +19,13 @@ active: experience
 
 # Version 5.0 
 
-* Complete **2D interface** 
+Complete **2D interface** 
                           
-    * Autoconfigures based on workspace
-    * Full CRUD capabilities and REST API integration 
-    * GeoJSON driven
-    * OpenLayers map interface with Tree-view feature list. 
-    * Ability to author base map tiles and interactivity layers (UTFGrids) using Tilemill
+* Autoconfigures based on workspace
+* Full CRUD capabilities and REST API integration 
+* GeoJSON driven
+* OpenLayers map interface with Tree-view feature list. 
+* Ability to author base map tiles and interactivity layers (UTFGrids) using Tilemill
 
 # Other functionality under consideration 
 
