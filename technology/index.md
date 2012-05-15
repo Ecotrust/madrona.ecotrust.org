@@ -109,7 +109,7 @@ active: technology
 			<div class="span3">
 				<div class="well">
 					<a name="google_earth"> </a>
-					<h3>Google Earth Web Plugin</h3>
+					<h3>Google Earth Plugin</h3>
 					<a href="Z">Learn More</a>
 					<p>
 						<ul>
