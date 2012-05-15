@@ -37,7 +37,5 @@ active: experience
 
 	<p><img style='float:left' src='http://placehold.it/50x50'/><em>Cathy Kellon, Water and Watersheds</em>. Cathy is the Program Director for the <a href="www.ecotrust.org/wwri">Whole Watershed Restoration Initiative</a>, a collaborative effort to restore high priority river basins in the Pacific Northwest. She has extensive experience with building working partnerships; project development and management; meeting design and facilitation; and communicating impact. From Alaska to California, she has worked on water resources, salmon, and habitat restoration issues for over 15 years.</p>
 
-	<p><img style='float:left' src='http://placehold.it/50x50'/><em>Shauna McCovey, Tribal Affairs Policy</em>. Shauna works in Policy and Indigenous Affairs at Ecotrust and is a member of the Yurok tribe.  She holds degrees in environmental law and social work and sees part of her purpose in life to be a liaison between tribal and non-tribal people.</p>
-
 	</div>
 </div>
