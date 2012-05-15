@@ -192,7 +192,6 @@ active: technology
 		    <h4>JQPlot</h4>
 		<a name="platforms"> </a>
 		<h3>Platforms</h3>
-
 		    <h4>ESRI</h4>
 		        <ul>
 		        	<li>ArcServer Rest API</li>
@@ -211,7 +210,6 @@ active: technology
 		    <h4>CartoDB</h4>
 		        Can complement each other... integration is not totally clear
 		        Could be installed together on the same system. https://github.com/Vizzuality/cartodb 
-
 		<h2>Deployment</h2>
 		<p>Anywhere Python and WSGI is supported</p>
 		<a name="linux"> </a>
@@ -225,90 +223,92 @@ active: technology
 	</div>
 	<div class="span4">
 		<div class="row">
-			<div id="accordion2" class="accordion">
-	            <div class="accordion-group">
-	              <div class="accordion-heading">
-	                <a href="#collapseOne" data-parent="#accordion2" data-toggle="collapse" class="accordion-toggle">
-	                  <h3>Philosophy</h3>
-	                </a>
-	              </div>
-	              <div class="accordion-body collapse" id="collapseOne" style="height: 0px;">
-	                <div class="accordion-inner">
-	                  <ul class="unstyled">
-	                  	<li><a href="#zen">The Zen of Madrona</a></li>
-	                  </ul>
-	                </div>
-	              </div>
-	            </div>
-	            <div class="accordion-group">
-	              <div class="accordion-heading">
-	                <a href="#collapseTwo" data-parent="#accordion2" data-toggle="collapse" class="accordion-toggle">
-	                  <h3>Significant Features</h3>
-	                </a>
-	              </div>
-	              <div class="accordion-body collapse" id="collapseTwo" style="height: 0px;">
-	                <div class="accordion-inner">
-	                  <ul class="unstyled">
-		                  <li><a href="#spatial_features">Spatial Features</a></li>
-		                  <li><a href="#data_layers">Data layers</a></li>
-		                  <li><a href="#content_management">Content Management</a></li>
-		                  <li><a href="#collaboration">Collaboration</a></li>
-		                  <li><a href="#flexible_analysis">Flexible Analysis</a></li>
-		                  <li><a href="#study_regions">Study Regions</a></li>
-		                  <li><a href="#manipulators">Manipulators</a></li>
-		                  <li><a href="#import_export">Import/Export</a></li>
-		                  <li><a href="#asynchronous_tasking">Asynchronous Tasking</a></li>
-		                  <li><a href="#custom_projections">Custom Projections</a></li>
-		                  <li><a href="#2d_3d_support">2D and 3D Support</a></li>
-		                  <li><a href="#raster_statistics">Raster Statistics</a></li>
-		              </ul>
-	                </div>
-	              </div>
-	            </div>
-	            <div class="accordion-group">
-	              <div class="accordion-heading">
-	                <a href="#collapseThree" data-parent="#accordion2" data-toggle="collapse" class="accordion-toggle">
-	                  <h3>Architecture</h3>
-	                </a>
-	              </div>
-	              <div class="accordion-body collapse" id="collapseThree">
-	                <div class="accordion-inner">
-		            <ul class="unstyled">
-		                 <li><a href="#core_libraries">Core Libraries</a></li>
-		                 <li><a href="#rest_api">REST API</a></li>
-		                 <li><a href="#caching">Caching</a></li>
-		                 <li><a href="#reporting">Reporting</a></li>
-		                 <li><a href="#workspace_document">Workspace Document</a></li>
-		                 <li><a href="#helpers">Helpers</a></li>
-		                 <li><a href="#client_widgets">Client Widgets</a></li>
-		                 <li><a href="#stacks">Potential Software Stacks</a></li>
-		                 <li><a href="#third-party">Third-party Integration</a></li>
-		                 <li><a href="#modeling_analysis">Modeling/Analysis</a></li>
-		                 <li><a href="#mapservers">Mapservers</a></li>
-		                 <li><a href="#client_side_mapping">Client-side Mapping</a></li>
-		                 <li><a href="#visualization">Visualization</a></li>
-		                 <li><a href="#platforms">Platforms</a></li>
-		             </ul>
-	                </div>
-	              </div>
-	            </div>
-	            <div class="accordion-group">
-	              <div class="accordion-heading">
-	                <a href="#collapseFour" data-parent="#accordion2" data-toggle="collapse" class="accordion-toggle">
-	                  <h3>Deployment</h3>
-	                </a>
-	              </div>
-	              <div class="accordion-body collapse" id="collapseFour">
-	                <div class="accordion-inner">
-	                  <ul class="unstyled">
-	                  	<li><a href="#linux">Linux</a></li>
-	                  	<li><a href="#windows">Windows</a></li>
-	                  	<li><a href="#cloud">Cloud-based Hosting</a></li>
-	                  </ul>
-	                </div>
-	              </div>
-	            </div>
-	      </div>
+			<div class="span3 offset1">
+				<div id="accordion2" class="accordion">
+		            <div class="accordion-group">
+		              <div class="accordion-heading">
+		                <a href="#collapseOne" data-parent="#accordion2" data-toggle="collapse" class="accordion-toggle">
+		                  <h3>Philosophy</h3>
+		                </a>
+		              </div>
+		              <div class="accordion-body collapse" id="collapseOne" style="height: 0px;">
+		                <div class="accordion-inner">
+		                  <ul class="unstyled">
+		                  	<li><a href="#zen">The Zen of Madrona</a></li>
+		                  </ul>
+		                </div>
+		              </div>
+		            </div>
+		            <div class="accordion-group">
+		              <div class="accordion-heading">
+		                <a href="#collapseTwo" data-parent="#accordion2" data-toggle="collapse" class="accordion-toggle">
+		                  <h3>Significant Features</h3>
+		                </a>
+		              </div>
+		              <div class="accordion-body collapse" id="collapseTwo" style="height: 0px;">
+		                <div class="accordion-inner">
+		                  <ul class="unstyled">
+			                  <li><a href="#spatial_features">Spatial Features</a></li>
+			                  <li><a href="#data_layers">Data layers</a></li>
+			                  <li><a href="#content_management">Content Management</a></li>
+			                  <li><a href="#collaboration">Collaboration</a></li>
+			                  <li><a href="#flexible_analysis">Flexible Analysis</a></li>
+			                  <li><a href="#study_regions">Study Regions</a></li>
+			                  <li><a href="#manipulators">Manipulators</a></li>
+			                  <li><a href="#import_export">Import/Export</a></li>
+			                  <li><a href="#asynchronous_tasking">Asynchronous Tasking</a></li>
+			                  <li><a href="#custom_projections">Custom Projections</a></li>
+			                  <li><a href="#2d_3d_support">2D and 3D Support</a></li>
+			                  <li><a href="#raster_statistics">Raster Statistics</a></li>
+			              </ul>
+		                </div>
+		              </div>
+		            </div>
+		            <div class="accordion-group">
+		              <div class="accordion-heading">
+		                <a href="#collapseThree" data-parent="#accordion2" data-toggle="collapse" class="accordion-toggle">
+		                  <h3>Architecture</h3>
+		                </a>
+		              </div>
+		              <div class="accordion-body collapse" id="collapseThree">
+		                <div class="accordion-inner">
+			            <ul class="unstyled">
+			                 <li><a href="#core_libraries">Core Libraries</a></li>
+			                 <li><a href="#rest_api">REST API</a></li>
+			                 <li><a href="#caching">Caching</a></li>
+			                 <li><a href="#reporting">Reporting</a></li>
+			                 <li><a href="#workspace_document">Workspace Document</a></li>
+			                 <li><a href="#helpers">Helpers</a></li>
+			                 <li><a href="#client_widgets">Client Widgets</a></li>
+			                 <li><a href="#stacks">Potential Software Stacks</a></li>
+			                 <li><a href="#third-party">Third-party Integration</a></li>
+			                 <li><a href="#modeling_analysis">Modeling/Analysis</a></li>
+			                 <li><a href="#mapservers">Mapservers</a></li>
+			                 <li><a href="#client_side_mapping">Client-side Mapping</a></li>
+			                 <li><a href="#visualization">Visualization</a></li>
+			                 <li><a href="#platforms">Platforms</a></li>
+			             </ul>
+		                </div>
+		              </div>
+		            </div>
+		            <div class="accordion-group">
+		              <div class="accordion-heading">
+		                <a href="#collapseFour" data-parent="#accordion2" data-toggle="collapse" class="accordion-toggle">
+		                  <h3>Deployment</h3>
+		                </a>
+		              </div>
+		              <div class="accordion-body collapse" id="collapseFour">
+		                <div class="accordion-inner">
+		                  <ul class="unstyled">
+		                  	<li><a href="#linux">Linux</a></li>
+		                  	<li><a href="#windows">Windows</a></li>
+		                  	<li><a href="#cloud">Cloud-based Hosting</a></li>
+		                  </ul>
+		                </div>
+		              </div>
+		            </div>
+		      </div>
+		  </div>
 		</div>
 	</div>
 </div>

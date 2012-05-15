@@ -1,11 +1,16 @@
 ---
 layout: page
 title: madrona spatial planning framework
-tagline: A framework for building spatial planning tools at any scale.
 ---
 {% include JB/setup %}
+
 <div class="row">
   <div class="span6">
+    <div class="row">
+      <div class="span6">
+        <p>A framework for building spatial planning tools at any scale.</p>
+      </div>
+    </div>
     <div class="bugs">
       <div class="row">
         <div class="span3">
@@ -18,7 +23,7 @@ tagline: A framework for building spatial planning tools at any scale.
                   </h3>
                 </div>
                 <div class="text">
-                  <p><strong>define, sketch, share</strong></p>
+                  <p>define, sketch, share</p>
                 </div>
               </div>
             </div>
@@ -34,7 +39,7 @@ tagline: A framework for building spatial planning tools at any scale.
                   </h3>
                 </div>
                 <div class="text">
-                  <p><strong>public and private</strong></p>
+                  <p>public and private</p>
                 </div>
               </div>
             </div>
@@ -50,7 +55,7 @@ tagline: A framework for building spatial planning tools at any scale.
                   <h3><img src="{{ BASE_PATH }}/assets/img/collaboration.png"><span class="wide">Collaboration</span></h3>
                 </div>
                 <div class="text">
-                  <p><strong>consensus driven</strong></p>
+                  <p>consensus driven</p>
                 </div>
               </div>
             </div>
@@ -64,7 +69,7 @@ tagline: A framework for building spatial planning tools at any scale.
                   <h3><img src="{{ BASE_PATH }}/assets/img/analysis.png"><span class="wide">Flexible Analysis</span></h3>
                 </div>
                 <div class="text">
-                  <p><strong>visualize and report</strong></p>
+                  <p>visualize and report</p>
                 </div>
               </div>
             </div>

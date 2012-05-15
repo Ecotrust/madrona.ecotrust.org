@@ -22,12 +22,8 @@ active: experience
 								{% endif %}
 							</div>
 							<div class="span4">
-								<h3>
-									{% if post.complete %}
-										<a href="{{ post.url }}">{{ post.title }}</a>
-									{% else %}
+								<h3>									
 										{{ post.title }}
-									{% endif %}
 								</h3>
 								<p>{{ post.blurb }}	
 									{% if post.complete %}						
@@ -53,6 +49,10 @@ active: experience
 		</div>
 	</div>
 	<div class="span4">
-		{% include experience/accordion.html %}
+		<div class="row">
+			<div class="span3 offset1">
+			{% include experience/accordion.html %}
+			</div>
+		</div>
 	</div>
 </div>
