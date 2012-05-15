@@ -34,12 +34,12 @@ active: developer
             <div class="bug">
               <div class="row">
                 <div class="header">
-                  <h3><img src="{{ BASE_PATH }}/assets/img/documentation.png"><span> Tutorials</span></h3>
+                  <h3><a href="http://ecotrust.github.com/madrona/docs/tutorial.html"><img src="{{ BASE_PATH }}/assets/img/documentation.png"><span> Tutorials</span></a></h3>
                 </div>
                 <div class="text">
                   <ul class="unstyled">
                     <li><a href="http://ecotrust.github.com/madrona/docs/tutorial_appgen.html">Madrona appliance</a></li>
-                    <li><a href="http://ecotrust.github.com/madrona/docs/tutorial_scratch.html">Madrona from scratch</a></li>
+                    <li><a href="http://ecotrust.github.com/madrona/docs/tutorial_create.html">Your first Madrona project</a></li>
                   </ul>
                 </div>
               </div>
