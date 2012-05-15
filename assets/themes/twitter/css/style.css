@@ -3,15 +3,16 @@
 /* Override some defaults */
 html, body {
   background-color: #eee;
+  color: #333;
 
 }
 
 a:link {
-	color: #666;
+	color: #993300;
 }
 
 a:visited {
-	color: #666;
+	color: #993300;
 }
 .container > footer {
   margin-top: 20px;
@@ -20,6 +21,11 @@ a:visited {
   text-align: center; /* center align it with the container */
 }
 
+.container > footer a:link,
+.container > footer a:visited {
+	color: #333;
+
+}
 /* The white background content wrapper */
 .content {
   background-color: #fff;
@@ -51,7 +57,7 @@ a:visited {
 	padding-bottom: 30px;
 }
 .madrona-logo a{
-	color: black;
+	color: #333;
 }
 .madrona-logo a:hover {
 	text-decoration: none;
@@ -65,34 +71,22 @@ a:visited {
 	color: #bbbbbb;
 }
 
-.logo-bar {
-
-}
-
-.nav-bar {
+.madrona-text {
+	font-size: 16px;
 }
 
 .primary-content {
 	margin-top: 30px;
 }
 
-.primary-content p, .primary-content ul {
-	padding-right: 20px;
-}
-
-.primary-nav .nav {
-	margin-bottom: 10px;
-	margin-left: 30px;
-}
-
-.primary-nav .nav a {
-	
-	color: #444444;
-
+.primary-nav {
+	margin-top: -10px;
 }
 
 .primary-nav .nav-pills > li > a {
-	padding: 1px 5px;
+	padding: 10px;
+	font-size: 20px;
+
 }
 
 .primary-nav .nav .active a {
@@ -100,12 +94,6 @@ a:visited {
 	color: white;
 }
 
-.primary-nav .nav .active img {
-	visibility: visible;
-	opacity:1;
-	filter:alpha(opacity=100); /* For IE8 and earlier */
-	}
-}
 .primary-nav .nav a.active:hover {
 	background-color: #bbbbbb;
 }
@@ -113,18 +101,9 @@ a:visited {
 	background-color: #777777;
 	color: white;
 }
-.primary-nav .nav img {
-	visibility: visible;
-	opacity:0.15;
-	filter:alpha(opacity=15); /* For IE8 and earlier */
-}
 
-
-.primary-nav .nav a:hover img {
-	visibility: visible;
-	opacity:1;
-	filter:alpha(opacity=100); 
-	
+.primary-nav .nav a {
+	color: #333;
 }
 
 .bugs {
@@ -176,18 +155,17 @@ a:visited {
 
 	padding-left: 5px;
 	padding-bottom: 3px;
-	background-color: #bbb;
 	letter-spacing: 1.5px;
 	height: 40px;
 	font-weight: 600;
-	-webkit-border-top-left-radius: 5px;
-		-moz-border-top-left-radius: 5px;
-		border-top-left-radius: 5px;
-	-webkit-border-top-right-radius: 5px;
-	-moz-border-top-right-radius: 5px;
-	border-top-right-radius: 5px;
+	-webkit-border-top-left-radius: 10px;
+		-moz-border-top-left-radius: 10px;
+		border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+	-moz-border-top-right-radius: 10px;
+	border-top-right-radius: 10px;
 	font-weight: 600!important; 
-	color: black;	
+	color: #333;	
 
 	-webkit-box-shadow: 0 2px 2px -2px gray;
 	   -moz-box-shadow: 0 2px 2px -2px gray;
@@ -200,7 +178,7 @@ a:visited {
 }
 
 .bug .text a {
-	color: black;
+	color: #333;
 }
 
 .bugs a:hover {
@@ -213,7 +191,7 @@ a:visited {
 .bug .text {
 	padding-top: 10px;
 	font-size: 16px;
-	color: black;
+	color: #333;
 }
 
 .bug .text p {
@@ -233,14 +211,23 @@ a:visited {
 
 }
 
-h2 {
+.project {
+	margin-bottom: 20px;
+}
+.project img {
+
+	-webkit-box-shadow: 0 2px 2px -2px gray;
+	   -moz-box-shadow: 0 2px 2px -2px gray;
+	        box-shadow: 0 2px 2px -2px gray;
+}
+/*h2 {
 
 	width: 90%;
 	padding-left: 32px;
 	margin-bottom: 15px;
 	background-image: url({{BASE_PATH}}/assets/img/tree-icon.png);
 	background-repeat: no-repeat;
-	background-position: 5px 2px;
+	background-position: 5px 2px;*/
 	/*background-color: #81A632;*/
 	/*color: #f2f2f2;*/
 /*	-webkit-border-top-left-radius: 10px;
@@ -251,9 +238,9 @@ h2 {
 	border-bottom-left-radius: 10px;
 		-webkit-box-shadow: 0 4px 4px -2px gray;
 	   -moz-box-shadow: 0 4px 4px -2px gray;
-	        box-shadow: 0 4px 4px -2px gray;*/
+	        box-shadow: 0 4px 4px -2px gray;
 }
-
+*/
 /*.experience .project {
 	-webkit-border-radius: 5px;
 		-moz-border-radius: 5px;

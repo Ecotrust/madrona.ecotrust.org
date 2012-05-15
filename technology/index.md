@@ -6,13 +6,10 @@ active: technology
 {% include JB/setup %}
 <div class="row">
 	<div class="span8">
-
 		<h2>Philosophy</h2>
 		<p>Madrona makes many choices for you while still providing lots of options, so you can get to the fun part of building tools right away.  You, the web developer, are still required to make many choices about your application and Madrona gives you building blocks to piece together the mental model of your solution quickly without getting distracted by the nuts and bolts.</p>
-		
 		<a name="zen"> </a>
 		<h3>The Zen of Madrona</h3>
-
 		<ul>
 		    <li>The best decision-making process will vary by geography and culture.</li>
 		    <li>Work directly with the intended users to capture the mental model of your decision-making process.</li>

@@ -11,6 +11,7 @@ name: Mike Mertens
 phone: 503-467-0775
 email: mikem@ecotrust.org
 complete: true
+active: experience
 ---
 <div class="row">
 	<div class="span4">

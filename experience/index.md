@@ -22,7 +22,13 @@ active: experience
 								{% endif %}
 							</div>
 							<div class="span4">
-								<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+								<h3>
+									{% if post.complete %}
+										<a href="{{ post.url }}">{{ post.title }}</a>
+									{% else %}
+										{{ post.title }}
+									{% endif %}
+								</h3>
 								<p>{{ post.blurb }}	
 									{% if post.complete %}						
 										<a href="{{ post.url }}" class="pull-right btn btn-mini">Read More...</a>
