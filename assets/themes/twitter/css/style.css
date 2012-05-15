@@ -106,6 +106,9 @@ a:visited {
 	   -moz-box-shadow: 0 4px 4px -2px gray;
 	        box-shadow: 0 4px 4px -2px gray;
 }
+.bug:hover {
+	background-color: #bbb;	
+}
 
 .bug p {
 	font-size: 14px;

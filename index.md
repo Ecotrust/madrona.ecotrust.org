@@ -84,42 +84,7 @@ title: madrona spatial planning framework
     </div>
   </div>
   <div class="span6">
-    <div id="showcase" class="carousel">
-    <!-- Carousel items -->
-      <div class="carousel-inner">
-      <div class="active item">
-        <img src="{{ BASE_PATH }}/assets/img/fsp.png">
-        <div class="carousel-caption">
-          <h4>Forest Scenario Planner</h4>
-          <p>The Murdock Charitable Trust wanted to help private forest landowners visualize alternative management scenarios.</p>
-        </div>
-      </div>
-      <div class="item">
-        <img src="{{BASE_PATH}}/assets/img/experience/windmill-ocean.jpg">
-        <div class="carousel-caption">
-          <h4>Marine Decision Support</h4>
-          <p>The Mid-Atlantic Regional Council on the Ocean sought to engage community involvement in zoning nearshore waters for multiple uses.</p>
-        </div>
-      </div>
-      <div class="item">
-        <img src="{{BASE_PATH}}/assets/img/experience/wwri.png">
-        <div class="carousel-caption">
-          <h4>Aquatic Priority Setting</h4>
-          <p>U.S. Fish and Wildlife Service needed a platform for conservation and restoration planning on sub-watershed scales across the Columbia River Basin.</p>
-        </div>
-      </div>
-      <div class="item">
-        <img src="{{ BASE_PATH }}/assets/img/experience/worldbioregions_map.png">
-        <div class="carousel-caption">
-          <h4>Bioregional Discovery</h4>
-          <p>Ecotrust wanted to allow people all over the planet to visualize their bioregions and gain an appreciation of social and environmental assets and vulnerabilities.</p>
-        </div>
-      </div>
-    </div>
-    <!-- Carousel nav -->
-    <a class="carousel-control left" href="#showcase" data-slide="prev">&lsaquo;</a>
-    <a class="carousel-control right" href="#showcase" data-slide="next">&rsaquo;</a>
-    </div>
+    {% include carousel.html %}
    </div>
 </div>
 

@@ -1,0 +1,28 @@
+<div id="showcase" class="carousel">
+    <!-- Carousel items -->
+    <div class="carousel-inner">
+        {% for post in site.posts reversed %}
+          {% if post.category contains "experience" and post.tag contains "feature" %}
+            {% if forloop.first %}
+              <div class="item active">
+            {% else %}
+              <div class="item">
+            {% endif %}
+
+                <img src="{{ BASE_PATH }}{{ post.image }}">
+                <div class="carousel-caption">
+                    <h4>
+                        {{ post.title }}
+                    </h4>
+                    <p>
+                        {{ post.blurb }}
+                    </p>
+                </div>
+            </div>
+            {% endif %}
+        {% endfor %}
+    </div>
+    <!-- Carousel nav -->
+    <a class="carousel-control left" href="#showcase" data-slide="prev">&lsaquo;</a>
+    <a class="carousel-control right" href="#showcase" data-slide="next">&rsaquo;</a>
+</div>

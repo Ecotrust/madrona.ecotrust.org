@@ -2,6 +2,7 @@
 layout: case-study
 title: Forest Scenario Planning
 category: [experience]
+tag: [feature]
 application:
 repo: https://github.com/Ecotrust/land_owner_tools
 blurb: Ecotrust wanted to give forest landowners a way to visualize alternative management scenarios.
