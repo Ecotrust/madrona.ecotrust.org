@@ -17,6 +17,11 @@
                     <p>
                         {{ post.blurb }}
                     </p>
+                    {% if post.complete %}
+                      <p class="pull-right">
+                        <a href="{{ post.url }}" class="btn btn-mini">read more...</a>
+                      </p>
+                    {% endif %}
                 </div>
             </div>
             {% endif %}

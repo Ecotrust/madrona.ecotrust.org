@@ -137,7 +137,7 @@ active: technology
 
 		<a name="collaboration"> </a>
 		<h3>Collaboration</h3>
-		<p>The best ideas often evolve through many iterations and through connecting with other people.  Madrona is developed with quick iteration and sharing in mind. Our robust permissions model is secure but allows you to share your work when you want to.</p>
+		<p>The best ideas often evolve through many iterations and through connecting with other people.  Madrona is developed with quick iteration and sharing in mind. Our robust permissions model is secure but allows you to share your work when you want.</p>
 		<a href="http://ecotrust.github.com/madrona/docs/managing_users.html">Learn More</a>
 
 		<a name="feature_manipulators"> </a>

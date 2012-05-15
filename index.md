@@ -87,8 +87,6 @@ title: madrona spatial planning framework
     {% include carousel.html %}
    </div>
 </div>
-
-
 <script>
   $(window).load(function() {
     $('.carousel').carousel({
