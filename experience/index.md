@@ -10,7 +10,7 @@ active: experience
 		<p>The Madrona framework has been used to build planning tools for a variety of environments.</p>
 		<div class="row">
 			<div class="span8">
-				{% for post in site.posts %}
+				{% for post in site.posts reversed %}
 					{% if post.category contains "experience" %}
 					<div class="project">
 						<div class="row">
