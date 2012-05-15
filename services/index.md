@@ -56,12 +56,12 @@ active: services
     
     <div class="span4">
         <div class="row">
-            <div class="pull-right">
-                <img src="{{ BASE_PATH }}/assets/img/collab-large.png">
-            </div>
-            <div>
+            <div class="span2">
                 <p><a href="{{ BASE_PATH }}/experience/whois.html">Learn more</a> about the development team and our network of colleagues and partners.
                 </p>
+            </div>
+            <div class="span2">
+                <img src="{{ BASE_PATH }}/assets/img/collab-large.png">
             </div>
         </div>  
         <div class="row">

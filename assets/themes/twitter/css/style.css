@@ -7,6 +7,11 @@ html, body {
 
 }
 
+h1, h2, h3, h4, h5, h6 {
+color #999;
+font-weight: normal;
+}
+
 a:link {
 	color: #993300;
 }
@@ -220,44 +225,11 @@ a:visited {
 	   -moz-box-shadow: 0 2px 2px -2px gray;
 	        box-shadow: 0 2px 2px -2px gray;
 }
-/*h2 {
 
-	width: 90%;
-	padding-left: 32px;
-	margin-bottom: 15px;
-	background-image: url({{BASE_PATH}}/assets/img/tree-icon.png);
-	background-repeat: no-repeat;
-	background-position: 5px 2px;*/
-	/*background-color: #81A632;*/
-	/*color: #f2f2f2;*/
-/*	-webkit-border-top-left-radius: 10px;
-		-moz-border-top-left-radius: 10px;
-		border-top-left-radius: 10px;
-	-webkit-border-bottom-left-radius: 10px;
-	-moz-border-bottom-left-radius: 10px;
-	border-bottom-left-radius: 10px;
-		-webkit-box-shadow: 0 4px 4px -2px gray;
-	   -moz-box-shadow: 0 4px 4px -2px gray;
-	        box-shadow: 0 4px 4px -2px gray;
+.callout p {
+	padding: 5px;
 }
-*/
-/*.experience .project {
-	-webkit-border-radius: 5px;
-		-moz-border-radius: 5px;
-		border-radius: 5px;
-	background-color: whiteSmoke;
-	margin-bottom: 20px;
-}
-.experience .project h3 {
-	font-size: 16px;
-	line-height: 1;
-	padding-top: 10px;
-	padding-right: 10px;
-	margin-bottom: 10px;
-}
-.experience .project img {
-	padding: 10px;
-}*/
+
 /* tag_box ======================================================== */
 
 .tag_box {
