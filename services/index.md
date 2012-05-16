@@ -6,8 +6,7 @@ active: services
 <div class="row services">
     <div class="span8">
 
-    <p>For over a decade, Ecotrust has been developing toolkits for decision support and spatial planning that leverage the power of GIS (geographic information systems).  We have used that expertise to develop Madrona.</p>
-    <p>We offer a full range of services and can help you design and implement effective spatial planning tools and processes with Madrona.  Regardless of your technology capacities, we can create a service package to meet your needs.</p>
+    <p>For over a decade, Ecotrust has been developing toolkits for decision support and spatial planning that leverage the power of GIS (geographic information systems).  We offer a full range of services for helping you design and implement effective spatial planning tools and processes with Madrona.  Regardless of your technology capacities, we can create a service package to meet your needs.</p>
     
     <h2>Technology Services</h2>            
         <p>Do you need a single feature developed or an entire tool?  We have a team of developers and designers ready to help you out.  Service areas include:</p>
