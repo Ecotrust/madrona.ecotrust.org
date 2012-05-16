@@ -125,77 +125,131 @@ active: technology
 		<p>Madrona combines these building blocks to create new ones tailored specifically for decision support and spatial planning.  You can mix and match them to meet your specific needs.</p>
 
 		<a name="2d_and_3d_support"> </a>
-		<h3>2D and 3D Support</h3>
-		<p>2D and 3D mapping clients have their strengths and weaknesses, choose the one that works best for your project.  Madrona supports both 2D and 3D mapping using the KML and GeoJSON data standards.</p>
-		<a href="http://ecotrust.github.com/madrona/docs/geojson.html">GeoJSON support</a>
-		<a href="http://ecotrust.github.com/madrona/docs/kmlapp.html">KML support</a>
-
-		<a name="spatial_features"> </a>
-		<h3>Spatial Features</h3>
-		<p>Provides a powerful spatial content management system complete with API.  Define new features (point, line, polygon) that are unique to your needs (wind energy sites, bike paths, event locations), then let users sketch, copy and share them.</p>
-		<a href="http://ecotrust.github.com/madrona/docs/features.html">Learn More</a>
-
-		<a name="collaboration"> </a>
-		<h3>Collaboration</h3>
-		<p>The best ideas often evolve through many iterations and through connecting with other people.  Madrona is developed with quick iteration and sharing in mind. Our robust permissions model is secure but allows you to share your work when you want.</p>
-		<a href="http://ecotrust.github.com/madrona/docs/managing_users.html">Learn More</a>
-
-		<a name="feature_manipulators"> </a>
-		<h3>Feature Manipulators</h3>
-		<p>Features sketched by users often need to be modified or cleaned, Madrona provides a workflow for doing that.  Examples include clipping a polygon to a study region or excluding specific areas.</p>
-		<a href="http://ecotrust.github.com/madrona/docs/manipulators.html">Learn More</a>
-
-		<a name="import_export"> </a>
-		<h3>Import/Export</h3>
-		<p>Planning tools shouldn’t be black boxes.  Import and export features are provided so that users can get out what they put in and integrate their external planning and GIS workflows.</p>
-		<a href="http://ecotrust.github.com/madrona/docs/loadshp.html">Import</a>
-		<a href="http://ecotrust.github.com/madrona/docs/export.html">Export</a>
-
-		<a name="map_bookmarks"> </a>
-		<h3>Map Bookmarks</h3>
-		<p>Let’s users take a snapshot of their map view including the data layers and features they had turned on then share and manage the views as bookmarks (Google Earth support only currently)</p>
-		<a href="http://ecotrust.github.com/madrona/docs/bookmarks.html">Learn More</a>
-
-		<a name="study_regions"> </a>
-		<h3>Study Regions</h3>
-		<p>Focus the user’s attention on a specific geographic region and then create or limit user actions specific to that region.</p>
-		<a href="http://ecotrust.github.com/madrona/docs/studyregion.html">Learn More</a>
-
-		<a name="data_layers"> </a>
-		<h3>Data Layers</h3>
-		<p>Manage a hierarchy of data layers important to your decision-making process and provide fine-grained access for viewing.  Also let users upload their own data layers. (KML support only currently).</p>
-		<a href="http://ecotrust.github.com/madrona/docs/layers.html">Learn More</a>
-
-		<a name="reports"> </a>
-		<h3>Reports</h3>
-		<p>Provide feedback to users by performing real-time spatial analyses on their features.  Quickly organize information as tabular data and interactive charts using Django’s template system and your favorite visualization library.</p>
-		<a href="http://ecotrust.github.com/madrona/docs/sidebar.html">Learn More</a>
-
-		<a name="flexible_analysis"> </a>
-		<h3>Flexible Analysis</h3>
-		<p>Interact with external modeling and analysis software such as Grass, Marxan or ArcServer in a standardized way.  Define your model inputs and capture the output as Features that the user can interact with and share.</p>
-		<a href="http://ecotrust.github.com/madrona/docs/analysistools.html">Learn More</a>
-
-		<a name="asynchronous_tasking"> </a>
-		<h3>Asynchronous Tasking</h3>
-		<p>Analysis can take a lot of time and system resources.  Users should be able to do other things while they are waiting.  Run processes in the background and get notified when they finish.</p>
-		<a href="http://ecotrust.github.com/madrona/docs/async.html">Learn More</a>
-
-		<a name="static_maps"> </a>
-		<h3>Static Maps</h3>
-		<p>Create static map images that include user defined shapes and other features.</p>
-		<a href="http://ecotrust.github.com/madrona/docs/staticmap.html">Learn More</a>		
-
-		<a name="custom_projections"> </a>
-		<h3>Custom Projections</h3>
-		<p>Use one of the thousands of projections available with Proj.4 or define your own.</p>
-		<a href="http://ecotrust.github.com/madrona/docs/custom_projection.html">Learn More</a>
-
-		<a name="raster_statistics"> </a>
-		<h3>Raster Statistics</h3>
-		<p>Quickly calculate statistics for a polygon Feature such as the average elevation or maximum temperature using raster data layers.  Provides an optional caching mechanism.</p>
-		<a href="http://ecotrust.github.com/madrona/docs/raster_stats.html">Learn More</a>	
-
+		<div class="row">
+			<div class="span3">
+				<div class="well">
+					<h3>2D and 3D Support</h3>
+					<p>2D and 3D mapping clients have their strengths and weaknesses, choose the one that works best for your project.  Madrona supports both 2D and 3D mapping using the KML and GeoJSON data standards.</p>
+					<ul>
+						<li><a href="http://ecotrust.github.com/madrona/docs/geojson.html">GeoJSON support</a></li>
+						<li><a href="http://ecotrust.github.com/madrona/docs/kmlapp.html">KML support</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="span3">
+				<div class="well">
+					<a name="spatial_features"> </a>
+					<h3>Spatial Features</h3>
+					<p>Provides a powerful spatial content management system complete with API.  Define new features (point, line, polygon) that are unique to your needs (wind energy sites, bike paths, event locations), then let users sketch, copy and share them.</p>
+					<a href="http://ecotrust.github.com/madrona/docs/features.html">Learn More</a>
+				</div>
+			</div>
+			<div class="span3">
+				<div class="well">
+					<a name="collaboration"> </a>
+					<h3>Collaboration</h3>
+					<p>The best ideas often evolve through many iterations and through connecting with other people.  Madrona is developed with quick iteration and sharing in mind. Our robust permissions model is secure but allows you to share your work when you want.</p>
+					<a href="http://ecotrust.github.com/madrona/docs/managing_users.html">Learn More</a>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="span3">
+				<div class="well">
+					<a name="feature_manipulators"> </a>
+					<h3>Feature Manipulators</h3>
+					<p>Features sketched by users often need to be modified or cleaned, Madrona provides a workflow for doing that.  Examples include clipping a polygon to a study region or excluding specific areas.</p>
+					<a href="http://ecotrust.github.com/madrona/docs/manipulators.html">Learn More</a>
+				</div>
+			</div>
+			<div class="span3">
+				<div class="well">
+					<a name="import_export"> </a>
+					<h3>Import/Export</h3>
+					<p>Planning tools shouldn’t be black boxes.  Import and export features are provided so that users can get out what they put in and integrate their external planning and GIS workflows.</p>
+					<a href="http://ecotrust.github.com/madrona/docs/loadshp.html">Import</a>
+					<a href="http://ecotrust.github.com/madrona/docs/export.html">Export</a>
+				</div>
+			</div>
+			<div class="span3">
+				<div class="well">
+					<a name="map_bookmarks"> </a>
+					<h3>Map Bookmarks</h3>
+					<p>Let’s users take a snapshot of their map view including the data layers and features they had turned on then share and manage the views as bookmarks (Google Earth support only currently)</p>
+					<a href="http://ecotrust.github.com/madrona/docs/bookmarks.html">Learn More</a>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="span3">
+				<div class="well">
+					<a name="study_regions"> </a>
+					<h3>Study Regions</h3>
+					<p>Focus the user’s attention on a specific geographic region and then create or limit user actions specific to that region.</p>
+					<a href="http://ecotrust.github.com/madrona/docs/studyregion.html">Learn More</a>
+				</div>
+			</div>
+			<div class="span3">
+				<div class="well">
+					<a name="data_layers"> </a>
+					<h3>Data Layers</h3>
+					<p>Manage a hierarchy of data layers important to your decision-making process and provide fine-grained access for viewing.  Also let users upload their own data layers. (KML support only currently).</p>
+					<a href="http://ecotrust.github.com/madrona/docs/layers.html">Learn More</a>
+				</div>
+			</div>
+			<div class="span3">
+				<div class="well">
+					<a name="reports"> </a>
+					<h3>Reports</h3>
+					<p>Provide feedback to users by performing real-time spatial analyses on their features.  Quickly organize information as tabular data and interactive charts using Django’s template system and your favorite visualization library.</p>
+					<a href="http://ecotrust.github.com/madrona/docs/sidebar.html">Learn More</a>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="span3">
+				<div class="well">
+					<a name="flexible_analysis"> </a>
+					<h3>Flexible Analysis</h3>
+					<p>Interact with external modeling and analysis software such as Grass, Marxan or ArcServer in a standardized way.  Define your model inputs and capture the output as Features that the user can interact with and share.</p>
+					<a href="http://ecotrust.github.com/madrona/docs/analysistools.html">Learn More</a>
+				</div>
+			</div>
+			<div class="span3">
+				<div class="well">
+					<a name="asynchronous_tasking"> </a>
+					<h3>Asynchronous Tasking</h3>
+					<p>Analysis can take a lot of time and system resources.  Users should be able to do other things while they are waiting.  Run processes in the background and get notified when they finish.</p>
+					<a href="http://ecotrust.github.com/madrona/docs/async.html">Learn More</a>
+				</div>
+			</div>
+			<div class="span3">
+				<div class="well">
+					<a name="static_maps"> </a>
+					<h3>Static Maps</h3>
+					<p>Create static map images that include user defined shapes and other features.</p>
+					<a href="http://ecotrust.github.com/madrona/docs/staticmap.html">Learn More</a>		
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="span4">
+				<div class="well">
+					<a name="custom_projections"> </a>
+					<h3>Custom Projections</h3>
+					<p>Use one of the thousands of projections available with Proj.4 or define your own.</p>
+					<a href="http://ecotrust.github.com/madrona/docs/custom_projection.html">Learn More</a>
+				</div>
+			</div>
+			<div class="span5">
+				<div class="well">
+					<a name="raster_statistics"> </a>
+					<h3>Raster Statistics</h3>
+					<p>Quickly calculate statistics for a polygon Feature such as the average elevation or maximum temperature using raster data layers.  Provides an optional caching mechanism.</p>
+					<a href="http://ecotrust.github.com/madrona/docs/raster_stats.html">Learn More</a>	
+				</div>
+			</div>
+		</div>
 		<p>One-size-fits-all rarely works.  The assumption is you will want to integrate different technology with Madrona whether it’s a mapping library like Leaflet, data management and data serving tools like Geoserver or ArcServer or a more robust client-side framework like GeoExt.</p>
 
 		<a name="architecture"> </a>
@@ -217,7 +271,7 @@ active: technology
 		For more information consult the <a href="http://ecotrust.github.com/madrona/docs/features.html">Madrona Feature documentation</a>
 		</p>
 
-		<pre class="prettyprint">
+	{% highlight python %}
 class Mpa(PolygonFeature):
     ext = models.CharField(max_length="12")
 
@@ -254,8 +308,7 @@ class Mpa(PolygonFeature):
                 generic=True,
                 models=(MpaArray, MlpaMpa)),
         )
-        </pre>
-
+		{% endhighlight %}
 		<a name="rest_api"> </a>
 		<h3>REST API</h3>
 
