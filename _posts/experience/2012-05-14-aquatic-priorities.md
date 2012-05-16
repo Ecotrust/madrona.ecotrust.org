@@ -1,7 +1,7 @@
 ---
 layout: case-study
 title: Prioritizing Aquatic Conservation
-category: [experience]
+category: experience
 tag: [feature]
 application: http://aquatic-priorities.apps.ecotrust.org/
 repo: https://github.com/Ecotrust/aquatic-priorities

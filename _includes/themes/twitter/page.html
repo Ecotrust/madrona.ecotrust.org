@@ -19,24 +19,21 @@
 		<div class="primary-nav">
 			<div class="pull-right">
 				<ul class="nav nav-pills">
-				    <li id="services">
-				    	<a href="{{ BASE_PATH }}/services">services</a>
-				    </li>
-					<li id="experience"><a href="{{ BASE_PATH }}/experience">experience</a></li>
-					<li id="technology"><a href="{{ BASE_PATH }}/technology">technology</a></li>
-					<li id="developer"><a href="{{ BASE_PATH }}/developer">developer</a></li>
+					{% for link in site.links %}
+					    {% if link == page.active %}	
+					    <li class="active">
+					    {% else %}
+					    <li>
+					    {% endif %}
+					    	<a href="{{ BASE_PATH }}/{{ link }}">{{ link }}</a>
+					    </li>
+					{% endfor %}
 				</ul>
 			</div>
 		</div>
 	</div>
 </div>
 
-<script>
-var id = '{{ page.active }}';
-if (id) {
-document.getElementById(id).className = "active";
-}
-</script>
 <div class="row">
 	<div class="primary-content">
 	  <div class="span12">

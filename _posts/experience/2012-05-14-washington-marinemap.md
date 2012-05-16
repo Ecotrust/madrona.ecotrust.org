@@ -1,7 +1,7 @@
 ---
 layout: case-study
 title: Supporting Ocean and Shoreline Planning in Washington
-category: [experience]
+category: experience
 tag: [feature]
 blurb: Working in partnership with The Nature Conservancy with groups like the Pacific County Marine Resource Committee to build effective community engagement and explore tradeoffs between planning objectives.
 image: /assets/img/experience/washingtonmarine_400.jpg

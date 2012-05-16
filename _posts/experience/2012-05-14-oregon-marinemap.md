@@ -1,7 +1,7 @@
 ---
 layout: case-study
 title: Supporting Oregon's Territorial Sea Plan
-category: [experience]
+category: experience
 application: http://oregon.marinemap.org/
 blurb: Oregon Department of Land Conservation and Development needed a spatial planning tool to support the on-going public process to update the Oregon Territorial Sea Plan.
 image-attrib: http://www.oceanpowertechnologies.com/

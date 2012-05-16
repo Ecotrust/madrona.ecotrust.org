@@ -1,14 +1,13 @@
 <div id="showcase" class="carousel">
     <!-- Carousel items -->
     <div class="carousel-inner">
-        {% for post in site.posts reversed %}
-          {% if post.category contains "experience" and post.tag contains "feature" %}
+        {% for post in site.categories.experience reversed %}
+          {% if post.tag contains "feature" %}
             {% if forloop.first %}
               <div class="item active">
             {% else %}
               <div class="item">
             {% endif %}
-
                 <img src="{{ BASE_PATH }}{{ post.image }}">
                 <div class="carousel-caption">
                     <h4>

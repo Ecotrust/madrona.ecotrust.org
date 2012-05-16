@@ -1,7 +1,7 @@
 ---
 layout: case-study
 title: Bioregional Discovery
-category: [experience]
+category: experience
 tag: [feature]
 blurb: Ecotrust wanted to allow people all over the planet to visualize their bioregions and gain an appreciation of social and environmental assets and vulnerabilities.
 image: /assets/img/experience/worldbioregions_map.png

@@ -1,3 +1,7 @@
+#primary nav links will get expanded to {{BASE_PATH}}/link
+links: ["services", "experience", "technology", "developer"]
+
+
 # This is the default format. 
 # For more see: https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink: /:categories/:title 

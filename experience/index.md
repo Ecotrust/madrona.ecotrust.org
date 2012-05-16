@@ -10,8 +10,7 @@ active: experience
 		<p>Madrona is at the heart of a growing number of planning tools.  In each case it has been customized for a specific audience, process, and scale.  The science of decision making and stakeholder engagement is as important as the technology itself.</p>
 		<div class="row">
 			<div class="span8">
-				{% for post in site.posts reversed %}
-					{% if post.category contains "experience" %}
+				{% for post in site.categories.experience reversed %}
 					<div class="project">
 						<div class="row">
 							<div class="span4">
@@ -23,12 +22,9 @@ active: experience
 							</div>
 							<div class="span4">
 								<h3>									
-										{{ post.title }}
+									{{ post.title }}
 								</h3>
 								<p>{{ post.blurb }}	
-									{% if post.complete %}						
-										<a href="{{ post.url }}" class="pull-right btn btn-mini">Read More...</a>
-									{% endif %}
 								</p>
 								<dl>
 									{% if post.application %}
@@ -40,10 +36,12 @@ active: experience
 										<dd><a href="{{ post.repo }}">{{ post.repo }}</a></dd>
 									{% endif %}
 								</dl>
+								{% if post.complete %}						
+									<a href="{{ post.url }}" class="pull-right btn btn-mini">Read More...</a>
+								{% endif %}
 							</div>
 						</div>
 					</div>
-					{% endif %}
 				{% endfor %}
 			</div>
 		</div>

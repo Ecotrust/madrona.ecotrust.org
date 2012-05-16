@@ -1,7 +1,7 @@
 ---
 layout: case-study
 title: Forest Scenario Planning
-category: [experience]
+category: experience
 tag: [feature]
 application:
 repo: https://github.com/Ecotrust/land_owner_tools
