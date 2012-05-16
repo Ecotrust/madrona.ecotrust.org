@@ -19,7 +19,7 @@ active: technology
 		    <li>Let these conventions be your guide but they should get out of the way when no longer useful</li>
 		</ul>
 
-		<h2>Building Blocks</h2>
+		<h2>Core Building Blocks</h2>
 		<p>Madrona is built on libraries such as Django, PostGIS, JQuery, OpenLayers and Google Earth which provide all of the essential building blocks for developing modern spatial web applications.</p>
 
 		<div class="row blocks">
@@ -122,14 +122,16 @@ active: technology
 				</div>
 			</div>
 		</div>
-		<p>Madrona combines these building blocks to create new ones tailored specifically for decision support and spatial planning.  You can mix and match them to meet your specific needs.</p>
+
+		<h2>Madrona Building Blocks</h2>
+		<p>We've taken the core building blocks and combined them to create new building blocks tailored specifically for decision support and spatial planning.  You can mix and match them to meet your specific needs.</p>
 
 		<a name="2d_and_3d_support"> </a>
 		<div class="row">
 			<div class="span3">
 				<div class="well">
 					<h3>2D and 3D Support</h3>
-					<p>2D and 3D mapping clients have their strengths and weaknesses, choose the one that works best for your project.  Madrona supports both 2D and 3D mapping using the KML and GeoJSON data standards.</p>
+					<p>2D and 3D mapping clients have their strengths and weaknesses, choose the one that works best for your project.  Madrona supports both using the KML and GeoJSON data standards.</p>
 					<ul>
 						<li><a href="http://ecotrust.github.com/madrona/docs/geojson.html">GeoJSON support</a></li>
 						<li><a href="http://ecotrust.github.com/madrona/docs/kmlapp.html">KML support</a></li>
@@ -167,8 +169,10 @@ active: technology
 					<a name="import_export"> </a>
 					<h3>Import/Export</h3>
 					<p>Planning tools shouldn’t be black boxes.  Import and export features are provided so that users can get out what they put in and integrate their external planning and GIS workflows.</p>
-					<a href="http://ecotrust.github.com/madrona/docs/loadshp.html">Import</a>
-					<a href="http://ecotrust.github.com/madrona/docs/export.html">Export</a>
+					<ul>
+						<li><a href="http://ecotrust.github.com/madrona/docs/loadshp.html">Import</a></li>
+						<li><a href="http://ecotrust.github.com/madrona/docs/export.html">Export</a></li>
+					</ul>
 				</div>
 			</div>
 			<div class="span3">
@@ -227,7 +231,7 @@ active: technology
 				<div class="well">
 					<a name="static_maps"> </a>
 					<h3>Static Maps</h3>
-					<p>Create static map images that include user defined shapes and other features.</p>
+					<p>Create static map images for putting into reports and printing that include user defined shapes and other features.</p>
 					<a href="http://ecotrust.github.com/madrona/docs/staticmap.html">Learn More</a>		
 				</div>
 			</div>
