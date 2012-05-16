@@ -104,7 +104,7 @@ a:visited {
 	-webkit-box-shadow: inset 4px 4px 8px #f7f7f7, inset -4px -4px 8px #e3e3e3;
 	box-shadow: inset 4px 4px 8px #f7f7f7, inset -4px -4px 8px #e3e3e3;
 }
-.bug:hover {
+.feature .bug:hover {
 	background-color: #e5e5e5;
 	text-shadow: 1px 1px 1px #fff;	
 	-moz-box-shadow: inset 4px 4px 8px 0 #ccc, inset -4px -4px 8px #f7f7f7;
@@ -149,7 +149,7 @@ a:visited {
 	color: #333;
 }
 
-.bugs a:hover {
+.bugs.feature a:hover {
 	text-decoration: none;
 	color: #333;
 }

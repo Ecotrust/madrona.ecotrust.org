@@ -11,7 +11,7 @@ title: madrona spatial planning framework
         <p>A framework for building spatial planning tools at any scale.</p>
       </div>
     </div>
-    <div class="bugs">
+    <div class="bugs feature">
       <div class="row">
         <div class="span3">
           <a href="{{ BASE_PATH }}/technology/#spatial_features">
