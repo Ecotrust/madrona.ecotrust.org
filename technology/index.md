@@ -207,6 +207,55 @@ active: technology
 
 		<p>[Madrona internal architecture diagram.  client/server, rest api]</p>
 
+		<p>Place where we introduce the architecture</p>
+
+		<a name="feature_model"> </a>
+		<h3>Feature Classes</h3>
+
+		<p>Features are the first thing you define and once you register them the REST API and its associated workspace document will automatically publish them.  Out of the box features can be output in GeoJSON and KML.  They can also be imported from shapefiles and KML documents.
+
+		For more information consult the <a href="http://ecotrust.github.com/madrona/docs/features.html">Madrona Feature documentation</a>
+		</p>
+
+		<pre class="prettyprint">
+class Mpa(PolygonFeature):
+    ext = models.CharField(max_length="12")
+
+    class Options:
+        verbose_name = 'Marine Protected Area'
+        form = 'myproject.forms.MpaForm'
+        links = (
+            alternate('Shapefile',
+                'mlpa.views.shapefile',
+                select='single',
+                type='application/shapefile'),
+
+            alternate('KMZ (Google Earth)',
+                'mlpa.views.kml_export',
+                select='single multiple',
+                type='application/vnd.google-earth.kmz',
+                generic=True),
+
+            related('MPA Spreadsheet',
+                'mlpa.views.spreadsheet',
+                select='single',
+                type='application/excel'),
+
+            edit('Delete w/Grids',
+                'mlpa.views.delete_w_grids',
+                confirm="Are you sure you want to delete with grids?",
+                select="single multiple",
+                args=[MpaArray],
+                kwargs={'keyword_argument': True}),
+
+            edit_form('Tags',
+                'mlpa.views.tag',
+                select='single multiple',
+                generic=True,
+                models=(MpaArray, MlpaMpa)),
+        )
+        </pre>
+
 		<a name="rest_api"> </a>
 		<h3>REST API</h3>
 
@@ -221,7 +270,149 @@ active: technology
 
 		<a name="workspace_document"> </a>
 		<h3>Workspace Document</h3>
-		<p>Actions [Links] (creating, reading, editing, updating, downloading, copying, sharing, etc)</p>
+
+		<p>The workspace document is part of the REST API.  It is a JSON document that the client fetches from the server at startup that describes the server-side API.  Specifically:
+		<ul>
+			<li>What Features are defined</li>
+			<li>What Feature actions are available for the current user</li>
+			<li>How Features can relate to one another</li>
+		</ul>
+
+		Specifically, the workspace document describes the URLs for:
+		<ul>
+			<li>Creating, Updating, and Deleting Feature instances</li>
+			<li>Editing actions that can be performed such as Copying and Sharing</li>
+			<li>Managing relationships between Features</li>
+			<li>Alternative export formats, such as KMZ or shapefile downloads</li>
+			<li>Related files that can be downloaded, such as spreadsheet or pdf reports</li>
+			<li>Reading feature attributes or reports</li>
+		</ul>
+		For more information consult the <a href="http://ecotrust.github.com/madrona/docs/workspace_specification.html">Madrona workspace specification</a>
+		</p>
+
+		<h4>Example Workspace Document</h4>
+
+		<pre class="prettyprint">
+{
+  "feature-classes": [
+    {
+      "title": "Marine Protected Area",
+      "id": "features_mpa",
+      "link-relations": {
+        "self": {
+          "uri-template": "/features/mpa/{id}/"
+        },
+        "create": {
+          "uri-template": "/features/mpa/form/"
+        },
+        "related": [
+          {
+            "title": "Habitat Spreadsheet",
+            "uri-template": "/features/mpa/links/habitat-spreadsheet/{id+}/",
+            "select": "single",
+            "rel": "related"
+          }
+        ],
+        "update": {
+          "uri-template": "/features/mpa/{id}/form/"
+        }
+      }
+    },
+    {
+      "title": "Renewable Energy Site",
+      "id": "features_renewableenergysite",
+      "link-relations": {
+        "self": {
+          "uri-template": "/features/renewableenergysite/{id}/"
+        },
+        "create": {
+          "uri-template": "/features/renewableenergysite/form/"
+        },
+        "related": [
+          {
+            "title": "Viewshed Map"
+            "uri-template": "/features/renewableenergysite/links/viewshed-map/{id+}/",
+            "select": "single",
+            "rel": "related"
+          }
+        ],
+        "update": {
+          "uri-template": "/features/renewableenergysite/{id}/form/"
+        }
+      }
+    },
+    {
+      "title": "Folder",
+      "id": "features_folder",
+      "collection": {
+        "add-uri-template": "/features/collections/add/{id+}/",
+        "remove-uri-template": "/features/collections/remove/{id+}/",
+        "valid-children": [
+          "features_folder",
+          "features_mpa",
+          "features_renewableenergysite"
+        ]
+      },
+      "link-relations": {
+        "edit": [
+          {
+            "title": "Delete folder and contents"
+            "method": "POST",
+            "uri-template": "/features/folder/links/delete-folder-and-contents/{id+}/",
+            "select": "single multiple",
+            "rel": "edit"
+          }
+        ],
+        "self": {
+          "uri-template": "/features/folder/{id}/"
+        },
+        "create": {
+          "uri-template": "/features/folder/form/"
+        },
+        "update": {
+          "uri-template": "/features/folder/{id}/form/"
+        }
+      }
+    }
+  ]
+  "generic-links": [
+    {
+      "title": "Copy",
+      "uri-template": "/features/generic-links/links/copy/{id+}/",
+      "rel": "edit",
+      "method": "POST",
+      "select": "multiple single",
+      "models": [
+        "features_folder",
+        "features_mpa",
+        "features_renewableenergysite"
+      ]
+    },
+    {
+      "title": "Export KML",
+      "uri-template": "/features/generic-links/links/export-kml/{id+}/",
+      "select": "multiple single",
+      "rel": "alternate",
+      "models": [
+        "features_folder",
+        "features_mpa",
+        "features_renewableenergysite"
+      ]
+    }
+  ]
+}
+</pre>
+
+
+		<p>This document can be interpreted as follows:
+		<ul>
+			<li>There are three Features defined - marine protected areas, renewable energy sites and folders</li>
+			<li>Both the marine protected areas and renewable energy site Features have a 'self' link for getting more information about a specific Feature, a 'create' link for creating a new instance of that Feature and an 'update' link for updating the geometry or attributes for a specific instance of that Feature.</li> 
+			<li>Marine protected area instances have a 'related' habitat spreadsheet</li>
+			<li>Renewable energy site instances have a 'related' viewshed map</li>
+			<li>Folders are a special Feature type called a Collection.  'valid-children' is defining what Features can be associated with a folder.</li>
+		</ul>
+		This document has all of the information needed by the client to fetch/create/edit/delete feature instances, display them to the user, figure out what actions the user can take on them and finally how features can relate to each other (eg. what features can go into what collections).  For every feature, action and related element there is a URL for accessing it from the server.  Life is much easier for the client with a workspace document.</p>
 
 		<a name="3d_web_client"> </a>
 		<h3>3D Web Client</h3>
