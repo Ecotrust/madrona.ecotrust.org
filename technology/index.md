@@ -254,7 +254,7 @@ active: technology
 				</div>
 			</div>
 		</div>
-		<p>One-size-fits-all rarely works.  The assumption is you will want to integrate different technology with Madrona whether it’s a mapping library like Leaflet, data management and data serving tools like Geoserver or ArcServer or a more robust client-side framework like GeoExt.</p>
+		<p>One-size-fits-all rarely works and often times you have to roll your sleeves up.  The assumption is you will want to integrate different technology with Madrona whether it’s a mapping library like Leaflet, data management and data serving tools like Geoserver or ArcServer or a more robust client-side framework like GeoExt.</p>
 
 		<a name="architecture"> </a>
 		<h2>Architecture</h2>
