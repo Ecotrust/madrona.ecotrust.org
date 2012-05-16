@@ -51,7 +51,7 @@ active: experience
 	<div class="span4">
 		<div class="row">
 			<div class="span3 offset1">
-			{% include experience/accordion.html %}
+			<!--{% include experience/accordion.html %}-->
 			</div>
 		</div>
 	</div>
