@@ -293,8 +293,6 @@ class Mpa(PolygonFeature):
 		<h4>Example Workspace Document</h4>
 
 		<pre class="prettyprint">
-{
-  "feature-classes": [
     {
       "title": "Marine Protected Area",
       "id": "features_mpa",
@@ -317,90 +315,7 @@ class Mpa(PolygonFeature):
           "uri-template": "/features/mpa/{id}/form/"
         }
       }
-    },
-    {
-      "title": "Renewable Energy Site",
-      "id": "features_renewableenergysite",
-      "link-relations": {
-        "self": {
-          "uri-template": "/features/renewableenergysite/{id}/"
-        },
-        "create": {
-          "uri-template": "/features/renewableenergysite/form/"
-        },
-        "related": [
-          {
-            "title": "Viewshed Map"
-            "uri-template": "/features/renewableenergysite/links/viewshed-map/{id+}/",
-            "select": "single",
-            "rel": "related"
-          }
-        ],
-        "update": {
-          "uri-template": "/features/renewableenergysite/{id}/form/"
-        }
-      }
-    },
-    {
-      "title": "Folder",
-      "id": "features_folder",
-      "collection": {
-        "add-uri-template": "/features/collections/add/{id+}/",
-        "remove-uri-template": "/features/collections/remove/{id+}/",
-        "valid-children": [
-          "features_folder",
-          "features_mpa",
-          "features_renewableenergysite"
-        ]
-      },
-      "link-relations": {
-        "edit": [
-          {
-            "title": "Delete folder and contents"
-            "method": "POST",
-            "uri-template": "/features/folder/links/delete-folder-and-contents/{id+}/",
-            "select": "single multiple",
-            "rel": "edit"
-          }
-        ],
-        "self": {
-          "uri-template": "/features/folder/{id}/"
-        },
-        "create": {
-          "uri-template": "/features/folder/form/"
-        },
-        "update": {
-          "uri-template": "/features/folder/{id}/form/"
-        }
-      }
     }
-  ]
-  "generic-links": [
-    {
-      "title": "Copy",
-      "uri-template": "/features/generic-links/links/copy/{id+}/",
-      "rel": "edit",
-      "method": "POST",
-      "select": "multiple single",
-      "models": [
-        "features_folder",
-        "features_mpa",
-        "features_renewableenergysite"
-      ]
-    },
-    {
-      "title": "Export KML",
-      "uri-template": "/features/generic-links/links/export-kml/{id+}/",
-      "select": "multiple single",
-      "rel": "alternate",
-      "models": [
-        "features_folder",
-        "features_mpa",
-        "features_renewableenergysite"
-      ]
-    }
-  ]
-}
 </pre>
 
 
