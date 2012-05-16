@@ -407,7 +407,7 @@ active: technology
 	<div class="span3">
 		<div class="row">
 			<div class="span3">
-				<div id="tech-accordion" class="accordion" data-bind="foreach: headings">
+				<div id="tech-accordion" class="accordion" data-bind="foreach: headings" style="display:none">
 		            <div class="accordion-group">
 			            <div class="accordion-heading">
 			                <a data-bind="attr: { href: '#' + tag }" data-parent="#tech-accordion" data-toggle="collapse" class="accordion-toggle">
@@ -422,15 +422,15 @@ active: technology
 			                </div>
 			            </div>
 		            </div>
-		        </div>
+			    </div>
 		    </div>
 		</div>
 	</div>
 </div>
 <script>
 window.onload = function () {
-	var timer, $accordion = $('#tech-accordion');
-		initial = $accordion.offset().top,
+	var timer, $accordion = $('#tech-accordion'),
+		initial; 
 		scrollHandler = function () {  
 			var scrollTop = $(window).scrollTop(),
 				offset = $accordion.offset().top;
@@ -441,7 +441,6 @@ window.onload = function () {
 			  	$accordion.offset({ top: scrollTop > initial? scrollTop + 100: initial });
 			}
 		}
-	scrollHandler();
 	$(window).scroll(function () {
 		if (timer) {
 			clearTimeout(timer);
@@ -467,6 +466,9 @@ window.onload = function () {
 			}; 
 		})
 	});
+	$accordion.show();
+	initial = $accordion.offset().top;
+	scrollHandler();
 
 };
 </script>
