@@ -254,34 +254,29 @@ active: technology
 				</div>
 			</div>
 		</div>
-		<p>One-size-fits-all rarely works.  The assumption is you will want to integrate different technology with Madrona whether it’s a mapping library like Leaflet, data management and data serving tools like Geoserver or ArcServer or a more robust client-side framework like GeoExt.</p>
+		<p>One-size-fits-all rarely works and often times you have to roll your sleeves up.  The assumption is you will want to integrate different technology with Madrona whether it’s a mapping library like Leaflet, data management and data serving tools like Geoserver or ArcServer or a more robust client-side framework like GeoExt.</p>
 
 		<a name="architecture"> </a>
 		<h2>Architecture</h2>
 
-		<p>[High-level software stack diagram. database, django, madrona, your tool, other services, data layers]</p>
-
-		<p>Madrona sits near the top of the software stack as one of the frameworks for building web applications</p>
-
-		<p>[Madrona internal architecture diagram.  client/server, rest api]</p>
-
-		<p>Place where we introduce the architecture</p>
-
 		<a name="feature_model"> </a>
-		<h3>Feature Classes</h3>
+		<h3>Features</h3>
 
-		<p>Features are the first thing you define and once you register them the REST API and its associated workspace document will automatically publish them.  Out of the box features can be output in GeoJSON and KML.  They can also be imported from shapefiles and KML documents.
+		<p>Madrona creates a system that can best be thought of as a feature spatial content management system.  This starts with the Madrona PointFeature, LineFeature and PolygonFeature models.  You can quickly extend these models to define your own spatial features specific to the purpose of your tool.  Working with wind energy sites?  Define a PolygonFeature and give it attributes for the type and number of turbines.  Once you register your feature it’s mapped to a PostGIS table and automatically published through the REST API.</p>
 
-		For more information consult the <a href="http://ecotrust.github.com/madrona/docs/features.html">Madrona Feature documentation</a>
+		<p>For more information consult the <a href="http://ecotrust.github.com/madrona/docs/features.html">Madrona Feature documentation</a>
 		</p>
 
 	{% highlight python %}
-class Mpa(PolygonFeature):
+@register
+class WindEnergySite(PolygonFeature):
     ext = models.CharField(max_length="12")
+    turbine_type = models.CharField(max_length="30")
+    num_turbines = models.IntegerField()
 
     class Options:
-        verbose_name = 'Marine Protected Area'
-        form = 'myproject.forms.MpaForm'
+        verbose_name = 'Wind Energy Site'
+        form = 'myproject.forms.WindForm'
         links = (
             alternate('Shapefile',
                 'mlpa.views.shapefile',
@@ -289,34 +284,28 @@ class Mpa(PolygonFeature):
                 type='application/shapefile'),
 
             alternate('KMZ (Google Earth)',
-                'mlpa.views.kml_export',
+                'wind.views.kml_export',
                 select='single multiple',
                 type='application/vnd.google-earth.kmz',
                 generic=True),
 
-            related('MPA Spreadsheet',
-                'mlpa.views.spreadsheet',
+            related('Viewshed Map',
+                'wind.views.viewshed_map',
                 select='single',
-                type='application/excel'),
+                type='image/png'),
 
-            edit('Delete w/Grids',
-                'mlpa.views.delete_w_grids',
-                confirm="Are you sure you want to delete with grids?",
+            edit('Delete',
+                'wind.views.delete',
                 select="single multiple",
-                args=[MpaArray],
-                kwargs={'keyword_argument': True}),
-
-            edit_form('Tags',
-                'mlpa.views.tag',
-                select='single multiple',
-                generic=True,
-                models=(MpaArray, MlpaMpa)),
+                args=[WindArray],
+                kwargs={'keyword_argument': True})
         )
 		{% endhighlight %}
+
 		<a name="rest_api"> </a>
 		<h3>REST API</h3>
 
-		<p>The madrona application programming interface (API) follows the representational state transfer or <a href="http://en.wikipedia.org/wiki/Representational_state_transfer">REST architecture</a> architecture.  This REST API is the communication channel allowing the client to interact with the server.  Using it you can:</p>
+		<p>The madrona <a href="http://en.wikipedia.org/wiki/Representational_state_transfer">REST API</a> is the communication channel for the client and server and supports both GeoJSON and KML.  Using it you can:</p>
 		<ul>
 			<li>Create, read, update and delete Features</li>
 			<li>Copy and share Features between user groups</li>
@@ -326,13 +315,13 @@ class Mpa(PolygonFeature):
 		</ul>
 
 		<a name="workspace_document"> </a>
-		<h3>Workspace Document</h3>
+		<h4>Workspace Document</h4>
 
-		<p>The workspace document is part of the REST API.  It is a JSON document that the client fetches from the server at startup that describes the server-side API.  Specifically:
+		<p>The workspace document is an important part of the REST API.  It is a JSON document that the client fetches from the server at startup that describes the server-side API.  Specifically::
 		<ul>
 			<li>What Features are defined for the current user</li>
 			<li>What Feature actions are available for the current user</li>
-			<li>How Features can relate to one another</li>
+			<li>How Features relate to one another</li>
 		</ul>
 
 		Specifically, the workspace document describes the URLs for:
@@ -345,51 +334,73 @@ class Mpa(PolygonFeature):
 			<li>Reading feature attributes or reports</li>
 		</ul>
 		</p>
-		<p>
-		For more information consult the <a href="http://ecotrust.github.com/madrona/docs/workspace_specification.html">Madrona workspace specification</a>
+		<p>Because the API is well-defined through the workspace document, you can quickly and efficiently develop alternative client interfaces. 
+		</p>
+		<p>For more information consult the <a href="http://ecotrust.github.com/madrona/docs/workspace_specification.html">Madrona workspace specification</a>
 		</p>
 
-		<h4>Example Workspace Document Snippet</h4>
+		<p>The JSON snippet below defines the wind energy site feature in the workspace document.  You can see that URL's have been published for performing create and edit actions as well as accessing associated viewshed maps and KMZ/Shapefile exports.</p>
 
 		<pre class="prettyprint">
 {
-    "title": "Renewable Energy Site",
-    "id": "features_renewableenergysite",
+    "title": "Wind Energy Site",
+    "id": "features_windenergysite",
     "link-relations": {
         "self": {
-          "uri-template": "/features/renewableenergysite/{id}/"
+          "uri-template": "/features/windenergysite/{id}/"
         },
         "create": {
-          "uri-template": "/features/renewableenergysite/form/"
+          "uri-template": "/features/windenergysite/form/"
         },
+        "alternate": [
+          {
+            "title": "Shapefile"
+            "uri-template": "/features/windenergysite/links/shapefile/{id+}/",
+            "select": "multiple",
+            "rel": "related"
+          }
+        ],
+        "related": [
+          {
+            "title": "KMZ (Google Earth)"
+            "uri-template": "/features/windenergysite/links/kmz/{id+}/",
+            "select": "multiple",
+            "rel": "related"
+          }
+        ],
         "related": [
           {
             "title": "Viewshed Map"
-            "uri-template": "/features/renewableenergysite/links/viewshed-map/{id+}/",
+            "uri-template": "/features/windenergysite/links/viewshed-map/{id+}/",
             "select": "single",
             "rel": "related"
           }
         ],
         "update": {
-          "uri-template": "/features/renewableenergysite/{id}/form/"
+          "uri-template": "/features/windenergysite/{id}/form/"
         }
     }
 }
 </pre>
-		<p> This snippet defines a </p>
 
-		<p>This document can be interpreted as follows:
-		<ul>
-			<li>There are three Features defined - marine protected areas, renewable energy sites and folders</li>
-			<li>Both the marine protected areas and renewable energy site Features have a 'self' link for getting more information about a specific Feature, a 'create' link for creating a new instance of that Feature and an 'update' link for updating the geometry or attributes for a specific instance of that Feature.</li> 
-			<li>Marine protected area instances have a 'related' habitat spreadsheet</li>
-			<li>Renewable energy site instances have a 'related' viewshed map</li>
-			<li>Folders are a special Feature type called a Collection.  'valid-children' is defining what Features can be associated with a folder.</li>
-		</ul>
-		This document has all of the information needed by the client to fetch/create/edit/delete feature instances, display them to the user, figure out what actions the user can take on them and finally how features can relate to each other (eg. what features can go into what collections).  For every feature, action and related element there is a URL for accessing it from the server.  Life is much easier for the client with a workspace document.</p>
+	<a name="3d_web_client"> </a>
+	<h3>3D Web Client</h3>
 
-		<a name="3d_web_client"> </a>
-		<h3>3D Web Client</h3>
+	<p>By default, madrona provides a robust HTML/Javascript client interface based on the 3D Google Earth plugin. It is not the only option for building a client interface but it does provide a complete solution out of the box.</p>
+
+	<p>The 3D web client allows features to be delivered using the expressive KML format. Using the workspace document the client will automatically configure a set of javascript widgets including the Google Earth Plugin, forming an end-to-end spatial content management system. Besides the Google Earth plugin itself, madrona provides the following components:</p>
+
+	<h4>KmlTree</h4>
+
+	<p><a href="http://code.google.com/p/kmltree/">kmltree</a> is a javascript tree widget that can be used in conjunction with the Google Earth API. It replicates the functionality of the Google Earth desktop client, namely the ability to render complex KML documents very quickly and present the hierarchal contents of a KML document as an expandable, interactive tree view.</p>
+
+	<h4>KmlEditor</h4>
+
+	<p>KmlEditor provides the editing interface and menu to hook your features tree into the REST API. It will use the workspace document and configure the editing interface according to the API definition. The interface is context sensitive and provides the appropriate options for the selected features.</p>
+
+	<h4>KML Drawing Tools</h4>
+
+	<p>Madrona provides a robust set of drawing and editing tools for the Google Earth Plugin.  These play a part in the larger workflow of creating, editing and sharing features.</p>
 
 	</div>
 	<div class="span3">

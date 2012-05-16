@@ -7,7 +7,7 @@ active: experience
 <div class="row experience">
 	<div class="span8">
 		<h2>Madrona Projects</h2>
-		<p>The Madrona framework has been used to build planning tools for a variety of environments.</p>
+		<p>Madrona is at the heart of a growing number of planning tools.  In each case it has been customized for a specific audience, process, and scale.  The science of decision making and stakeholder engagement is as important as the technology itself.</p>
 		<div class="row">
 			<div class="span8">
 				{% for post in site.posts reversed %}
