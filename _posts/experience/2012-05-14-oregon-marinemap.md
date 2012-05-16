@@ -4,7 +4,8 @@ title: Oregon MarineMap
 category: [experience]
 application: http://oregon.marinemap.org/
 blurb:
-image: /assets/img/experience/aqua-priorities.png
+image-attrib: http://www.oceanpowertechnologies.com/
+image: /assets/img/experience/oregon_marine.jpg
 technology: ["Madrona framework", "Google Earth"]
 name: Charles Steinbeck
 phone: (503) 467-077
