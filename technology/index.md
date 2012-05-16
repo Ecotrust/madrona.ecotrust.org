@@ -393,7 +393,7 @@ class Mpa(PolygonFeature):
 	<div class="span3">
 		<div class="row">
 			<div class="span3">
-				<div id="accordion2" class="accordion">
+				<!--<div id="accordion2" class="accordion">
 		            <div class="accordion-group">
 		              <div class="accordion-heading">
 		                <a href="#collapseOne" data-parent="#accordion2" data-toggle="collapse" class="accordion-toggle">
@@ -476,7 +476,7 @@ class Mpa(PolygonFeature):
 		                </div>
 		              </div>
 		            </div>
-		      </div>
+		      </div>-->
 		  </div>
 		</div>
 	</div>
