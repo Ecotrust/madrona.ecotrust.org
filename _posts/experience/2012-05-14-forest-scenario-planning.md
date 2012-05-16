@@ -6,7 +6,7 @@ tag: [feature]
 application:
 repo: https://github.com/Ecotrust/land_owner_tools
 blurb: Ecotrust wanted to give forest landowners a way to visualize alternative management scenarios.
-image: /assets/img/fsp.png
+image: /assets/img/experience/logger.jpg
 technology: ["Madrona framework", "2D Mapping"]
 name: Mike Mertens
 phone: 503-467-0775
