@@ -330,7 +330,7 @@ class Mpa(PolygonFeature):
 
 		<p>The workspace document is part of the REST API.  It is a JSON document that the client fetches from the server at startup that describes the server-side API.  Specifically:
 		<ul>
-			<li>What Features are defined</li>
+			<li>What Features are defined for the current user</li>
 			<li>What Feature actions are available for the current user</li>
 			<li>How Features can relate to one another</li>
 		</ul>
@@ -344,37 +344,39 @@ class Mpa(PolygonFeature):
 			<li>Related files that can be downloaded, such as spreadsheet or pdf reports</li>
 			<li>Reading feature attributes or reports</li>
 		</ul>
+		</p>
+		<p>
 		For more information consult the <a href="http://ecotrust.github.com/madrona/docs/workspace_specification.html">Madrona workspace specification</a>
 		</p>
 
-		<h4>Example Workspace Document</h4>
+		<h4>Example Workspace Document Snippet</h4>
 
 		<pre class="prettyprint">
-    {
-      "title": "Marine Protected Area",
-      "id": "features_mpa",
-      "link-relations": {
+{
+    "title": "Renewable Energy Site",
+    "id": "features_renewableenergysite",
+    "link-relations": {
         "self": {
-          "uri-template": "/features/mpa/{id}/"
+          "uri-template": "/features/renewableenergysite/{id}/"
         },
         "create": {
-          "uri-template": "/features/mpa/form/"
+          "uri-template": "/features/renewableenergysite/form/"
         },
         "related": [
           {
-            "title": "Habitat Spreadsheet",
-            "uri-template": "/features/mpa/links/habitat-spreadsheet/{id+}/",
+            "title": "Viewshed Map"
+            "uri-template": "/features/renewableenergysite/links/viewshed-map/{id+}/",
             "select": "single",
             "rel": "related"
           }
         ],
         "update": {
-          "uri-template": "/features/mpa/{id}/form/"
+          "uri-template": "/features/renewableenergysite/{id}/form/"
         }
-      }
     }
+}
 </pre>
-
+		<p> This snippet defines a </p>
 
 		<p>This document can be interpreted as follows:
 		<ul>
