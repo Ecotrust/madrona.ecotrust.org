@@ -14,7 +14,7 @@ title: madrona spatial planning framework
     <div class="bugs feature">
       <div class="row">
         <div class="span3">
-          <a href="{{ BASE_PATH }}/technology/#spatial_features">
+          <a href="{{ BASE_PATH }}/technology/#Spatial-Features">
             <div class="bug">
               <div class="row">
                 <div class="header">
@@ -30,7 +30,7 @@ title: madrona spatial planning framework
           </a>
         </div>
         <div class="span3">
-            <a href="{{ BASE_PATH }}/technology/#data_layers">
+            <a href="{{ BASE_PATH }}/technology/#Data-Layers">
             <div class="bug">
               <div class="row">
                 <div class="header">
@@ -48,7 +48,7 @@ title: madrona spatial planning framework
       </div>
       <div class="row">
         <div class="span3">
-          <a href="{{ BASE_PATH }}/technology/#collaboration">
+          <a href="{{ BASE_PATH }}/technology/#Collaboration">
             <div class="bug">
               <div class="row">
                 <div class="header">
@@ -62,7 +62,7 @@ title: madrona spatial planning framework
           </a>
         </div>
         <div class="span3">
-          <a href="{{ BASE_PATH }}/technology/#flexible_analysis">
+          <a href="{{ BASE_PATH }}/technology/#Flexible-Analysis">
             <div class="bug">
               <div class="row">
                 <div class="header">
