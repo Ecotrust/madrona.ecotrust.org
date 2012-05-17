@@ -107,9 +107,6 @@ a:visited {
 .feature .bug:hover {
 	background-color: #e5e5e5;
 	text-shadow: 1px 1px 1px #fff;	
-	-moz-box-shadow: inset 4px 4px 8px 0 #ccc, inset -4px -4px 8px #f7f7f7;
-	-webkit-box-shadow: inset 4px 4px 8px 0 #ccc, inset -4px -4px 8px #f7f7f7;
-	box-shadow: inset 4px 4px 8px 0 #ccc, inset -4px -4px 8px #f7f7f7;
 }
 
 .bug p {
