@@ -106,7 +106,7 @@ active: services
                 <div class="row">
                     <div class="span4">
                         <div class="pull-right">    
-                            <button class="btn btn-success" type="submit">Send Message</button>
+                            <button class="btn" type="submit">Send Message</button>
                         </div>
                     </div>
                 </div>

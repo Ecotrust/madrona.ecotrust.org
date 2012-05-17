@@ -8,20 +8,28 @@
             {% else %}
               <div class="item">
             {% endif %}
+                
                 <img src="{{ BASE_PATH }}{{ post.image }}">
                 <div class="carousel-caption">
                     <h4>
                         {{ post.title }}
+                        {% if post.complete %}
+                          <p class="pull-right">
+                            <a href="{{ post.url }}" class="btn btn-mini">read more...</a>
+                          </p>
+                        {% endif %}
                     </h4>
                     <p>
                         {{ post.blurb }}
+
                     </p>
-                    {% if post.complete %}
-                      <p class="pull-right">
-                        <a href="{{ post.url }}" class="btn btn-mini">read more...</a>
-                      </p>
+                    {% if post.image-attrib %}
+                    <div class="pull-left attrib">
+                        {{ post.image-attrib }}
+                    </div>
                     {% endif %}
                 </div>
+               
             </div>
             {% endif %}
         {% endfor %}

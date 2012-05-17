@@ -19,6 +19,11 @@ active: experience
 								{% else %}
 								<img class="thumbnail" src="{{ BASE_PATH }}{{ post.image }}"/>
 								{% endif %}
+								{% if post.image-attrib %}
+								<div class="attrib">
+								    {{ post.image-attrib }}
+								</div>
+								{% endif %}
 							</div>
 							<div class="span4">
 								<h3>									
