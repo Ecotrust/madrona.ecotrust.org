@@ -48,6 +48,10 @@ a:visited {
 	margin-bottom: 0px;
 }
 
+.content .hero-unit a {
+	color: #bbbbbb;
+}
+
 .content .hero-unit .carousel {
 	height: 70%;
 	color: #fff;
@@ -58,6 +62,9 @@ a:visited {
 }
 .content .hero-unit .carousel-caption h4 {
 	font-weight: bold;
+}
+.content .hero-unit .carousel-caption a {
+	color: #333;
 }
 /*
 .carousel .item  {
@@ -122,6 +129,13 @@ a:visited {
 	text-shadow: 1px 1px 1px #fff;	
 }
 
+
+.feature a:hover {
+	text-decoration: none;
+	color: #333;
+}
+
+
 .bug p {
 	font-size: 14px;
 	color: #666;
@@ -156,11 +170,6 @@ a:visited {
 }
 
 .bug a {
-	color: #333;
-}
-
-.bugs.feature a:hover {
-	text-decoration: none;
 	color: #333;
 }
 
@@ -211,7 +220,6 @@ a:visited {
 	line-height: 28px;
 	font-size: 16px;
 }
-
 
 /* tag_box ======================================================== */
 

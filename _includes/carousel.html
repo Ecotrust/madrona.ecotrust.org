@@ -1,4 +1,4 @@
-<div id="showcase" class="carousel">
+<div id="showcase" class="carousel slide carousel-fade">
     <!-- Carousel items -->
     <div class="carousel-inner">
         {% for post in site.categories.experience reversed %}
@@ -7,8 +7,7 @@
               <div class="item active">
             {% else %}
               <div class="item">
-            {% endif %}
-                
+            {% endif %}   
                 <img src="{{ BASE_PATH }}{{ post.image }}">
                 <div class="carousel-caption">
                     <h4>
@@ -29,7 +28,6 @@
                     </div>
                     {% endif %}
                 </div>
-               
             </div>
             {% endif %}
         {% endfor %}

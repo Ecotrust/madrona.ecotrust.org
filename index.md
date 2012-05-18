@@ -14,7 +14,7 @@ title: madrona spatial planning framework
   </div>
 </div>
 </div>
-<div class="row">
+<div class="row feature">
       <div class="span3">
         <a href="{{ BASE_PATH }}/technology/#Spatial-Features">
           <div class="bug">
