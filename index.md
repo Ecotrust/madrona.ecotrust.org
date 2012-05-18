@@ -5,13 +5,7 @@ title: madrona spatial planning framework
 {% include JB/setup %}
 <div class="hero-unit">
   <div class="row-fluid">
-    <div class="span4">
-      <div class="well">
-        <h2>A framework for building spatial planning tools at any scale.</h2>
-         <p>Madrona offers a flexible set of building blocks and design patterns for software development. Our support services can help you develop and implement cutting-edge tools for effective place-based decision making.</p>
-       </div>
-    </div>
-  <div class="span8">
+  <div class="span12">
     {% include carousel.html %}
   </div>
 </div>

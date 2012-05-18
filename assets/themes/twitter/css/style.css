@@ -81,6 +81,19 @@ a:visited {
 .content .hero-unit .carousel-control a {
 	color: #fff;
 }
+
+.carousel-title {
+  position: absolute;
+  right: 13%;
+  left: 30%;
+  bottom: 25%;
+  padding: 10px 10px 5px;
+  background: #333333;
+  background: rgba(0, 0, 0, 0.75);
+}
+.carousel-title h2 {
+	font-size: 40px;
+}
 /*
 .carousel .item  {
 	height: 600px;
