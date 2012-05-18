@@ -1,7 +1,7 @@
 <div id="showcase" class="carousel slide carousel-fade">
     <!-- Carousel items -->
     <div class="carousel-inner">
-        {% for post in site.categories.experience reversed %}
+        {% for post in site.categories.experience %}
           {% if post.tag contains "feature" %}
             {% if forloop.first %}
               <div class="item active">

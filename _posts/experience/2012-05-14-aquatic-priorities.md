@@ -16,13 +16,13 @@ complete: true
 active: experience
 ---
 <div class="row">
-	<div class="span4">
+	<div class="span5">
 		<h3>The Challenges</h3>
 		<p>How might U.S. Fish and Wildlife Service (USFWS) prioritize conservation and restoration activities across a broad geography?</p>
 		<p>Could technology help the agency evaluate and compare the potential effects of climate change and invasive species on multiple species?</p>
 		<p>Could the platform enable iterative and adaptive analysis and decision making?</p>
 	</div>
-	<div class="span4">
+	<div class="span5">
 		<a href="{{ page.application }}"><img class="thumbnail" src="{{ BASE_PATH }}{{ page.image }}"/></a>
 	</div>
 </div>
