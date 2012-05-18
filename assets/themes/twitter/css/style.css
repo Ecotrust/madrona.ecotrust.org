@@ -56,9 +56,6 @@ a:visited {
 	margin-bottom: 10px;
 }
 
-.content .hero-unit a {
-	color: #000;
-}
 
 .content .hero-unit .text {
 	height: 100%;
@@ -75,12 +72,15 @@ a:visited {
 .content .hero-unit .carousel-caption h4 {
 	font-weight: bold;
 }
-.content .hero-unit .carousel-caption a {
+.content .hero-unit .carousel-caption a.btn {
+	color: #000;
+}
+.content .hero-unit .carousel-control a:link {
 	color: #777;
 }
-.content .hero-unit .carousel-control a {
-	color: #fff;
-}
+ div.primary-content div.span12 div.hero-unit a.carousel-control {
+ 	color: #777;
+ }
 
 .carousel-title {
   position: absolute;
