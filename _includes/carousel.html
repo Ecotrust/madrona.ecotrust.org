@@ -19,7 +19,7 @@
                         {{ post.title }}
                         {% if post.complete %}
                           <p class="pull-right">
-                            <a href="{{ post.url }}" class="btn btn-mini">read more...</a>
+                            <a href="{{BASE_PATH}}{{ post.url }}" class="btn btn-mini">read more...</a>
                           </p>
                         {% endif %}
                     </h4>

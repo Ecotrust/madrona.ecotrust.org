@@ -15,7 +15,7 @@ active: experience
 						<div class="row">
 							<div class="span4">
 								{% if post.complete %}
-								<a href="{{ post.url}} "><img class="thumbnail" src="{{ BASE_PATH }}{{ post.image }}"/></a>
+								<a href="{{BASE_PATH}}{{ post.url}} "><img class="thumbnail" src="{{ BASE_PATH }}{{ post.image }}"/></a>
 								{% else %}
 								<img class="thumbnail" src="{{ BASE_PATH }}{{ post.image }}"/>
 								{% endif %}
@@ -42,7 +42,7 @@ active: experience
 									{% endif %}
 								</dl>
 								{% if post.complete %}						
-									<a href="{{ post.url }}" class="pull-right btn btn-mini">Read More...</a>
+									<a href="{{BASE_PATH}}{{ post.url }}" class="pull-right btn btn-mini">Read More...</a>
 								{% endif %}
 							</div>
 						</div>
