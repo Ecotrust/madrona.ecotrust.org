@@ -30,10 +30,10 @@ a:visited {
 .content {
   background-color: #fff;
   padding-top: 5px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
   padding-bottom: 20px;
-  margin: 0 -20px; /* negative indent the amount of the padding to maintain the grid system */
+  margin: 0 -60px; /* negative indent the amount of the padding to maintain the grid system */
   -webkit-border-radius: 0 0 6px 6px;
      -moz-border-radius: 0 0 6px 6px;
           border-radius: 0 0 6px 6px;
@@ -43,44 +43,27 @@ a:visited {
 }
 
 .primary-content {
-	margin-top: 40px;
+	margin-top: 20px;
 }
-.content .hero-unit {
-	background-color: #fff;
-	margin-bottom: 0px;
-	margin-top: -40px;
-}
-
-.content .hero-unit h2 {
-	line-height: 27px;
+h2.tagline {
 	margin-bottom: 10px;
 }
 
 
-.content .hero-unit .text {
-	height: 100%;
-}
-
-.content .hero-unit .carousel {
-	height: 70%;
-	color: #fff;
-}
-.content .hero-unit .carousel-caption p {
+.carousel-caption p {
 	font-size: 14px;
 	line-height: 1;
 }
-.content .hero-unit .carousel-caption h4 {
+.carousel-caption h4 {
 	font-weight: bold;
 }
-.content .hero-unit .carousel-caption a.btn {
-	color: #000;
+.carousel-caption a.btn {
+	color: #333;
 }
-.content .hero-unit .carousel-control a:link {
+
+a.carousel-control {
 	color: #777;
 }
- div.primary-content div.span12 div.hero-unit a.carousel-control {
- 	color: #777;
- }
 
 .carousel-title {
   position: absolute;
@@ -102,13 +85,13 @@ a:visited {
 .madrona-logo img {
 	padding-top: 10px;
 }
-
+.madrona-logo {
+	min-width: 300px;
+}
 .ecotrust-logo {
 	margin-top: -10px;
 }
-.primary-nav {
-	margin-right: 55px;
-}
+
 .primary-nav .nav-pills > li > a {
 	margin-top: 25px;
 	padding: 10px;
@@ -133,6 +116,9 @@ a:visited {
 	color: #777;
 }
 
+.madrona-text {
+	font-size: 16px;
+}
 
 .bug .row {
 	margin: 0px auto;
@@ -144,6 +130,7 @@ a:visited {
 
 .bug {
 	color: #333;
+	max-width: 268px;
 	margin-bottom: 15px;
 	background-color: #f2f2f2;
 	border: 1px solid #ccc;
@@ -153,6 +140,10 @@ a:visited {
 	-moz-box-shadow: inset 4px 4px 8px 0 #f7f7f7, inset -4px -4px 8px #e3e3e3;
 	-webkit-box-shadow: inset 4px 4px 8px #f7f7f7, inset -4px -4px 8px #e3e3e3;
 	box-shadow: inset 4px 4px 8px #f7f7f7, inset -4px -4px 8px #e3e3e3;
+}
+
+.feature {
+	margin-top: 10px;
 }
 .feature .bug:hover {
 	background-color: #e5e5e5;
@@ -175,16 +166,11 @@ a:visited {
 	top: 3px;
 	left: -4px;
 }
-.bug .wide {
-	left: 3px;
-}
-.bug .icon {
-	width: 15%;
-	padding-right: 4%;
-}
+
+
 .feature .bug img {
 	width: 15%;
-	padding: 5px;
+	max-width: 32px;
 }
 .bug img {
 	padding: 5px;
