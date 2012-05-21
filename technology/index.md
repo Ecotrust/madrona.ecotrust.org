@@ -343,45 +343,45 @@ active: technology
 				<p>The JSON snippet below defines the wind energy site feature in the workspace document.  You can see that URL's have been published for performing create and edit actions as well as accessing associated viewshed maps and KMZ/Shapefile exports.</p>
 
 				{% highlight javascript %}
-		{
-		    "title": "Wind Energy Site",
-		    "id": "features_windenergysite",
-		    "link-relations": {
-		        "self": {
-		          "uri-template": "/features/windenergysite/{id}/"
-		        },
-		        "create": {
-		          "uri-template": "/features/windenergysite/form/"
-		        },
-		        "alternate": [
-		          {
-		            "title": "Shapefile"
-		            "uri-template": "/features/windenergysite/links/shapefile/{id+}/",
-		            "select": "multiple",
-		            "rel": "related"
-		          }
-		        ],
-		        "related": [
-		          {
-		            "title": "KMZ (Google Earth)"
-		            "uri-template": "/features/windenergysite/links/kmz/{id+}/",
-		            "select": "multiple",
-		            "rel": "related"
-		          }
-		        ],
-		        "related": [
-		          {
-		            "title": "Viewshed Map"
-		            "uri-template": "/features/windenergysite/links/viewshed-map/{id+}/",
-		            "select": "single",
-		            "rel": "related"
-		          }
-		        ],
-		        "update": {
-		          "uri-template": "/features/windenergysite/{id}/form/"
-		        }
-		    }
-		}
+{
+    "title": "Wind Energy Site",
+    "id": "features_windenergysite",
+    "link-relations": {
+        "self": {
+          "uri-template": "/features/windenergysite/{id}/"
+        },
+        "create": {
+          "uri-template": "/features/windenergysite/form/"
+        },
+        "alternate": [
+          {
+            "title": "Shapefile"
+            "uri-template": "/features/windenergysite/links/shapefile/{id+}/",
+            "select": "multiple",
+            "rel": "related"
+          }
+        ],
+        "related": [
+          {
+            "title": "KMZ (Google Earth)"
+            "uri-template": "/features/windenergysite/links/kmz/{id+}/",
+            "select": "multiple",
+            "rel": "related"
+          }
+        ],
+        "related": [
+          {
+            "title": "Viewshed Map"
+            "uri-template": "/features/windenergysite/links/viewshed-map/{id+}/",
+            "select": "single",
+            "rel": "related"
+          }
+        ],
+        "update": {
+          "uri-template": "/features/windenergysite/{id}/form/"
+        }
+    }
+}
 			{% endhighlight %}
 			<a name="3D-Web-Client"> </a>
 			<h3>3D Web Client</h3>
@@ -412,11 +412,11 @@ active: technology
 			<p>The Madrona REST API provides support for GeoJSON output of any Feature by default.  This was challenging because the GeoJSON specification does not currently support a hierarchical structure (a collection within a collection) and Madrona does through its FeatureCollection base class [http://ecotrust.github.com/madrona/docs/features.html?highlight=featurecollection].  To get around this Madrona supports two strategies, a ‘flat’ strategy that strictly follows the spec and a ‘nest_feature_set’ strategy which extends the GeoJSON specification to tell you all of the child collections that are within a given collection.  In this way you can quickly query down into an arbitrary hierarchy of features.</p>
 
 			{% highlight python %}
-                        collection1
-                          |- polygon1
-                          |- collection2
-                            | - polygon2
-                            | - polygon3
+collection1
+  |- polygon1
+  |- collection2
+    | - polygon2
+    | - polygon3
 			{% endhighlight %}
 
 			<p><a href="http://ecotrust.github.com/madrona/docs/geojson.html">Learn more about GeoJSON output</a></p>
