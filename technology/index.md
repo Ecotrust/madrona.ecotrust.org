@@ -409,7 +409,7 @@ active: technology
 
 			<h4>GeoJSON Output</h4>
 
-			<p>The Madrona REST API provides support for GeoJSON output of any Feature by default.  This was challenging because the GeoJSON specification does not currently support a hierarchical structure (a collection within a collection) and Madrona does through its FeatureCollection base class [http://ecotrust.github.com/madrona/docs/features.html?highlight=featurecollection].  To get around this Madrona supports two strategies, a ‘flat’ strategy that strictly follows the spec and a ‘nest_feature_set’ strategy which extends the GeoJSON specification to tell you all of the child collections that are within a given collection.  In this way you can quickly query down into an arbitrary hierarchy of features.</p>
+			<p>The Madrona REST API provides support for GeoJSON output of any Feature by default.  This was challenging because the GeoJSON specification does not currently support a hierarchical structure (a collection within a collection) and Madrona does through its <a href="http://ecotrust.github.com/madrona/docs/features.html?highlight=featurecollection">FeatureCollection class</a>.  To get around this Madrona supports two strategies, a ‘flat’ strategy that strictly follows the spec and a ‘nest_feature_set’ strategy which extends the GeoJSON specification to tell you all of the child collections that are within a given collection.  In this way you can quickly query down into an arbitrary hierarchy of features.</p>
 
 			{% highlight python %}
 collection1
