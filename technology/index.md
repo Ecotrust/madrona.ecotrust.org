@@ -405,7 +405,7 @@ active: technology
 			<a name="2D-Web-Client"> </a>
 			<h3>2D Web Client</h3>
 
-			<p>Madrona provides core support for 2D web mapping through its REST API allowing a variety of possibilities for developing 2D client interfaces.  Additional client-side widgets are currently in development for Madrona.  You can contribute to that effort or you can take a look at frameworks such as <a hre="http://www.geoext.org/">GeoExt</a>.  OpenLayers is currently seen as the most robust 2D mapping client with support for vector editing, UTF-Grid encoding and other advanced features most often needed by Madrona-based tools.</p>
+			<p>Madrona provides core support for 2D web mapping through its REST API allowing a variety of possibilities for developing 2D client interfaces.  Additional client-side widgets are currently <a href="http://madrona.ecotrust.org/developer/roadmap.html">in development</a> for Madrona.  You can contribute to that effort or take a look at frameworks such as <a href="http://www.geoext.org/">GeoExt</a>.  OpenLayers is currently seen as the most robust 2D mapping client with support for vector editing, UTF-Grid encoding and other advanced features most often needed by Madrona-based tools.</p>
 
 			<h4>GeoJSON Output</h4>
 
