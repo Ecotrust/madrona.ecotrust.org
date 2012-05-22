@@ -8,7 +8,7 @@ title: madrona spatial planning framework
       <h2 class="tagline">A framework for building spatial planning tools at any scale.</h2>
     </div>
   </div>
-  <div class="row">
+  <div class="row-fluid">
    <div class="span12">
     {% include carousel.html %}
   </div>
