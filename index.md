@@ -14,11 +14,11 @@ title: madrona spatial planning framework
   </div>
   </div>
   <div class="row">
-    <div class="span12">
+    <div class="span6">
      <p class="madrona-text">Madrona offers a flexible set of building blocks and design patterns for developing spatial planning and decision support tools. Our support services can help you implement cutting-edge tools for effective place-based decision making.</p>
     </div>
-  </div>
-<div class="row feature">
+    <div class="span6">
+    <div class="row feature">
       <div class="span3">
         <a href="{{ BASE_PATH }}/technology/#Spatial-Features">
           <div class="bug">
@@ -49,6 +49,8 @@ title: madrona spatial planning framework
           </div>
         </a>
       </div>
+    </div>
+    <div class="row feature">
       <div class="span3">
         <a href="{{ BASE_PATH }}/technology/#Collaboration">
           <div class="bug">
@@ -77,6 +79,8 @@ title: madrona spatial planning framework
           </div>
         </a>
       </div>
+  </div>
+</div>
 </div>
 <script>
   $(window).load(function() {

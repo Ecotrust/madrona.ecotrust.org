@@ -1,5 +1,6 @@
 ---
 ---
+
 /* Override some defaults */
 html, body {
   background-color: #eee;
@@ -8,7 +9,7 @@ html, body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-color #999;
+color: #333;
 font-weight: normal;
 }
 
@@ -21,9 +22,6 @@ a:visited {
 }
 .container > footer {
   margin-top: 20px;
-}
-.container > footer p {
-  text-align: center; /* center align it with the container */
 }
 
 /* The white background content wrapper */
@@ -117,16 +115,12 @@ a.carousel-control {
 }
 
 .madrona-text {
-	font-size: 16px;
+	font-size: 20px;
 }
 
 .bug .row {
 	margin: 0px auto;
 }
-
-/*.developer .bug {
-	min-height: 115px;
-}*/
 
 .bug {
 	color: #333;
@@ -142,9 +136,7 @@ a.carousel-control {
 	box-shadow: inset 4px 4px 8px #f7f7f7, inset -4px -4px 8px #e3e3e3;
 }
 
-.feature {
-	margin-top: 10px;
-}
+
 .feature .bug:hover {
 	background-color: #e5e5e5;
 	text-shadow: 1px 1px 1px #fff;	
@@ -233,7 +225,7 @@ a.carousel-control {
 
 .services ul {
 	list-style: none inside;
-	list-style-image:url('/assets/img/checkbox2.png');
+	list-style-image:url('../img/checkbox2.png');
 }
 .services li {
 	line-height: 28px;

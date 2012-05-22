@@ -1,0 +1,21 @@
+---
+layout: page
+icons:
+- url: assets/img/features.png
+  attrib: byJohan H. W. Basberg, from The Noun Project
+- url: assets/img/layers.png
+  attrib: CC0 No rights reserved
+- url: assets/img/collaboration.png
+  attrib: by T. Weber, from The Noun Project 
+- url: assets/img/analysis.png
+  attrib: test
+---
+<h2>About the site</h2>
+<p>This site is hosted by <a href="http://github.com">github.com</a>. The design and layout is based on twitter bootstrap and is published using the jekyll-bootstrap project.</p>
+<h2>About the images</h2>
+<p>Some images have been made available through the use of a Creative Commons license as noted by their attribution. Many of the icons come from The Noun Project and are attributed here.</p>
+<ul class="unstyled">
+{% for icon in page.icons %}
+	<li><img src="{{BASE_PATH}}/{{ icon.url }}"> {{ icon.attrib }}</li>
+{% endfor %}
+</ul>
