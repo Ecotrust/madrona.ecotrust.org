@@ -13,6 +13,10 @@ color: #333;
 font-weight: normal;
 }
 
+h3 {
+	font-size: 20px;
+	margin-bottom: 5px;
+}
 a:link {
 	color: #993300;
 }
@@ -116,6 +120,7 @@ a.carousel-control {
 
 .madrona-text {
 	font-size: 20px;
+	line-height: 24px;
 }
 
 .bug .row {
