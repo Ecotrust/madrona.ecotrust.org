@@ -1,5 +1,6 @@
 ---
 ---
+
 /* Override some defaults */
 html, body {
   background-color: #eee;
@@ -8,10 +9,14 @@ html, body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-color #999;
+color: #333;
 font-weight: normal;
 }
 
+h3 {
+	font-size: 20px;
+	margin-bottom: 5px;
+}
 a:link {
 	color: #993300;
 }
@@ -22,18 +27,15 @@ a:visited {
 .container > footer {
   margin-top: 20px;
 }
-.container > footer p {
-  text-align: center; /* center align it with the container */
-}
 
 /* The white background content wrapper */
 .content {
   background-color: #fff;
   padding-top: 5px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 100px;
-  margin: 0 -20px; /* negative indent the amount of the padding to maintain the grid system */
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 20px;
+  margin: 0 -60px; /* negative indent the amount of the padding to maintain the grid system */
   -webkit-border-radius: 0 0 6px 6px;
      -moz-border-radius: 0 0 6px 6px;
           border-radius: 0 0 6px 6px;
@@ -42,24 +44,60 @@ a:visited {
           box-shadow: 0 1px 2px rgba(0,0,0,.15);
 }
 
+.primary-content {
+	margin-top: 20px;
+}
+h2.tagline {
+	margin-bottom: 10px;
+}
 
 
+.carousel-caption p {
+	font-size: 14px;
+	line-height: 1;
+}
+.carousel-caption h4 {
+	font-weight: bold;
+}
+.carousel-caption a.btn {
+	color: #333;
+}
+
+a.carousel-control {
+	color: #777;
+}
+
+.carousel-title {
+  position: absolute;
+  right: 8%;
+  left: 37%;
+  bottom: 25%;
+  padding: 10px 10px 5px;
+  background: #333333;
+  background: rgba(0, 0, 0, 0.75);
+}
+.carousel-title h2 {
+	font-size: 40px;
+}
+/*
+.carousel .item  {
+	height: 600px;
+	width: 100%;	
+}*/
 .madrona-logo img {
 	padding-top: 10px;
 }
-
-.ecotrust-logo {
-	padding-top: 10px;
-	color: #bbbbbb;
+.madrona-logo {
+	min-width: 300px;
 }
-
-.primary-nav {
+.ecotrust-logo {
 	margin-top: -10px;
 }
 
 .primary-nav .nav-pills > li > a {
+	margin-top: 25px;
 	padding: 10px;
-	font-size: 20px;
+	font-size:20px;
 
 }
 
@@ -77,23 +115,21 @@ a:visited {
 }
 
 .primary-nav .nav a {
-	color: #333;
+	color: #777;
 }
 
-.bugs {
-	margin-top: 10px;
-	margin-bottom: 10px;
+.madrona-text {
+	font-size: 20px;
+	line-height: 24px;
 }
+
 .bug .row {
 	margin: 0px auto;
 }
 
-/*.developer .bug {
-	min-height: 115px;
-}*/
-
 .bug {
 	color: #333;
+	max-width: 268px;
 	margin-bottom: 15px;
 	background-color: #f2f2f2;
 	border: 1px solid #ccc;
@@ -104,10 +140,19 @@ a:visited {
 	-webkit-box-shadow: inset 4px 4px 8px #f7f7f7, inset -4px -4px 8px #e3e3e3;
 	box-shadow: inset 4px 4px 8px #f7f7f7, inset -4px -4px 8px #e3e3e3;
 }
+
+
 .feature .bug:hover {
 	background-color: #e5e5e5;
 	text-shadow: 1px 1px 1px #fff;	
 }
+
+
+.feature a:hover {
+	text-decoration: none;
+	color: #333;
+}
+
 
 .bug p {
 	font-size: 14px;
@@ -118,15 +163,13 @@ a:visited {
 	top: 3px;
 	left: -4px;
 }
-.bug .wide {
-	left: 3px;
-}
-.bug .icon {
+
+
+.feature .bug img {
 	width: 15%;
-	padding-right: 4%;
+	max-width: 32px;
 }
 .bug img {
-	width: 32px;
 	padding: 5px;
 }
 .bug .header {
@@ -138,42 +181,30 @@ a:visited {
 
 }
 
-.bug .header h3{
+/*.bug .header h3{
 	font-size: 16px;
-}
+}*/
 
 .bug a {
 	color: #333;
 }
 
-.bugs.feature a:hover {
-	text-decoration: none;
-	color: #333;
-}
 
-
-
+/*
 .bug .text {
 	font-size: 16px;
 	color: #333;
-}
+}*/
 
 .bug .text p {
-	padding-left: 50px;
+	text-align: center;
 }
 
 .bug .text ul {
 	padding-left: 48px;
 }
 
-.carousel .item > img {
-	min-height: 400px;
-	width: 100%;	
-}
-.carousel .carousel-caption {
-	
 
-}
 
 .attrib {
 	/*position:absolute;
@@ -188,25 +219,49 @@ a:visited {
 }
 
 .project {
-	margin-bottom: 20px;
+	margin-bottom: 40px;
 }
-.project img {
+.project h3 {
+	line-height: 22px;
+}
 
-	-webkit-box-shadow: 0 2px 2px -2px gray;
-	   -moz-box-shadow: 0 2px 2px -2px gray;
-	        box-shadow: 0 2px 2px -2px gray;
-}
 
 .services ul {
 	list-style: none inside;
-	list-style-image:url('/assets/img/checkbox2.png');
+	list-style-image:url('../img/checkbox2.png');
 }
 .services li {
 	line-height: 28px;
 	font-size: 16px;
 }
 
+.icons li {
+	line-height: 40px;
+}
 
+.carousel.carousel-fade .item {
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -ms-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+.carousel.carousel-fade .active.left,
+.carousel.carousel-fade .active.right {
+  left: 0;
+  z-index: 2;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+.carousel.carousel-fade .next,
+.carousel.carousel-fade .prev {
+  left: 0;
+  z-index: 1;
+}
+
+.carousel.carousel-fade .carousel-control {
+  z-index: 3;
+}
 /* tag_box ======================================================== */
 
 .tag_box {

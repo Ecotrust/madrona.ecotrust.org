@@ -14,16 +14,18 @@ active: experience
 					<div class="project">
 						<div class="row">
 							<div class="span4">
-								{% if post.complete %}
-								<a href="{{ post.url}} "><img class="thumbnail" src="{{ BASE_PATH }}{{ post.image }}"/></a>
-								{% else %}
-								<img class="thumbnail" src="{{ BASE_PATH }}{{ post.image }}"/>
-								{% endif %}
-								{% if post.image-attrib %}
-								<div class="attrib">
-								    {{ post.image-attrib }}
+								<div class="thumbnail">
+									{% if post.complete %}
+									<a href="{{BASE_PATH}}{{ post.url}} "><img class="thumbnail" src="{{ BASE_PATH }}{{ post.image }}"/></a>
+									{% else %}
+									<img src="{{ BASE_PATH }}{{ post.image }}"/>
+									{% endif %}
+									{% if post.image-attrib %}
+									<div class="attrib caption">
+									    {{ post.image-attrib }}
+									</div>
+									{% endif %}
 								</div>
-								{% endif %}
 							</div>
 							<div class="span4">
 								<h3>									
@@ -42,7 +44,7 @@ active: experience
 									{% endif %}
 								</dl>
 								{% if post.complete %}						
-									<a href="{{ post.url }}" class="pull-right btn btn-mini">Read More...</a>
+									<a href="{{BASE_PATH}}{{ post.url }}" class="pull-right btn btn-mini">Read More...</a>
 								{% endif %}
 							</div>
 						</div>

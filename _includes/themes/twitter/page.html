@@ -1,21 +1,8 @@
-<div class="row logo-bar">
-	<div class="span6 madrona-logo">
+<div class="row">
+	<div class="span4 madrona-logo">
 		<a href="{{BASE_PATH}}/"><img src="{{BASE_PATH}}/assets/img/madrona-logo.png"/></a>
 	</div>
-	<div class="span6">
-		<div class="pull-right ecotrust-logo">
-			<span>a project of</span>
-			<a href="http://www.ecotrust.org"><img src="{{ BASE_PATH }}/assets/img/ecotrust_logo08.png"/></a>
-		</div>
-	</div>
-</div>
-<div class="row nav-bar">
-	{% if page.tagline %}
-	<div class="span6"><span class="madrona-quote">{{ page.tagline }}</span></div>
-	<div class="span6">
-	{% else %}
-	<div class="span6 offset6">
-	{% endif %}
+	<div class="span8">
 		<div class="primary-nav">
 			<div class="pull-right">
 				<ul class="nav nav-pills">
@@ -31,6 +18,16 @@
 				</ul>
 			</div>
 		</div>
+	</div>
+</div>
+<div class="row nav-bar">
+	{% if page.tagline %}
+	<div class="span6"><span class="madrona-quote">{{ page.tagline }}</span></div>
+	<div class="span6">
+	{% else %}
+	<div class="span6 offset6">
+	{% endif %}
+	
 	</div>
 </div>
 
