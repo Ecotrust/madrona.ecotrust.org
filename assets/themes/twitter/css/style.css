@@ -214,14 +214,12 @@ a.carousel-control {
 }
 
 .project {
-	margin-bottom: 20px;
+	margin-bottom: 40px;
 }
-.project img {
+.project h3 {
+	line-height: 22px;
+}
 
-	-webkit-box-shadow: 0 2px 2px -2px gray;
-	   -moz-box-shadow: 0 2px 2px -2px gray;
-	        box-shadow: 0 2px 2px -2px gray;
-}
 
 .services ul {
 	list-style: none inside;
