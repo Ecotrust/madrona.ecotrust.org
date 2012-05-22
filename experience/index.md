@@ -16,7 +16,7 @@ active: experience
 							<div class="span4">
 								<div class="thumbnail">
 									{% if post.complete %}
-									<a href="{{BASE_PATH}}{{ post.url}} "><img class="thumbnail" src="{{ BASE_PATH }}{{ post.image }}"/></a>
+									<a href="{{BASE_PATH}}{{ post.url}} "><img src="{{ BASE_PATH }}{{ post.image }}"/></a>
 									{% else %}
 									<img src="{{ BASE_PATH }}{{ post.image }}"/>
 									{% endif %}

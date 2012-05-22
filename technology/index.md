@@ -311,7 +311,7 @@ active: technology
 				<ul>
 					<li>Create, read, update and delete Features</li>
 					<li>Copy and share Features between user groups</li>
-					<li>Manage Features within collections</li>
+					<li>Manage Features within a FeatureCollection</li>
 					<li>Convert to export formats</li>
 					<li>Access reports and related documents</li>
 				</ul>
@@ -343,52 +343,52 @@ active: technology
 				<p>The JSON snippet below defines the wind energy site feature in the workspace document.  You can see that URL's have been published for performing create and edit actions as well as accessing associated viewshed maps and KMZ/Shapefile exports.</p>
 
 				{% highlight javascript %}
-		{
-		    "title": "Wind Energy Site",
-		    "id": "features_windenergysite",
-		    "link-relations": {
-		        "self": {
-		          "uri-template": "/features/windenergysite/{id}/"
-		        },
-		        "create": {
-		          "uri-template": "/features/windenergysite/form/"
-		        },
-		        "alternate": [
-		          {
-		            "title": "Shapefile"
-		            "uri-template": "/features/windenergysite/links/shapefile/{id+}/",
-		            "select": "multiple",
-		            "rel": "related"
-		          }
-		        ],
-		        "related": [
-		          {
-		            "title": "KMZ (Google Earth)"
-		            "uri-template": "/features/windenergysite/links/kmz/{id+}/",
-		            "select": "multiple",
-		            "rel": "related"
-		          }
-		        ],
-		        "related": [
-		          {
-		            "title": "Viewshed Map"
-		            "uri-template": "/features/windenergysite/links/viewshed-map/{id+}/",
-		            "select": "single",
-		            "rel": "related"
-		          }
-		        ],
-		        "update": {
-		          "uri-template": "/features/windenergysite/{id}/form/"
-		        }
-		    }
-		}
+{
+    "title": "Wind Energy Site",
+    "id": "features_windenergysite",
+    "link-relations": {
+        "self": {
+          "uri-template": "/features/windenergysite/{id}/"
+        },
+        "create": {
+          "uri-template": "/features/windenergysite/form/"
+        },
+        "alternate": [
+          {
+            "title": "Shapefile"
+            "uri-template": "/features/windenergysite/links/shapefile/{id+}/",
+            "select": "multiple",
+            "rel": "related"
+          }
+        ],
+        "related": [
+          {
+            "title": "KMZ (Google Earth)"
+            "uri-template": "/features/windenergysite/links/kmz/{id+}/",
+            "select": "multiple",
+            "rel": "related"
+          }
+        ],
+        "related": [
+          {
+            "title": "Viewshed Map"
+            "uri-template": "/features/windenergysite/links/viewshed-map/{id+}/",
+            "select": "single",
+            "rel": "related"
+          }
+        ],
+        "update": {
+          "uri-template": "/features/windenergysite/{id}/form/"
+        }
+    }
+}
 			{% endhighlight %}
 			<a name="3D-Web-Client"> </a>
 			<h3>3D Web Client</h3>
 
 			<p>By default, madrona provides a robust HTML/Javascript client interface based on the 3D Google Earth plugin. It is not the only option for building a client interface but it does provide a complete solution out of the box.</p>
 
-			<p>The 3D web client allows features to be delivered using the expressive KML format. Using the workspace document the client will automatically configure a set of javascript widgets including the Google Earth Plugin, forming an end-to-end spatial content management system. Besides the Google Earth plugin itself, madrona provides the following components:</p>
+			<p>The 3D web client allows features to be delivered using the expressive KML format. Using the workspace document the client will automatically configure a set of javascript widgets including the Google Earth Plugin, forming an end-to-end spatial content management system. Besides the Google Earth plugin itself, madrona provides a number of additional components.</p>
 
 			<h4>KmlTree</h4>
 
@@ -401,6 +401,26 @@ active: technology
 			<h4>KML Drawing Tools</h4>
 
 			<p>Madrona provides a robust set of drawing and editing tools for the Google Earth Plugin.  These play a part in the larger workflow of creating, editing and sharing features.</p>
+
+			<a name="2D-Web-Client"> </a>
+			<h3>2D Web Client</h3>
+
+			<p>Madrona provides core support for 2D web mapping through its REST API allowing a variety of possibilities for developing 2D client interfaces.  Additional client-side widgets are currently <a href="http://madrona.ecotrust.org/developer/roadmap.html">in development</a> for Madrona.  You can contribute to that effort or take a look at frameworks such as <a href="http://www.geoext.org/">GeoExt</a>.  OpenLayers is currently seen as the most robust 2D mapping client with support for vector editing, UTF-Grid encoding and other advanced features most often needed by Madrona-based tools.</p>
+
+			<h4>GeoJSON Output</h4>
+
+			<p>The Madrona REST API provides support for GeoJSON output of any Feature by default.  This was challenging because the GeoJSON specification does not currently support a hierarchical structure (a collection within a collection) and Madrona does through its <a href="http://ecotrust.github.com/madrona/docs/features.html?highlight=featurecollection">FeatureCollection class</a>.  To get around this Madrona supports two strategies, a ‘flat’ strategy that strictly follows the spec and a ‘nest_feature_set’ strategy which extends the GeoJSON specification to tell you all of the child collections that are within a given collection.  In this way you can quickly query down into an arbitrary hierarchy of features.</p>
+
+			{% highlight python %}
+collection1
+  |- polygon1
+  |- collection2
+    | - polygon2
+    | - polygon3
+			{% endhighlight %}
+
+			<p><a href="http://ecotrust.github.com/madrona/docs/geojson.html">Learn more about GeoJSON output</a></p>
+			
 			</div>
 		</div>
 	</div>
