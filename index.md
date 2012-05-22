@@ -15,7 +15,7 @@ title: madrona spatial planning framework
   </div>
   <div class="row">
     <div class="span6">
-     <p class="madrona-text">Madrona offers a flexible set of building blocks and design patterns for developing spatial planning and decision support tools. Our support services can help you implement cutting-edge tools for effective place-based decision making.</p>
+      <p class="madrona-text">Madrona offers a flexible set of building blocks and design patterns for developing spatial planning and decision support tools. Our support services can help you implement cutting-edge tools for effective place-based decision making.</p>
     </div>
     <div class="span6">
     <div class="row feature">
