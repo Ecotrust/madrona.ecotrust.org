@@ -50,6 +50,37 @@
     <body>
         <div class="container">
             <div class="content">
+                <div class="row">
+                    <div class="span4 madrona-logo">
+                        <a href="{{BASE_PATH}}/"><img src="{{BASE_PATH}}/assets/img/madrona-logo.png"/></a>
+                    </div>
+                    <div class="span8">
+                        <div class="primary-nav">
+                            <div class="pull-right">
+                                <ul class="nav nav-pills">
+                                    {% for link in site.links %}
+                                        {% if link == page.active %}    
+                                        <li class="active">
+                                        {% else %}
+                                        <li>
+                                        {% endif %}
+                                            <a href="{{ BASE_PATH }}/{{ link }}">{{ link }}</a>
+                                        </li>
+                                    {% endfor %}
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row nav-bar">
+                    {% if page.tagline %}
+                    <div class="span6"><span class="madrona-quote">{{ page.tagline }}</span></div>
+                    <div class="span6">
+                    {% else %}
+                    <div class="span6 offset6">
+                    {% endif %} 
+                    </div>
+                </div>
                 {{ content }}
             </div>
             <footer>

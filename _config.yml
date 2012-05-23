@@ -13,13 +13,13 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Jekyll Bootstrap
-tagline: Site Tagline
+title : Madrona
+tagline: A framework for building spatial planning tools at any scale.
 author :
   name : Ecotrust
-  email : blah@email.test
-  github : username
-  twitter : username
+  email : madrona@ecotrust.org
+  github : ecotrust
+  twitter : ecotrust
   feedburner : feedname
 
 # The production_url is only used when full-domain names are needed
@@ -84,7 +84,7 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : jekyllbootstrap
+      short_name : madrona
     livefyre :
       site_id : 123
     intensedebate :
@@ -102,7 +102,7 @@ JB :
   analytics :
     provider : google 
     google : 
-        tracking_id : 'UA-123-12'
+        tracking_id : 'UA-32039619-1'
     getclicky :
       site_id : 
     mixpanel :
@@ -127,4 +127,3 @@ JB :
   #   ./_includes/custom/[HELPER]
   # where [HELPER] is the name of the helper you are overriding.
   
-safe : true
