@@ -12,7 +12,7 @@
                 <!--<div class="carousel-title">
                     <h2>spatial planning at any scale</h2>
                 </div>-->
-                <div class="carousel-caption hidden-phone">
+                <div class="carousel-caption">
                     <h4>
                         {{ post.title }}
                         {% if post.complete %}
@@ -21,9 +21,8 @@
                           </p>
                         {% endif %}
                     </h4>
-                    <p>
+                    <p class="hidden-phone">
                         {{ post.blurb }}
-
                     </p>
                     {% if post.image-attrib %}
                     <div class="pull-right attrib">

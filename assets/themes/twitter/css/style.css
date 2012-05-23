@@ -172,7 +172,7 @@ a.carousel-control {
 .feature .bug img {
 	width: 15%;
 	max-width: 32px;
-	padding: 10px 5px 10px 10px;
+	padding: 10px 5px 5px 10px;
 }
 .bug img {
 	padding: 5px;
@@ -182,7 +182,9 @@ a.carousel-control {
 	margin-bottom: 5px;
 }
 @media (max-width: 480px) {
-
+	.primary-nav .nav-pills > li > a {
+		font-size: 16px;
+	}
 	.bug h3 {
 		font-size: 16px;
 	}
