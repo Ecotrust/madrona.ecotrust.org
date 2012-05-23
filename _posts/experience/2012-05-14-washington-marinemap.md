@@ -3,7 +3,7 @@ layout: case-study
 title: Supporting Ocean and Shoreline Planning in Washington
 category: experience
 tag: [feature]
-blurb: Working in partnership with The Nature Conservancy and groups like the Pacific County Marine Resource Committee to build effective community engagement and explore tradeoffs between planning objectives.
+blurb: The state of Washington and Pacific County needed to plan for renewable energy expansion, marine conservation, and multiple shoreline uses.
 image: /assets/img/experience/washingtonmarine.jpg
 image-attrib: Port Angeles Washington Sunrise by <a href="http://www.flickr.com/photos/patrickmcnally/7037110089/in/set-72157629439966904">patrickmcnally</a>, <a href="http://creativecommons.org/licenses/by/2.0/deed.en">Some rights reserved</a>
 application: http://washington.marineplanning.org/

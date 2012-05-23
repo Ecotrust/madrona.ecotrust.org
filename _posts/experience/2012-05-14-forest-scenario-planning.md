@@ -5,7 +5,7 @@ category: experience
 tag: [feature]
 application:
 repo: https://github.com/Ecotrust/land_owner_tools
-blurb: Ecotrust wanted to give forest landowners a way to visualize alternative management scenarios.
+blurb: Ecotrust wanted to give landowners a way to visualize alternative forest management scenarios.
 image: /assets/img/experience/logger.jpg
 technology: ["Madrona framework", "2D Mapping"]
 name: Mike Mertens
