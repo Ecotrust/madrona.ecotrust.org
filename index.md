@@ -26,22 +26,25 @@ title: madrona spatial planning framework
           <p>Provides a powerful spatial content management system complete with API...</p>
         </a>
       </div>
-      <div class="span3">
-          <a href="{{ BASE_PATH }}/technology/#Data-Layers">
-          <div class="bug">
-            <div class="row">
-              <div class="header">
-                <h4><img src="{{ BASE_PATH }}/assets/img/layers.png">&nbsp;<span>Data Layers</span>
-                </h4>
-              </div>
-              <div class="text">
-                <p>public and private</p>
-              </div>
-            </div>
-          </div>
+      <div class="span3 bug">
+        <a href="{{ BASE_PATH }}/technology/#Data-Layers">
+          <h3><img src="{{ BASE_PATH }}/assets/img/layers.png">&nbsp;<span>Data&nbsp;Layers</span></h3>
+          <p>Manage a hierarchy of data layers important to your decision-making process...</p>
         </a>
       </div>
-    </div>
+      <div class="span3 bug">
+        <a href="{{ BASE_PATH }}/technology/#Collaboration">
+          <h3><img src="{{ BASE_PATH }}/assets/img/collaboration.png">&nbsp;<span>Collaboration</span></h3>
+          <p>The best ideas often evolve through connecting with other people....</p>
+        </a>
+      </div>
+      <div class="span3 bug">
+        <a href="{{ BASE_PATH }}/technology/#Flexible-Analysis">
+          <h3><img src="{{ BASE_PATH }}/assets/img/analysis.png">&nbsp;<span>Flexible&nbsp;Analysis</span></h3>
+          <p>Interact with external modeling and analysis software such as Grass, Marxan or ArcGIS Server...</p>
+        </a>
+      </div>
+     <!--
     <div class="row feature">
       <div class="span3">
         <a href="{{ BASE_PATH }}/technology/#Collaboration">
@@ -71,6 +74,7 @@ title: madrona spatial planning framework
           </div>
         </a>
       </div>
+    -->
   </div>
 </div>
 </div>

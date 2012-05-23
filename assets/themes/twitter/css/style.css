@@ -141,7 +141,9 @@ a.carousel-control {
 	border-radius: 10px;
 
 }
-
+.bug h3 {
+	margin-bottom: 0px;
+}
 .feature .bug:hover {
 	background-color: #ddd;
 	color: #222;
