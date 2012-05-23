@@ -6,8 +6,8 @@ tag: [feature]
 application: http://aquatic-priorities.apps.ecotrust.org/
 repo: https://github.com/Ecotrust/aquatic-priorities
 blurb: U.S. Fish and Wildlife Service wanted to see the big picture of conservation and restoration work at the sub-basin scale across the Pacific Northwest.
-image: /assets/img/experience/aqua-priorities.png
-image-carousel: /assets/img/experience/aqua-priorities.png
+image: /assets/img/experience/aqua-priorities.jpg
+image-carousel: /assets/img/experience/aqua-priorities.jpg
 technology: ["Madrona framework", "Google Earth", "Marxan conservation planning software"]
 name: Mike Mertens
 phone: 503-467-0775
