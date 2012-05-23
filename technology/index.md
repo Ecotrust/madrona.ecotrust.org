@@ -238,7 +238,7 @@ active: technology
 			</div>
 		</div>
 		<div class="row">
-			<div class="span4">
+			<div class="span3">
 				<div class="well">
 					<a name="Custom-Projections"> </a>
 					<h3>Custom Projections</h3>
@@ -246,7 +246,7 @@ active: technology
 					<a href="http://ecotrust.github.com/madrona/docs/custom_projection.html">Learn More</a>
 				</div>
 			</div>
-			<div class="span5">
+			<div class="span3">
 				<div class="well">
 					<a name="Raster-Statistics"> </a>
 					<h3>Raster Statistics</h3>
