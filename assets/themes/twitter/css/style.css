@@ -44,6 +44,10 @@ a:visited {
           box-shadow: 0 1px 2px rgba(0,0,0,.15);
 }
 
+.feature .well {
+	padding: 10px;
+}
+
 .primary-content {
 	margin-top: 20px;
 }
@@ -123,28 +127,24 @@ a.carousel-control {
 	line-height: 24px;
 }
 
+
 .bug .row {
 	margin: 0px auto;
 }
 
 .bug {
-	color: #333;
-	max-width: 268px;
+	color: white;
 	margin-bottom: 15px;
 	background-color: #f2f2f2;
-	border: 1px solid #ccc;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
-	-moz-box-shadow: inset 4px 4px 8px 0 #f7f7f7, inset -4px -4px 8px #e3e3e3;
-	-webkit-box-shadow: inset 4px 4px 8px #f7f7f7, inset -4px -4px 8px #e3e3e3;
-	box-shadow: inset 4px 4px 8px #f7f7f7, inset -4px -4px 8px #e3e3e3;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+
 }
 
-
 .feature .bug:hover {
-	background-color: #e5e5e5;
-	text-shadow: 1px 1px 1px #fff;	
+	background-color: #ddd;
+	color: #222;
 }
 
 
@@ -155,8 +155,8 @@ a.carousel-control {
 
 
 .bug p {
-	font-size: 14px;
-	color: #666;
+	color: #444;
+	padding: 0px 20px 0px 20px;
 }
 .bug span {
 	position: relative;
@@ -168,36 +168,64 @@ a.carousel-control {
 .feature .bug img {
 	width: 15%;
 	max-width: 32px;
+	padding: 10px 5px 10px 10px;
 }
 .bug img {
 	padding: 5px;
 }
 .bug .header {
+	margin-left: 5px;
+	margin-bottom: 5px;
+}
+@media (max-width: 480px) {
 
-	padding-left: 5px;
-	padding-bottom: 3px;
-	/*height: 40px;*/
-	
+	.bug h3 {
+		font-size: 16px;
+	}
+	.bug p {
+		font-size: 14px;
+
+	}
 
 }
 
-/*.bug .header h3{
-	font-size: 16px;
-}*/
+@media (min-width: 481px) and (max-width: 767px) {
+	
+	.bug h3 {
+		font-size: 18px;
+	}
+	.bug p {
+		font-size: 16px;
+	}
+
+}
+
+
+@media (min-width: 768px) and (max-width: 979px) {
+
+	.bug h3 {
+		font-size: 16px;
+	}
+	.bug p {
+		font-size: 14px;
+	}
+
+}
+
+@media (min-width: 1200px) {
+
+	.bug h3 {
+		font-size: 20px;
+	}
+}
+
 
 .bug a {
 	color: #333;
 }
 
-
-/*
 .bug .text {
-	font-size: 16px;
-	color: #333;
-}*/
-
-.bug .text p {
-	text-align: center;
+	padding-left: 9px;
 }
 
 .bug .text ul {
@@ -221,10 +249,6 @@ a.carousel-control {
 .project {
 	margin-bottom: 40px;
 }
-.project h3 {
-	line-height: 22px;
-}
-
 
 .services ul {
 	list-style: none inside;

@@ -11,6 +11,7 @@ title: madrona spatial planning framework
   <div class="row-fluid">
    <div class="span12">
     {% include carousel.html %}
+    <hr/>
   </div>
   </div>
   <div class="row">
@@ -19,19 +20,10 @@ title: madrona spatial planning framework
     </div>
     <div class="span6">
     <div class="row feature">
-      <div class="span3">
+      <div class="span3 bug">
         <a href="{{ BASE_PATH }}/technology/#Spatial-Features">
-          <div class="bug">
-            <div class="row">
-              <div class="header">
-                <h4><img src="{{ BASE_PATH }}/assets/img/features.png">&nbsp;<span>Spatial&nbsp;Features</span>
-                </h4>
-              </div>
-              <div class="text">
-                <p>define, sketch, share</p>
-              </div>
-            </div>
-          </div>
+          <h3><img src="{{ BASE_PATH }}/assets/img/features.png">&nbsp;<span>Spatial&nbsp;Features</span></h3>
+          <p>Provides a powerful spatial content management system complete with API...</p>
         </a>
       </div>
       <div class="span3">
