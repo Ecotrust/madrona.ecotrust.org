@@ -109,16 +109,15 @@ a.carousel-control {
 }
 
 .primary-nav .nav .active a {
-	background-color: #777777;
-	color: white;
+	background-color: #ddd;
 }
 
 .primary-nav .nav a.active:hover {
 	background-color: #bbbbbb;
+	color: #777;
 }
 .primary-nav .nav a:hover {
-	background-color: #777777;
-	color: white;
+	background-color: #ddd;
 }
 
 .primary-nav .nav a {
@@ -136,7 +135,6 @@ a.carousel-control {
 }
 
 .bug {
-	color: white;
 	margin-bottom: 15px;
 	background-color: #f2f2f2;
 	-webkit-border-radius: 10px;
