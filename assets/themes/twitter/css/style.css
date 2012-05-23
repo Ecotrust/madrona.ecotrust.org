@@ -17,6 +17,9 @@ h3 {
 	font-size: 20px;
 	margin-bottom: 5px;
 }
+h4 {
+	font-size: 17px;
+}
 a:link {
 	color: #993300;
 }
@@ -158,7 +161,7 @@ a.carousel-control {
 
 .bug p {
 	color: #444;
-	padding: 0px 20px 0px 20px;
+	padding: 0px 20px 0px 24px;
 }
 .bug span {
 	position: relative;
