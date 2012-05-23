@@ -296,6 +296,10 @@ a.carousel-control {
 .carousel.carousel-fade .carousel-control {
   z-index: 3;
 }
+
+.blocks .well > a {
+	font-size: 14px;
+}
 /* tag_box ======================================================== */
 
 .tag_box {
