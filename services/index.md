@@ -3,13 +3,13 @@ layout: page
 title: madrona spatial planning framework
 active: services
 ---
-<h1>services</h1>
+<h1>Services</h1>
 <div class="row services">
     <div class="span8">
 
     <p>For over a decade, Ecotrust has been developing toolkits for decision support and spatial planning that leverage the power of GIS (geographic information systems).  We offer a full range of services for helping you design and implement effective spatial planning tools and processes with Madrona.  Regardless of your technology capacities, we can create a service package to meet your needs.</p>
     
-    <h2>Technology Services</h2>            
+    <h2><img src="{{BASE_PATH}}/assets/img/icons/wrench.png" /> Technology Services</h2>            
         <p>Whether you are a developer needing a specific feature or a planner needing an entire tool we have a team of developers and designers ready to help you out.  Service areas include:</p>
         <ul>
             <li>Needs Assessment</li>
@@ -22,7 +22,7 @@ active: services
             <li>Maintenance</li>
         </ul>   
 
-    <h2>Technology Training</h2>
+    <h2><img src="{{BASE_PATH}}/assets/img/icons/training.png"/> Technology Training</h2>
 
         <p>Interested in developing tools with Madrona but need assistance?  Already developing tools but want to become more efficient and learn best practices? We can tailor a training package to meet your needs whether it's one day or a week, in person or virtually.  Training areas include:</p>
 
