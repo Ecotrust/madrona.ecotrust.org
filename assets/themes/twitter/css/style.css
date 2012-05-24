@@ -105,8 +105,9 @@ a.carousel-control {
 .madrona-logo {
 	min-width: 300px;
 }
-.ecotrust-logo {
-	margin-top: -10px;
+
+.ecotrust-logo img {
+	margin-top: -5px;
 }
 
 .primary-nav .nav-pills > li > a {
@@ -310,6 +311,11 @@ a.carousel-control {
 .blocks .well > a {
 	font-size: 14px;
 }
+
+.small {
+	font-size: 14px;
+}
+
 /* tag_box ======================================================== */
 
 .tag_box {

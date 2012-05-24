@@ -3,7 +3,6 @@ layout: page
 title: madrona spatial planning framework
 active: experience
 ---
-{% include JB/setup %}
 <h1>experience</h1>
 <div class="row experience">
 	<div class="span8">

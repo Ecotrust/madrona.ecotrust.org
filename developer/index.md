@@ -3,7 +3,6 @@ layout: page
 title: madrona spatial planning framework
 active: developer
 ---
-{% include JB/setup %}
 <h1>developer</h1>
 <div class="row">
   <div class="span8">
