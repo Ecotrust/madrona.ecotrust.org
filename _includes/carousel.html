@@ -13,6 +13,12 @@
                     <h2>spatial planning at any scale</h2>
                 </div>-->
                 <div class="carousel-caption">
+                    {% if post.image-attrib %}
+                    <div class="pull-right attrib hidden-phone">
+                        {{ post.image-attrib }}
+                    </div>
+                    {% endif %}
+
                     <h4>
                         {{ post.title }}
                         {% if post.complete %}
@@ -24,11 +30,6 @@
                     <p class="hidden-phone">
                         {{ post.blurb }}
                     </p>
-                    {% if post.image-attrib %}
-                    <div class="pull-right attrib">
-                        {{ post.image-attrib }}
-                    </div>
-                    {% endif %}
                 </div>
             </div>
             {% endif %}

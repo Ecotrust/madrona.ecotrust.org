@@ -1,41 +1,75 @@
 ---
 layout: page
-title: madrona spatial planning framework
 active: experience
+team:
+- name: Tim Welch
+  title: Senior Developer/Product Manager
+  twitter: t_doubleuu
+  bio: Tim is the head of software development at Ecotrust and the product manager for Madrona. He helped establish Ecotrust at the forefront of innovative spatial planning and is dedicated developing tools that help people create more resilient communities and economies through improved understanding and management. 
+- name: Matt Perry
+  title: Senior Developer
+  twitter: perrygeo
+  bio: Matt is the lead developer of Madrona bringing 10 years of experience in GIS and database management, software development, modeling, geo-statistics and data visualization.  Matt has contributed to several open source projects including MarineMap, Quantum GIS, Metacat, GDAL and MapWindow.  His blog, <a href="http://perrygeo.net">perrygeo.net</a>, has been a technical resource for the open source community since 2006.
+- name: Edwin Knuth
+  title: Senior Front-end Developer
+  twitter: eknuth
+  bio: Edwin is our front-end specialist focused on making our tools more intuitive and enjoyable to use.  He has worked in both the private and public sector from Juneau, Alaska to Washington DC and brings a wide range of experience including mobile development, database management and the integration of open source software with proprietary systems from ESRI, Microsoft and Oracle. 
+- name: Scott Fletcher
+  title: Applications Developer
+  twitter: sdfletche
+  bio: Scott is the lead developer of many of our Madrona-based tools, working with clients to design and customize them for their unique process.  Scott brings a good-natured attitude and excellent communication skills.
+- name: Ryan Hodges
+  title: DevOps
+  twitter: hodgimoto
+  bio: Ryan specializes in devops for Madrona focusing on system administration and deployment.  This includes everything from cloud-based servers and storage to system automation tools.  He can get your application up and running quickly and make it scale.
+- name: Andrew Fuller
+  title: Graphic Design
+  twitter: andrewsfuller
+  bio: Andrew is the Art Directory at Ecotrust and works on design for Madrona from the logo to the look and feel.  Andrew is a published author and brings over a decade of experience in illustration, graphic design and web development.
+colleagues:
+- name: Kristen Sheeran
+  title: Environmental and Development Economics
+  twitter: kristensheeran
+  bio: Kristen is the Acting Director of the <a href="http://www.ecotrust.org/knowledgesystems/">Knowledge Systems</a> team at Ecotrust. Kristen is an economist who works and publishes on a wide range of natural resource topics, including climate change, energy, economic development, forestry, and fisheries. She also leads Ecotrust’s national network of applied environmental economists, the <a href="http://e3network.org/">E3 Network</a>.
+- name: Charles Steinback
+  title:  Marine Spatial Planning
+  bio: Charles is the Director of Ecotrust’s <a href="http://www.ecotrust.org/marineplanning/">Marine Consulting Initiatives</a> leading a team that has been successfully helping people make better decisions about the ocean for over a decade.  Madrona evolved out of Charles and the marine teams groundbreaking work with the California Marine Life Protection Act Initiative process and has expanded to large-scale coastal marine spatial planning projects around North America.
+- name: Mike Mertens
+  title: Regional Science, Economic Development
+  bio:  Mike is the Director of Spatial Analysis at Ecotrust with over 20 years of GIS experience.  He is spearheading the use of Madrona for terrestrial applications including forest management, aquatic prioritization and regional planning.
+- name: Brent Davies
+  title: Forest Management and Ecosystem Services
+  bio: Brent oversees the management of the Forests and Ecosystem Service initiative at Ecotrust.  She has spent the last two decades working with tribes, local and regional nonprofits, private landowners, businesses, and government agencies to develop and implement innovative conservation and economic development strategies.
+- name: Cathy Kellon
+  title: Water and Watersheds
+  bio: Cathy is the Program Director for the <a href="www.ecotrust.org/wwri">Whole Watershed Restoration Initiative</a>, a collaborative effort to restore high priority river basins in the Pacific Northwest. She has extensive experience with building working partnerships; project development and management; meeting design and facilitation; and communicating impact. From Alaska to California, she has worked on water resources, salmon, and habitat restoration issues for over 15 years.
 ---
-
 <div class="row">
-    <div class="span8">
+    <div class="span9">
 
-	<h2>Development Team</h2>            
+	<h1>Development Team</h1>
 
 	<p>Ecotrust has a full-service software development shop responsible for the design and development of Madrona as well as other tools for data collection, analysis and visualization.  The core team consists of:</p>
 
-	<p><em><b>Tim Welch, Senior Developer/Product Manager</b></em>.  Tim is the head of software development at Ecotrust and the product manager for Madrona.  He helped establish Ecotrust at the forefront of innovative spatial planning and is dedicated developing tools that help people create more resilient communities and economies through improved understanding and management. <a href="https://twitter.com/t_doubleuu" class="twitter-follow-button" data-show-count="false" data-size="medium" data-show-screen-name="false">Follow @t_doubleuu</a></p>
+	{% for person in page.team %}
+	<h3>{{ person.name }}</h3>
+	<em><b>{{ person.title }}</b></em>
+	{% if person.twitter %}
+	<span class="pull-right"><a href="https://twitter.com/{{ person.twitter }}" class="twitter-follow-button" data-show-count="false" data-size="medium" data-show-screen-name="false">Follow @{{ person.twitter }}</a></span>
+	{% endif %}
+	<p>{{ person.bio }}</p>
+	{% endfor %}
 
-	<p><em><b>Matt Perry, Senior Developer</b></em>.  Matt is the lead developer of Madrona bringing 10 years of experience in GIS and database management, software development, modeling, geo-statistics and data visualization.  Matt has contributed to several open source projects including MarineMap, Quantum GIS, Metacat, GDAL and MapWindow.  His blog, perrygeo.net, has been a technical resource for the open source community since 2006. <a href="https://twitter.com/perrygeo" class="twitter-follow-button" data-show-count="false" data-size="medium" data-show-screen-name="false">Follow @perrygeo</a></p>
-
-	<p><em><b>Edwin Knuth, Senior Frontend Developer</b></em>.  Edwin is our front-end specialist focused on making our tools more intuitive and enjoyable to use.  He has worked in both the private and public sector from Juneau, Alaska to Washington DC and brings a wide range of experience including mobile development, database management and the integration of open source software with proprietary systems from ESRI, Microsoft and Oracle. <a href="https://twitter.com/eknuth" class="twitter-follow-button" data-show-count="false" data-size="medium" data-show-screen-name="false">Follow @eknuth</a></p>
-	
-	<p><em><b>Scott Fletcher, Applications Developer</b></em>.  Scott is the lead developer of many of our Madrona-based tools, working with clients to design and customize them for their unique process.  Scott brings a good-natured attitude and excellent communication skills. <a href="https://twitter.com/sdfletche" class="twitter-follow-button" data-show-count="false" data-size="medium" data-show-screen-name="false">Follow @sdfletche</a></p>
-
-	<p><em><b>Ryan Hodges, DevOps</b></em>.  Ryan specializes in devops for Madrona focusing on system administration and deployment.  This includes everything from cloud-based servers and storage to system automation tools.  He can get your application up and running quickly and make it scale. <a href="https://twitter.com/hodgimoto" class="twitter-follow-button" data-show-count="false" data-size="medium" data-show-screen-name="false">Follow @hodgimoto</a></p>
-
-	<p><em><b>Andrew Fuller, Graphic Design</b></em>.  Andrew is the Art Directory at Ecotrust and works on design for Madrona from the logo to the look and feel.  Andrew is a published author and brings over a decade of experience in illustration, graphic design and web development. <a href="https://twitter.com/andrewsfuller" class="twitter-follow-button" data-show-count="false" data-size="medium" data-show-screen-name="false">Follow @andrewsfuller</a></p>
-
-	<h2>Colleagues</h2>            
-
+	<h1>Colleagues</h1>            
 	<p>Ecotrust works in a number of areas that are complementary to Madrona and has a large network of partnerships around the world.  We can bring significant expertise and resources to bear on projects.</p>
-
-	<p><em><b>Kristen Sheeran, Environmental and Development Economics</b></em>. Kristen is the Acting Director of the <a href="http://www.ecotrust.org/knowledgesystems/">Knowledge Systems</a> team at Ecotrust. Kristen is an economist who works and publishes on a wide range of natural resource topics, including climate change, energy, economic development, forestry, and fisheries. She also leads Ecotrust’s national network of applied environmental economists, the <a href="http://e3network.org/">E3 Network</a>. <a href="https://twitter.com/kristensheeran" class="twitter-follow-button" data-show-count="false" data-size="medium" data-show-screen-name="false">Follow @kristensheeran</a></p>
-
-	<p><em><b>Charles Steinback, Marine Spatial Planning</b></em>.  Charles is the Director of Ecotrust’s <a href="http://www.ecotrust.org/marineplanning/">Marine Consulting Initiatives</a> leading a team that has been successfully helping people make better decisions about the ocean for over a decade.  Madrona evolved out of Charles and the marine teams groundbreaking work with the California Marine Life Protection Act Initiative process and has expanded to large-scale coastal marine spatial planning projects around North America.</p>
-
-	<p><em><b>Mike Mertens, Regional Science, Economic Development</b></em>.  Mike is the Director of Spatial Analysis at Ecotrust with over 20 years of GIS experience.  He is spearheading the use of Madrona for terrestrial applications including forest management, aquatic prioritization and regional planning.</p>
-
-	<p><em><b>Brent Davies, Forest Management and Ecosystem Services</b></em>.  Brent oversees the management of the Forests and Ecosystem Service initiative at Ecotrust.  She has spent the last two decades working with tribes, local and regional nonprofits, private landowners, businesses, and government agencies to develop and implement innovative conservation and economic development strategies.</p>
-
-	<p><em><b>Cathy Kellon, Water and Watersheds</b></em>. Cathy is the Program Director for the <a href="www.ecotrust.org/wwri">Whole Watershed Restoration Initiative</a>, a collaborative effort to restore high priority river basins in the Pacific Northwest. She has extensive experience with building working partnerships; project development and management; meeting design and facilitation; and communicating impact. From Alaska to California, she has worked on water resources, salmon, and habitat restoration issues for over 15 years.</p>
+	{% for person in page.colleagues %}
+	<h3>{{ person.name }}</h3>
+	<em><b>{{ person.title }}</b></em>
+	{% if person.twitter %}
+	<span class="pull-right"><a href="https://twitter.com/{{ person.twitter }}" class="twitter-follow-button" data-show-count="false" data-size="medium" data-show-screen-name="false">Follow @{{ person.twitter }}</a></span>
+	{% endif %}
+	<p>{{ person.bio }}</p>
+	{% endfor %}
 
 	</div>
 </div>
