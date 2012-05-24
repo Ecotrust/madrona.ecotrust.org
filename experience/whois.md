@@ -25,7 +25,7 @@ team:
 - name: Andrew Fuller
   title: Graphic Design
   twitter: andrewsfuller
-  bio: Andrew is the Art Directory at Ecotrust and works on design for Madrona from the logo to the look and feel.  Andrew is a published author and brings over a decade of experience in illustration, graphic design and web development.
+  bio: Andrew is the Art Director at Ecotrust and works on design for Madrona from the logo to the look and feel.  Andrew is a published author and brings over a decade of experience in illustration, graphic design and web development.
 colleagues:
 - name: Kristen Sheeran
   title: Environmental and Development Economics
