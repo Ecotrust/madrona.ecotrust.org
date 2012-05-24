@@ -4,6 +4,7 @@ title: madrona spatial planning framework
 active: developer
 ---
 {% include JB/setup %}
+<h1>developer</h1>
 <div class="row">
   <div class="span8">
     <div class="bugs developer">
@@ -23,7 +24,7 @@ active: developer
                 </div>
                 <div class="text">
                   <ul class="unstyled">
-                    <li><a href="https://github.com/Ecotrust/madrona/wiki/Madrona-Virtual-Machine">Madrona appliance</a></li>
+                    <li><a href="{{ BASE_PATH }}/developer/appliance">Madrona appliance</a></li>
                     <li><a href="https://github.com/Ecotrust/madrona/downloads">4.0 Release</a></li>
                   </ul>
                 </div>

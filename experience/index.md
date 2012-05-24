@@ -4,6 +4,7 @@ title: madrona spatial planning framework
 active: experience
 ---
 {% include JB/setup %}
+<h1>experience</h1>
 <div class="row experience">
 	<div class="span8">
 		<p>Madrona is at the heart of a growing number of planning tools.  In each case it has been customized for a specific audience, process, and scale.  The science of decision making and stakeholder engagement is as important as the technology itself.</p>
