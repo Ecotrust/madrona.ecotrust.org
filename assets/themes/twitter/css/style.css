@@ -28,6 +28,9 @@ dt {
 	font-weight: normal;
 }
 
+hr {
+	margin: 28px 0px;
+}
 a:link {
 	color: #993300;
 }
@@ -135,7 +138,7 @@ a.carousel-control {
 
 .madrona-text {
 	font-size: 20px;
-	line-height: 24px;
+	line-height: 30px;
 }
 
 
