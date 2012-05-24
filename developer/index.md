@@ -3,7 +3,7 @@ layout: page
 title: madrona spatial planning framework
 active: developer
 ---
-<h1>developer</h1>
+<h1>Developer</h1>
 <div class="row">
   <div class="span8">
     <div class="bugs developer">

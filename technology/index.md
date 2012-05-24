@@ -4,7 +4,7 @@ title: madrona spatial planning framework
 active: technology  
 ---
 {% include JB/setup %}
-<h1>technology</h1>
+<h1>Technology</h1>
 <div class="row">
 	<div class="span9">
 		<h2>Philosophy</h2>
