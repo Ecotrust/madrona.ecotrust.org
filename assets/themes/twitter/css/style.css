@@ -105,9 +105,6 @@ a.carousel-control {
 .madrona-logo img {
 	padding-top: 10px;
 }
-.madrona-logo {
-	min-width: 300px;
-}
 
 .ecotrust-logo img {
 	margin-top: -5px;
@@ -194,9 +191,6 @@ a.carousel-control {
 	margin-bottom: 5px;
 }
 @media (max-width: 480px) {
-	.primary-nav .nav-pills > li > a {
-		font-size: 16px;
-	}
 	.bug h3 {
 		font-size: 16px;
 	}
@@ -223,7 +217,10 @@ a.carousel-control {
 
 
 @media (min-width: 768px) and (max-width: 979px) {
+	.primary-nav .nav-pills > li > a {
+		margin-top: 15px;
 
+	}
 	.bug h3 {
 		font-size: 16px;
 		padding-left: 0px !important;
