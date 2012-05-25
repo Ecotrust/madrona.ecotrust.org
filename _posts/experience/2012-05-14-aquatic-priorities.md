@@ -1,11 +1,10 @@
 ---
 layout: case-study
-title: Prioritizing Aquatic Conservation
+title: Prioritizing regional aquatic conservation in the Pacific Northwest
 category: experience
 tag: [feature]
 application: http://aquatic-priorities.apps.ecotrust.org/
 repo: https://github.com/Ecotrust/aquatic-priorities
-blurb: U.S. Fish and Wildlife Service wanted to best prioritize its conservation and restoration work across the Pacific Northwest.
 image: /assets/img/experience/aqua-priorities.jpg
 image-carousel: /assets/img/experience/aqua-priorities.jpg
 technology: ["Madrona framework", "Google Earth", "Marxan conservation planning software"]
