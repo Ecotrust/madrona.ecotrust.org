@@ -9,30 +9,43 @@ active: services
 
     <p>For over a decade, Ecotrust has been developing toolkits for decision support and spatial planning that leverage the power of GIS (geographic information systems).  We offer a full range of services for helping you design and implement effective spatial planning tools and processes with Madrona.  Regardless of your technology capacities, we can create a service package to meet your needs.</p>
     
-    <h2><img src="{{BASE_PATH}}/assets/img/icons/wrench.png" /> Technology Services</h2>            
-        <p>Whether you are a developer needing a specific feature or a planner needing an entire tool we have a team of developers and designers ready to help you out.  Service areas include:</p>
-        <ul>
-            <li>Needs Assessment</li>
-            <li>User experience and graphic design</li>
-            <li>Code Development</li>
-            <li>Third-party software integration</li>
-            <li>Usability testing</li>
-            <li>Hosting and deployment</li>
-            <li>User Training</li>
-            <li>Maintenance</li>
-        </ul>   
+   
+    <h2>Technology Services</h2>            
+    <p>Whether you are a developer needing a specific feature or a planner needing an entire tool we have a team of developers and designers ready to help you out.  Service areas include:</p>
+   <div class="row">
+       <div class="span6">
+            <ul>
+                <li>Needs Assessment</li>
+                <li>User experience and graphic design</li>
+                <li>Code Development</li>
+                <li>Third-party software integration</li>
+                <li>Usability testing</li>
+                <li>Hosting and deployment</li>
+                <li>User Training</li>
+                <li>Maintenance</li>
+            </ul>   
+        </div>
+        <div class="span2">
+            <img src="{{BASE_PATH}}/assets/img/icons/wrench.png" />
+        </div>
+    </div>
 
-    <h2><img src="{{BASE_PATH}}/assets/img/icons/training.png"/> Technology Training</h2>
+    <h2>Technology Training</h2>
 
-        <p>Interested in developing tools with Madrona but need assistance?  Already developing tools but want to become more efficient and learn best practices? We can tailor a training package to meet your needs whether it's one day or a week, in person or virtually.  Training areas include:</p>
-
-        <ul>
-            <li>Installation and configuration</li>
-            <li>Designing and developing a tool</li>
-            <li>Best practices</li>
-            <li>Hosting and deployment</li>
-        </ul>
-
+    <p>Interested in developing tools with Madrona but need assistance?  Already developing tools but want to become more efficient and learn best practices? We can tailor a training package to meet your needs whether it's one day or a week, in person or virtually.  Training areas include:</p>
+    <div class="row">
+        <div class="span6">
+            <ul>
+                <li>Installation and configuration</li>
+                <li>Designing and developing a tool</li>
+                <li>Best practices</li>
+                <li>Hosting and deployment</li>
+            </ul>
+        </div>
+        <div class="span2">
+            <img src="{{BASE_PATH}}/assets/img/icons/training.png"/>
+        </div>
+    </div>
     <h2>Technology Support</h2>
 
         <p>If you have technical questions, join the <a href='https://groups.google.com/group/madrona-users'>Madrona user group</a> and ask away!  We are commited to stewarding a community of open source developers and practitioners.  If you need dedicated help from our team, contact us.</p>

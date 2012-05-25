@@ -462,12 +462,12 @@ window.onload = function () {
 			  	$accordion.offset({ top: scrollTop > initial? scrollTop + 100: initial });
 			}
 		}
-	$(window).scroll(function () {
-		if (timer) {
-			clearTimeout(timer);
-		}
-		timer = setTimeout(scrollHandler, 20);
-	});
+	// $(window).scroll(function () {
+	// 	if (timer) {
+	// 		clearTimeout(timer);
+	// 	}
+	// 	timer = setTimeout(scrollHandler, 20);
+	// });
 
 	ko.applyBindings({
 		headings: $('h2').map(function () {
@@ -489,7 +489,7 @@ window.onload = function () {
 	});
 	$accordion.show();
 	initial = $accordion.offset().top;
-	scrollHandler();
+	// scrollHandler();
 
 };
 </script>

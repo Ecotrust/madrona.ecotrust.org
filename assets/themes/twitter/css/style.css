@@ -327,6 +327,11 @@ a.carousel-control {
 	font-size: 14px;
 }
 
+#tech-accordion {
+	position: fixed;
+	top: 120px;
+
+}
 /* tag_box ======================================================== */
 
 .tag_box {
