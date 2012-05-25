@@ -4,9 +4,9 @@ title: madrona spatial planning framework
 active: technology  
 ---
 {% include JB/setup %}
-<h1>Technology</h1>
 <div class="row">
 	<div class="span9">
+		<h1>Technology</h1>
 		<h2>Philosophy</h2>
 		<div>
 			<p>Madrona makes many choices for you while still providing lots of options, so you can get to the fun part of building tools right away.  You, the web developer, are still required to make many choices about your application and Madrona gives you building blocks to piece together the mental model of your solution quickly without getting distracted by all of the nuts and bolts.</p>
@@ -450,25 +450,8 @@ collection1
 </div>
 <script>
 window.onload = function () {
-	var timer, $accordion = $('#tech-accordion'),
-		initial; 
-		scrollHandler = function () {  
-			var scrollTop = $(window).scrollTop(),
-				offset = $accordion.offset().top;
-			
-			if (scrollTop > offset + 100) {
-				$accordion.offset({ top: scrollTop + 100 });
-			}  else {
-			  	$accordion.offset({ top: scrollTop > initial? scrollTop + 100: initial });
-			}
-		}
-	$(window).scroll(function () {
-		if (timer) {
-			clearTimeout(timer);
-		}
-		timer = setTimeout(scrollHandler, 20);
-	});
-
+	var $accordion = $('#tech-accordion');
+	
 	ko.applyBindings({
 		headings: $('h2').map(function () {
 			var $head = $(this), 
@@ -488,8 +471,6 @@ window.onload = function () {
 		})
 	});
 	$accordion.show();
-	initial = $accordion.offset().top;
-	scrollHandler();
 
 };
 </script>
