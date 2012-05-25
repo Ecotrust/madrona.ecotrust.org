@@ -1,9 +1,8 @@
 ---
 layout: case-study
-title: Bioregional Discovery
+title: Visualizing bioregions around the world, their assets, and vulnerabilities
 category: experience
 tag: [feature]
-blurb: Ecotrust let people all over the planet visualize their bioregion and explore its social and environmental assets and vulnerabilities.
 image: /assets/img/experience/worldbioregions_map.png
 technology: ["Madrona framework", "Google Earth"]
 application: http://bioregions.apps.ecotrust.org
