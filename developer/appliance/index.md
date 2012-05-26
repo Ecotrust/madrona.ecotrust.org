@@ -10,11 +10,12 @@ active: developer
 <p>We've made it easy to test-drive Madrona and packaged everything you need into a self-contained appliance (virtual machine) that can be run on your local system.  Follow the instructions below to get up and running and you'll be ready for the step-by-step tutorial.
 </p>
 <ol>
-	<li>Download and install <a href="http://www.virtualbox.org/">VirtualBox</a></li>
+	<li><a href="http://www.virtualbox.org/">Download</a> and install VirtualBox</li>
 		<ul>
+			<li>Supports Windows, OSX and Linux</li>
 			<li>Note: VMWare can also be used</li>
 		</ul>
-	<li>Download the <a href="https://s3.amazonaws.com/madrona_vm/madrona_virtual_v3.ova">Madrona Appliance</a></li>
+	<li><a href="https://s3.amazonaws.com/madrona_vm/madrona_virtual_v3.ova">Download</a> the Madrona Appliance</li>
 		<ul>
 			<li>~ 1.1GB in size</li>
 			<li>Operating system: Ubuntu 12.04 Server 32-bit</li>
@@ -43,10 +44,10 @@ active: developer
 	<li>Start the virtual machine</li>
 		<ul>			
 			<li>The virtual machine will load for a minute or two, be patient.</li>
-			<li>If you get a network error, go back and verify the previous step was completed successfull.</li>
-			<li>If everything is successful you will be presented with a 'Welcome to the Madrona Virtual Machine' screen.</li>
+			<li>If you get a network error, go back and verify the previous step was completed successfully.</li>
+			<li>If everything was successful you will be presented with a 'Welcome to the Madrona Virtual Machine' screen.</li>
 		</ul>	
-	<li>You are now ready to begin the Madrona Appliance <a href="http://ecotrust.github.com/madrona/docs/tutorial_appgen.html">tutorial</a></li>
+	<li><a href="http://ecotrust.github.com/madrona/docs/tutorial_appgen.html">Begin</a> the Madrona appliance tutorial</li>
 </ol>
 </div>
 </div>
