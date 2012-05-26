@@ -39,6 +39,14 @@ a:link {
 	color: #993300;
 }
 
+p {
+	line-height: 22px;
+}
+
+li {
+	line-height: 22px;
+}
+
 a:visited {
 	color: #993300;
 }
