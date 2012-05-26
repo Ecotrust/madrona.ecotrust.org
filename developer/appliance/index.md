@@ -7,7 +7,7 @@ active: developer
 <div class="row">
 <div class="span8">
 <h1>Madrona Appliance</h1>
-<p>We have packaged up everything you need to try out Madrona into a self-contained virtual machine that can be run on your local system without having to configure a server or install additional software. 
+<p>We've packaged up everything you need to try out Madrona into a self-contained pre-configured virtual machine that can be run on your local system. 
 </p>
 <ol>
 	<li>Download and install <a href="http://www.virtualbox.org/">VirtualBox</a></li>
@@ -20,11 +20,11 @@ active: developer
 			<li>Operating system: Ubuntu 12.04 Server 32-bit</li>
 			<li>Desktop: LXDE</li>
 		</ul>	
-	<li>Verify the integrity of the download</li>
+	<li>(Optionally) Verify the integrity of the download</li>
 		<ul>
 			<li>Filename: madrona_virtual_v3.ova</li>
 			<li>Filesize: 1187844096 bytes</li>
-			<li>MD5 checksum: 8e56fc0b335e54d515036ea71c4fd22f</li>
+			<li>Checksum: 8e56fc0b335e54d515036ea71c4fd22f</li>
 		</ul>
 	<li>Import the Madrona appliance into VirtualBox
 		<ul>
