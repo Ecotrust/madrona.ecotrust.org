@@ -7,7 +7,7 @@ active: developer
 <div class="row">
 <div class="span8">
 <h1>Madrona Appliance</h1>
-<p>We've packaged up everything you need to try out Madrona into a self-contained pre-configured virtual machine that can be run on your local system. 
+<p>We've made it easy to test-drive Madrona and packaged everything you need into a self-contained appliance (virtual machine) that can be run on your local system.  Follow the instructions below to get up and running and you'll be ready for the step-by-step tutorial.
 </p>
 <ol>
 	<li>Download and install <a href="http://www.virtualbox.org/">VirtualBox</a></li>
@@ -41,9 +41,9 @@ active: developer
 		</ul>
 	</li>
 	<li>Start the virtual machine</li>
-		<ul>
-			<li>If you get a network adapter error, go back and verify the previous step was completed</li>
+		<ul>			
 			<li>The virtual machine will load for a minute or two, be patient.</li>
+			<li>If you get a network error, go back and verify the previous step was completed successfull.</li>
 			<li>If everything is successful you will be presented with a 'Welcome to the Madrona Virtual Machine' screen.</li>
 		</ul>	
 	<li>You are now ready to begin the Madrona Appliance <a href="http://ecotrust.github.com/madrona/docs/tutorial_appgen.html">tutorial</a></li>
