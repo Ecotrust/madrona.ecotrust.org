@@ -7,6 +7,10 @@ html, body {
   background-image:url('../img/rough_diagonal.png');
 }
 
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0px 0px 10px;
+}
+
 h1, h2, h3, h4, h5, h6 {
 color: #111;
 font-weight: normal;
@@ -22,10 +26,6 @@ h3 {
 }
 h4 {
 	font-size: 17px;
-}
-
-h1 + h2, h2 + h3 {
-	margin-top: 5px;
 }
 
 dt {
