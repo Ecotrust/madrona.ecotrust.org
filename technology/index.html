@@ -271,38 +271,38 @@ active: technology
 				</p>
 
 			{% highlight python %}
-		@register
-		class WindEnergySite(PolygonFeature):
-		    ext = models.CharField(max_length="12")
-		    turbine_type = models.CharField(max_length="30")
-		    num_turbines = models.IntegerField()
+@register
+class WindEnergySite(PolygonFeature):
+    ext = models.CharField(max_length="12")
+    turbine_type = models.CharField(max_length="30")
+    num_turbines = models.IntegerField()
 
-		    class Options:
-		        verbose_name = 'Wind Energy Site'
-		        form = 'myproject.forms.WindForm'
-		        links = (
-		            alternate('Shapefile',
-		                'mlpa.views.shapefile',
-		                select='single',
-		                type='application/shapefile'),
+    class Options:
+        verbose_name = 'Wind Energy Site'
+        form = 'myproject.forms.WindForm'
+        links = (
+            alternate('Shapefile',
+                'mlpa.views.shapefile',
+                select='single',
+                type='application/shapefile'),
 
-		            alternate('KMZ (Google Earth)',
-		                'wind.views.kml_export',
-		                select='single multiple',
-		                type='application/vnd.google-earth.kmz',
-		                generic=True),
+            alternate('KMZ (Google Earth)',
+                'wind.views.kml_export',
+                select='single multiple',
+                type='application/vnd.google-earth.kmz',
+                generic=True),
 
-		            related('Viewshed Map',
-		                'wind.views.viewshed_map',
-		                select='single',
-		                type='image/png'),
+            related('Viewshed Map',
+                'wind.views.viewshed_map',
+                select='single',
+                type='image/png'),
 
-		            edit('Delete',
-		                'wind.views.delete',
-		                select="single multiple",
-		                args=[WindArray],
-		                kwargs={'keyword_argument': True})
-		        )
+            edit('Delete',
+                'wind.views.delete',
+                select="single multiple",
+                args=[WindArray],
+                kwargs={'keyword_argument': True})
+        )
 				{% endhighlight %}
 
 				<a name="REST-API"> </a>
@@ -428,7 +428,7 @@ collection1
 	<div class="span3">
 		<div class="row">
 			<div class="span3">
-				<div id="tech-accordion" class="accordion" data-bind="foreach: headings" style="display:none">
+				<div id="tech-accordion" class="accordion hidden-phone" data-bind="foreach: headings" style="display:none">
 		            <div class="accordion-group">
 			            <div class="accordion-heading">
 			                <a data-bind="attr: { href: '#' + tag }" data-parent="#tech-accordion" data-toggle="collapse" class="accordion-toggle">
@@ -451,7 +451,6 @@ collection1
 <script>
 window.onload = function () {
 	var $accordion = $('#tech-accordion');
-	
 	ko.applyBindings({
 		headings: $('h2').map(function () {
 			var $head = $(this), 
@@ -471,6 +470,7 @@ window.onload = function () {
 		})
 	});
 	$accordion.show();
+
 
 };
 </script>

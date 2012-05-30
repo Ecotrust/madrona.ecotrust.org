@@ -222,6 +222,9 @@ a.carousel-control {
 	margin-bottom: 5px;
 }
 @media (max-width: 480px) {
+	pre code {
+		font-size: 8px !important;
+	}
 	.carousel-caption h4 {
 		font-size: 10px;
 	}
