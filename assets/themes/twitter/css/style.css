@@ -223,7 +223,7 @@ a.carousel-control {
 }
 @media (max-width: 480px) {
 	pre code {
-		font-size: 8px !important;
+		font-size: 8px;
 	}
 	.carousel-caption h4 {
 		font-size: 10px;
@@ -243,7 +243,9 @@ a.carousel-control {
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
-	
+	pre code {
+		font-size: 12px;
+	}
 	.bug h3 {
 		font-size: 16px;
 		padding-left: 0px !important;
@@ -256,8 +258,17 @@ a.carousel-control {
 
 }
 
+@media (min-width: 980px) and (max-width: 1199px) {
+	pre code {
+		font-size: 12px;
+	}
+
+}
 
 @media (min-width: 768px) and (max-width: 979px) {
+	pre code {
+		font-size: 12px;
+	}
 	.primary-nav .nav-pills > li > a {
 		margin-top: 15px;
 
@@ -275,7 +286,9 @@ a.carousel-control {
 }
 
 @media (min-width: 1200px) {
-
+pre code {
+		font-size: 12px !important;
+	}
 	.bug h3 {
 		font-size: 20px;
 	}
