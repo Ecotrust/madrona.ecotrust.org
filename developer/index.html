@@ -124,7 +124,7 @@ active: developer
       </div>
     </div>
   </div>
-  <div class="span4">
+  <div class="span3 offset1">
     <h3>Connect</h3>
      <table id="connect-table" class="table table-condensed table-bordered">
       <tr>
@@ -137,7 +137,7 @@ active: developer
       </tr>
      </table>
     <h3>Recent Commits</h3>
-     <table id="commits-table" class="table table-condensed table-bordered">
+     <table id="commits-table" class="widget table table-condensed table-bordered">
       <tbody data-bind="foreach: $data">
         <tr class="commits-row" data-bind="attr: { 'data-content': commit.message }">
           <td><span data-bind="text: author.login"></span></td>
@@ -147,7 +147,7 @@ active: developer
       </tbody>
     </table>
     <h3>Recent Issues</h3>
-     <table id="issues-table" class="table table-condensed table-bordered">
+     <table id="issues-table" class="widget table table-condensed table-bordered">
       <tbody data-bind="foreach: $data">
         <tr class="issue-row" data-bind="attr: { 'data-content': body, 'data-original-title': 'Issue Text' }">
           <td><span data-bind="text: user.login"></span></td>
@@ -171,13 +171,13 @@ window.getCommitUrl = function(url) {
 
 window.formatDate = function(dateString) {
   var date = new Date(Date.parse(dateString));
-  return [ date.getMonth() + 1, date.getDate(), date.getFullYear()].join('/');
+  return [ date.getMonth() + 1, date.getDate(), date.getYear()-100].join('/');
 }
 
 
 $(document).ready(function () {
   var popoverOptions = {
-    placement: 'bottom',
+    placement: 'top',
     html: true
   }
   
