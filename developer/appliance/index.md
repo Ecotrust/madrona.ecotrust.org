@@ -9,6 +9,9 @@ active: developer
 <h1>Madrona Appliance</h1>
 <p>We've made it easy to test-drive Madrona and packaged everything you need into a self-contained appliance (virtual machine) that can be run on your local system.  Follow the instructions below to get up and running and you'll be ready for the step-by-step tutorial.
 </p>
+
+<p>Requirements: a Windows or OSX system that can run Google Earth</p>
+
 <ol>
 	<li><a href="http://www.virtualbox.org/">Download</a> and install VirtualBox</li>
 		<ul>
@@ -27,12 +30,11 @@ active: developer
 			<li>Filesize: 1187844096 bytes</li>
 			<li>Checksum: 8e56fc0b335e54d515036ea71c4fd22f</li>
 		</ul>
-	<li>Import the Madrona appliance into VirtualBox
+	<li>Import the Madrona appliance into VirtualBox</li>
 		<ul>
 			<li>File > Import Applicance > select the .ova file.</li>
 		</ul>
-	</li>
-	<li>Set up VirtualBox networking
+	<li>Set up VirtualBox networking</li>
 		<ul>
 			<li>Select the newly imported Madrona VM</li>
 			<li>Click the "Settings" icon</li>
@@ -40,7 +42,6 @@ active: developer
 			<li>Select your network adapter in the 'Name' field.  If you have multiple adapters such as for wired and wireless, select the one that you are currently using for your internet connection.</li>
 			<li>Click "OK"</li>
 		</ul>
-	</li>
 	<li>Start the virtual machine</li>
 		<ul>			
 			<li>The virtual machine will load for a minute or two, be patient.</li>
