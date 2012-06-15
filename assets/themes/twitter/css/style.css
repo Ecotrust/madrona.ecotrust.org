@@ -165,6 +165,10 @@ a.carousel-control {
 	line-height: 30px;
 }
 
+.big-text {
+	font-size: 20px;
+	line-height: 30px;
+}
 
 .bug .row {
 	margin: 0px auto;
