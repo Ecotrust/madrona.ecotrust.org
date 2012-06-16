@@ -14,7 +14,7 @@ complete: false
 active: experience
 ---
 <h3>Challenge</h3>
-<a href="{{BASE_PATH}}{{page.image}}"><img class="pull-right span6" src="{{BASE_PATH}}{{page.image}}"/></a>
+<a href="{{BASE_PATH}}{{page.image}}"><img class="thumbnail pull-right span6" src="{{BASE_PATH}}{{page.image}}"/></a>
 <p>Historically, environmental variables such as temperature, precipitation and soil have played a key role in defining regions and shaping the lives of people there.  But in the age of technology and globalization these fundamental realities have faded from public view. 
  Knowledge about strengths and vulnerabilities of a given region -- what makes it uniquely competitive and resilient to systemic shocks, financial disruptions and global changes --  are not known by the people who live there or being lost altogether.
 </p>
