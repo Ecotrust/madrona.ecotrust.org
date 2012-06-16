@@ -4,19 +4,19 @@ title: madrona spatial planning framework
 active: experience
 ---
 <div class="row experience">
-	<div class="span8">
+	<div class="span10">
 		<h1>Experience</h1>
-		<p>Learn about the wide range of tools being developed with Madrona and learn about the history of the project.</p> 
+		<p>Learn about the wide range of tools being developed with Madrona and the history of the project.</p> 
 	</div>
-	<div class="span8">
+	<div class="span10">
 		<h2>Madrona Projects</h2>
 		<p>Madrona is being used to develop tools for both marine and terrestrial planning.  In each of the examples below, Madrona has been customized for a specific process, audience, and geography.</p>
 		<div class="row">
-			<div class="span8">
+			<div class="span12">
 				{% for post in site.categories.experience reversed %}
 					<div class="project">
 						<div class="row">
-							<div class="span4">
+							<div class="span6">
 								<div class="thumbnail">
 									{% if post.complete %}
 									<a href="{{BASE_PATH}}{{ post.url}} "><img src="{{ BASE_PATH }}{{ post.image }}"/></a>
@@ -30,12 +30,10 @@ active: experience
 									{% endif %}
 								</div>
 							</div>
-							<div class="span4">
+							<div class="span5">
 								<h3>									
-									{{ post.title }}
-								</h3>
-								<p>{{ post.blurb }}	
-								</p>
+									{{ post.title }}								
+								</h3>								
 								<dl>
 									{% if post.application %}
 									<dt>Application</dt>
@@ -45,10 +43,10 @@ active: experience
 									<dt>Source code</dt>
 										<dd><a href="{{ post.repo }}">{{ post.repo }}</a></dd>
 									{% endif %}
-								</dl>
+								</dl>			
 								{% if post.complete %}						
-									<a href="{{BASE_PATH}}{{ post.url }}" class="pull-right btn btn-mini">Read More...</a>
-								{% endif %}
+									<a href="{{BASE_PATH}}{{ post.url }}" class="btn btn-mini">Read Case Study</a>
+								{% endif %}													
 							</div>
 						</div>
 					</div>
@@ -56,11 +54,11 @@ active: experience
 			</div>
 		</div>
 	</div>
-	<div class="span8">
+	<div class="span10">
 		<h2>History</h2>
 		<p>The Madrona framework evolved from MarineMap, a tool created to support stakeholders in designing marine protected areas for the Marine Life Protection Act Initiative in California.  Madrona builds on the design and collaboration features of MarineMap, creating a framework that can be used for both marine and terrestrial planning in any region and at any scale.  Learn more about the <a href="{{BASE_PATH}}/experience/history.html">history of Madrona</a></p>
 	</div>
-	<div class="span4">
+	<div class="span10">
 		<div class="row">
 			<div class="span3 offset1">
 			<!--{% include experience/accordion.html %}-->

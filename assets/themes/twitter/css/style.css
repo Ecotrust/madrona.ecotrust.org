@@ -47,6 +47,12 @@ li {
 	line-height: 22px;
 }
 
+dl {
+	-webkit-margin-before: 0em;
+	-webkit-margin-after: 0em;
+	margin-bottom: 10px;
+}
+
 a:visited {
 	color: #993300;
 }
@@ -221,6 +227,11 @@ a.carousel-control {
 	margin-bottom: 5px;
 }
 
+.thumbnail {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
 .services h2 img {
 	margin-bottom: 5px;
 }
@@ -325,7 +336,8 @@ pre code {
 }
 
 .project {
-	margin-bottom: 40px;
+	margin-bottom: 20px;
+	margin-top: 20px;
 }
 
 .services ul {
