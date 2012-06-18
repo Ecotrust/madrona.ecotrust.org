@@ -19,6 +19,10 @@ layout: page
 			<div class="span6">
 				<h3>Links</h3>
 				<dl>
+					{% if page.learn-more %}
+						<dt>Learn More</dt>
+							<dd><a href="{{ page.learn-more }}">{{ page.learn-more }}</a></dd>
+					{% endif %}
 					{% if page.application %}
 						<dt>Application</dt>
 							<dd><a href="{{ page.application }}">{{ page.application }}</a></dd>
