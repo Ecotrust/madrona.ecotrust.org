@@ -91,6 +91,11 @@ h2.tagline {
 	margin-bottom: 10px;
 }
 
+.caption {
+	font-size: 14px;
+	font-style: italic;
+}
+
 .carousel .carousel-caption {
 	padding-bottom: 0px;
 }
@@ -239,6 +244,7 @@ a.carousel-control {
 .services h2 img {
 	margin-bottom: 5px;
 }
+
 @media (max-width: 480px) {
 	pre code {
 		font-size: 8px;
