@@ -33,11 +33,11 @@ active: services
             <li>Hosting and deployment</li>
         </ul>
 
-    <h2>Technology Support</h2>
+    <h2><img src="{{BASE_PATH}}/assets/img/icons/support.png"/> Technology Support</h2>
 
         <p>If you have technical questions, join the <a href='https://groups.google.com/group/madrona-users'>Madrona user group</a> and ask away!  We are commited to stewarding a community of open source developers and practitioners.  If you need dedicated help from our team, contact us.</p>
 
-    <h2>Supplementary services</h2>
+    <h2><img src="{{BASE_PATH}}/assets/img/icons/services.png"/> TSupplementary services</h2>
         <p>Do you need expertise beyond tool development?  Ecotrust offers a wide range of supplementary services for decision support and spatial planning including:</p>        
         <ul>
         <li>Planning and decision-making process design</li>
