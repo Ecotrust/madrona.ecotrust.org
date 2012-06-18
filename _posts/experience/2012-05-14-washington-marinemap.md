@@ -6,6 +6,7 @@ tag: [feature]
 image: /assets/img/experience/wash_marineplanner/washingtonmarine.jpg
 image-carousel: /assets/img/experience/wash_marineplanner/washingtonmarine.jpg
 image-attrib: Port Angeles Washington Sunrise by <a href="http://www.flickr.com/photos/patrickmcnally/7037110089/in/set-72157629439966904">patrickmcnally</a>, <a href="http://creativecommons.org/licenses/by/2.0/deed.en">Some rights reserved</a>
+learn-more: http://www.marineplanning.org/Policy/USA_WA_MarinePlanner.html
 application: http://washington.marineplanning.org/
 repo: http://code.google.com/p/washington-marinemap
 technology: ["Madrona framework", "Google Earth web plugin", "Grass GIS", "Starspan", "JQPlot", "Arc2Earth", "Amazon Elastic Cloud Computing and S3 storage"]
@@ -53,7 +54,7 @@ Both the State of Washington and Pacific County communicated a common objective 
 		</p>
 	</div>
 </div>
-  
+
 <h3>Notable Features</h3>
 <ul>
 	<li>Extensive set of data layers for viewing and analysis</li>
