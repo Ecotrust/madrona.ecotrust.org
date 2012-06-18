@@ -363,6 +363,10 @@ pre code {
 	line-height: 40px;
 }
 
+.thumbnail .twitter-follow-button {
+	
+	margin: 5px 3px -1px 4px;
+}
 .carousel.carousel-fade .item {
   -webkit-transition: opacity 1s ease-in-out;
   -moz-transition: opacity 1s ease-in-out;

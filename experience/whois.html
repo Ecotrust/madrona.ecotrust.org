@@ -5,6 +5,7 @@ team:
 - name: Tim Welch
   title: Senior Developer/Product Manager
   twitter: t_doubleuu
+  image: /assets/img/team/staff_tim.jpg
   bio: Tim is the head of software development at Ecotrust and the product manager for Madrona. He helped establish Ecotrust at the forefront of innovative spatial planning and is dedicated to developing tools that help people create more resilient communities and economies through improved understanding and management. 
 - name: Matt Perry
   title: Senior Developer
@@ -45,6 +46,7 @@ colleagues:
   title: Water and Watersheds
   bio: Cathy is the Program Director for the <a href="www.ecotrust.org/wwri">Whole Watershed Restoration Initiative</a>, a collaborative effort to restore high priority river basins in the Pacific Northwest. She has extensive experience with building working partnerships; project development and management; meeting design and facilitation; and communicating impact. From Alaska to California, she has worked on water resources, salmon, and habitat restoration issues for over 15 years.
 ---
+{% include JB/setup %}
 <div class="row">
     <div class="span9">
 
@@ -53,23 +55,38 @@ colleagues:
 	<p>Ecotrust has a full-service software development shop responsible for the design and development of Madrona as well as other tools for data collection, analysis and visualization.  The core team consists of:</p>
 
 	{% for person in page.team %}
-	<h3>{{ person.name }}</h3>
-	<em><b>{{ person.title }}</b></em>
-	{% if person.twitter %}
-	<span class="pull-right"><a href="https://twitter.com/{{ person.twitter }}" class="twitter-follow-button" data-show-count="false" data-size="medium" data-show-screen-name="false">Follow @{{ person.twitter }}</a></span>
-	{% endif %}
-	<p>{{ person.bio }}</p>
-	{% endfor %}
+  <div class="row team">
+    {% if person.image %}
+    <div class="thumbnail pull-left">
+      <img height="100" class="team-image" src="{{BASE_PATH}}{{ person.image }}"/>
+      {% if person.twitter %}
+        <a href="https://twitter.com/{{ person.twitter }}" class="twitter-follow-button" data-show-count="false" data-size="medium" data-show-screen-name="false">Follow @{{ person.twitter }}</a>
+      {% endif %}
+    </div>
+      {% endif %}
+      <h3>{{ person.name }}</h3>
 
+    <em><b>{{ person.title }}</b></em>
+  	{% if person.twitter and person.image == null %}
+  	<span class="pull-right"><a href="https://twitter.com/{{ person.twitter }}" class="twitter-follow-button" data-show-count="false" data-size="medium" data-show-screen-name="false">Follow @{{ person.twitter }}</a></span>
+  	{% endif %}
+  	<p>
+    {{ person.bio }}</p>
+  </div>
+	{% endfor %}
+<div class="row">
 	<h1>Colleagues</h1>            
 	<p>Ecotrust works in a number of areas that are complementary to Madrona and has a large network of partnerships around the world.  We can bring significant expertise and resources to bear on projects.</p>
+</div>
 	{% for person in page.colleagues %}
+  <div class="row">
 	<h3>{{ person.name }}</h3>
 	<em><b>{{ person.title }}</b></em>
 	{% if person.twitter %}
 	<span class="pull-right"><a href="https://twitter.com/{{ person.twitter }}" class="twitter-follow-button" data-show-count="false" data-size="medium" data-show-screen-name="false">Follow @{{ person.twitter }}</a></span>
 	{% endif %}
 	<p>{{ person.bio }}</p>
+</div>
 	{% endfor %}
 
 	</div>
