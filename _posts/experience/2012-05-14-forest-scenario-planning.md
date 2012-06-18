@@ -22,7 +22,7 @@ complete: true
 
 <div class="row">
 	<div class="span10">
-		<a class="thumbnail" href="{{BASE_PATH}}/assets/img/experience/bioregions/bdt_screenshot1.jpg">
+		<a class="thumbnail" href="{{BASE_PATH}}/assets/img/experience/forest_planner/fsp_screenshot1.jpg">
 			<img src="{{BASE_PATH}}/assets/img/experience/forest_planner/fsp_screenshot1.jpg" alt="">
 		</a>
 	</div>
