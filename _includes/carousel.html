@@ -8,7 +8,7 @@
             {% else %}
               <div class="item">
             {% endif %}   
-                <img src="{{ BASE_PATH }}{{ post.image }}">
+                <img src="{{ BASE_PATH }}{{ post.image-carousel }}">
                 <!--<div class="carousel-title">
                     <h2>spatial planning at any scale</h2>
                 </div>-->
@@ -23,7 +23,7 @@
                         {{ post.title }}
                         {% if post.complete %}
                           <p class="pull-right">
-                            <a href="{{BASE_PATH}}{{ post.url }}" class="btn btn-mini">read more...</a>
+                            <a href="{{BASE_PATH}}{{ post.url }}" class="btn btn-mini">Read More</a>
                           </p>
                         {% endif %}
                     </h4>

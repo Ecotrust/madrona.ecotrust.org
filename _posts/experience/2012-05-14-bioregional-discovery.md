@@ -3,7 +3,8 @@ layout: case-study
 title: Visualizing assets and vulnerabilities in bioregions around the world
 category: experience
 tag: [feature]
-image: /assets/img/experience/worldbioregions_map.png
+image: /assets/img/experience/bioregions/worldbioregions_map.png
+image-carousel: /assets/img/experience/bioregions/worldbioregions_map.png
 technology: ["Madrona framework", "Google Earth", "Grass GIS", "Starspan"]
 application: http://bioregions.apps.ecotrust.org
 repo: https://github.com/Ecotrust/bioregion-discovery
@@ -14,9 +15,8 @@ complete: true
 active: experience
 ---
 <h3>Challenge</h3>
-<a href="{{BASE_PATH}}{{page.image}}"><img class="pull-right span6 thumbnail" src="{{BASE_PATH}}{{page.image}}" alt=""/></a>
-<p>Historically, environmental variables such as temperature, precipitation and soil have played a key role in defining regions and shaping the lives of people there.  But in the age of technology and globalization these fundamental realities are fading from public view. 
- Knowledge about strengths and vulnerabilities of a given region -- what makes it uniquely competitive and resilient to systemic shocks, financial disruptions and global changes --  are often not known by the people who live there or being lost altogether.
+<a href="{{BASE_PATH}}{{page.image}}"><img class="pull-right span5 thumbnail" src="{{BASE_PATH}}{{page.image}}" alt=""/></a>
+<p>Historically, environmental variables such as temperature, precipitation and soil have played a key role in defining regions and shaping the lives of the people in them.  But in the age of technology and globalization these fundamental realities are fading from public view.  Knowledge about strengths and vulnerabilities of a given region -- what makes it uniquely competitive and resilient to systemic shocks, financial disruptions and global changes --  are often not known by the people who live there or being lost altogether.
 </p>
 <p>But what is a region? Depending on your sense of place, what ecological and social characteristics you think are important, and what problems you are grappling with, regions might range in extent and scale from the village to the better part of a continent.</p>
 
@@ -24,7 +24,7 @@ active: experience
 <h3>Approach</h3>
 <p>Using the Madrona framework, Ecotrust designed the Bioregion Discovery Tool to allow people to visualize regions at a number of scales based on a wide range of ecological and social characteristics.  As Ecotrust convened a <a href="http://resilienceregions.org/">three-day gathering</a> for 50 regional activists and change-makers from around the world in 2011, the tool was used by attendees to demonstrate the diversity and complexity of their respective regions, and as a way for attendees to compare, discuss and re-imagine their work with each other.</p>
 <div class="row">
-	<div class="span7 offset1">
+	<div class="span10">
 		<a class="thumbnail" href="{{BASE_PATH}}/assets/img/experience/bioregions/bdt_screenshot1.jpg">
 			<img src="{{BASE_PATH}}/assets/img/experience/bioregions/bdt_screenshot1.jpg" alt="">
 		</a>

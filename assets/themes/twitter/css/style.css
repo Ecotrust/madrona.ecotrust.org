@@ -53,6 +53,10 @@ dl {
 	margin-bottom: 10px;
 }
 
+dl.case-links {
+	margin-bottom: 15px;
+}
+
 a:visited {
 	color: #993300;
 }
@@ -229,7 +233,7 @@ a.carousel-control {
 
 .thumbnail {
 	margin-top: 5px;
-	margin-bottom: 5px;
+	margin-bottom: 10px;
 }
 
 .services h2 img {
@@ -425,5 +429,9 @@ pre code {
 	background:#57A957;
 	border:1px solid #4C964D;
 	color:#FFF;
+}
+
+#inquiry-text {
+	margin-bottom: 5px;
 }
 	

@@ -19,9 +19,9 @@ active: experience
 							<div class="span6">
 								<div class="thumbnail">
 									{% if post.complete %}
-									<a href="{{BASE_PATH}}{{ post.url}} "><img src="{{ BASE_PATH }}{{ post.image }}"/></a>
+									<a href="{{BASE_PATH}}{{ post.url}} "><img src="{{ BASE_PATH }}{{ post.image-carousel }}"/></a>
 									{% else %}
-									<img src="{{ BASE_PATH }}{{ post.image }}"/>
+									<img src="{{ BASE_PATH }}{{ post.image-carousel }}"/>
 									{% endif %}
 									{% if post.image-attrib %}
 									<div class="attrib caption">
@@ -34,7 +34,7 @@ active: experience
 								<h3>									
 									{{ post.title }}								
 								</h3>								
-								<dl>
+								<dl class="case-links">
 									{% if post.application %}
 									<dt>Application</dt>
 										<dd><a href="{{ post.application }}">{{ post.application }}</a></dd>
@@ -45,18 +45,20 @@ active: experience
 									{% endif %}
 								</dl>			
 								{% if post.complete %}						
-									<a href="{{BASE_PATH}}{{ post.url }}" class="btn btn-mini">Read Case Study</a>
+									<a href="{{BASE_PATH}}{{ post.url }}" class="btn">Read Full Case Study</a>
 								{% endif %}													
 							</div>
 						</div>
 					</div>
+					<hr/>					
 				{% endfor %}
 			</div>
 		</div>
 	</div>
 	<div class="span10">
 		<h2>History</h2>
-		<p>The Madrona framework evolved from MarineMap, a tool created to support stakeholders in designing marine protected areas for the Marine Life Protection Act Initiative in California.  Madrona builds on the design and collaboration features of MarineMap, creating a framework that can be used for both marine and terrestrial planning in any region and at any scale.  Learn more about the <a href="{{BASE_PATH}}/experience/history.html">history of Madrona</a></p>
+		<p>The Madrona framework evolved from MarineMap, an open source planning tool developed from 2007-2011 to support stakeholders in designing marine protected areas for the California Marine Life Protection Act Initiative.  Madrona expands on the award-winning features of MarineMap to provide a much more versatile and powerful platform that can be used to create tools for both marine and terrestrial planning.</p>
+		<a href="{{BASE_PATH}}/experience/history.html" class="btn">Learn more</a>
 	</div>
 	<div class="span10">
 		<div class="row">
