@@ -58,16 +58,13 @@ colleagues:
   <div class="row team">
     {% if person.image %}
     <div class="thumbnail pull-left">
-      <img height="100" class="team-image" src="{{BASE_PATH}}{{ person.image }}"/>
-      {% if person.twitter %}
-        <a href="https://twitter.com/{{ person.twitter }}" class="twitter-follow-button" data-show-count="false" data-size="medium" data-show-screen-name="false">Follow @{{ person.twitter }}</a>
-      {% endif %}
+      <img height="120" class="team-image" src="{{BASE_PATH}}{{ person.image }}"/>
     </div>
       {% endif %}
       <h3>{{ person.name }}</h3>
 
     <em><b>{{ person.title }}</b></em>
-  	{% if person.twitter and person.image == null %}
+  	{% if person.twitter  %}
   	<span class="pull-right"><a href="https://twitter.com/{{ person.twitter }}" class="twitter-follow-button" data-show-count="false" data-size="medium" data-show-screen-name="false">Follow @{{ person.twitter }}</a></span>
   	{% endif %}
   	<p>

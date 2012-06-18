@@ -9,27 +9,21 @@
               <div class="item">
             {% endif %}   
                 <img src="{{ BASE_PATH }}{{ post.image-carousel }}">
-                <!--<div class="carousel-title">
-                    <h2>spatial planning at any scale</h2>
-                </div>-->
                 <div class="carousel-caption">
-                    {% if post.image-attrib %}
-                    <div class="pull-right attrib hidden-phone">
-                        {{ post.image-attrib }}
-                    </div>
-                    {% endif %}
 
                     <h4>
                         {{ post.title }}
                         {% if post.complete %}
-                          <p class="">
+                          <p class="pull-right">
                             <a href="{{BASE_PATH}}{{ post.url }}" class="btn btn-mini">Read More</a>
+                            {% if post.image-attrib %}
+                            <div class="attrib hidden-phone pull-right">
+                                {{ post.image-attrib }}
+                            </div>
+                            {% endif %}
                           </p>
                         {% endif %}
                     </h4>
-                    <p class="hidden-phone">
-                        {{ post.blurb }}
-                    </p>
                 </div>
             </div>
             {% endif %}
