@@ -10,7 +10,7 @@ image-carousel: /assets/img/experience/aquatic-priorities/ap_carousel.jpg
 technology: ["Madrona framework", "Google Earth", "Marxan conservation planning software", "Arc2Earth"]
 name: Mike Mertens
 phone: 503-467-0775
-email: mikem@ecotrust.org
+email: mikem
 complete: true
 active: experience
 ---

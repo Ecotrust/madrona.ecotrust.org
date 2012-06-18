@@ -9,7 +9,7 @@ technology: ["Madrona framework", "Google Earth", "Grass"]
 repo: https://github.com/Ecotrust/marco-portal
 name: Charles Steinbeck
 phone: (503) 467-077
-email: charles@ecotrust.org
+email: charles
 complete: false
 ---
 	

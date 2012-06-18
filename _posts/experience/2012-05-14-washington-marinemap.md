@@ -12,7 +12,7 @@ repo: http://code.google.com/p/washington-marinemap
 technology: ["Madrona framework", "Google Earth web plugin", "Grass GIS", "Starspan", "JQPlot", "Arc2Earth", "Amazon Elastic Cloud Computing and S3 storage"]
 name: Charles Steinbeck
 phone: (503) 467-077
-email: charles@ecotrust.org
+email: charles
 name2: Zach Ferdana
 email2: zferdana@tnc.org
 complete: true
