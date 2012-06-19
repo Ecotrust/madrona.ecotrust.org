@@ -6,7 +6,7 @@ team:
   title: Senior Developer/Product Manager
   twitter: t_doubleuu
   image: /assets/img/team/staff_tim.jpg
-  bio: Tim is the head of software development at Ecotrust and the product manager for Madrona. He helped establish Ecotrust at the forefront of innovative spatial planning and is dedicated to developing tools that help people create more resilient communities and economies through improved understanding and management. 
+  bio: Tim is the head of software development at Ecotrust and the product manager for Madrona.  He has been contributing to open source projects for over 8 years and for the past 5 years has worked to establish Ecotrust at the forefront of innovative spatial planning.  He is dedicated to developing tools that help people create more resilient communities and economies through improved understanding and decision-making. 
 - name: Matt Perry
   title: Senior Developer
   twitter: perrygeo
@@ -63,7 +63,7 @@ colleagues:
     {% endif %}
     <h3>{{ person.name }}</h3>
 
-    <em><b>{{ person.title }}</b></em>
+    <em>{{ person.title }}</em>
   	{% if person.twitter  %}
   	<span class="pull-right"><a href="https://twitter.com/{{ person.twitter }}" class="twitter-follow-button" data-show-count="false" data-size="medium" data-show-screen-name="false">Follow @{{ person.twitter }}</a></span>
   	{% endif %}
@@ -78,7 +78,7 @@ colleagues:
 	{% for person in page.colleagues %}
   <div class="row">
 	<h3>{{ person.name }}</h3>
-	<em><b>{{ person.title }}</b></em>
+	<em>{{ person.title }}</em>
 	{% if person.twitter %}
 	<span class="pull-right"><a href="https://twitter.com/{{ person.twitter }}" class="twitter-follow-button" data-show-count="false" data-size="medium" data-show-screen-name="false">Follow @{{ person.twitter }}</a></span>
 	{% endif %}
