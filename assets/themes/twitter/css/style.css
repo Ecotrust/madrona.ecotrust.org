@@ -236,7 +236,8 @@ a.carousel-control {
 	margin-bottom: 5px;
 }
 
-.thumbnail {
+/* for thumbnail wrapped into text */
+img.thumb-wrap {
 	margin: 5px 5px 10px 5px;
 }
 
