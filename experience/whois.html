@@ -55,13 +55,13 @@ colleagues:
 	<p>Ecotrust has a full-service software development shop responsible for the design and development of Madrona as well as other tools for data collection, analysis and visualization.  The core team consists of:</p>
 
 	{% for person in page.team %}
-  <div class="row team">
+  <div class="team">
     {% if person.image %}
     <div class="thumbnail pull-left">
       <img height="120" class="team-image" src="{{BASE_PATH}}{{ person.image }}"/>
     </div>
-      {% endif %}
-      <h3>{{ person.name }}</h3>
+    {% endif %}
+    <h3>{{ person.name }}</h3>
 
     <em><b>{{ person.title }}</b></em>
   	{% if person.twitter  %}
