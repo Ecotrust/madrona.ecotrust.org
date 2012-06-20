@@ -14,7 +14,7 @@ email: mikem
 complete: true
 ---
 <h3>The Challenges</h3>
-<a class="pull-right thumbnail" href="{{BASE_PATH}}{{page.image-carousel}}"><img class="span5" src="{{BASE_PATH}}{{page.image-carousel}}" alt=""/></a>
+<a class="pull-right thumbnail thumb-wrap" href="{{BASE_PATH}}{{page.image-carousel}}"><img class="span5" src="{{BASE_PATH}}{{page.image-carousel}}" alt=""/></a>
 <p>How might different forest management practices yield different results over time? How can the timing and location of specific harvest activities be planned around timber prices and logging costs? What are the financial implications of delaying harvests to take advantage of potential carbon markets? This type of intelligence has, until now, depended on complex management systems and detailed data available only to the largest forest products companies.</p>
 
 <h3>Our Approach</h3>

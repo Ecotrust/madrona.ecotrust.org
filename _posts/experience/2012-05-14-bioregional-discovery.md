@@ -15,7 +15,7 @@ complete: true
 active: experience
 ---
 <h3>Challenge</h3>
-<a class="thumbnail pull-right" href="{{BASE_PATH}}{{page.image}}"><img class="span5" src="{{BASE_PATH}}{{page.image}}" alt=""/></a>
+<a class="thumbnail thumb-wrap pull-right" href="{{BASE_PATH}}{{page.image}}"><img class="span5" src="{{BASE_PATH}}{{page.image}}" alt=""/></a>
 <p>Historically, environmental variables such as temperature, precipitation and soil have played a key role in defining regions and shaping the lives of the people in them.  But in the age of technology and globalization these fundamental realities are fading from public view.  Knowledge about strengths and vulnerabilities of a given region -- what makes it uniquely competitive and resilient to systemic shocks, financial disruptions and global changes --  are often not known by the people who live there or being lost altogether.
 </p>
 <p>But what is a region? Depending on your sense of place, what ecological and social characteristics you think are important, and what problems you are grappling with, regions might range in extent and scale from the village to the better part of a continent.</p>
