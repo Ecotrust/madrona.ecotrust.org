@@ -12,14 +12,14 @@ active: services
     <h2><img src="{{BASE_PATH}}/assets/img/icons/wrench.png" /> Technology Services</h2>            
         <p>Whether you are a developer needing a specific feature or a planner needing an entire tool we have a team of developers and designers ready to help you out.  Service areas include:</p>
         <ul>
-            <li>Needs Assessment</li>
-            <li>User experience and graphic design</li>
-            <li>Code Development</li>
-            <li>Third-party software integration</li>
-            <li>Usability testing</li>
-            <li>Hosting and deployment</li>
-            <li>User Training</li>
-            <li>Maintenance</li>
+            <li><span>Needs Assessment</span></li>
+            <li><span>User experience and graphic design</span></li>
+            <li><span>Code Development</span></li>
+            <li><span>Third-party software integration</span></li>
+            <li><span>Usability testing</span></li>
+            <li><span>Hosting and deployment</span></li>
+            <li><span>User Training</span></li>
+            <li><span>Maintenance</span></li>
         </ul>   
 
     <h2><img src="{{BASE_PATH}}/assets/img/icons/training.png"/> Technology Training</h2>
@@ -27,10 +27,10 @@ active: services
         <p>Interested in developing tools with Madrona but need assistance?  Already developing tools but want to become more efficient and learn best practices? We can tailor a training package to meet your needs whether it's one day or a week, in person or virtually.  Training areas include:</p>
 
         <ul>
-            <li>Installation and configuration</li>
-            <li>Designing and developing a tool</li>
-            <li>Best practices</li>
-            <li>Hosting and deployment</li>
+            <li><span>Installation and configuration</span></li>
+            <li><span>Designing and developing a tool</span></li>
+            <li><span>Best practices</span></li>
+            <li><span>Hosting and deployment</span></li>
         </ul>
 
     <h2><img src="{{BASE_PATH}}/assets/img/icons/support.png"/> Technology Support</h2>
@@ -40,15 +40,15 @@ active: services
     <h2><img src="{{BASE_PATH}}/assets/img/icons/services.png"/> Supplementary services</h2>
         <p>Do you need expertise beyond tool development?  Ecotrust offers a wide range of supplementary services for decision support and spatial planning including:</p>        
         <ul>
-        <li>Planning and decision-making process design</li>
-        <li>Stakeholder engagement</li>
-        <li>Data collection and management</li>
-        <li>GIS and cartography</li>
-        <li>Survey design and deployment</li>
-        <li>Spatial analysis</li>
-        <li>Economic analysis</li>
-        <li>Policy Analysis</li>
-        <li>...and more through our <a href="http://www.ecotrust.org/consulting/">consulting initiatives</a></li>
+        <li><span>Planning and decision-making process design</span></li>
+        <li><span>Stakeholder engagement</span></li>
+        <li><span>Data collection and management</span></li>
+        <li><span>GIS and cartography</span></li>
+        <li><span>Survey design and deployment</span></li>
+        <li><span>Spatial analysis</span></li>
+        <li><span>Economic analysis</span></li>
+        <li><span>Policy Analysis</span></li>
+        <li><span>...and more through our <a href="http://www.ecotrust.org/consulting/">consulting initiatives</a></span></li>
     </ul>
 
     </div>

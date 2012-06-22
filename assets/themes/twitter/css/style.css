@@ -367,6 +367,10 @@ pre code {
 	line-height: 28px;
 	font-size: 16px;
 }
+.services li span {
+	position: relative; 
+	left: -2px; 
+}
 
 .icons li {
 	line-height: 40px;
