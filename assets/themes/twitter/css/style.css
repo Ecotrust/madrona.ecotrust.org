@@ -339,13 +339,16 @@ pre code {
 .team h3 {
 	margin-bottom: 0px;
 }
-.attrib {
+.carousel .attrib {
 	position:absolute;
 	z-index:1;
 	left:10;
 	bottom:0;
+}
+.attrib {
 	color: #777;
 	font-size: 10px;
+
 }
 .attrib a {
 	color: #777;
