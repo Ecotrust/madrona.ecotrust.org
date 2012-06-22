@@ -340,10 +340,7 @@ pre code {
 	margin-bottom: 0px;
 }
 .carousel .attrib {
-	position:absolute;
-	z-index:1;
-	left:10;
-	bottom:0;
+	margin-right: 10px;
 }
 .attrib {
 	color: #777;

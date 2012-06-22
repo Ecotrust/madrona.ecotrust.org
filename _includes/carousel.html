@@ -10,19 +10,18 @@
             {% endif %}   
                 <img src="{{ BASE_PATH }}{{ post.image-carousel }}">
                 <div class="carousel-caption">
-
                     <h4>
                         {{ post.title }}
-                        {% if post.complete %}
                           <p class="pull-right">
-                            <a href="{{BASE_PATH}}{{ post.url }}" class="btn btn-mini">Read More</a>
                             {% if post.image-attrib %}
-                            <div class="attrib hidden-phone pull-right">
+                            <span class="attrib">
                                 {{ post.image-attrib }}
-                            </div>
+                            </span>
+                            {% endif %}
+                            {% if post.complete %}
+                            <a href="{{BASE_PATH}}{{ post.url }}" class="btn btn-mini">Read More</a>
                             {% endif %}
                           </p>
-                        {% endif %}
                     </h4>
                 </div>
             </div>
