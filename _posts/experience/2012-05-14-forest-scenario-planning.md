@@ -10,7 +10,7 @@ image-carousel: /assets/img/experience/forest_planner/fsp_carousel.jpg
 technology: ["Madrona framework", "Forest Vegetation Simulator (FVS)", "OpenLayers", "Twitter Bootstrap"]
 name: Mike Mertens
 phone: 503-467-0775
-email: mikem
+email: mikem@ecotrust.org
 complete: true
 ---
 <h3>The Challenges</h3>

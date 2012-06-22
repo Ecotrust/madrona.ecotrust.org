@@ -11,10 +11,11 @@ application: http://washington.marineplanning.org/
 repo: http://code.google.com/p/washington-marinemap
 technology: ["Madrona framework", "Google Earth web plugin", "Grass GIS", "Starspan", "JQPlot", "Arc2Earth", "Amazon Elastic Cloud Computing and S3 storage"]
 name: Charles Steinbeck
-phone: (503) 467-077
-email: charles
+phone: (503) 467-0777
+email: charles@ecotrust.org
 name2: Zach Ferdana
 email2: zferdana@tnc.org
+phone2: (206) 343-4345 x343
 complete: true
 ---
 
@@ -25,7 +26,7 @@ complete: true
 <p>The State of Washington enacted <a href="http://apps.leg.wa.gov/RCW/default.aspx?cite=43.372">legislation</a> for marine spatial planning in March 2010 identifying renewable offshore energy and marine conservation as primary management objectives.  It was understood that community engagement and access to data would be critical to its success.  A timeline and budget for the process however was not established.
 </p>
 <p>While the state was starting to prepare for marine spatial planning, the Marine Resource Committee of Pacific County expressed interest in a planning tool to assist in updating their Shoreline Master Plan.  Specifically, county officials wanted to refine their shoreline inventory and identify places where there are real or potential conflicts between shoreline land use and important marine resources.</p>
-Both the State of Washington and Pacific County communicated a common objective of engaging stakeholders and interest groups to contribute directly to ocean management decisions, and both governments recognized the ability for coastal marine spatial planning to achieve that.</p>
+<p>Both the State of Washington and Pacific County communicated a common objective of engaging stakeholders and interest groups to contribute directly to ocean management decisions, and both governments recognized the ability for coastal marine spatial planning to achieve that.</p>
 
 <h3>Approach</h3>
 

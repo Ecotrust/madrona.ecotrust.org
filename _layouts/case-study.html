@@ -35,18 +35,30 @@ layout: page
 			</div>
 		</div>
 		<h3>Contact</h3>
-		<p>For more information, email {{ page.name }} at 
+		<p>For more information, contact {{ page.name }} at 
 			<script language=javascript>
-			  var user = "{{ page.email }}";
-			  var domain = "ecotrust.org";
-			  var address = user + "@" + domain;
+			  var address = "{{page.email}}";
 			  var linkStart = "<a href=" + "mail" + "to:" + address + ">";
 			  var linkEnd = "</a>";
 			  var linkName = linkStart + linkEnd;
 			  var linkAddress = linkStart + address + linkEnd;
 			  document.write(linkName +  linkAddress);
 			</script>
-			</a> or call {{ page.phone }}.</p>
+			</a>- {{ page.phone }}.
+			{% if page.name2 %}
+				Or contact {{page.name2}} at
+				<script language=javascript>
+			  var address = "{{page.email2}}";
+			  var linkStart = "<a href=" + "mail" + "to:" + address + ">";
+			  var linkEnd = "</a>";
+			  var linkName = linkStart + linkEnd;
+			  var linkAddress = linkStart + address + linkEnd;
+				  document.write(linkName +  linkAddress);
+				</script>
+			</a>- {{ page.phone2 }}.
+			{% endif %}
+
+		</p>
 	</div>
 	<div class="span2">
 		<!--{% include experience/accordion.html %}-->

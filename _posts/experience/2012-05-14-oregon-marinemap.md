@@ -10,7 +10,7 @@ image-carousel: /assets/img/experience/oregon_marinemap/omm_carousel.jpg
 technology: ["Madrona framework", "Google Earth"]
 name: Charles Steinbeck
 phone: (503) 467-077
-email: charles
+email: charles@ecotrust.org
 complete: false
 ---
 	
