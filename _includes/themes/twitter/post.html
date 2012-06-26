@@ -11,8 +11,9 @@
   <div class="span4">
     {% if page.author %}
     <h3>Author</h3>
-    <span>{{ page.author }}
+    <span><a href="{{BASE_PATH}}/experience/whois.html">{{ page.author }}</a>
     {% endif %} 
+    <br/><br/>
     <h3>Published</h3>
     <div class="date"><span>{{ page.date | date_to_long_string }}</span></div>
     <div class="pagination">

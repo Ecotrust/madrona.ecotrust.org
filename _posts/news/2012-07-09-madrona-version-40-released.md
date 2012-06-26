@@ -6,27 +6,22 @@ category: news
 tags: []
 ---
 {% include JB/setup %}
-<p>
-After months of development, Ecotrust is pleased to announce the release of version 4.0 of the Madrona framework.  Madrona is the evolution of the <a href="http://marinemap.org">MarineMap</a> project, which reached end-of-life with version 3 in 2011.</p>
 
-<p>Learn more about Madrona's history</p>
+After months of development, Ecotrust is pleased to announce the first public release of Madrona, version 4.0.  Madrona is the evolution of [MarineMap](http://marinemap.org), a tool for web-based marine spatial planning developed by the MarineMap Consortium which included the University of California Santa Barbara, Ecotrust, and The Nature Conservancy.  MarineMap reached end-of-life with version 3 in 2011.  [Learn more about Madrona's history]({{BASE_PATH}}/experience/history.html)
 
-<p>
 Updates and fixes in the 4.0 release include:
-<ul>
-	<li><a href="http://ecotrust.github.com/madrona/docs/bookmarks.html">Map bookmarks</a></li>
-	<li><a href="http://ecotrust.github.com/madrona/docs/geojson.html">GeoJSON links to features</a> providing support for 2D map clients</li>
-	<li>New analysistools app</li>
-	<li>Switched to new-style Django url and absurl template tags. (Use `{% url 'url-name' %}` versus `{% url url-name %}` )</li>
-	<li>Reorganization of setup code</li>
-	<li>Overhaul of setup.py and associated installation procedures</li>
-	<li>Added flatblocks to manage content</li>
-	<li>Added create-madrona-project.py script as a madrona replacement for startproject</li>
-	<li>Fixed several bugs in raster_stats - improved tempfile and cache handling</li>
-	<li>Improved study region loading via management command</li>
-	<li>Improved geometry validity handling in manipulators</li>
-	<li>Improved logging system</li>
-	<li>Install_media command flag to handle admin static files</li>
-	<li>Numerous bug fixes and lots of code cleanup</li>
-</ul>
-</p>
+
+* [Map bookmarks](http://ecotrust.github.com/madrona/docs/bookmarks.html)
+* [GeoJSON support](http://ecotrust.github.com/madrona/docs/geojson.html") for the Madrona Feature API
+* New analysistools app
+* Switched to new-style Django url and absurl template tags
+* Reorganization of setup code
+* Overhaul of setup.py and associated installation procedures
+* Added flatblocks to manage content
+* Added create-madrona-project.py script as a madrona replacement for startproject
+* Fixed several bugs in raster_stats - improved tempfile and cache handling
+* Improved study region loading via management command
+* Improved geometry validity handling in manipulators
+* Improved logging system
+* Install_media command flag to handle admin static files
+* Numerous bug fixes and lots of code cleanup
