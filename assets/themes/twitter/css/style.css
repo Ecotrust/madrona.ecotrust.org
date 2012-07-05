@@ -236,6 +236,29 @@ a.carousel-control {
 	margin-bottom: 5px;
 }
 
+.developer-bug {
+	background-color: #f2f2f2;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	height: 90px;
+
+}
+	.developer-bug h3 {
+		margin-left: 5%;
+		padding-top: 10px;
+		margin-bottom: 5px;
+
+	}
+	.developer-bug p {
+		margin-left: 10%;
+	}
+	.developer-bug img {
+		margin-right: 50%;
+		margin-top: 25%;
+	}
+
+
 /* for thumbnail wrapped into text */
 a.thumb-wrap {
 	margin: 5px 5px 10px 5px;
@@ -334,6 +357,10 @@ pre code {
 .team .thumbnail {
 	margin-right: 10px;
 	margin-top: 1px;
+}
+
+.team {
+	margin-bottom: 10px;
 }
 
 .team h3 {

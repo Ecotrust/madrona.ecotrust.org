@@ -10,40 +10,50 @@ team:
 - name: Matt Perry
   title: Senior Developer
   twitter: perrygeo
+  image: /assets/img/team/matt_perry.jpg
   bio: Matt is the lead developer of Madrona bringing 10 years of experience in GIS and database management, software development, modeling, geo-statistics and data visualization.  Matt has contributed to several open source projects including MarineMap, OpenLayers, Quantum GIS, Metacat, GDAL and MapWindow.  His blog, <a href="http://perrygeo.net">perrygeo.net</a>, has been a technical resource for the open source community since 2006.
 - name: Edwin Knuth
   title: Senior Front-end Developer
   twitter: eknuth
+  image: /assets/img/team/edwin_knuth.jpg
   bio: Edwin is our front-end specialist focused on making our tools more intuitive and enjoyable to use.  He has worked in both the private and public sector from Juneau, Alaska to Washington DC and brings a wide range of experience including mobile development, database management and the integration of open source software with proprietary systems from ESRI, Microsoft and Oracle. 
 - name: Scott Fletcher
   title: Applications Developer
   twitter: sdfletche
+  image: /assets/img/team/scott_fletcher.jpg
   bio: Scott is the lead developer of many of our Madrona-based tools, working with clients to design and customize them for their unique process.  Scott brings a good-natured attitude and excellent communication skills.
 - name: Ryan Hodges
   title: DevOps
   twitter: hodgimoto
+  image: /assets/img/team/ryan_hodges.jpg
   bio: Ryan specializes in devops for Madrona focusing on system administration and deployment.  This includes everything from cloud-based servers and storage to system automation tools.  He can get your application up and running quickly and make it scale.
 - name: Andrew Fuller
   title: Graphic Design
   twitter: andrewsfuller
+  image: /assets/img/team/andrew_fuller.jpg
   bio: Andrew is the Art Director at Ecotrust and works on design for Madrona from the logo to the look and feel.  Andrew is a published author and brings over a decade of experience in illustration, graphic design and web development.
 colleagues:
 - name: Kristen Sheeran
   title: Environmental and Development Economics
   twitter: kristensheeran
+  image: /assets/img/team/staff_sheeran.jpg
   bio: Kristen is the Acting Director of the <a href="http://www.ecotrust.org/knowledgesystems/">Knowledge Systems</a> team at Ecotrust. Kristen is an economist who works and publishes on a wide range of natural resource topics, including climate change, energy, economic development, forestry, and fisheries. She also leads Ecotrust’s national network of applied environmental economists, the <a href="http://e3network.org/">E3 Network</a>.
 - name: Charles Steinback
   title:  Marine Spatial Planning
   twitter: csteinback
+  image: /assets/img/team/staff_charles.jpg
   bio: Charles is the Director of Ecotrust’s <a href="http://www.ecotrust.org/marineplanning/">Marine Consulting Initiatives</a> leading a team that has been successfully helping people make better decisions about the ocean for over a decade.  Madrona evolved out of Charles and the marine teams groundbreaking work with the California Marine Life Protection Act Initiative process and has expanded to large-scale coastal marine spatial planning projects around North America.
 - name: Mike Mertens
   title: Regional Science, Economic Development
+  image: /assets/img/team/staff_mikemertens.jpg
   bio:  Mike is the Director of Spatial Analysis at Ecotrust with over 20 years of GIS experience.  He is spearheading the use of Madrona for terrestrial applications including forest management, aquatic prioritization and regional planning.
 - name: Brent Davies
   title: Forest Management and Ecosystem Services
+  image: /assets/img/team/staff_brentdavies.jpg
   bio: Brent oversees the management of the Forests and Ecosystem Service initiative at Ecotrust.  She has spent the last two decades working with tribes, local and regional nonprofits, private landowners, businesses, and government agencies to develop and implement innovative conservation and economic development strategies.
 - name: Cathy Kellon
   title: Water and Watersheds
+  image: /assets/img/team/staff_cathykellon.jpg
   bio: Cathy is the Program Director for the <a href="www.ecotrust.org/wwri">Whole Watershed Restoration Initiative</a>, a collaborative effort to restore high priority river basins in the Pacific Northwest. She has extensive experience with building working partnerships; project development and management; meeting design and facilitation; and communicating impact. From Alaska to California, she has worked on water resources, salmon, and habitat restoration issues for over 15 years.
 ---
 {% include JB/setup %}
@@ -55,20 +65,20 @@ colleagues:
 	<p>Ecotrust has a full-service software development shop responsible for the design and development of Madrona as well as other tools for data collection, analysis and visualization.  The core team consists of:</p>
 
 	{% for person in page.team %}
-  <div class="team">
+  <div class="team row">
     {% if person.image %}
-    <div class="thumbnail pull-left">
-      <img height="120" class="team-image" src="{{BASE_PATH}}{{ person.image }}"/>
+    <div class="span2">
+      <img class="thumbnail pull-left team-image" src="{{BASE_PATH}}{{ person.image }}"/>
     </div>
     {% endif %}
-    <h3>{{ person.name }}</h3>
-
-    <em>{{ person.title }}</em>
-  	{% if person.twitter  %}
-  	<span class="pull-right"><a href="https://twitter.com/{{ person.twitter }}" class="twitter-follow-button" data-show-count="false" data-size="medium" data-show-screen-name="false">Follow @{{ person.twitter }}</a></span>
-  	{% endif %}
-  	<p>
-    {{ person.bio }}</p>
+    <div class="span7">
+      <h3>{{ person.name }}</h3>
+      <em>{{ person.title }}</em>
+    	{% if person.twitter  %}
+    	<span class="pull-right"><a href="https://twitter.com/{{ person.twitter }}" class="twitter-follow-button" data-show-count="false" data-size="medium" data-show-screen-name="false">Follow @{{ person.twitter }}</a></span>
+    	{% endif %}
+    	<p>{{ person.bio }}</p>
+    </div>
   </div>
 	{% endfor %}
 <div class="row">
@@ -76,13 +86,18 @@ colleagues:
 	<p>Ecotrust works in a number of areas that are complementary to Madrona and has a large network of partnerships around the world.  We can bring significant expertise and resources to bear on projects.</p>
 </div>
 	{% for person in page.colleagues %}
-  <div class="row">
-	<h3>{{ person.name }}</h3>
-	<em>{{ person.title }}</em>
-	{% if person.twitter %}
-	<span class="pull-right"><a href="https://twitter.com/{{ person.twitter }}" class="twitter-follow-button" data-show-count="false" data-size="medium" data-show-screen-name="false">Follow @{{ person.twitter }}</a></span>
-	{% endif %}
-	<p>{{ person.bio }}</p>
+  <div class="row team">
+    <div class="span2">
+      <img class="thumbnail pull-left team-image" src="{{BASE_PATH}}{{ person.image }}"/>
+    </div>
+    <div class="span7">
+    	<h3>{{ person.name }}</h3>
+    	<em>{{ person.title }}</em>
+    	{% if person.twitter %}
+    	<span class="pull-right"><a href="https://twitter.com/{{ person.twitter }}" class="twitter-follow-button" data-show-count="false" data-size="medium" data-show-screen-name="false">Follow @{{ person.twitter }}</a></span>
+    	{% endif %}
+    	<p>{{ person.bio }}</p>
+    </div>
 </div>
 	{% endfor %}
 
