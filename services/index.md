@@ -7,7 +7,7 @@ active: services
 <div class="row services">
     <div class="span8">
 
-    <p>Madrona is free and open source software and we are commited to providing the resources developers need to create tools with it on their own.  If you don't have development capacity or need assistance we offer a full range of services.  Let our team of experts make things easy for you.</p>
+    <p>Madrona is free and open source software and we are commited to providing the resources developers need to create tools with it on their own.  For those who don't have development capacity or need assistance we offer a full range of services.  Let our team of experts make things easy for you.</p>
     
     <h2><img src="{{BASE_PATH}}/assets/img/icons/wrench.png" />Technology Services</h2>            
         <p>From tool design and development to deployment we can do it all and we'll work closely with you every step of the way.  When we're done your tool will be reliable, secure and under your control.  If you don't have IT staff or server infrastructure we specialize in cloud-based hosting.  Our service areas include:</p>
