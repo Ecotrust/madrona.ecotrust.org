@@ -9,6 +9,12 @@ title: madrona spatial planning framework
   	
   	<p>Madrona evolved from MarineMap, a tool originally developed to support the Marine Life Protection Act Initiative in California. The MarineMap consortium was formed to develop the tool and was comprised of scientists and technologists at the University of California Santa Barbara, Ecotrust, and The Nature Conservancy.</p>
 
+  	<h2>Awards</h2>
+  	<ul>
+  		<li><a href="http://thetechawards.thetech.org/the-laureates/stories/1644">2011 Tech Award Laureate. Intel Innovation Award</a></li>
+  		<li><a href="http://www.ecotrust.org/press/marinemap_20100526.html">2010 Innovation in Technology and Conflict Resolution Award</a></li>
+  	</ul>
+
   	<h2>California Marine Life Protection Act</h2>
 	<p>The Marine Life Protection Act of 1999 mandated the state of California to implement a network of Marine Protected Areas (MPAs) based on the best readily available science. After the act passed, the State struggled to implement MPAs precisely due to inadequate stakeholder involvement. In response to this, the Marine Life Protection Act Initiative (MLPAI) of 2004 began convening groups of stakeholders and scientists to design MPAs on a regional basis.  Legislative bodies now understood that the successful design and implementation of MPAs must involve the individuals that are directly impacted by the state of our oceans such as fishermen, divers, kayakers, surfers, teachers, scientists, and conservationists.</p>
 
