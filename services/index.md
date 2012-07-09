@@ -7,37 +7,37 @@ active: services
 <div class="row services">
     <div class="span8">
 
-    <p>For over a decade, Ecotrust has been developing toolkits for decision support and spatial planning that leverage the power of GIS (geographic information systems).  We offer a full range of services for helping you design and implement effective spatial planning tools and processes with Madrona.  Regardless of your technology capacities, we can create a service package to meet your needs.</p>
+    <p>Madrona is free and open source software and we are commited to providing the resources developers need to create tools with it on their own.  If you don't have development capacity or need assistance we offer a full range of services.  Let our team of experts make things easy for you.</p>
     
-    <h2><img src="{{BASE_PATH}}/assets/img/icons/wrench.png" /> Technology Services</h2>            
-        <p>Whether you are a developer needing a specific feature or a planner needing an entire tool we have a team of developers and designers ready to help you out.  Service areas include:</p>
+    <h2><img src="{{BASE_PATH}}/assets/img/icons/wrench.png" />Technology Services</h2>            
+        <p>From tool design and development to deployment we can do it all and we'll work closely with you every step of the way.  When we're done your tool will be reliable, secure and under your control.  If you don't have IT staff or server infrastructure we specialize in cloud-based hosting.  Our service areas include:</p>
         <ul>
             <li><span>Needs Assessment</span></li>
             <li><span>User experience and graphic design</span></li>
             <li><span>Code Development</span></li>
-            <li><span>Third-party software integration</span></li>
+            <li><span>Third-party software/model integration</span></li>
             <li><span>Usability testing</span></li>
             <li><span>Hosting and deployment</span></li>
             <li><span>User Training</span></li>
             <li><span>Maintenance</span></li>
         </ul>   
 
-    <h2><img src="{{BASE_PATH}}/assets/img/icons/training.png"/> Technology Training</h2>
+    <h2><img src="{{BASE_PATH}}/assets/img/icons/training.png"/>Technology Training</h2>
 
-        <p>Interested in developing tools with Madrona but need assistance?  Already developing tools but want to become more efficient and learn best practices? We can tailor a training package to meet your needs whether it's one day or a week, in person or virtually.  Training areas include:</p>
+        <p>Do you need help getting started with Madrona?  Want to become more efficient and learn best practices? We can tailor a training package to meet your needs whether it's one day or a week, in person or virtually.  Training areas include:</p>
 
         <ul>
             <li><span>Installation and configuration</span></li>
-            <li><span>Designing and developing a tool</span></li>
+            <li><span>Design and development</span></li>
             <li><span>Best practices</span></li>
             <li><span>Hosting and deployment</span></li>
         </ul>
 
-    <h2><img src="{{BASE_PATH}}/assets/img/icons/support.png"/> Technology Support</h2>
+    <h2><img src="{{BASE_PATH}}/assets/img/icons/support.png"/>Technology Support</h2>
 
-        <p>If you have technical questions, join the <a href='https://groups.google.com/group/madrona-users'>Madrona user group</a> and ask away!  We are commited to stewarding a community of open source developers and practitioners.  If you need dedicated help from our team, contact us.</p>
+        <p>We can assist you with individual issues or provide ongoing enterprise-level support.  Contact us for more information.  The <a href='https://groups.google.com/group/madrona-users'>Madrona user community</a> is available for asking questions.</p>
 
-    <h2><img src="{{BASE_PATH}}/assets/img/icons/services.png"/> Supplementary services</h2>
+    <h2><img src="{{BASE_PATH}}/assets/img/icons/services.png"/>Supplementary services</h2>
         <p>Do you need expertise beyond tool development?  Ecotrust offers a wide range of supplementary services for decision support and spatial planning including:</p>        
         <ul>
         <li><span>Planning and decision-making process design</span></li>
