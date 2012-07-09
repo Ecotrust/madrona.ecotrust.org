@@ -470,6 +470,9 @@ pre code {
 	line-height: 1;
 }
 
+dl.exp-list dd {
+	padding-bottom: 10px;
+}
 
 /* tag_box ======================================================== */
 

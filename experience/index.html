@@ -6,11 +6,10 @@ active: experience
 <div class="row experience">
 	<div class="span10">
 		<h1>Experience</h1>
-		<p>Learn about the wide range of tools being developed with Madrona and the history of the project.</p> 
 	</div>
 	<div class="span10">
 		<h2>Madrona Projects</h2>
-		<p>Madrona is being used to develop tools for both marine and terrestrial planning.  In each of the examples below, Madrona has been customized for a specific process, audience, and geography.</p>
+		<p>Madrona is being used to develop tools for both marine and terrestrial planning across a wide range of sectors.  In each of the examples below, Madrona has been customized for a specific process, audience, and geography.</p>
 		<div class="row">
 			<div class="span12">
 				{% for post in site.categories.experience reversed %}
@@ -33,24 +32,23 @@ active: experience
 							<div class="span5">
 								<h3>									
 									{{ post.title }}								
-								</h3>								
-								<dl class="case-links">
-									{% if post.learn-more %}
-									<dt>Learn More</dt>
-										<dd><a href="{{ page.learn-more }}">{{ post.learn-more }}</a></dd>
-									{% endif %}
+								</h3>											
+								<dl class='exp-list'>
+									{% if post.complete %}						
+										<dd><a href="{{BASE_PATH}}{{ post.url }}" class="btn">Read case study</a></dd>
+									{% endif %}									
 									{% if post.application %}
-									<dt>Application</dt>
-										<dd><a href="{{ post.application }}">{{ post.application }}</a></dd>
+									<dd><a target="_blank" class='btn' href="{{ post.application }}">Go to application</a></dd>
+									{% endif %}
+									{% if post.log %}
+									<dd><a target="_blank" class='btn' href="{{ post.log }}">Read development log</a></dd>
 									{% endif %}
 									{% if post.repo %}
-									<dt>Source code</dt>
-										<dd><a href="{{ post.repo }}">{{ post.repo }}</a></dd>
+									<dd><a target="_blank" class='btn' href="{{ post.repo }}">View source code</a></dd>
 									{% endif %}
-								</dl>			
-								{% if post.complete %}						
-									<a href="{{BASE_PATH}}{{ post.url }}" class="btn">Read Full Case Study</a>
-								{% endif %}													
+									{% if post.learn-more %}
+									<dd><a target="_blank" class='btn' href="{{ post.learn-more }}">Learn more</a></dd>
+									{% endif %}									
 							</div>
 						</div>
 					</div>
