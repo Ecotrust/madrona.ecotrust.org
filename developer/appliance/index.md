@@ -7,7 +7,7 @@ active: developer
 <div class="row">
 <div class="span8">
 <h1>Madrona Appliance</h1>
-<p>We've made it easy to test-drive Madrona and packaged everything you need into a self-contained appliance (virtual machine) that can be run on your local system.  Experience with virtual computing and networking is helpful but not required.  Follow the instructions below to get up and running and you'll be ready for the step-by-step tutorial.
+<p>We've packaged everything you need to test-drive Madrona into a self-contained appliance (virtual machine) that can be run on your local system.  This appliance is untested in production use.  Experience with virtual computing and networking is helpful but not required.  Follow the instructions below to get up and running and you'll be ready for the step-by-step tutorial.
 </p>
 
 <p>Requirements: a Windows or OSX system that can run Google Earth</p>
@@ -16,7 +16,7 @@ active: developer
 	<li><a href="http://www.virtualbox.org/">Download</a> and install VirtualBox</li>
 		<ul>
 			<li>Supports Windows, OSX and Linux</li>
-			<li>Note: VMWare can also be used</li>
+			<li>Note: VMWare ESXi can also be used with some <a href="https://groups.google.com/forum/?fromgroups#!topic/madrona-users/R7qZvFCSCQg">additional work</a>.</li>
 		</ul>
 	<li><a href="https://s3.amazonaws.com/madrona_vm/madrona_virtual_v3.ova">Download</a> the Madrona Appliance</li>
 		<ul>
