@@ -21,13 +21,13 @@ active: experience
 
 <h3>Our Approach</h3>
 
-<p>Ecotrust partnered with the U.S. Fish and Wildlife Service to first compile a broad range of existing data on aquatic species, watershed conditions, climate change projections, and the spread of invasive species.  We then designed a prioritization model utilizing Marxan that would identify priority areas given a set of broad objectives for each species.</p>
+<p>Ecotrust partnered with the <a href="http://www.fws.gov/pacific/">Pacific region</a> of the U.S. Fish and Wildlife Service to first compile a broad range of existing data on aquatic species, watershed conditions, climate change projections, and the spread of invasive species.  We then designed a prioritization model utilizing Marxan that would identify priority areas given a set of broad objectives for each species.</p>
 
 <p>After the prioritization model and suite of GIS datasets were created they were then packaged into a web-based decision support tool that leveraged the Madrona framework.  The tool features a streamlined workflow for assessing priorities in an iterative and collaborative manner.  Fish and Wildlife managers were able to use the tool to identify the most important investment areas across a wide range of scenarios.  The target-based approach allowed them to selectively include different factors and avoid areas --  for example, those that have poor watershed condition, or that are highly vulnerable to climate change effects or aquatic invasives.</p>
 
 <div class="row">
 	<div class="span10">
-		<a class="thumbnail" href="{{BASE_PATH}}/assets/img/experience/aquatic-priorities/ap_screenshot1.png">
+		<a class="thumbnail thumb-wrap" href="{{BASE_PATH}}/assets/img/experience/aquatic-priorities/ap_screenshot1.png">
 			<img src="{{BASE_PATH}}/assets/img/experience/aquatic-priorities/ap_screenshot1.png" alt="">
 		</a>
 	</div>

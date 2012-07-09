@@ -21,6 +21,10 @@ h1 {
 	font-size: 36px;
 }
 
+h2 img {
+	padding-right: 8px;
+}
+
 h3 {
 	font-size: 20px;
 }
@@ -264,6 +268,10 @@ a.thumb-wrap {
 	margin: 5px 5px 10px 5px;
 }
 
+a.more-link {
+	padding: 10px 0px 10px 0px;
+}
+
 .services h2 img {
 	margin-bottom: 5px;
 }
@@ -431,7 +439,16 @@ pre code {
 }
 
 .blocks .well > a {
-	font-size: 14px;
+	font-size: 13px;
+}
+
+.well {
+	margin-top: 5px;
+	padding-bottom: 24px !important;
+}
+
+.well ul {
+	font-size: 15px;
 }
 
 .small {
@@ -444,11 +461,22 @@ pre code {
 
 }
 
+#tech-accordion .accordion-group .accordion-body {
+	font-size: 14px;
+}
+
+#tech-accordion .accordion-group .accordion-body .accordion-inner {
+	padding-left: 25px;
+}
+
 .widget {
 	font-size: 12px;
 	line-height: 1;
 }
 
+dl.exp-list dd {
+	padding-bottom: 10px;
+}
 
 /* tag_box ======================================================== */
 
