@@ -15,8 +15,8 @@ complete: true
 active: experience
 ---
 <h3>The Challenges</h3>
-<div class="pull-right thumbnail thumb-wrap">
-	<a href="{{BASE_PATH}}{{page.image}}"><img class="span5" src="{{BASE_PATH}}/assets/img/experience/aquatic-priorities/ap_salmon_jump.jpg" alt=""/></a>
+<div class="pull-right thumbnail thumb-wrap span5">
+	<a href="{{BASE_PATH}}{{page.image}}"><img src="{{BASE_PATH}}/assets/img/experience/aquatic-priorities/ap_salmon_jump.jpg" alt=""/></a>
 </div>
 <p>The U.S. Fish and Wildlife Service (USFWS) wanted to prioritize conservation and restoration activities across a broad area.  Specifically, they wanted to know where to target their work, in order to maximize conservation and restoration objectives for fish species while accounting for other factors such as watershed condition, climate change and aquatic invasive species.  What USFWS needed was a process for data compilation, analysis and interpretation that could be streamlined and made available to the organization’s managers.</p>
 

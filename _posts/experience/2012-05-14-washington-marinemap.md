@@ -20,8 +20,8 @@ complete: true
 ---
 
 <h3>Challenge</h3>
-<div class="pull-right">
-<a href="{{BASE_PATH}}{{page.image}}"><img class="span5 thumbnail thumb-wrap" src="{{BASE_PATH}}{{page.image}}" alt=""/></a>
+<div class="pull-right thumbnail thumb-wrap span5">
+	<a href="{{BASE_PATH}}{{page.image}}"><img src="{{BASE_PATH}}{{page.image}}" alt=""/></a>
 </div>
 <p>The State of Washington enacted <a href="http://apps.leg.wa.gov/RCW/default.aspx?cite=43.372">legislation</a> for marine spatial planning in March 2010 identifying renewable offshore energy and marine conservation as primary management objectives.  It was understood that community engagement and access to data would be critical to its success.  A timeline and budget for the process however was not established.
 </p>
