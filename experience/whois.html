@@ -5,6 +5,7 @@ team:
 - name: Tim Welch
   title: Senior Developer/Product Manager
   twitter: t_doubleuu
+  email: twelch@ecotrust.org
   image: /assets/img/team/staff_tim.jpg
   bio: Tim is the head of software development at Ecotrust and the product manager for Madrona.  He has been contributing to open source projects for over 8 years and for the past 5 years has worked to establish Ecotrust at the forefront of innovative spatial planning.  He is dedicated to developing tools that help people create more resilient communities and economies through improved understanding and decision-making. 
 - name: Matt Perry
@@ -74,7 +75,18 @@ colleagues:
     <div class="span7">
       <h3>{{ person.name }}</h3>
       <em>{{ person.title }}</em>
-    	{% if person.twitter  %}
+      {% if person.email %}
+      - 
+      <script language=javascript>
+        var address = "{{person.email}}";
+        var linkStart = "<a href=" + "mail" + "to:" + address + ">";
+        var linkEnd = "</a>";
+        var linkName = linkStart + linkEnd;
+        var linkAddress = linkStart + address + linkEnd;
+        document.write(linkName +  linkAddress);
+      </script>
+      {% endif %}          	
+      {% if person.twitter  %}
     	<span class="pull-right"><a href="https://twitter.com/{{ person.twitter }}" class="twitter-follow-button" data-show-count="false" data-size="medium" data-show-screen-name="false">Follow @{{ person.twitter }}</a></span>
     	{% endif %}
     	<p>{{ person.bio }}</p>
