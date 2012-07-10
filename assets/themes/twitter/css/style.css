@@ -248,20 +248,25 @@ a.carousel-control {
 	height: 90px;
 
 }
-	.developer-bug h3 {
-		margin-left: 5%;
-		padding-top: 10px;
-		margin-bottom: 5px;
+.developer-bug h3 {
+	margin-left: 5%;
+	padding-top: 10px;
+	margin-bottom: 5px;
 
-	}
-	.developer-bug p {
-		margin-left: 10%;
-	}
-	.developer-bug img {
-		margin-right: 50%;
-		margin-top: 25%;
-	}
+}
+.developer-bug p {
+	margin-left: 10%;
+}
+.developer-bug img {
+	margin-right: 50%;
+	margin-top: 25%;
+}
 
+.alert-info {
+	color: #888;
+	background-color: #eee;
+	border-color: #ccc;
+}
 
 /* for thumbnail wrapped into text */
 a.thumb-wrap {
@@ -467,6 +472,10 @@ pre code {
 
 #tech-accordion .accordion-group .accordion-body .accordion-inner {
 	padding-left: 25px;
+}
+
+#tutorial img {
+	padding: 5px 0px 5px 0px;
 }
 
 .widget {
