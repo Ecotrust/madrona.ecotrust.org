@@ -245,8 +245,8 @@ For more information about extending the API through links and views, consult th
 
 <div class="alert alert-info">Nice work, next up:
     <ul>
-        <li><a href="http://ecotrust.github.com/madrona/docs/installation.html">Installation</a> of Madrona from scratch</li>
-        <li><a href="http://ecotrust.github.com/madrona/docs/tutorial_create.html">Creating</a> your first Madrona app from scratch</li>
+        <li>Tutorial: <a href="http://ecotrust.github.com/madrona/docs/installation.html">Installation</a> of Madrona from scratch</li>
+        <li>Tutorial: <a href="http://ecotrust.github.com/madrona/docs/tutorial_create.html">Creating</a> your first Madrona app from scratch</li>
         <li><a href="http://ecotrust.github.com/madrona/docs/deployment.html">Deployment</a> with Apache</li>
     </ul>
 </div>
