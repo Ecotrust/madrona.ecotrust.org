@@ -48,7 +48,7 @@ active: developer
 			<li>If you get a network error, go back and verify the previous step was completed successfully.</li>
 			<li>If everything was successful you will be presented with a 'Welcome to the Madrona Virtual Machine' screen.</li>
 		</ul>	
-	<li><a href="http://ecotrust.github.com/madrona/docs/tutorial_appgen.html">Begin</a> the Madrona appliance tutorial</li>
+	<li><a href="{{BASE_PATH}}/developer/tutorial/madrona_appliance.html">Begin</a> the Madrona appliance tutorial</li>
 </ol>
 </div>
 </div>
