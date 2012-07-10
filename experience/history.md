@@ -29,7 +29,7 @@ title: madrona spatial planning framework
 		</ul>
 	</p>
 
-	<p>In 2008, MLPAI stakeholders started using MarineMap to explore alternative MPA designs in California and the feedback received was overwhelmingly positive.  Inf fact, MarineMap was considered by many to be the most comprehensive, user-friendly, web-based MPA design application at the time.</p>
+	<p>In 2008, MLPAI stakeholders started using MarineMap to explore alternative MPA designs in California and the feedback received was overwhelmingly positive.  In fact, MarineMap was considered by many to be the most comprehensive, user-friendly, web-based MPA design application at the time.</p>
 
 	<h2>Broader Applicability</h2>
 	<p>MarineMap went through significant refactoring from version 1.0 to version 3.0. To make it more broadly applicable to marine planning processes a conscious decision was made to separate MPA design from the core marineMap library.  It was the modules developed on top of it that tailored it for a specific planning process.  This allowed Ecotrust to quickly develop new tools such as Oregon MarineMap, which addressed new objectives including renewable energy planning as part of Oregon's Territorial Sea Planning Process.</p>
