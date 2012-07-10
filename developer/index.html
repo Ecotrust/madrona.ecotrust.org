@@ -13,20 +13,22 @@ active: developer
         </div>
       </div>
       <div class="row">        
-        <div class="span4 developer-bug">
-          <div class="row">
-            <div class="span3">
-              <h3>
-                <span> Download</span>
-              </h3>
-              <p><a href="{{ BASE_PATH }}/developer/appliance">Madrona appliance</a>,
-                <a href="http://pypi.python.org/pypi/madrona">4.0 Release</a>
-              </p>
+        <div class="span4">
+            <div class="bug">
+              <div class="row">
+                <div class="header">
+                  <h3>
+                    <img  src="{{ BASE_PATH }}/assets/img/download.png"><span> Download</span>
+                  </h3>
+                </div>
+                <div class="text">
+                  <ul class="unstyled">
+                    <li><a href="{{ BASE_PATH }}/developer/appliance">Madrona appliance</a></li>
+                    <li><a href="http://pypi.python.org/pypi/madrona">4.0 Release</a></li>
+                  </ul>
+                </div>
+              </div>
             </div>
-            <div class="span1">
-              <img src="{{ BASE_PATH }}/assets/img/download.png">
-            </div>
-          </div>
         </div>
         <div class="span4">
             <div class="bug">
@@ -37,7 +39,6 @@ active: developer
                 <div class="text">
                   <ul class="unstyled">
                     <li><a href="http://ecotrust.github.com/madrona/docs/tutorial_appgen.html">Madrona appliance</a></li>
-                    <li><a href="http://ecotrust.github.com/madrona/docs/installation.html">Installation</a></li>
                     <li><a href="http://ecotrust.github.com/madrona/docs/tutorial_create.html">Your first project</a></li>
                   </ul>
                 </div>
@@ -138,9 +139,9 @@ active: developer
     <h3>Recent Commits</h3>
      <table id="commits-table" class="widget table table-condensed table-bordered">
       <tbody data-bind="foreach: $data">
-        <tr class="commits-row" data-bind="attr: { 'data-content': commit.message,  'data-original-title': 'Commit Text'  }">
+        <tr class="commits-row" data-bind="attr: { 'data-content': commit.message }">
           <td><span data-bind="text: author.login"></span></td>
-          <td><a data-bind="attr: { href: getCommitUrl(url()) }"><span data-bind="text: truncString(commit.message())"></span>...</a></td>
+          <td><a data-bind="attr: { href: getCommitUrl(url()) }"><span data-bind="text: commit.message"></span></a></td>
           <td><span data-bind="text: formatDate(commit.author.date())"></span></td>
         </tr>
       </tbody>
@@ -173,9 +174,6 @@ window.formatDate = function(dateString) {
   return [ date.getMonth() + 1, date.getDate(), date.getYear()-100].join('/');
 }
 
-window.truncString = function (string) {
-  return String(string).substr(0,40).replace(/\s{2,}/g, ' ');
-}
 
 $(document).ready(function () {
   var popoverOptions = {
@@ -190,7 +188,7 @@ $(document).ready(function () {
     success: function (res) {
       viewModel.commits = ko.mapping.fromJS(res.data);
       ko.applyBindings(viewModel.commits, document.getElementById('commits-table'));
-       $(".commits-row").popover(popoverOptions);
+      // $(".commits-row").popover(popoverOptions);
     }});
   $.ajax({
     url: 'https://api.github.com/repos/ecotrust/madrona/issues?per_page=5',
