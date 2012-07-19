@@ -17,7 +17,7 @@ description: A software framework for effective place-based decision making
   </div>
   <div class="row">
     <div class="span6">
-      <p class="madrona-text">Madrona offers a flexible set of software building blocks for creating cutting-edge tools for decision support and area-based planning that can be used by a broad audience.  We provide step-by-step tutorials, an open community to assist you along the way, and a full range of support services to help ensure a successful outcome.</p>
+      <p class="madrona-text">Madrona offers a flexible set of software building blocks for creating  cutting-edge tools for decision support and area-based planning that can be used by a broad audience.  We provide step-by-step tutorials, an open community to assist you along the way, and a full range of support services to help ensure a successful outcome.</p>
       <p class='madrona-text'><a href="{{BASE_PATH}}/experience/" class="btn test-drive-btn">Read the case studies</a> <a href="{{BASE_PATH}}/developer/appliance/" class="btn test-drive-btn">Test drive madrona</a></p>
     </div>
     <div class="span6">
@@ -58,6 +58,7 @@ description: A software framework for effective place-based decision making
   {% for post in site.categories.news limit:3 %}
   <div class="span3">
     <h3>{{ post.title }}</h3>
+    <p><em>{{ post.date | date_to_long_string }}</em></p>
     <p>{{ post.content | strip_html | truncatewords: 25 }}</p>
     <p class="pull-right">
       <a href="{{ post.url }}">Read more</a>
