@@ -11,6 +11,7 @@ I wanted to share a few of the news stories covering the public release of Madro
 
 
 * [Daily Journal of Commerce](http://djcoregon.com/news/2012/07/18/software-platform-madrona-introduced-as-planning-tool/)
+* [Sustainable Business Oregon](http://www.sustainablebusinessoregon.com/articles/2012/07/ecotrust-releases-open-source-tool-for.html)
 * [Portland Business Journal](http://www.bizjournals.com/portland/morning_call/2012/07/ecotrust-releases-open-source-tool.html)
 * [Silicon Florist](http://siliconflorist.com/2012/07/10/mapping-future-ecotrust-opens-madrona-decision-tool-public/)
 
