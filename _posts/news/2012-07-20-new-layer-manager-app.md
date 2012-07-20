@@ -7,7 +7,7 @@ tags: [layer manager, new feature]
 author: Ryan Hodges
 ---
 {% include JB/setup %}
-We have added an app to handle basic layer management. If you develop an application that requires displaying multiple data layers on the map, it will be easier to create, edit, save, and access the data of the layers. This will be very useful for creating layer controls for displaying, organizing and toggling visibility of layers.
+We have added an optional application within Madrona to handle basic layer management. If you develop an application that requires displaying multiple data layers on the map, it will be easier to create, edit, save, and access the data of the layers. This will be very useful for creating layer controls for displaying, organizing and changing visibility of layers.
 
 Currently we're supporting layers organized by themes: a data layer displaying an ocean's sediment grain size could be associated with an "Ocean" theme, or a "Soils" theme, depending on your needs. The relationship is many to many, so it could belong to both, and each theme can be associated with other data layers.
 
