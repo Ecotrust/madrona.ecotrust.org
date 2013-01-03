@@ -58,7 +58,7 @@ description: A software framework for effective place-based decision making
   </div>
   {% for post in site.categories.news limit:3 %}
   <div class="span3">
-    <h3>{{ post.title }}</h3>
+    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
     <p><em>{{ post.date | date_to_long_string }}</em></p>
     <p>{{ post.content | strip_html | truncatewords: 25 }}</p>
     <p class="pull-right">
