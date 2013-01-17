@@ -17,7 +17,7 @@ So Edwin created just that, a standalone print service for the Mid-Atlantic Data
 
 <img src='{{BASE_PATH}}/assets/img/news/print.png' alt='Print/Export feature screenshot' />
 
-This module, <a target="_blank" href="https://github.com/Ecotrust/marco-portal/tree/master/printing">available on GitHub</a>, was created using NodeJS and integrates with the <a target="_blank" href="http://madrona.ecotrust.org">Madrona</a> and Django-based Mid-Atlantic Marine Planner.  To try it out yourself, go to <a href="http://goo.gl/a98nG">this map bookmark</a> visualizing waterbird density around Great Bay and click the print button in the top right corner of the map.  Here's an example output.
+This module, <a target="_blank" href="https://github.com/Ecotrust/marco-portal/tree/master/printing">available on GitHub</a>, was created using NodeJS and integrates with the <a target="_blank" href="http://madrona.ecotrust.org">Madrona</a> and Django-based Mid-Atlantic Marine Planner.  To try it out yourself, go to <a target="_blank" href="http://goo.gl/a98nG">this map bookmark</a> visualizing waterbird density around Great Bay and click the print button in the top right corner of the map.  Here's an example output.
 
 <img src='{{BASE_PATH}}/assets/img/news/print-example.png' alt='Print/Export feature screenshot' />
 
