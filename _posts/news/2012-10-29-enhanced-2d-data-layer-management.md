@@ -4,7 +4,7 @@ title: "Enhanced 2D data layer management"
 description: "The latest revision of the layer manager functionality extends Madrona's support for 2D mapping environments" 
 category: news
 tags: [layer_manager madrona4.1 2D]
-author: Matt Perry
+author: Matthew Perry
 ---
 {% include JB/setup %}
 
