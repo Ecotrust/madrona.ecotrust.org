@@ -8,7 +8,7 @@ author: Matt Perry
 ---
 {% include JB/setup %}
 
-Since the initial release of Madrona 4.0, we've been working on many projects with 2D mapping interfaces (OpenLayers or Leaflet).
+Since the initial release of Madrona 4.0, we have been working on many projects with 2D mapping interfaces (OpenLayers or Leaflet).
 Much of the work to the Madrona core is related to the <a href='/news/enhanced-2d-data-layer-management/'>Enhanced 2D Layer Management</a>
 which allows knockout-based Javascript client apps to seamlessly incorporate advanced mapping interface elements. 
 
