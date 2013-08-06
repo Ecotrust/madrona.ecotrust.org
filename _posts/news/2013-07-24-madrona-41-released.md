@@ -20,7 +20,7 @@ Updates in the 4.1 release include:
 * Preliminary Multipolygon support (server-side)
 * Several minor bug fixes and tweaks
 
-The <a href='https://pypi.python.org/pypi?:action=display&name=madrona&version=4.1'>4.1 version is live on PyPi</a> so updgrading is
+The <a href='https://pypi.python.org/pypi?:action=display&amp;name=madrona&amp;version=4.1'>4.1 version is live on PyPi</a> so updgrading is
 as easy as `pip install --upgrade madrona`
 
 Enjoy.
