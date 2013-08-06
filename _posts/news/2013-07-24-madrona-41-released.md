@@ -4,7 +4,7 @@ title: "Madrona 4.1 released"
 description: "Madrona 4.1 released"
 category: news
 tags: [madrona release madrona4.1]
-author: Matt Perry
+author: Matthew Perry
 ---
 {% include JB/setup %}
 
