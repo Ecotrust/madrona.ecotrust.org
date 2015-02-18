@@ -18,7 +18,7 @@ active: developer
 			<li>Supports Windows, OSX and Linux</li>
 			<li>Note: VMWare ESXi can also be used with some <a href="https://groups.google.com/forum/?fromgroups#!topic/madrona-users/R7qZvFCSCQg">additional work</a>.</li>
 		</ul>
-	<li><a href="https://s3.amazonaws.com/madrona_vm/madrona_virtual_v3.ova">Download</a> the Madrona Appliance</li>
+	<li><a href="http://labs.ecotrust.org/madrona_vm/madrona_virtual_v3.ova">Download</a> the Madrona Appliance</li>
 		<ul>
 			<li>~ 1.1GB in size</li>
 			<li>Operating system: Ubuntu 12.04 Server 32-bit</li>
