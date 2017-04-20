@@ -8,7 +8,7 @@ active: services
     <div class="span8">
 
     <p>Madrona is free and open source software and we are commited to providing the resources developers need to create tools with it on their own.  For those who don't have development capacity or need assistance we offer a full range of consulting services.  Let our team of experts make things easy for you.</p>
-    
+
     <h2><img src="{{BASE_PATH}}/assets/img/icons/wrench.png" />Technology Services</h2>            
         <p>From design to deployment to ongoing support we can assist you every step of the way and create a tool that is secure, reliable, and under your control.  If you don't have IT staff or server infrastructure we specialize in cloud-based hosting.  Our service areas include:</p>
         <ul>
@@ -53,13 +53,9 @@ active: services
 
     </div>
 
-    
+
     <div class="span4">
         <div class="row">
-            <div class="span2">
-                <p><a href="{{ BASE_PATH }}/experience/whois.html">Meet</a> the Madrona development team and our network of colleagues and partners.
-                </p>
-            </div>
             <div class="span2">
                 <img src="{{ BASE_PATH }}/assets/img/collab-large.png">
             </div>

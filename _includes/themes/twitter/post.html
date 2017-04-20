@@ -7,12 +7,12 @@
     <hr>
     {% include JB/comments %}
   </div>
-  
+
   <div class="span4">
     {% if page.author %}
     <h3>Author</h3>
-    <span><a href="{{BASE_PATH}}/experience/whois.html">{{ page.author }}</a>
-    {% endif %} 
+    <span>
+    {% endif %}
     <br/><br/>
     <h3>Published</h3>
     <div class="date"><span>{{ page.date | date_to_long_string }}</span></div><br/>
@@ -32,7 +32,7 @@
       {% else %}
         <li class="next disabled"><a>Next &rarr;</a>
       {% endif %}-->
-      </ul>      
+      </ul>
     </div>
     <a href="http://feeds.feedburner.com/ecotrust/BQtu"><img height="20" width="20" src="{{BASE_PATH}}/assets/img/feed-icon-28x28.png"/> Subscribe</a>
   {% unless page.tags == empty %}
@@ -41,6 +41,6 @@
     {% assign tags_list = page.tags %}
     {% include JB/tags_list %}
     </ul>
-  {% endunless %}  
+  {% endunless %}
   </div>
 </div>
