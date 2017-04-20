@@ -10,7 +10,7 @@
         {% endif %}
         <meta name="author" content="{{ site.author.name }}">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-       
+
         <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
         <!--[if lt IE 9]>
             <script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
@@ -18,7 +18,8 @@
             <script src="{{BASE_PATH}}/assets/js/respond.min.js"></script>
         <![endif]-->
         <!-- Le styles -->
-        <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap.css" rel="stylesheet">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/2.3.2/css/bootstrap.min.css" rel="stylesheet">
+        <!-- <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap.css" rel="stylesheet"> -->
         <link rel="stylesheet" type="text/css" href="{{BASE_PATH}}/assets/css/syntax.css">
         <link href="{{ ASSET_PATH }}/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
         <link rel="shortcut icon" href="{{ ASSET_PATH }}/img/favicon.ico">
@@ -26,7 +27,7 @@
         <script src="{{BASE_PATH}}/assets/js/knockout-2.0.0.js"></script>
         <script src="{{BASE_PATH}}/assets/js/knockout.mapping-latest.js"></script>
     </head>
-    
+
     <body>
         <div class="container">
             <div class="content">
@@ -39,7 +40,7 @@
                             <div class="pull-right">
                                 <ul class="nav nav-pills">
                                     {% for link in site.links %}
-                                        {% if link == page.active %}    
+                                        {% if link == page.active %}
                                         <li class="active">
                                         {% else %}
                                         <li>
@@ -58,7 +59,7 @@
                     <div class="span6">
                     {% else %}
                     <div class="span6 offset6">
-                    {% endif %} 
+                    {% endif %}
                     </div>
                 </div>
                 {{ content }}
