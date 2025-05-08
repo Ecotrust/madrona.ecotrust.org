@@ -528,8 +528,22 @@ dl.exp-list dd {
 }
 	
 .banner-alert {
-	background-color: #FFFF00;
-	padding: 0.7rem;
+	background-color: #FFFF77;
+	padding: 0.7rem 5rem;
 	margin-bottom: 1rem;
 	text-align: center;
+	border: solid 0.1rem;
+	border-radius: 0.5rem;
+
+}
+
+.banner-alert:hover {
+	background-color: #FFFF00;
+	border: solid 0.2rem;
+	padding: 0.6rem 4.9rem;
+	font-weight: bold;
+}
+
+a.banner-link:hover {
+	text-decoration: none;
 }
