@@ -527,3 +527,9 @@ dl.exp-list dd {
 	margin-bottom: 5px;
 }
 	
+.banner-alert {
+	background-color: #FFFF00;
+	padding: 0.7rem;
+	margin-bottom: 1rem;
+	text-align: center;
+}
